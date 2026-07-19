@@ -81,8 +81,6 @@
   /* viewer embed */
   .viewer-frame{width:100%; height:640px; border:1px solid var(--line); border-radius:12px;
      background:var(--panel); margin:22px 0 10px}
-  .relkey{display:flex; flex-wrap:wrap; gap:18px; font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); margin:6px 0 0}
-  .swatch{display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:7px; vertical-align:middle}
   /* dimension list */
   .dims{counter-reset:d; margin:20px 0; padding:0; list-style:none}
   .dims li{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 18px 14px 52px;
@@ -163,16 +161,16 @@
     <div class="grid">
       <div class="card"><span class="k">Prototype</span><h3>A runnable engine</h3>
         <p class="small">One stdlib-only Python interface (<code>graph.py</code>) over a layered
-        engine: an append-only event log → deterministic fold → frozen snapshot, with the assessment
-        stack (calibration, reputation, camp-detection, the contested/ghost lifecycle) live in the
-        running code. No installs, no servers, no network.</p></div>
+        engine: an append-only event log → deterministic fold → frozen snapshot, with the full
+        assessment machinery — rater-bias correction, reputation, belief-camp detection, the
+        contested/ghost lifecycle — live in the running code. No installs, no servers, no network.</p></div>
       <div class="card"><span class="k">Spec</span><h3>Frozen contracts</h3>
         <p class="small">The data-model and assessment contracts are written down with every key
         decision and tradeoff named — <code>BUILD-SPEC</code>, <code>ASSESSMENT-SPEC</code>, and the
         Evidence/Argument/Ought grammar spec. A judge can tell <em>why</em> it is shaped this way.</p></div>
       <div class="card"><span class="k">Protocol</span><h3>Compounding by construction</h3>
-        <p class="small">The append-only graph format is interoperable: another team can extend a
-        graph, reuse its anchors, and rebuild it byte-for-byte. Nothing is deleted — refuted material
+        <p class="small">The append-only graph format is interoperable: another team can pick up a
+        graph, extend it, and rebuild it byte-for-byte. Nothing is deleted — refuted material
         is demoted to a retrievable "ghost," never erased.</p></div>
       <div class="card"><span class="k">Viewer</span><h3>The claim made visible</h3>
         <p class="small">One self-contained HTML file (no deps, CSP-safe) renders all four case
@@ -203,15 +201,6 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
       (⋯ menu) to switch between all four cases — the same machinery on a mundane question, a
       contested one, and a settled one.</p>
     <iframe class="viewer-frame" src="v0/viewer.html?data=debate-graph-v2/graph.json" title="Reasonable argument-graph viewer" loading="lazy"></iframe>
-    <div class="relkey">
-      <span><strong style="color:var(--ink)">Position is the relation:</strong> grounds to the left, dependents to the right, rival claims stacked through the focus.</span>
-      <span><strong style="color:var(--ink)">Brightness is agreement</strong> — dark/split → bright/tight consensus.</span>
-      <span><span class="swatch" style="background:transparent; border:2px solid var(--accent)"></span>gold outline = Ought (endorsement, not truth)</span>
-      <span><span class="swatch" style="background:transparent; border:2px solid var(--accent-2)"></span>blue outline = Evidence (anchored outside the graph)</span>
-      <span>faded &amp; sunk = ghost (demoted, never deleted)</span>
-    </div>
-    <p class="small muted" style="margin-top:6px">Colour is not a relation code — the viewer's built-in
-      <em>Introduction</em> and its on-canvas Key teach the full grammar.</p>
     <p class="small muted">The layout is not drawn — it is a deterministic force simulation whose
       lowest-energy state is engineered to also be the logically clearest one, so figures are
       reproducible and the map scales without hand-layout. If the embed doesn't load,
@@ -243,7 +232,7 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
         (<span class="num">1.95</span>) — are rated on <strong>democratic endorsement</strong>, never
         truth-weighted. The skeptic's dissent is preserved, not steamrolled.</li>
       <li><strong>It settled where the facts are settled</strong> — the evidence and the honest
-        concessions are the lowest-dispersion nodes.</li>
+        concessions are the nodes raters agreed on most tightly.</li>
     </ul>
     <p>Scott's deepest point is that <em>values, not facts, generate the disagreement, and no map
       resolves them.</em> The grammar's answer is to put that very value-generator on the board as an
@@ -286,43 +275,54 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
       and give their judgment due weight — so verdicts approach truth, cold-start from nothing, scale,
       survive genuine contestedness, and resist coordinated manipulation? We tested many methods
       against each other and followed the evidence, including where it refuted our own prior claims.</p>
+    <p>Two ideas recur throughout. Raters rate <strong>blind</strong> — they never see the current
+      consensus, comments, or the author's reputation while rating. And a small set of
+      <strong>anchors</strong> — questions whose answers are independently well-established — lets the
+      system measure each rater against reality instead of against the crowd.</p>
     <div class="stats">
       <div class="stat"><div class="n">0.52→0.89</div><div class="l">truth-tracking with consensus visible vs <strong>blind</strong> — the single biggest accuracy lever, enforced at the tool layer</div></div>
-      <div class="stat"><div class="n">60%</div><div class="l">coordinated biased majority the calibrated aggregator still survives, in two independent domains</div></div>
-      <div class="stat"><div class="n">0.96–0.98</div><div class="l">split-half reliability of the assessed graphs; per-node means pinned to ±0.10 (≥0.87 already at n=8)</div></div>
-      <div class="stat"><div class="n">×</div><div class="l">methods retired with counterexamples: alignment, raw discrimination on bias, superlinear weighting, BTS</div></div>
+      <div class="stat"><div class="n">60%</div><div class="l">share of raters in a coordinated dishonest bloc that the anchor-checked system still withstands, in two independent test domains</div></div>
+      <div class="stat"><div class="n">0.96–0.98</div><div class="l">agreement between independent halves of the rater panel on the assessed graphs; per-node scores pinned to ±0.10 with as few as 8 raters</div></div>
+      <div class="stat"><div class="n">4</div><div class="l">rating schemes we tested and <strong>retired</strong>, each with a concrete counterexample showing exactly how it fails (below)</div></div>
     </div>
     <h3>The through-line</h3>
     <p>Every method that failed, failed the same way: <strong>a purely internal rule can only measure
       agreement with the crowd, so it inherits whatever the crowd gets systematically wrong.</strong>
       The fix is blind rating plus a small, frugal dose of external anchors, with reputation weight
       spent only where it is needed.</p>
-    <h3>Counterexamples that force a re-think (dim 7)</h3>
+    <h3>Counterexamples that force a re-think</h3>
     <ul>
-      <li><strong>Alignment buries the sharpest raters</strong> — rewarding proximity to the average
-        is a tyranny of the median; every latent-truth variant inherits the majority's error.</li>
-      <li><strong>Discrimination inverts on a biased crowd</strong> — it scores agreement with the
-        biased consensus. Ship it only against an <em>anchored</em> consensus.</li>
-      <li><strong>The sleeper defeats calibration</strong> — honest on the anchors, lying only in the
-        un-anchored gaps; superlinear weighting makes it <em>worse</em>. Calibration's reach equals
-        the anchors' coverage of the contested frontier.</li>
-      <li><strong>MAE hides an over-certainty attack</strong> — a bloc pushing the already-leading
-        answer can't flip the verdict, so it manufactures false <em>certainty</em>, collapsing a live
-        question into fake near-settlement (the Semmelweis / minority-survival failure). Distance-to-
-        oracle MAE is invisible to it; the verdict-certainty measure reveals it. <strong>The hardest
+      <li><strong>Rewarding agreement with the average buries the sharpest raters.</strong> Any scheme
+        that scores a rater by closeness to the crowd's own answer — however statistically dressed up —
+        inherits whatever the crowd gets systematically wrong. A tyranny of the median.</li>
+      <li><strong>Rewarding "ranks claims in the same order as the consensus" inverts on a biased
+        crowd</strong> — it hands its highest marks to whoever agrees with the bias. It is only safe
+        when scored against anchor-checked answers, never the raw crowd.</li>
+      <li><strong>The "sleeper" attacker defeats bias-correction.</strong> An attacker who answers the
+        anchor questions honestly and lies only where no anchor exists looks like a model rater —
+        and giving high-reputation raters extra weight makes the attack <em>stronger</em>. Correction
+        reaches exactly as far as the anchors do, and no further.</li>
+      <li><strong>The subtlest attack manufactures certainty, not lies.</strong> A coordinated bloc
+        pushing the <em>already-leading</em> answer can't flip the verdict — instead it collapses a
+        genuinely open question into fake near-settlement, burying the legitimate minority (the fate
+        of Semmelweis). Scoring accuracy as average distance from the true answer misses this attack
+        entirely; only measuring the verdict's <em>certainty</em> reveals it. <strong>The hardest
         adversarial case for a truth-finder is consensus entrenchment, not verdict-flipping</strong>
-        — and it's the attack real agents most willingly serve.</li>
+        — and in our tests it was the attack real AI agents executed most willingly.</li>
     </ul>
-    <h3>Where we revised our own claims on new data (dim 5)</h3>
+    <h3>Where we revised our own claims on new data</h3>
     <ul>
-      <li><strong>Calibration has an identifiability floor.</strong> Wired into a cooperative honest
-        panel it <em>degraded</em> accuracy (held-out MAE 0.82 → 1.28) because clustered anchors give
-        the affine fit no leverage. Fix, shipped: it now <em>declines</em> below an anchor-spread
-        threshold and falls back to the raw aggregate byte-identically.</li>
-      <li><strong>Dispersion is a reliable "contested" signal only when it's belief-camp-driven</strong>
-        (between-group variance 82% for real camps vs 16% for good-faith panel noise). So the
-        contested trigger is <em>structural</em> (rival-in-an-antithesis + spectral camp detection),
-        not raw rating spread.</li>
+      <li><strong>Bias-correction has a floor, and we hit it.</strong> The system learns each rater's
+        systematic bias from the anchor questions and inverts it. Wired into a cooperative,
+        honest panel, that <em>made accuracy worse</em> (average error rose 0.82 → 1.28): when the
+        anchors' answers all cluster near one value, there is nothing to learn the correction from.
+        The shipped fix: the correction now declines to fire when anchors are too clustered, leaving
+        the plain average untouched.</li>
+      <li><strong>Rating disagreement alone is a poor "contested" signal.</strong> It is only reliable
+        when the disagreement comes from genuine belief camps (82% of rating variance sits between
+        camps on truly split questions, versus 16% for ordinary panel noise). So "contested" is
+        triggered by <em>structure</em> — a rival claim placed in opposition, plus detected belief
+        camps — not by raw disagreement numbers.</li>
     </ul>
     <p class="muted small">Full synthesis with a reproduce index: <code>v0/FINDINGS-SYNTHESIS.md</code>;
       the red-team + guardrail: <code>v0/covid-adversarial/FINDINGS.md</code>; the reliability result:
@@ -351,10 +351,10 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
           <td>Does argument-mapping work?</td>
           <td class="num">reframing 3.91 <span class="muted small">(refuses to pick a side)</span></td></tr>
     </table>
-    <p>The confident-answer case is decisive and its certainty guardrail correctly stays <em>quiet</em>
-      (earned confidence); the contested case stays contested with its camps intact; the mundane case
-      cleanly separates the causal claim from the observational association. Same machinery, honestly
-      different outcomes.</p>
+    <p>The confident-answer case is decisive — and the detector that watches for <em>manufactured</em>
+      certainty correctly stays quiet there, because the confidence is earned. The contested case
+      stays contested with its camps intact; the mundane case cleanly separates the causal claim from
+      the observational association. Same machinery, honestly different outcomes.</p>
   </div>
 </section>
 
@@ -390,17 +390,21 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
         cruxes and value-vs-fact.</li>
       <li><span class="t">Generalizability.</span> One engine and workflow across all three case
         shapes plus the meta debate; nothing overfit to a single case.</li>
-      <li><span class="t">Compounding &amp; shareability.</span> Append-only, interoperable,
-        rebuild-deterministic graph format; reusable anchors; per-region reputation.</li>
-      <li><span class="t">Scalability.</span> Automated build/rate swarms; oracle spend scales with
-        the number of contested divides, not users; a cheap/expensive tiering hybrid, honestly bounded.</li>
+      <li><span class="t">Compounding &amp; shareability.</span> An append-only, interoperable graph
+        format that rebuilds byte-for-byte; anchor questions and reputation carry forward for the
+        next team to reuse.</li>
+      <li><span class="t">Scalability.</span> Building and rating are automated agent swarms; the
+        scarce expert-checking budget scales with the number of contested divides, not with users; a
+        cheap-model / expensive-model division of labor, honestly bounded.</li>
       <li><span class="t">Methodological transparency.</span> Every FINDINGS doc names its own limits;
         we revised our own prior claims on new data.</li>
-      <li><span class="t">Adversarial robustness.</span> Survives a 60% biased majority in two domains;
-        the sleeper and over-certainty attacks are named, bounded, and have built detectors.</li>
+      <li><span class="t">Adversarial robustness.</span> Withstands a 60% coordinated dishonest bloc
+        in two domains; the "sleeper" and manufactured-certainty attacks are named, bounded, and have
+        working detectors.</li>
       <li><span class="t">Insight contribution.</span> A comparative methodology study plus
-        counterexample-driven critiques and non-obvious tradeoffs (placement &gt; quantity; disposition
-        dominates capability; detection &gt; correction).</li>
+        counterexample-driven critiques and non-obvious tradeoffs — where you place expert checks
+        matters more than how many you have; an honest disposition beats raw capability in a rater;
+        detecting manipulation is more robust than correcting it.</li>
     </ol>
   </div>
 </section>

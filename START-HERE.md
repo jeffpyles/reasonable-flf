@@ -4,6 +4,8 @@
 Eggs" Epistemic Case Study Competition. This file is the front door. It is written to be read by
 **a human reviewer skimming for the gist, or an AI agent you point at the repo to understand the
 project from the inside and explain it back to you.** If you are an agent: read this file, then
+[`VISION.md`](VISION.md) (the full intent, present and future), then
+[`MECHANISMS.md`](MECHANISMS.md) (how assessment works today, present tense), then
 `v0/PROJECT-OVERVIEW.md` for the full account; everything is reproducible from committed data.*
 
 ---

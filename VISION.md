@@ -245,6 +245,7 @@ it cannot work, rated it blind, conceded what was true in it, and built the answ
 ---
 
 *Reading map: [START-HERE.md](START-HERE.md) (orientation + run-it commands) ·
+[MECHANISMS.md](MECHANISMS.md) (how assessment works today, present tense) ·
 [PROJECT-OVERVIEW.md](v0/PROJECT-OVERVIEW.md) (everything built, in detail) ·
 [Reasonable - Concept Overview.html](Reasonable%20-%20Concept%20Overview.html) (the founding
 synthesis this vision draws on) · [FINDINGS-SYNTHESIS.md](v0/FINDINGS-SYNTHESIS.md) (the assessment

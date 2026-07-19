@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasonable — The vision</title>
+<meta name="description" content="The full scope and intent of Reasonable: what problem it exists to solve, what it is now, and what it is meant to become.">
+<style>
+  :root{
+    --bg:#0f1216; --panel:#161b22; --panel-2:#1c232c;
+    --ink:#e8e6e1; --ink-soft:#b8b4ab; --ink-dim:#8a8780;
+    --line:#2a323c;
+    --accent:#c9a227;
+    --accent-2:#6fb3c9;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--serif); font-size:18px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:.15s}
+  a:hover{border-bottom-color:var(--accent)}
+  h1,h2,h3{font-weight:600; letter-spacing:-.01em; line-height:1.1}
+  h2{font-size:30px; margin:0 0 6px}
+  .dot{color:var(--accent)}
+  header.hero{border-bottom:1px solid var(--line); background:
+     radial-gradient(1200px 400px at 70% -10%, rgba(201,162,39,.10), transparent 60%),
+     var(--bg); padding:64px 0 40px}
+  .eyebrow{font-family:var(--sans); font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+     color:var(--accent); margin:0 0 18px}
+  h1{font-size:54px; margin:0 0 14px}
+  .preamble{font-size:19px; color:var(--ink-soft); font-style:italic; max-width:700px; margin:0 0 22px}
+  .cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px; font-family:var(--sans); font-size:15px}
+  .btn{display:inline-block; padding:10px 16px; border-radius:8px; border:1px solid var(--line);
+     background:var(--panel); color:var(--ink); font-weight:500}
+  .btn:hover{border-color:var(--accent); border-bottom-color:var(--accent)}
+  section{padding:40px 0; border-bottom:1px solid var(--line)}
+  .kicker{font-family:var(--sans); font-size:12.5px; letter-spacing:.1em; text-transform:uppercase;
+     color:var(--ink-dim); margin:0 0 8px}
+  p{margin:14px 0}
+  .muted{color:var(--ink-dim)}
+  .small{font-size:15px}
+  ul{padding-left:22px} li{margin:9px 0}
+  ol{padding-left:24px} ol li{margin:9px 0}
+  strong{color:#f2f0ea}
+  em{color:inherit}
+  .callout{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--accent);
+     border-radius:8px; padding:18px 22px; margin:22px 0}
+  footer{padding:40px 0 80px; color:var(--ink-dim); font-size:15px}
+  .toc{font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); display:flex; flex-wrap:wrap;
+     gap:6px 18px; margin-top:22px}
+  .toc a{color:var(--ink-soft)} .toc a:hover{color:var(--accent)}
+  @media (max-width:680px){
+    h1{font-size:38px} h2{font-size:24px}
+    body{font-size:17px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Reasonable · The vision</p>
+    <h1>The vision<span class="dot">.</span></h1>
+    <p class="preamble">The full scope and intent of the project, for anyone new to it: what problem
+      it exists to solve, what it is now, and what it is meant to become. The technical account of
+      what has been built is <a href="v0/PROJECT-OVERVIEW.md" target="_blank">PROJECT-OVERVIEW.md</a>;
+      the front door is <a href="START-HERE.md" target="_blank">START-HERE.md</a>; this document is
+      the why.</p>
+    <div class="cta">
+      <a class="btn" href="index.html">&larr; Submission page</a>
+      <a class="btn" href="VISION.md" target="_blank">Markdown source</a>
+    </div>
+    <div class="toc">
+      <a href="#problem">1 · The problem</a>
+      <a href="#idea">2 · The idea</a>
+      <a href="#honest">3 · Keeping it honest</a>
+      <a href="#today">4 · What exists today</a>
+      <a href="#change">5 · How a map changes anything</a>
+      <a href="#where">6 · Where it goes</a>
+      <a href="#rests">7 · What all this rests on</a>
+    </div>
+  </div>
+</header>
+
+<section id="problem">
+  <div class="wrap">
+    <p class="kicker">1</p>
+    <h2>The problem: we don't reliably know what's true</h2>
+    <p>Knowing what is true is extraordinarily hard, and we are barely better at it than the ancient
+    Greeks. Most of us cannot defend even our deepest beliefs more than a few logical steps in either
+    direction — toward their justifications or toward their consequences — and most of us cannot even
+    <em>state</em> the serious alternatives to the positions we hold. If you don't understand the
+    other answers to a question, in what sense do you understand the question?</p>
+    <p>Humanity has made staggering progress, but unevenly, and for a structural reason. We advance
+    fastest where reality slaps down errors: technology, mathematics, empirical science. In those
+    fields, being wrong is checkable, so error dies. But the questions people care about most —
+    ethical, political, social — are usually <em>untestable</em>: too complex, too slow-moving, or
+    not the kind of thing an experiment can settle. And yet these are exactly the questions that
+    govern what we do with our growing power. A civilization whose power outruns its ability to
+    reason about using that power is in a dangerous position, and that is roughly our position.</p>
+    <p>There is a second, more immediate cost. When claims circulate as bare assertions — detached
+    from their full chains of justification — the only limits on what can be effectively asserted are
+    loudness, repetition, charisma, and monopoly over the narrative. That is what makes propaganda
+    possible. "Alternative facts" are not a cultural accident; they are the symptom of a missing
+    piece of infrastructure: there is no shared, trusted place where a claim's actual support can be
+    checked.</p>
+  </div>
+</section>
+
+<section id="idea">
+  <div class="wrap">
+    <p class="kicker">2</p>
+    <h2>The idea: a map with the same shape as reasoning</h2>
+    <p>Language is linear because time is. Speech, and the writing that inherited its habits, can
+    only walk one path through an argument, leaving every other path unsaid and unmarked. But ideas
+    are not linear — they branch, fork, recombine, and interweave. One claim rests on many others and
+    leads to many more. A faithful map of reasoning therefore needs at least two dimensions.</p>
+    <p>That is the whole founding move. Take the same impulse that produced writing, the printing
+    press, the encyclopedia, and the internet — each a leap in our ability to share and preserve
+    thought — and take the next step: not <em>more</em> information (we are drowning in it), but a
+    <strong>map</strong> of it. Reasonable is that map: a single, durable, continuously evolving
+    graph of ideas, where a disputed question is broken into atomic claims, each connected to what
+    justifies it, what follows from it, what rivals it, and how else it can be said.</p>
+    <p>The short version we use everywhere: <strong>Wikipedia is for facts; Reasonable is for
+    arguments.</strong> Wikipedia gives the consensus description of settled things. Reasonable holds
+    the strongest case from <em>every</em> side of a disputed thing, in one place, in context,
+    assessed — so that where the disagreement genuinely lives is visible, and everything around it
+    can quietly settle.</p>
+    <p>A few properties follow from the founding move, and they run through everything:</p>
+    <ul>
+      <li><strong>Opposition is a rival claim, never a negation.</strong> There is no "not-X" node.
+      Disagreeing means writing the actual competing position and placing it beside the original.
+      This single discipline keeps the map a map of positions rather than a flame war.</li>
+      <li><strong>Values get a home of their own.</strong> Claims about what <em>is</em> and claims
+      about what we <em>ought to do</em> are different kinds of thing. The grammar keeps them typed
+      apart, forbids deriving an "is" from an "ought," and assesses value claims by
+      <em>endorsement</em> — one person, one vote — never by truth-scoring. The deepest disagreements
+      are usually value disagreements wearing a factual disguise; the map's job is to strip the
+      disguise, not to pretend facts can settle values.</li>
+      <li><strong>Nothing is deleted.</strong> A refuted claim is demoted to a visible "ghost," never
+      erased. "We checked this and it failed" is one of the most valuable things a map can record — a
+      civilization that forgets what it disproved will relitigate it forever.</li>
+      <li><strong>The map cannot be simpler than the territory.</strong> A complete map of a hard
+      question is complex because the question is. The honest choice is not between a complex map and
+      a simple one; it is between an <em>explicit</em> map that can be shared, checked, and read a
+      piece at a time, and an <em>implicit</em> map hidden in one person's head. No one — however
+      brilliant — actually holds the whole structure with accurate weights. Externalizing it adds
+      information for everyone, including the experts.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="honest">
+  <div class="wrap">
+    <p class="kicker">3</p>
+    <h2>Keeping it honest: assessment, and the hard problem inside it</h2>
+    <p>A map that anyone can write on fills with noise unless something keeps signal on top.
+    Reasonable's answer is an assessment layer: everything on the map is rated, raters earn
+    reputation, and reputation weights influence. Three design commitments matter more than the
+    rest:</p>
+    <ul>
+      <li><strong>Rating is blind.</strong> You rate a claim before seeing what anyone else thought —
+      no consensus, no comments, no author reputation in view. In our testing this was the single
+      biggest accuracy lever, and it also removes the oldest distortion in live debate: victory going
+      to whoever performs best or has memorized most in the moment. On the map, reasoning is weighed
+      at leisure, not performed.</li>
+      <li><strong>A little external reality goes a long way.</strong> Any rating rule that looks only
+      inward can only measure agreement with its own crowd — so it inherits whatever the crowd gets
+      systematically wrong. The corrective is a small, sparing set of <em>anchor</em> questions whose
+      answers are independently well-established, used to measure raters against reality rather than
+      against each other, with reputation spent only where it is needed.</li>
+      <li><strong>The failure modes are studied, not assumed away.</strong> The prototype's
+      assessment machinery was stress-tested against coordinated manipulation, and the findings —
+      including the attacks that <em>beat</em> our defenses, and the places we had to retract our own
+      earlier claims — are published in this repository alongside the successes. The most dangerous
+      attack we found is not flipping a verdict but <em>manufacturing false certainty</em> around an
+      already-leading answer: entrenchment, not lying. A truth-finding tool must be able to tell what
+      a debate settled from what it merely performed settling.</li>
+    </ul>
+    <div class="callout">
+      <p style="margin:0">And underneath all of it, one honest philosophical floor. In the untestable
+      domains there is no oracle; the gap between "what most people find convincing" and "what is
+      true" cannot be fully closed by <em>any</em> method — not essays, not expert panels, not peer
+      review, not this. What a format can do is make the gap explicit, measure it, and shrink it:
+      make every position's full support public, stress-test the assessment, and let structured,
+      surviving consensus stand as the best approximation humanity can currently construct. In
+      domains where nothing can be proven, a consensus that has been made to show its work — and has
+      survived organized attack — is arguably not a consolation prize for truth. It is what knowledge
+      <em>is</em> there.</p>
+    </div>
+  </div>
+</section>
+
+<section id="today">
+  <div class="wrap">
+    <p class="kicker">4</p>
+    <h2>What exists today</h2>
+    <p>This is not only a philosophy; the core of it runs. The prototype in this repository includes
+    the graph grammar and engine (append-only history, byte-for-byte reproducible snapshots), the
+    blind reputation-weighted assessment layer with its published research and red-team results, an
+    interactive viewer that teaches its own visual language, and four built case graphs — the
+    competition's three (eggs, COVID origins, collider safety) plus a fourth that maps the strongest
+    published argument <em>against</em> projects like this one, concessions included, and lets a
+    blind panel rate it. The claims in these prototype graphs are AI-drafted scaffolding built to
+    exercise the machinery, not final answers; what they demonstrate is the format doing the things
+    this document promises — separating facts from the inferences on them, keeping open questions
+    visibly open, and refusing to flatter its own builders.</p>
+  </div>
+</section>
+
+<section id="change">
+  <div class="wrap">
+    <p class="kicker">5</p>
+    <h2>How a map changes anything</h2>
+    <p>The fair skeptical question: committed arguers almost never change their minds, so what does a
+    map actually <em>do</em>?</p>
+    <p>It changes the ground the next argument stands on. Before Wikipedia and the smartphone, every
+    fact it contains already existed — in libraries, in encyclopedias, scattered and effectively
+    inaccessible. What changed the culture was universal access to one trusted repository: within a
+    few years it became <em>embarrassing</em> to confidently assert a checkably false fact, and so,
+    mostly, people stopped. The bar argument died not because arguers were persuaded but because the
+    environment shifted under them.</p>
+    <p>Every point in every major argument likewise already exists — made somewhere, by someone,
+    scattered across essays, papers, and threads, unevaluated. Debate, in the sense worth caring
+    about, is not two people in a room; it is the accumulated global conversation about what is true
+    and what to do. Most of that conversation has already happened. It just has no home. Gather it,
+    structure it, assess it honestly, and the same shift becomes available for <em>arguments</em>
+    that Wikipedia produced for facts: the weak position becomes visibly, checkably weak, and
+    expounding it starts to cost something. Not because anyone was dunked on — because anyone can
+    look.</p>
+    <p>Three consequences we care about most:</p>
+    <ul>
+      <li><strong>The floor rises.</strong> Refuting a false fact rarely flips its believer;
+      positions are over-determined and survive the loss of one support. But a public record of which
+      arguments are known to be bad slowly prunes them from circulation, and the disagreements that
+      remain are the real ones. A world where we only ever disagreed <em>well</em> — strongest case
+      against strongest case, values named as values — would be a different civilization.</li>
+      <li><strong>The reader is the customer.</strong> The map does not need to convert combatants.
+      It serves the person who hasn't decided yet, the student forming a worldview, the
+      decision-maker who needs the honest state of a question this afternoon — and it serves them the
+      way an encyclopedia does: free-riding on all the work already done, forever.</li>
+      <li><strong>Contribution gets easy.</strong> People will not sustain structured debates, but
+      they reliably drop single points — and partisans reliably show up when their side is visibly
+      losing. A platform that can collect scattered one-shot contributions into a coherent structure
+      converts exactly the behavior everyone already exhibits into coverage. AI agents do the
+      assembly, maintenance, and first-pass rating. Nobody needs to want to "argue rigorously."</li>
+    </ul>
+  </div>
+</section>
+
+<section id="where">
+  <div class="wrap">
+    <p class="kicker">6</p>
+    <h2>Where it goes</h2>
+    <p><strong>One graph.</strong> This repository contains four separate graphs only because a
+    prototype had to bound its scope. Their subjects already share deep underpinnings — biology,
+    physics, statistics, epistemology — and the real object is a <em>single, connected, public graph
+    of ~all knowledge</em>, current and future, each question's map joined to the disciplines it
+    actually rests on. Every serious investigation added makes the next one start from more solid
+    ground: knowledge that compounds, rather than reports that pile.</p>
+    <p><strong>A scaffold for the unknown, not just a record of the known.</strong> A faithful map
+    shows its own holes — the questions indicated but unanswered, the evidence that would decide a
+    crux but hasn't been gathered. That turns the map into an instrument for <em>directing</em>
+    inquiry: anyone can mark a wanted node or region beyond the current frontier and attach a bounty
+    to developing it into high-confidence knowledge — precisely the move this competition itself
+    makes. Knowledge-building becomes a structured, incentivized, collaborative activity with a
+    visible frontier, rather than a scatter of disconnected efforts.</p>
+    <p><strong>A benchmark for minds.</strong> Running parallel graphs with different contributor
+    sets — human, AI, and mixed — turns the platform into something new: a direct measure of what
+    different kinds of minds contribute to knowledge-creation itself, question by question, with the
+    merged graph likely stronger than either alone.</p>
+    <p><strong>Many deployments, one format.</strong> The same open format supports a spectrum of
+    instances: fully open community graphs, open-contribution graphs with curated assessment, and
+    closed expert or institutional instances — and because the format is shared, parallel instances
+    of the <em>same</em> question can be compared directly. Where an open crowd and a curated panel
+    diverge is itself precious data: a standing instrument for locating exactly where open assessment
+    can and cannot yet be trusted, and for improving it.</p>
+    <p><strong>Belief, quantified.</strong> A natural extension of the grammar is a probability node:
+    "how likely is X?", answered by each rater with their own number. The map then carries a
+    collective forecast — a reputation-weighted headline figure with the unweighted average beside
+    it — plus what a single number always hides: the honest range, and any distinct camps within it.
+    This connects the map to forecasting and prediction markets, whose prices and scoring can enter
+    as inputs or as calibration anchors for exactly these nodes. It pairs with a second future
+    feature, <strong>personal maps</strong>: a user overlays their own beliefs — including their own
+    probabilities — on the shared graph, gets notified when the ground under one of their beliefs
+    materially shifts, and can compare maps with someone they disagree with to find the exact node
+    where their reasoning first diverges. The last place two people agreed is the only useful place
+    for them to argue.</p>
+    <p><strong>Earning trust where reality can referee.</strong> The long game extends the anchor
+    principle to whole domains. Mathematics is the frontier case: a proof-dependency graph refereed
+    by a formal verifier has <em>machine-checkable</em> ground truth, dissolving at a stroke the
+    hardest problems of the untestable domains — no crowd bias, no model bias, no unmeasurable
+    oracle. Build credibility on problems where reality can referee; then carry the earned trust,
+    carefully, into the domains where it can't yet.</p>
+    <p><strong>Turning the lens on institutions.</strong> All behavior — including corporate and
+    governmental behavior — is an implicit claim about what it is acceptable to do, and implicit
+    claims can be made explicit and examined like any others. A mature map supports evaluative claims
+    about the entities that hold power, aggregated into an honest public picture of how each one
+    actually behaves — which gives every institution a precise, public path to becoming more
+    trustworthy, and everyone else a reliable basis for deciding whom to support. In the far vision
+    this even inverts advertising: when only well-regarded actors may advertise, being
+    <em>allowed</em> to advertise becomes the message, and the interests of platforms, advertisers,
+    and readers point the same direction for once.</p>
+    <p><strong>And, aspirationally, the culture itself.</strong> People who grow up in a world where
+    this exists grow up saturated with the knowledge that there are serious arguments on many sides
+    of almost every question — and with how hard it is to out-think the best ideas humanity has
+    collected. That mindset, intellectual humility with a working map, is the only engine of
+    collective intellectual growth we know of. The far hope is the same one Wikipedia partially
+    delivered for facts: raise the floor of what a person is embarrassed to be wrong about. For
+    public <em>reasoning</em>, feed better science, saner politics, and institutions that expect to
+    be examined. We hold the far vision honestly: it is a direction, stated so it can be argued
+    with — not a promise.</p>
+  </div>
+</section>
+
+<section id="rests">
+  <div class="wrap">
+    <p class="kicker">7</p>
+    <h2>What all this rests on</h2>
+    <p>Three load-bearing assumptions, stated plainly because they are where the design is most
+    falsifiable:</p>
+    <ol>
+      <li><strong>Enough good faith.</strong> More people want to build and know what's true than
+      want to manipulate and deceive — the same wager underneath Wikipedia, open source, and
+      civilization generally. If it is false in general, this fails, but so does much more than
+      this.</li>
+      <li><strong>Ideas are mappable.</strong> Meaning survives decomposition into connected claims
+      well enough for the map to stay faithful to the territory. All language already strings ideas
+      together; branching strings should carry them at least as well.</li>
+      <li><strong>Strong arguments are recognizable.</strong> Humans — with effort, collision, and
+      error-correction — can reliably tell better reasoning from worse. If we can't, no method
+      survives, and no one can claim to understand anything at all.</li>
+    </ol>
+    <p>Each has survived contact with the prototype so far; none is proven at scale. The open
+    problems we consider hardest — keeping viewpoint diversity so consensus stays tethered to truth,
+    protecting the correct minority from a wrong majority, surviving motivated and funded
+    adversaries, and earning real human adoption — are named in this repository's research documents
+    with our current best answers and their measured limits, in the open, where critique can reach
+    them.</p>
+    <p>That, ultimately, is the intent: not a tool that ends disagreement, but infrastructure that
+    makes our disagreements <em>worthy of us</em> — every position at its strongest, every settled
+    thing settled visibly, every real crux located and named, and the whole thing owned by everyone.
+    The strongest argument for the project is the one this repository tries to embody: we mapped the
+    best case that it cannot work, rated it blind, conceded what was true in it, and built the answer
+    to the rest.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="small"><em>Reading map: <a href="START-HERE.md" target="_blank">START-HERE.md</a>
+    (orientation + run-it commands) · <a href="MECHANISMS.md" target="_blank">MECHANISMS.md</a>
+    (how assessment works today, present tense) ·
+    <a href="v0/PROJECT-OVERVIEW.md" target="_blank">PROJECT-OVERVIEW.md</a> (everything built, in
+    detail) · <a href="Reasonable%20-%20Concept%20Overview.html" target="_blank">Reasonable —
+    Concept Overview</a> (the founding synthesis this vision draws on) ·
+    <a href="v0/FINDINGS-SYNTHESIS.md" target="_blank">FINDINGS-SYNTHESIS.md</a> (the assessment
+    research and its honest limits).</em></p>
+    <p class="small muted"><a href="index.html">&larr; Back to the submission page</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

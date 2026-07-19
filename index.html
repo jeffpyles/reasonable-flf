@@ -136,19 +136,22 @@
 <section id="thesis">
   <div class="wrap">
     <h2>The thesis</h2>
-    <p class="lede">Language is linear because time is. Ideas are not — they branch, fork, and
+    <p class="lede">Language is linear. Ideas are not — they branch, fork, and
       recombine. So a faithful map of reasoning needs at least two dimensions.</p>
-    <p>We advance fastest where reality slaps down errors: technology, mathematics, empirical
+    <p>We advance fastest where reality visibly slaps down errors: technology, mathematics, empirical
       science. But the questions people care about most — ethical, political, social — are often
-      <strong>untestable</strong>: we cannot falsify our way to the answer. There, the honest best
-      is not to declare a winner but to <em>map the disagreement faithfully</em> — every position's
-      strongest form, its grounds and consequences, and exactly where reasonable people fork.</p>
+      <strong>untestable</strong>: we cannot easily falsify our way to the answer. There, the honest
+      best is not to declare a winner but to <em>map the disagreement faithfully</em> — every
+      position's strongest form, its grounds and consequences, and exactly where reasonable people
+      fork.</p>
     <p>Reasonable breaks a disputed question into atomic <strong>claims</strong> — each small enough
-      to examine on its own — placed on a 2-D graph and connected by a small set of typed relations.
-      It then <strong>assesses</strong> them with blind, reputation-weighted rating, designed so the
-      map's verdicts can approach truth without collapsing into a popularity vote. The claims
-      themselves are ordinary natural-language sentences; only the <em>relations</em> between them are
-      typed, so nuance lives in the text rather than in a restrictive schema. The aim is to raise the
+      to examine on its own — placed on a 2-D graph and connected by how they support, rival, and
+      restate one another. It then <strong>assesses</strong> them with blind, reputation-weighted
+      rating, designed so the map's verdicts can approach truth without collapsing into a popularity
+      vote. The claims are ordinary natural-language sentences, and the connections stay open too: an
+      edge records that one claim supports another, and the nature of that inference is made — and
+      argued — in plain language, not forced into a fixed menu of relation types. Nuance lives in the
+      text, not in a restrictive schema. The aim is to raise the
       cultural floor for what counts as a reasonable argument — to make a weak belief as costly to
       hold in public as a checkable false fact became after Wikipedia. It is, in short, an attempt at
       infrastructure for collective sensemaking.</p>
@@ -160,8 +163,9 @@
     <h2>What we are submitting</h2>
     <p>The competition invites a <strong>spec</strong>, a <strong>prototype tool</strong>, or a
       <strong>protocol</strong>. This is all three. Its center of gravity is the <em>structure</em>
-      and <em>assessment</em> layers, but it reaches <em>ingestion</em> too: the AI build harnesses
-      turn a raw source pack into an attributed graph today (claims extracted, provenance attached,
+      and <em>assessment</em> layers, but it <em>ingests</em> too: the AI build harnesses
+      turn a raw source pack (or, eventually, anything they can find on the internet) into an
+      attributed graph today (claims extracted, provenance attached,
       duplicates merged), and the same open, append-only format is built to <strong>keep
       ingesting</strong> — a living graph any contributor, human or AI, adds to over time. Carried
       inside as evidence of rigor: a comparative methodology study and several
@@ -222,33 +226,32 @@ python3 graph.py rebuild --data blackholes-graph-v2
 <section id="viewer">
   <div class="wrap">
     <h2>The live artifact</h2>
-    <p>Below is the actual viewer, embedded. <strong>Click <em>Introduction</em></strong> (top bar)
+    <p>Below is the actual viewer, embedded. <strong>Click <em>Introduction</em></strong>
       for a guided 90-second walkthrough of the Debate graph, then use <strong>Load Graph</strong>
       (⋯ menu) to switch between all four cases — the same machinery on a mundane question, a
-      contested one, and a settled one.</p>
+      contested one, and a settled one (and a reply to Scott Alexander on whether debate can be
+      “solved”).</p>
     <iframe class="viewer-frame" src="v0/viewer.html?data=debate-graph-v2/graph.json" title="Reasonable argument-graph viewer" loading="lazy"></iframe>
-    <p class="small muted">The layout is not drawn — it is a deterministic force simulation whose
+    <p class="small muted">The layout is not hand-drawn — it is a deterministic force simulation whose
       lowest-energy state is engineered to also be the logically clearest one, so figures are
-      reproducible and the map scales without hand-layout. If the embed doesn't load,
+      reproducible and the map scales without hand-layout. You can also
       <a href="v0/viewer.html?data=debate-graph-v2/graph.json" target="_blank">open the viewer directly ↗</a>.</p>
-    <p class="small muted">The <em>claims</em> in these graphs are AI-generated prototype content that
-      exercises the tool — not definitive arguments on their questions (see
-      <a href="#limits">Honest limits</a>).</p>
   </div>
 </section>
 
 <section id="debate">
   <div class="wrap">
     <h2>The tool, applied to whether the tool works</h2>
-    <p>The FLF prompt itself cites Scott Alexander's <em>"Your Attempt To Solve Debate Will Not
+    <p>The FLF prompt cites Scott Alexander's <em>"Your Attempt To Solve Debate Will Not
       Work"</em> — the essay whose thesis is that projects exactly like this one are doomed. So we
       built the Reasonable graph <em>of that debate</em>: the strongest version of Scott's case, the
-      project's counter-position, and honest concessions (three of them citing our <em>own</em>
-      retired findings), checked against Scott's actual post and rated by a blind panel.</p>
+      project's counter-position, and honest concessions, checked against Scott's actual post and
+      rated by a blind AI panel.</p>
     <p>Argument-mapping as a <em>persuasion</em> tool has a fifty-year record of not catching on, and
       much of Scott's critique lands. What is different now is narrow but real: AI makes the map cheap
-      to build, the assessment layer is the part earlier mappers never shipped, and the map's job here
-      is to be a shared record others can reason over — not to change anyone's mind by itself.</p>
+      to build, the assessment layer is the part earlier mappers never solved, and the map's job here
+      is to be a shared record others can reason over — not to resolve a debate between two people in
+      real-time.</p>
     <figure>
       <img src="assets/debate-graph.png" alt="The Debate graph rendered in the viewer: the central 'mapping won't improve debate' claim, its rival positions stacked above it, supporting grounds fanning to the left, and a gold-outlined Ought (value) node to the right.">
       <figcaption>The Debate graph as the viewer renders it — rival positions stacked through the
@@ -265,24 +268,15 @@ python3 graph.py rebuild --data blackholes-graph-v2
       <li><strong>It separated the value disagreement from the factual one.</strong> The deepest crux
         surfaced as a pair of rival Ought nodes — <em>"a faithful map is worth building even if it
         never changes minds"</em> versus <em>"only worth it if it changes minds"</em> — rated by
-        endorsement, one person one vote, never truth-weighted. The skeptic's dissent sits on the
-        board in its strongest form, not steamrolled.</li>
+        endorsement, one person one vote, no reputation weighting to give anyone more influence on a
+        question of values.</li>
       <li><strong>It stayed settled where the facts are settled and open where they aren't.</strong>
         The evidence nodes and the honest concessions are where raters agreed most tightly; the live
         questions read as visibly live.</li>
     </ul>
     <p>Scott's deepest point is that <em>values, not facts, generate the disagreement, and no map
-      resolves them.</em> The grammar's answer is to give that value-generator an explicit place on
-      the board — located, distinguished from the factual substrate, and left honestly unresolved.</p>
-    <p>After obtaining Scott's full post, we added a final round: strengthened replies (the audience,
-      not the arguers, is how collective understanding shifts; no reader — however capable — holds a
-      complete map with accurate weights in their head; the consensus-vs-truth gap limits <em>every</em>
-      format, which supports the reframing rather than either side) and a squarer concession that
-      dense maps are genuinely hard to take in. All of it was blind-rated like everything else — and
-      the panel endorsed the concession near-unanimously while marking our own boldest mechanism
-      claims as merely plausible. <strong>The map does not flatter its builders.</strong>
-      <span class="muted small">(Full report: <code>v0/debate-graph/REPORT.md</code>; assessed graph
-      and round notes: <code>v0/debate-graph-v2/</code>.)</span></p>
+      resolves them.</em> The grammar's answer is to give values an explicit place on
+      the board — located, distinguished from the factual substrate, and visibly quantified.</p>
   </div>
 </section>
 
@@ -294,44 +288,41 @@ python3 graph.py rebuild --data blackholes-graph-v2
       <em>same</em> source material — the same 24 sources and 80 claims — so the only thing that
       differed was how the reasoning was represented: a flat written report versus the structured,
       assessed graph.</p>
-    <p>The flat pipeline went badly wrong in a way that was invisible on its own terms. Its
+    <p>The flat pipeline went wrong in a way that was invisible on its own terms. Its
       verifier step, built to reject unsupported claims, ended up <strong>rejecting six central
       peer-reviewed findings</strong> that pointed one way and <strong>accepting contrarian
       preprints</strong> that pointed the other — quietly flipping the weight of the evidence. The
       graph didn't. It kept the well-supported findings well-supported, kept the genuinely open
       questions open, and made it visible which claims were carrying the conclusion.</p>
-    <p>The reason is structural, not political, and it transfers to any field. A yes/no "is this
-      claim supported?" filter is the right tool for catching junk, but the wrong tool for
-      <em>weighing</em> a contested question: it trips on any confident claim in a live debate, and a
-      single yes/no verdict throws away the distinction between a solid fact and the shakier inference
-      bundled with it. Once we saw the failure in the graph, we could fix it — a grading step that
-      separates "is this faithfully sourced?" from "how strong is it, 0–5?" — and we validated the
-      fix on a live run. In fairness: the baseline is a standard fan-out → verify → synthesize
-      deep-research recipe we built ourselves and left in the repo to inspect, not a third-party
-      product — so the comparison isolates the effect of representation, holding the sources fixed.
-      <span class="muted small">(Full comparison: <code>v0/covid-graph/COMPARISON.md</code>.)</span></p>
+    <p>The difference is the one that matters everywhere, not just here. A deep-research report's job
+      is to assess and synthesize the material <em>for</em> you — which means it compresses away some
+      of its own load-bearing choices, and it will not always surface why or how it decided what to
+      keep and what to reject. The graph makes the opposite trade: every source and claim stays on
+      the board, and the synthesis and assessment happen visibly, in front of you, where they can be
+      checked claim by claim.
+      <span class="muted small">(The baseline was a standard deep-research recipe we built and left
+      in the repo to inspect; the full account, including exactly why its verifier went wrong, is in
+      <code>v0/covid-graph/COMPARISON.md</code>.)</span></p>
   </div>
 </section>
 
 <section id="assessment">
   <div class="wrap">
     <h2>How the assessment layer was tested</h2>
-    <p>The core question: in a collaborative map, how do you find the raters who track the truth and
-      give their judgment its due weight — so the map's verdicts approach truth, work from a standing
-      start with no established raters, scale up, survive genuinely contested questions, and resist
-      coordinated manipulation? We tested many methods against each other and followed the evidence,
-      including where it overturned our own earlier claims.</p>
+    <p>The core question: in a collaborative map, how do you find the raters who track the truth most
+      closely, and give their judgment its due weight over less reliable raters so the map's verdicts
+      approach truth most closely. And how do you make the system work from a standing start with no
+      established raters, scale up, survive genuinely contested questions, and resist coordinated
+      manipulation? We tested many methods against each other and followed the evidence, including
+      where it overturned our own earlier claims.</p>
     <p>Two ideas recur throughout. Raters rate <strong>blind</strong> — they never see the current
       consensus, comments, or the author's reputation while rating. And a small set of
       <strong>anchors</strong> — questions whose answers are independently well-established — lets the
-      system measure each rater against reality instead of against the crowd. Blind, asynchronous
-      rating also removes the advantage the Rootclaim COVID debate was faulted for handing to whoever
-      had memorized the most on the day: here the reasoning sits on the board to be weighed at
-      leisure, not performed live.</p>
+      system measure each rater against reality instead of against the crowd.</p>
     <div class="stats">
-      <div class="stat"><div class="n">0.52→0.89</div><div class="l">truth-tracking with consensus visible vs <strong>blind</strong> — the single biggest accuracy lever, enforced at the tool layer <span class="muted">(simulated raters)</span></div></div>
-      <div class="stat"><div class="n">60%</div><div class="l">share of raters in a coordinated dishonest bloc that the anchor-checked system still withstands, in two independent test domains <span class="muted">(simulated raters)</span></div></div>
-      <div class="stat"><div class="n">0.96–0.98</div><div class="l">agreement between independent halves of the rater panel on the assessed graphs; per-node scores pinned to ±0.10 with as few as 8 raters <span class="muted">(simulated raters)</span></div></div>
+      <div class="stat"><div class="n">0.52→0.89</div><div class="l">truth-tracking with consensus visible vs blind — the single biggest accuracy lever, enforced at the tool layer</div></div>
+      <div class="stat"><div class="n">60%</div><div class="l">share of raters in a coordinated dishonest bloc that the anchor-checked system still withstands, in two independent test domains</div></div>
+      <div class="stat"><div class="n">0.96–0.98</div><div class="l">agreement between independent halves of the rater panel on the assessed graphs; per-node scores pinned to ±0.10 with as few as 8 raters</div></div>
       <div class="stat"><div class="n">4</div><div class="l">rating schemes we tested and <strong>retired</strong>, each with a concrete counterexample showing exactly how it fails (below)</div></div>
     </div>
     <h3>The common thread</h3>
@@ -339,7 +330,7 @@ python3 graph.py rebuild --data blackholes-graph-v2
       measure agreement with the crowd, so it inherits whatever the crowd gets systematically
       wrong.</strong> The fix is blind rating plus a small, sparing dose of external anchors, with
       reputation weight spent only where it is actually needed.</p>
-    <h3>Counterexamples that force a re-think</h3>
+    <h3>Shortcomings of some tested methods</h3>
     <ul>
       <li><strong>Rewarding agreement with the average buries the sharpest raters.</strong> Any scheme
         that scores a rater by closeness to the crowd's own answer — however statistically dressed up —
@@ -352,9 +343,9 @@ python3 graph.py rebuild --data blackholes-graph-v2
         and giving high-reputation raters extra weight makes the attack <em>stronger</em>. Correction
         reaches exactly as far as the anchors do, and no further.</li>
       <li><strong>The subtlest attack manufactures certainty, not lies.</strong> A coordinated bloc
-        pushing the <em>already-leading</em> answer can't flip the verdict — instead it collapses a
-        genuinely open question into fake near-settlement, burying the legitimate minority (the fate
-        of Semmelweis). Scoring accuracy as average distance from the true answer misses this attack
+        pumping up the <em>already-leading</em> answer won't change the verdict — instead it collapses
+        a genuinely open question into fake near-settlement, burying the legitimate minority.
+        Scoring accuracy as average distance from the true answer misses this attack
         entirely; only measuring the verdict's <em>certainty</em> reveals it. <strong>The hardest
         adversarial case for a truth-finder is consensus entrenchment, not verdict-flipping</strong>
         — and in our tests it was the attack real AI agents executed most willingly. This is the
@@ -369,7 +360,7 @@ python3 graph.py rebuild --data blackholes-graph-v2
         anchors' answers all cluster near one value, there is nothing to learn the correction from.
         The shipped fix: the correction now declines to fire when anchors are too clustered, leaving
         the plain average untouched.</li>
-      <li><strong>Rating disagreement alone is a poor "contested" signal.</strong> It is only reliable
+      <li><strong>Rating disagreement alone is a poor "contestedness" signal.</strong> It is only reliable
         when the disagreement comes from genuine belief camps (82% of rating variance sits between
         camps on truly split questions, versus 16% for ordinary panel noise). So "contested" is
         triggered by <em>structure</em> — a rival claim placed in opposition, plus detected belief
@@ -409,8 +400,9 @@ python3 graph.py rebuild --data blackholes-graph-v2
           <td class="small">Refused to pick a side; surfaced the reframing between the two positions
             as the strongest point of agreement.</td></tr>
     </table>
-    <p>Same machinery, honestly different outcomes — which is what you want from a tool meant to
-      report the state of a question rather than to manufacture a verdict.</p>
+    <p>Same machinery, honestly different outcomes on different kinds of questions — which is what
+      you want from a tool meant to report the state of a question rather than to manufacture a
+      verdict.</p>
   </div>
 </section>
 
@@ -421,16 +413,18 @@ python3 graph.py rebuild --data blackholes-graph-v2
       defects that are invisible in the prose version of the same argument</strong>, and the project
       fixes them in the open.</p>
     <ul>
-      <li><strong>Source-laundering becomes visible.</strong> In prose, "as Wikipedia notes…" reads
-        identically to a primary citation. Every evidence node carries an explicit source, so a
-        secondary aggregator posing as evidence can be <em>audited</em> and removed — as a reversible
-        <code>supersede</code>, with a public reason, nothing deleted.</li>
-      <li><strong>Is/ought category errors are caught at the write boundary.</strong> Hume's rule is
-        enforced there: an Ought may not be used to ground a non-Ought, so a whole class of smuggled
-        value-premises is rejected before it enters the graph.</li>
-      <li><strong>A single cheap judge is noise — for structure as much as for truth.</strong> A lone
-        cheap "is this well-built?" probe swings ±13–28 points on identical reruns; the fix is the
-        same panel-of-raters move that assessment uses for truth.</li>
+      <li><strong>Every judgment is visible and quantified.</strong> Prose smuggles its assessments
+        in through adjectives — "compelling," "dubious," "widely accepted." The map states them as
+        numbers, on the claims and on the connections between them, each one inspectable,
+        contestable, and traceable to the raters who made it.</li>
+      <li><strong>Alternatives sit side by side.</strong> In prose, the strongest rival to a claim
+        lives in a different article — or nowhere. On the map, every serious answer to a question
+        stands directly against its rivals, strongest form first, so a reader weighs positions
+        against each other instead of meeting them one at a time.</li>
+      <li><strong>The whole web at a glance, not one path through it.</strong> An essay walks a
+        single line through the argument, and everything off that line goes unmentioned. The map
+        holds every known claim and connection at once — so what an account leaves out becomes as
+        visible as what it includes.</li>
     </ul>
     <p class="muted small">See <code>v0/EVIDENCE-SOURCE-AUDIT.md</code> and
       <code>v0/PROJECT-OVERVIEW.md</code> §3.</p>
@@ -447,14 +441,14 @@ python3 graph.py rebuild --data blackholes-graph-v2
         apart from factual ones.</li>
       <li><span class="t">Generalizability.</span> One engine and workflow across all three case
         shapes plus the meta debate; nothing overfit to a single case.</li>
-      <li><span class="t">Compounding &amp; shareability.</span> An append-only, interoperable graph
-        format that rebuilds byte-for-byte; anchor questions and reputation carry forward for the
-        next team to reuse.</li>
-      <li><span class="t">Scalability.</span> Building and rating are automated agent swarms; the
-        scarce expert-checking budget scales with the number of contested divides, not with users; a
-        cheap-model / expensive-model division of labor, honestly bounded.</li>
-      <li><span class="t">Methodological transparency.</span> Every FINDINGS doc names its own limits;
-        we revised our own prior claims on new data.</li>
+      <li><span class="t">Compounding &amp; shareability.</span> A built graph is a self-contained,
+        shareable object that can be expanded on indefinitely.</li>
+      <li><span class="t">Scalability.</span> Building and rating are automated agent swarms, tested
+        to examine the limits of where the cheapest and fastest agents can be used to maximize
+        efficiency without losing reliability.</li>
+      <li><span class="t">Methodological transparency.</span> Our repo docs outline our full process,
+        including both the system we have arrived at currently and the research &amp; false steps we
+        took along the way.</li>
       <li><span class="t">Adversarial robustness.</span> Withstands a 60% coordinated dishonest bloc
         in two domains; the "sleeper" and manufactured-certainty attacks are named, bounded, and have
         working detectors.</li>
@@ -473,18 +467,14 @@ python3 graph.py rebuild --data blackholes-graph-v2
       connected graph they belong to. Their topics already share deep underpinnings — biology,
       physics, mathematics — and the real target is <strong>one public graph of ~all knowledge,
       current and future.</strong></p>
-    <p>Crucially, this need not stay a map of the <em>already-known</em>. A faithful map highlights
-      its own <strong>holes</strong>, and can <strong>throw a target beyond the frontier</strong>:
-      anyone could place a wanted node or neighborhood and put a <strong>bounty</strong> on developing
-      it into high-confidence knowledge — much as this very competition does. Knowledge-building
-      becomes a structured, incentivized, collaborative activity rather than a scatter of
-      disconnected efforts.</p>
-    <p>The project has also opened a concrete near-term direction: running graphs with <em>differing
-      contributor sets — human and AI</em>, which doubles as a new <strong>benchmark for AI models at
-      direct knowledge-creation versus humans</strong>. The full vision — present and future, written
-      for newcomers — is in <a href="VISION.md" target="_blank"><strong>VISION.md</strong></a>, with
-      the founding synthesis in <a href="Reasonable - Concept Overview.html" target="_blank">the
-      Concept Overview</a>.</p>
+    <p>And this need not stay a map of the <em>already-known</em>. A map can highlight its own
+      <strong>holes</strong>, and can <strong>throw a target beyond the known frontier</strong>:
+      anyone could place a speculative node or a neighborhood on the existing graph and put a
+      <strong>bounty</strong> on developing it into high-confidence knowledge — a more precise,
+      granular, and collaborative form of incentivizing new physical designs, institutions, and
+      abstract understandings than anything we have now.</p>
+    <p class="small muted">The full vision — present and future, written for newcomers — is in
+      <a href="VISION.md" target="_blank">VISION.md</a>.</p>
   </div>
 </section>
 
@@ -497,21 +487,20 @@ python3 graph.py rebuild --data blackholes-graph-v2
       or LHC safety. What we are demonstrating is the structure-and-assessment machinery; a graph worth
       taking as a settled verdict would be built and rated by far more contributors, over far more
       time, than a prototype allows.</p>
-    <p>The engine, the four assessed case graphs, and the assessment research are built and
-      reproducible. Stated plainly, three further things are not yet done:</p>
+    <p>The engine, the four assessed case graphs, and the assessment research are built to a
+      reasonable prototype stage. Some near-term next steps that are not yet done:</p>
     <ul>
-      <li><strong>A human-rated slice.</strong> The ground-truth chain is model-generated except a thin
-        external check — the highest-value gap, and the one that would break the model-on-model
-        circularity.</li>
+      <li><strong>Human contributors</strong> added in to form a centaur system that, in the current
+        state of AI, will likely be stronger than AI alone — and run alongside AI-only graphs that
+        will benchmark how long that remains true.</li>
+      <li><strong>Tests against empirical, checkable knowledge</strong> such as math questions: can
+        the system describe and reasonably assess a complex math problem and coherently structure its
+        reasoning? And can the structure give uplift to frontier models collaboratively trying to
+        solve difficult open math/CS/physics questions?</li>
       <li><strong>An end-to-end run over many rounds</strong> with real turnover of contributors and
         claims — the individual parts are validated, but the whole loop has not yet been exercised live
         together.</li>
-      <li><strong>The write-side of the viewer</strong> — collecting live blind ratings. The read-side
-        renders the whole lifecycle today.</li>
     </ul>
-    <p>Overall confidence that the assembled machinery is robust for a real deployment:
-      <strong>~60–65%</strong> — high on the tested mechanisms, lower on transfer to the messy real
-      thing. We would rather state that honestly than round it up.</p>
   </div>
 </section>
 
@@ -543,13 +532,6 @@ python3 graph.py rebuild --data blackholes-graph-v2
 
 <footer>
   <div class="wrap">
-    <p><strong style="color:var(--ink)">Dig in:</strong>
-      <a href="START-HERE.md" target="_blank">START-HERE.md</a> (the front door, for humans or an
-      agent you point at the repo) ·
-      <a href="VISION.md" target="_blank">VISION.md</a> (the full vision, present and future) ·
-      <a href="v0/PROJECT-OVERVIEW.md" target="_blank">PROJECT-OVERVIEW.md</a> (the full account) ·
-      <a href="v0/FINDINGS-SYNTHESIS.md" target="_blank">FINDINGS-SYNTHESIS.md</a> (the research arc) ·
-      <a href="https://github.com/jeffpyles/reasonable-flf" target="_blank">the repository</a>.</p>
     <p class="muted">Reasonable — submission to the FLF "Lab Leaks, Black Holes, and Eggs" Epistemic
       Case Study Competition, 2026. Everything here is reproducible from committed data with stdlib
       Python 3. Released under GPL-3.0.</p>

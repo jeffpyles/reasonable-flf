@@ -62,6 +62,13 @@ makes the system live for people.
   agents. In the current state of AI we expect the mixed system to be stronger than AI alone —
   humans supplying judgment, taste, and ground truth; agents supplying assembly, maintenance, and
   tireless first-pass coverage.
+- **Open the graph in stages.** Not a public launch, but concentric rings. First, on the order of
+  a hundred hand-picked contributors working one important question — project- or
+  civilization-relevant by design: *what forms of knowledge should a system like this prohibit as
+  too dangerous to be improved on publicly? Is AI existential risk real? How should governments
+  regulate AI?* Then fold what that cohort teaches us back into the mechanisms, open to a larger
+  group, and repeat. Each ring is both a real deployment and the next experiment — and the
+  questions are chosen so even the small early runs produce maps worth having.
 - **The panel-composition matrix.** Run parallel instances of the *same* question varying who
   builds and who rates: human-only, AI-only, and mixed, on each axis independently. Because the
   format, anchors, and assessment configuration are shared, the instances are comparable cell by

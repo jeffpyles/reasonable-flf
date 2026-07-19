@@ -294,15 +294,12 @@ python3 graph.py rebuild --data blackholes-graph-v2
       preprints</strong> that pointed the other — quietly flipping the weight of the evidence. The
       graph didn't. It kept the well-supported findings well-supported, kept the genuinely open
       questions open, and made it visible which claims were carrying the conclusion.</p>
-    <p>The difference is the one that matters everywhere, not just here. A deep-research report's job
-      is to assess and synthesize the material <em>for</em> you — which means it compresses away some
+    <p>The report that went wrong was a standard deep-research recipe we built, and better harnesses & prompts will certainly lead to better reports. But a deep-research report's job
+      is to assess and synthesize the material <em>for</em> you — which often means it compresses away some
       of its own load-bearing choices, and it will not always surface why or how it decided what to
       keep and what to reject. The graph makes the opposite trade: every source and claim stays on
       the board, and the synthesis and assessment happen visibly, in front of you, where they can be
-      checked claim by claim.
-      <span class="muted small">(The baseline was a standard deep-research recipe we built and left
-      in the repo to inspect; the full account, including exactly why its verifier went wrong, is in
-      <code>v0/covid-graph/COMPARISON.md</code>.)</span></p>
+      checked claim by claim.   
   </div>
 </section>
 
@@ -323,7 +320,7 @@ python3 graph.py rebuild --data blackholes-graph-v2
       <div class="stat"><div class="n">0.52→0.89</div><div class="l">truth-tracking with consensus visible vs blind — the single biggest accuracy lever, enforced at the tool layer</div></div>
       <div class="stat"><div class="n">60%</div><div class="l">share of raters in a coordinated dishonest bloc that the anchor-checked system still withstands, in two independent test domains</div></div>
       <div class="stat"><div class="n">0.96–0.98</div><div class="l">agreement between independent halves of the rater panel on the assessed graphs; per-node scores pinned to ±0.10 with as few as 8 raters</div></div>
-      <div class="stat"><div class="n">4</div><div class="l">rating schemes we tested and <strong>retired</strong>, each with a concrete counterexample showing exactly how it fails (below)</div></div>
+      <div class="stat"><div class="n">4</div><div class="l">rating schemes we tested and retired, each with a concrete counterexample showing exactly how it fails (below)</div></div>
     </div>
     <h3>The common thread</h3>
     <p>Every method that failed, failed the same way: <strong>a rule that looks only inward can only
@@ -400,7 +397,7 @@ python3 graph.py rebuild --data blackholes-graph-v2
           <td class="small">Refused to pick a side; surfaced the reframing between the two positions
             as the strongest point of agreement.</td></tr>
     </table>
-    <p>Same machinery, honestly different outcomes on different kinds of questions — which is what
+    <p>Same machinery, different outcomes on different kinds of questions — which is what
       you want from a tool meant to report the state of a question rather than to manufacture a
       verdict.</p>
   </div>
@@ -408,7 +405,7 @@ python3 graph.py rebuild --data blackholes-graph-v2
 
 <section id="launders">
   <div class="wrap">
-    <h2>Structure catches what prose launders</h2>
+    <h2>Structure highlights what prose launders</h2>
     <p>A recurring result across every layer: <strong>the structured map mechanically surfaces
       defects that are invisible in the prose version of the same argument</strong>, and the project
       fixes them in the open.</p>
@@ -426,8 +423,6 @@ python3 graph.py rebuild --data blackholes-graph-v2
         holds every known claim and connection at once — so what an account leaves out becomes as
         visible as what it includes.</li>
     </ul>
-    <p class="muted small">See <code>v0/EVIDENCE-SOURCE-AUDIT.md</code> and
-      <code>v0/PROJECT-OVERVIEW.md</code> §3.</p>
   </div>
 </section>
 
@@ -485,7 +480,7 @@ python3 graph.py rebuild --data blackholes-graph-v2
       AI-generated under rapid prototyping — chosen to make the format function and show its potential,
       <em>not</em> to be mature, fully-developed, or the definitive last word on eggs, COVID origins,
       or LHC safety. What we are demonstrating is the structure-and-assessment machinery; a graph worth
-      taking as a settled verdict would be built and rated by far more contributors, over far more
+      taking as a settled verdict would be built and rated by more contributors, over more
       time, than a prototype allows.</p>
     <p>The engine, the four assessed case graphs, and the assessment research are built to a
       reasonable prototype stage. Some near-term next steps that are not yet done:</p>
@@ -515,9 +510,9 @@ python3 graph.py rebuild --data blackholes-graph-v2
       <li><strong>Graph versus deep research, same sources</strong> —
         <a href="v0/covid-graph/COMPARISON.md" target="_blank"><code>v0/covid-graph/COMPARISON.md</code></a>:
         where the flat pipeline flipped the evidence and the graph didn't.</li>
-      <li><strong>How assessment works today, in plain language</strong> —
+      <li><strong>How assessment works in the current version</strong> —
         <a href="MECHANISMS.md" target="_blank">MECHANISMS.md</a>: each running mechanism, why it is
-        that way, and its honest status — kept separate from the research history.</li>
+        that way, and its present status.</li>
       <li><strong>The assessment research, start to finish</strong> — the story in two pages,
         retractions included: <a href="RESEARCH-ARC.md" target="_blank">RESEARCH-ARC.md</a>; the full
         account with a reproduce index:

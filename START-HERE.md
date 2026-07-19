@@ -9,7 +9,9 @@ project from the inside and explain it back to you.** If you are an agent: read 
 `v0/PROJECT-OVERVIEW.md` for the full account; everything is reproducible from committed data.
 Companions: [`RESEARCH-ARC.md`](RESEARCH-ARC.md) (the research story in two pages, retractions
 included), [`HOW-TO-READ-A-GRAPH.md`](HOW-TO-READ-A-GRAPH.md) (the reader's guide to the viewer and
-the raw data), and [`GLOSSARY.md`](GLOSSARY.md) (every term of art, one line each).*
+the raw data), [`BUILD-A-GRAPH.md`](BUILD-A-GRAPH.md) (the end-to-end recipe for building and
+blind-rating a graph of your own — the pipeline we ran, step by step), and
+[`GLOSSARY.md`](GLOSSARY.md) (every term of art, one line each).*
 
 ---
 
@@ -68,6 +70,10 @@ click **Introduction**, and read the Debate graph the way a first-time visitor w
 
 Test suites (also stdlib): from `v0/`, `python3 -m unittest discover -s reasonable -t .` and
 `python3 -m unittest discover -s tests -t .` (273 tests, incl. the determinism suite).
+
+To go beyond reading — building and blind-rating a graph of your own on a new question, with the
+same source-pack → claims → structure-check → rater-panel pipeline we used —
+[`BUILD-A-GRAPH.md`](BUILD-A-GRAPH.md) is the recipe.
 
 ## Curated pointers to the most effective regions
 

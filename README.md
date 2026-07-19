@@ -24,7 +24,8 @@ python3 graph.py rebuild    --data blackholes-graph-v2 # determinism: byte-ident
 python3 -m unittest discover -s reasonable -t .        # the test suite (run from v0/)
 ```
 
-Then open [`v0/viewer.html`](v0/viewer.html) and click **Introduction**.
+Then open [`v0/viewer.html`](v0/viewer.html) and click **Introduction**. To build and blind-rate a
+graph of your own from scratch, the end-to-end recipe is [`BUILD-A-GRAPH.md`](BUILD-A-GRAPH.md).
 
 ### What's here
 

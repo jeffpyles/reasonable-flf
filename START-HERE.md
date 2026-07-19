@@ -122,7 +122,7 @@ surfaces its own holes, and lets anyone place a wanted node beyond the frontier 
 on developing it into high-confidence knowledge (much as this very competition does). **The full
 vision — present and future, written for newcomers — is [`VISION.md`](VISION.md)**; the founding
 synthesis behind it is `Reasonable - Concept Overview.html` (with `Reasonable - Claims Index.html`
-as a claim-by-claim census), and the near-term engineering roadmap is `v0/ROADMAP-NEXT-VERSION.md`.
+as a claim-by-claim census), and the near-term work plan is [`ROADMAP.md`](ROADMAP.md).
 
 ## Honest state (what is and isn't done)
 

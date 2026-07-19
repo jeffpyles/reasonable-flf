@@ -111,7 +111,8 @@ while staying quiet on honest baselines — but it is not yet integrated into th
 pipeline. This is the top item on the engineering roadmap, and we state it as not-yet-done rather
 than imply otherwise.
 
-Where: detector + tests under `v0/covid-adversarial/`; roadmap in `v0/ROADMAP-NEXT-VERSION.md`.
+Where: detector + tests under `v0/covid-adversarial/`; roadmap in [ROADMAP.md](ROADMAP.md)
+(engineering detail: `v0/ROADMAP-NEXT-VERSION.md`).
 
 ## 7. Lifecycle states — LIVE, thresholds from measured reliability
 

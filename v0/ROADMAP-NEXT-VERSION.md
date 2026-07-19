@@ -1,5 +1,9 @@
 # Roadmap — next-version moves for the assessment layer
 
+> **Note (2026-07-19):** the current, full roadmap — including the items beyond the assessment
+> layer — is [ROADMAP.md](../ROADMAP.md) at the repository root. This file remains as the dated,
+> finding-by-finding engineering detail behind its Section 1.
+
 *Logged 2026-07-15 after the eggs + covid adversarial runs (see `eggs-adversarial/FINDINGS.md` and
 `covid-adversarial/FINDINGS.md`). These are the improvement steps the runs pointed to but that we are
 **deliberately deferring** past the FLF deadline — the submission is better served by developing other

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasonable — Roadmap</title>
+<meta name="description" content="The near-term work plan for Reasonable: closing measured defense gaps, the missing experiments, humans in the loop, checkable knowledge, and the path toward the one graph.">
+<style>
+  :root{
+    --bg:#0f1216; --panel:#161b22; --panel-2:#1c232c;
+    --ink:#e8e6e1; --ink-soft:#b8b4ab; --ink-dim:#8a8780;
+    --line:#2a323c;
+    --accent:#c9a227;
+    --accent-2:#6fb3c9;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--serif); font-size:18px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:.15s}
+  a:hover{border-bottom-color:var(--accent)}
+  h1,h2,h3{font-weight:600; letter-spacing:-.01em; line-height:1.1}
+  h2{font-size:30px; margin:0 0 6px}
+  .dot{color:var(--accent)}
+  header.hero{border-bottom:1px solid var(--line); background:
+     radial-gradient(1200px 400px at 70% -10%, rgba(201,162,39,.10), transparent 60%),
+     var(--bg); padding:64px 0 40px}
+  .eyebrow{font-family:var(--sans); font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+     color:var(--accent); margin:0 0 18px}
+  h1{font-size:54px; margin:0 0 14px}
+  .preamble{font-size:19px; color:var(--ink-soft); font-style:italic; max-width:700px; margin:0 0 22px}
+  .cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px; font-family:var(--sans); font-size:15px}
+  .btn{display:inline-block; padding:10px 16px; border-radius:8px; border:1px solid var(--line);
+     background:var(--panel); color:var(--ink); font-weight:500}
+  .btn:hover{border-color:var(--accent); border-bottom-color:var(--accent)}
+  section{padding:40px 0; border-bottom:1px solid var(--line)}
+  .kicker{font-family:var(--sans); font-size:12.5px; letter-spacing:.1em; text-transform:uppercase;
+     color:var(--ink-dim); margin:0 0 8px}
+  p{margin:14px 0}
+  .muted{color:var(--ink-dim)}
+  .small{font-size:15px}
+  ul{padding-left:22px} li{margin:9px 0}
+  ul ul{margin-top:6px}
+  strong{color:#f2f0ea}
+  em{color:inherit}
+  code{font-family:"SF Mono",ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+     background:var(--panel-2); padding:1px 6px; border-radius:4px; font-size:.85em; color:var(--ink)}
+  footer{padding:40px 0 80px; color:var(--ink-dim); font-size:15px}
+  .toc{font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); display:flex; flex-wrap:wrap;
+     gap:6px 18px; margin-top:22px}
+  .toc a{color:var(--ink-soft)} .toc a:hover{color:var(--accent)}
+  @media (max-width:680px){
+    h1{font-size:38px} h2{font-size:24px}
+    body{font-size:17px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Reasonable · Roadmap</p>
+    <h1>What comes next<span class="dot">.</span></h1>
+    <p class="preamble">The near-term work plan as of 2026-07-19, for anyone deciding whether and
+      where this project is worth pushing on. Ordered by what would most change our own confidence:
+      we currently put the odds that the assembled machinery is robust for a real deployment at
+      ~60–65% — high on the tested mechanisms, lower on transfer to the messy real thing — and every
+      item here is chosen to move that number, in whichever direction is true. The
+      finding-by-finding engineering detail behind Section 1 is the dated tier list
+      <a href="v0/ROADMAP-NEXT-VERSION.md" target="_blank">ROADMAP-NEXT-VERSION.md</a>; the systems
+      as they stand are <a href="MECHANISMS.md" target="_blank">MECHANISMS.md</a>; the destination
+      is <a href="vision.html" target="_blank">the vision</a>.</p>
+    <div class="cta">
+      <a class="btn" href="index.html">&larr; Submission page</a>
+      <a class="btn" href="ROADMAP.md" target="_blank">Markdown source</a>
+    </div>
+    <div class="toc">
+      <a href="#defenses">1 · Close the measured defense gaps</a>
+      <a href="#experiments">2 · Run the missing experiments</a>
+      <a href="#humans">3 · Put humans in the loop</a>
+      <a href="#checkable">4 · Test against checkable knowledge</a>
+      <a href="#onegraph">5 · Toward the one graph</a>
+    </div>
+  </div>
+</header>
+
+<section id="defenses">
+  <div class="wrap">
+    <p class="kicker">1</p>
+    <h2>Close the measured defense gaps</h2>
+    <p>The red-team runs told us exactly what to build next; most of it is detection the research
+    has already prototyped. (Detail and cost estimates per item:
+    <a href="v0/ROADMAP-NEXT-VERSION.md" target="_blank"><code>v0/ROADMAP-NEXT-VERSION.md</code></a>.)</p>
+    <ul>
+      <li><strong>Wire in the manufactured-certainty guardrail.</strong> The hardest attack we
+      found — collapsing a genuinely open question into false near-settlement — has a working
+      detector, validated offline against every committed attack sweep while staying quiet on honest
+      baselines. It is not yet in the default assessment pipeline. This is the top engineering item,
+      and until it lands we state it as not-done rather than imply otherwise.</li>
+      <li><strong>Second-stage coordination detection.</strong> Camp analysis finds the suspicious
+      <em>side</em> with full recall but sweeps honest same-side raters in with the bloc (~0.5
+      precision). The isolating signal — coordinated extremity and tightness, measured at a 3.3× gap
+      between attackers and honest raters — exists in analysis code and needs to become a calibrated
+      two-stage filter, so belief is never mistaken for a bloc.</li>
+      <li><strong>Denser, rotating, hard-to-predict anchors.</strong> The one attacker that beats
+      calibration is the sleeper who is honest exactly where the anchors are. Its entire edge is
+      knowing the anchor set; secret, rotating anchors over the contested frontier — including the
+      <em>leading</em> side's cruxes — degrade it back toward the attacks we already defeat.</li>
+      <li><strong>A properly adversarial red team.</strong> Every attacker so far was static and
+      one-shot — a floor on attack strength, not a ceiling. An adaptive attacker that observes
+      reputation and adjusts, and a sleeper that jitters its lies to resist clustering, are the
+      honest next stress tests, along with replicating the small-n findings (like the refusal
+      asymmetry) across more questions and models before leaning on them.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="experiments">
+  <div class="wrap">
+    <p class="kicker">2</p>
+    <h2>Run the missing experiments</h2>
+    <p>The research validated the parts; three experiments would validate the whole.</p>
+    <ul>
+      <li><strong>A human-rated slice.</strong> Nearly every result in the research chain is
+      model-on-model — simulated rater panels, with one thin external check. Re-rating a slice of an
+      existing graph with human panels is the single most valuable missing experiment: it either
+      transfers the headline results to people or tells us where they bend.</li>
+      <li><strong>An end-to-end longitudinal run.</strong> Build → structure-check → rate → contest
+      → ghost → re-rate, over many rounds, with real turnover of contributors and claims. The
+      individual mechanisms are each validated; the full flywheel has never been exercised live as
+      one loop, and loops fail in ways their parts don't.</li>
+      <li><strong>The third shape, fully stressed.</strong> The black-holes graph (strong consensus
+      with a vocal edge) is built and assessed, but the oracle/honest/adversarial passes that eggs
+      and COVID went through have not been ported to it. Completing it closes the three-shape
+      generalizability claim with stress-testing, not just construction.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="humans">
+  <div class="wrap">
+    <p class="kicker">3</p>
+    <h2>Put humans in the loop</h2>
+    <p>Everything so far was AI-built and AI-rated by necessity of the prototype window. The next
+    stage makes the system live for people.</p>
+    <ul>
+      <li><strong>The write side of the viewer.</strong> The viewer today is read-only; the engine's
+      full write and rating surface exists only as a CLI. Collecting live ratings — and then live
+      claims — through the viewer is what turns the artifact from a demonstration into an
+      instrument.</li>
+      <li><strong>A centaur system.</strong> Human contributors added into the build and rating
+      loops alongside the agents. In the current state of AI we expect the mixed system to be
+      stronger than AI alone — humans supplying judgment, taste, and ground truth; agents supplying
+      assembly, maintenance, and tireless first-pass coverage.</li>
+      <li><strong>The panel-composition matrix.</strong> Run parallel instances of the <em>same</em>
+      question varying who builds and who rates: human-only, AI-only, and mixed, on each axis
+      independently. Because the format, anchors, and assessment configuration are shared, the
+      instances are comparable cell by cell — which turns the platform into a measurement instrument
+      three ways at once:
+        <ul>
+          <li>a running <strong>benchmark of what different kinds of minds contribute</strong> to
+          knowledge-building, question by question — including how long the centaur advantage over
+          AI-only actually holds;</li>
+          <li>a <strong>merged-graph test</strong> — whether the union of human and AI contributions
+          is stronger than either alone, as we expect;</li>
+          <li>a standing <strong>open-vs-curated comparison</strong> — where an open crowd's
+          assessment diverges from a curated panel's on identical structure is precisely where open
+          assessment cannot yet be trusted, mapped rather than argued about.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="checkable">
+  <div class="wrap">
+    <p class="kicker">4</p>
+    <h2>Test against checkable knowledge</h2>
+    <p>The unanswerable domains are the destination, but domains where reality can referee are
+    where trust is earned and measured.</p>
+    <ul>
+      <li><strong>Hard math as a case shape.</strong> Can the format faithfully structure the
+      reasoning of a complex math problem — statements, lemmas, proof obligations, known partial
+      results — and can panels assess it coherently? Formal verification gives these graphs
+      something no other domain has: machine-checkable ground truth, i.e. perfect, free
+      anchors.</li>
+      <li><strong>Uplift on open problems.</strong> The stronger version of the test: does the
+      shared structure give measurable uplift to frontier models collaborating on difficult open
+      math/CS/physics questions — compared with the same models working without the map? This
+      doubles as the cleanest version of the benchmark in Section 3, on questions where the score is
+      objective.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="onegraph">
+  <div class="wrap">
+    <p class="kicker">5</p>
+    <h2>Toward the one graph</h2>
+    <p>Further out, and stated as direction rather than plan (the full case is
+    <a href="vision.html" target="_blank">the vision</a>, §6):</p>
+    <ul>
+      <li><strong>Connect the case graphs</strong> at their shared underpinnings — statistics,
+      epistemology, risk — as the seed of the single public graph the separate prototypes stand in
+      for.</li>
+      <li><strong>Ingest the existing conversation.</strong> The points in every major argument
+      already exist, scattered and unevaluated; agent-assisted ingestion of essays, papers, and
+      threads into structure is how coverage compounds without waiting for people to argue in a new
+      format.</li>
+      <li><strong>Probability nodes and personal maps.</strong> Collective forecasts with honest
+      spread on the shared graph; personal belief overlays that locate the exact node where two
+      people's reasoning first diverges.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="small"><em>The order is the argument: defenses we measured the need for, then the
+    experiments that check the whole, then people, then referees, then scale. Each section's failure
+    would be informative — and published, like the
+    <a href="RESEARCH-ARC.md" target="_blank">last round's</a> were.</em></p>
+    <p class="small muted"><a href="index.html">&larr; Back to the submission page</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

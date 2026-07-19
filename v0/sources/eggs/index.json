@@ -1,0 +1,30 @@
+[
+  {
+    "ref_id": "eggs-001",
+    "citation": "Hu FB, Stampfer MJ, Rimm EB, et al. \"A Prospective Study of Egg Consumption and Risk of Cardiovascular Disease in Men and Women.\" JAMA, 1999.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Hu+Stampfer+egg+consumption+cardiovascular+disease+JAMA+1999",
+    "claim_summary": "Large U.S. prospective cohort study (drawing on the Nurses' Health Study and Health Professionals Follow-up Study) examining the association between frequency of egg consumption and risk of coronary heart disease and stroke. Landmark reference in the egg/dietary-cholesterol literature.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "eggs-002",
+    "citation": "U.S. Department of Agriculture / U.S. Department of Health and Human Services. Dietary Guidelines for Americans (multiple editions).",
+    "url": "https://www.dietaryguidelines.gov",
+    "claim_summary": "Federal dietary guidance document, issued in successive 5-year editions, addressing recommended limits on dietary cholesterol intake. The specific numeric guidance on dietary cholesterol is known to have changed across editions (earlier editions carried an explicit daily cap; a later edition revised this treatment). Exact edition, wording, and year of any change must be verified before citing — do not assume which edition said what.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "eggs-003",
+    "citation": "Keys A, et al. The Seven Countries Study (multi-country epidemiological research program, mid-20th century).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Keys+Seven+Countries+Study+diet+heart+disease",
+    "claim_summary": "Foundational mid-20th-century multi-country epidemiological research program correlating dietary fat patterns with serum cholesterol levels and coronary heart disease rates. Underlies the broader 'diet-heart hypothesis' literature that later, more specific egg/dietary-cholesterol studies respond to and revise.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "eggs-004",
+    "citation": "Rong Y, et al. \"Egg consumption and risk of coronary heart disease and stroke: dose-response meta-analysis of prospective cohort studies.\" BMJ, 2013.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rong+egg+consumption+coronary+heart+disease+meta-analysis+BMJ+2013",
+    "claim_summary": "Dose-response meta-analysis of prospective cohort studies on egg consumption and cardiovascular outcomes. Widely cited for reporting no overall association in the general population while noting a differing picture among people with diabetes. Exact effect sizes and subgroup details must be verified before citing. Serves here as a second study yielding multiple findings (a study-grouping demonstration for friction F2).",
+    "status": "VERIFY_BEFORE_USE"
+  }
+]

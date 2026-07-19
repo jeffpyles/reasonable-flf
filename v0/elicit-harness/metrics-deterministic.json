@@ -1,0 +1,58 @@
+{
+  "v1 naive": {
+    "nodes": 32,
+    "edges": 27,
+    "sets": 10,
+    "max_indegree": 13,
+    "hubs(>=8)": 1,
+    "orphans": 0,
+    "question_shaped": 0,
+    "roots(out=0)": 5,
+    "ought_nodes": 2,
+    "median_title_words": 7.0,
+    "titled_pct": 12,
+    "bundle_proxy_pct": 69
+  },
+  "harness v1": {
+    "nodes": 68,
+    "edges": 63,
+    "sets": 5,
+    "max_indegree": 4,
+    "hubs(>=8)": 0,
+    "orphans": 0,
+    "question_shaped": 0,
+    "roots(out=0)": 5,
+    "ought_nodes": 2,
+    "median_title_words": 6.0,
+    "titled_pct": 100,
+    "bundle_proxy_pct": 40
+  },
+  "harness fix": {
+    "nodes": 57,
+    "edges": 52,
+    "sets": 12,
+    "max_indegree": 4,
+    "hubs(>=8)": 0,
+    "orphans": 0,
+    "question_shaped": 0,
+    "roots(out=0)": 5,
+    "ought_nodes": 2,
+    "median_title_words": 6,
+    "titled_pct": 100,
+    "bundle_proxy_pct": 39
+  },
+  "v2 hand": {
+    "nodes": 45,
+    "edges": 43,
+    "sets": 7,
+    "max_indegree": 5,
+    "hubs(>=8)": 0,
+    "orphans": 0,
+    "question_shaped": 0,
+    "roots(out=0)": 3,
+    "ought_nodes": 2,
+    "median_title_words": 5,
+    "titled_pct": 100,
+    "bundle_proxy_pct": 51
+  }
+}

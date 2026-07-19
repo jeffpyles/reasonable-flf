@@ -1,0 +1,73 @@
+NODE MANIFEST (id | primary_phrasing_id | title):
+n001 | p0 | Eggs are neutral for most healthy adults
+n002 | p0 | Eggs raise cardiovascular risk
+n003 | p0 | Effect depends on the individual
+n004 | p0 | Hu et al. 1999 cohort study (anchor)
+n005 | p0 | Dietary cholesterol raises serum LDL, on average
+n006 | p0 | Egg-CVD link elevated in diabetics
+n007 | p0 | Subgroup findings are cohort-based
+n008 | p0 | Diabetic egg-CVD link is causal
+n009 | p0 | Diabetic egg-CVD link is confounded
+n010 | p0 | Diabetics' worse baseline CV risk
+n011 | p0 | Adjustment attenuates the link
+n012 | p0 | Diabetic-dyslipidemia mechanism
+n013 | p0 | Association replicates across studies
+n014 | p0 | Association persists after adjustment
+n015 | p0 | Observational data can't prove causation alone
+n016 | p0 | Adjusted persistence: partial evidence
+n017 | p0 | RCT/MR evidence outweighs observational data
+n018 | p0 | High-risk/diabetics should limit eggs
+n019 | p0 | No special egg limit warranted yet
+n020 | p0 | Hyper-responder subgroup exists
+n021 | p0 | Hepatic feedback blunts dietary cholesterol's effect
+n022 | p0 | LDL causally raises CVD risk
+n023 | p0 | MR and LDL-lowering trials support LDL causality
+n024 | p0 | Seven Countries Study: diet-heart correlation
+n025 | p0 | Dietary Guidelines revised the cholesterol cap
+n026 | p0 | Guidelines once capped dietary cholesterol
+n027 | p0 | Later edition dropped the explicit cap
+n028 | p0 | Guidance change isn't biological proof
+n029 | p0 | Evidence on dietary cholesterol is mixed
+n030 | p0 | Avoid cheap risks under uncertainty
+n031 | p0 | Moderation is reasonable despite mixed evidence
+n032 | p0 | LDL is LDL, whatever the source
+n033 | p0 | Saturated fat, not cholesterol, drives LDL
+
+EDGES (id | from -> to | group):
+e001 | n004->n007 | -
+e002 | n007->n006 | -
+e003 | n006->n003 | -
+e004 | n010->n009 | -
+e005 | n011->n009 | -
+e006 | n015->n009 | -
+e007 | n017->n009 | -
+e008 | n012->n008 | -
+e009 | n013->n008 | -
+e010 | n016->n008 | -
+e011 | n014->n016 | g1
+e012 | n006->n018 | -
+e013 | n016->n018 | -
+e014 | n009->n019 | -
+e015 | n015->n019 | -
+e016 | n015->n016 | g1
+e017 | n020->n005 | -
+e018 | n020->n003 | -
+e019 | n021->n001 | -
+e020 | n005->n002 | g2
+e021 | n022->n002 | g2
+e022 | n023->n022 | -
+e023 | n024->n005 | -
+e024 | n024->n022 | -
+e025 | n004->n001 | -
+e026 | n004->n003 | -
+e027 | n025->n001 | -
+e028 | n027->n028 | -
+e029 | n028->n029 | -
+e030 | n024->n029 | -
+e031 | n030->n031 | g3
+e032 | n029->n031 | g3
+e033 | n022->n032 | -
+e034 | n032->n002 | -
+e035 | n033->n001 | -
+
+GROUPS: [('g1', ['n014', 'n015'], '->n016'), ('g2', ['n005', 'n022'], '->n002'), ('g3', ['n030', 'n029'], '->n031')]

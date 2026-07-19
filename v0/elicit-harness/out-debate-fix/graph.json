@@ -1,0 +1,6302 @@
+{
+  "accounts": [
+    {
+      "agent": "builder",
+      "authored": 166,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    }
+  ],
+  "antithesis_sets": [
+    {
+      "id": "s1",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n001"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n002"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n003"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n015"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n016"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n050"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n051"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n004"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n008"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n020"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n029"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n005"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n009"
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n005"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n008"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n006"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n010"
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n026"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n041"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n006"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n011"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n027"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n047"
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n007"
+        },
+        {
+          "agrees": 0,
+          "author": "builder",
+          "belonging": 1,
+          "node": "n013"
+        }
+      ]
+    }
+  ],
+  "conjunction_groups": [],
+  "frictions": [],
+  "ground_edges": [
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 17,
+      "from": "n004",
+      "group": null,
+      "id": "e001",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 18,
+      "from": "n005",
+      "group": null,
+      "id": "e002",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 19,
+      "from": "n006",
+      "group": null,
+      "id": "e003",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 20,
+      "from": "n007",
+      "group": null,
+      "id": "e004",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 21,
+      "from": "n008",
+      "group": null,
+      "id": "e005",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 22,
+      "from": "n009",
+      "group": null,
+      "id": "e006",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 23,
+      "from": "n010",
+      "group": null,
+      "id": "e007",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 24,
+      "from": "n011",
+      "group": null,
+      "id": "e008",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 25,
+      "from": "n012",
+      "group": null,
+      "id": "e009",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n003",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 26,
+      "from": "n013",
+      "group": null,
+      "id": "e010",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n003",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 27,
+      "from": "n014",
+      "group": null,
+      "id": "e011",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n003",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 35,
+      "from": "n017",
+      "group": null,
+      "id": "e012",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n004",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 36,
+      "from": "n018",
+      "group": null,
+      "id": "e013",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n004",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 37,
+      "from": "n019",
+      "group": null,
+      "id": "e014",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n018",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 38,
+      "from": "n020",
+      "group": null,
+      "id": "e015",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n004",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 40,
+      "from": "n021",
+      "group": null,
+      "id": "e016",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n005",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 41,
+      "from": "n022",
+      "group": null,
+      "id": "e017",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n005",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 42,
+      "from": "n023",
+      "group": null,
+      "id": "e018",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n005",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 43,
+      "from": "n024",
+      "group": null,
+      "id": "e019",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n021",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 48,
+      "from": "n025",
+      "group": null,
+      "id": "e020",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n006",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 49,
+      "from": "n026",
+      "group": null,
+      "id": "e021",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n006",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 50,
+      "from": "n027",
+      "group": null,
+      "id": "e022",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n006",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 51,
+      "from": "n028",
+      "group": null,
+      "id": "e023",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n026",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 56,
+      "from": "n029",
+      "group": null,
+      "id": "e024",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 57,
+      "from": "n030",
+      "group": null,
+      "id": "e025",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 58,
+      "from": "n031",
+      "group": null,
+      "id": "e026",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 59,
+      "from": "n032",
+      "group": null,
+      "id": "e027",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 64,
+      "from": "n033",
+      "group": null,
+      "id": "e028",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 65,
+      "from": "n034",
+      "group": null,
+      "id": "e029",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 66,
+      "from": "n035",
+      "group": null,
+      "id": "e030",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 67,
+      "from": "n036",
+      "group": null,
+      "id": "e031",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 72,
+      "from": "n037",
+      "group": null,
+      "id": "e032",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n009",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 73,
+      "from": "n038",
+      "group": null,
+      "id": "e033",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n009",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 74,
+      "from": "n039",
+      "group": null,
+      "id": "e034",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n009",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 75,
+      "from": "n040",
+      "group": null,
+      "id": "e035",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n009",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 77,
+      "from": "n041",
+      "group": null,
+      "id": "e036",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n010",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 79,
+      "from": "n042",
+      "group": null,
+      "id": "e037",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n041",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 81,
+      "from": "n043",
+      "group": null,
+      "id": "e038",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n010",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 83,
+      "from": "n044",
+      "group": null,
+      "id": "e039",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n043",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 88,
+      "from": "n045",
+      "group": null,
+      "id": "e040",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n011",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 89,
+      "from": "n046",
+      "group": null,
+      "id": "e041",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n011",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 90,
+      "from": "n047",
+      "group": null,
+      "id": "e042",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n011",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 91,
+      "from": "n048",
+      "group": null,
+      "id": "e043",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n045",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 95,
+      "from": "n049",
+      "group": null,
+      "id": "e044",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n012",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 96,
+      "from": "n050",
+      "group": null,
+      "id": "e045",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n012",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 97,
+      "from": "n051",
+      "group": null,
+      "id": "e046",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n012",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 101,
+      "from": "n052",
+      "group": null,
+      "id": "e047",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 102,
+      "from": "n053",
+      "group": null,
+      "id": "e048",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 103,
+      "from": "n054",
+      "group": null,
+      "id": "e049",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 107,
+      "from": "n055",
+      "group": null,
+      "id": "e050",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n014",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 108,
+      "from": "n056",
+      "group": null,
+      "id": "e051",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n014",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "builder",
+      "comments": [],
+      "created_seq": 109,
+      "from": "n057",
+      "group": null,
+      "id": "e052",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n014",
+      "typings": []
+    }
+  ],
+  "meta": {
+    "comment_count": 0,
+    "config": {
+      "aggregation": {
+        "epsilon": 0.001,
+        "iterations": 12,
+        "weight_by": "true_r"
+      },
+      "phase2": {
+        "bloc_min_ratings": 3,
+        "cold_factor": 0.5,
+        "confirm": 15,
+        "contested_threshold": 1.0,
+        "heat_diffuse": 0.15,
+        "heat_half_life": 300.0,
+        "nudge_distance": 1.5,
+        "quorum": 5
+      },
+      "phrasing_R_over_C_bias": 1.5,
+      "reputation": {
+        "K": 8.0,
+        "prior": 0.15,
+        "raw_blend": "mean"
+      },
+      "scale_max": 5.0
+    },
+    "event_count": 134,
+    "generated_ts": "2026-07-18T03:16:25.159116+00:00",
+    "heat_medians": {
+      "content": 1.3265802685667913,
+      "rating": null
+    },
+    "question": "Will a structured, collaborative argument-mapping platform meaningfully improve reasoning on contested questions -- or are attempts to 'solve debate' doomed?",
+    "rating_count": 0
+  },
+  "nodes": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 1,
+      "heat": {
+        "content": 3.291955,
+        "rating": 0.0
+      },
+      "id": "n001",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Structured argument-mapping will not meaningfully improve real-world reasoning on contested questions."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Argument-mapping cannot improve real reasoning"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 2,
+      "heat": {
+        "content": 3.285001,
+        "rating": 0.0
+      },
+      "id": "n002",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Faithfully mapping a disagreement's structure is a worthwhile achievement in its own right."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Faithful mapping is worthwhile on its own"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 3,
+      "heat": {
+        "content": 2.752448,
+        "rating": 0.0
+      },
+      "id": "n003",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Whether the mapping endeavor succeeds is a question about which goal you demand of it."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The dispute is about goals, not mechanism"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 4,
+      "heat": {
+        "content": 3.52799,
+        "rating": 0.0
+      },
+      "id": "n004",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Real arguments and disagreements rarely decompose into the clean premises, checkable false facts, or nameable fallacies that a logical map assumes, and adding more nodes only misrepresents inherently probabilistic reasoning as tidy syllogisms."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The map assumes a form real argument lacks."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 5,
+      "heat": {
+        "content": 4.237273,
+        "rating": 0.0
+      },
+      "id": "n005",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "What actually generates disagreement is quantifying and weighing magnitudes, differing values and ethical frameworks, and many weakly-held over-determining considerations, none of which is touched by resolving atomic premises at the surface level a map operates on."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Disagreement is generated below the level the map addresses."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 6,
+      "heat": {
+        "content": 4.512189,
+        "rating": 0.0
+      },
+      "id": "n006",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Formal mapping is an inefficient way to change the minds of people actually arguing, its intended user (an online arguer seeking more rigor) barely exists, and two thousand years of philosophy and rhetoric have not solved debate either."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Argument-mapping is not a practically viable route."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 7,
+      "heat": {
+        "content": 4.143668,
+        "rating": 0.0
+      },
+      "id": "n007",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The project's own concessions — that it does not make disputing parties agree, that internal rating cannot escape the consensus-versus-truth problem without scarce external anchors, that rating dispersion is an unreliable signal of contestedness, and that adoption by real human communities is unproven — corroborate the critique from the inside."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The platform's own findings confirm the same limits."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 8,
+      "heat": {
+        "content": 5.052932,
+        "rating": 0.0
+      },
+      "id": "n008",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Graded support edges, rival positive claims instead of negations, joint-support groupings, and re-wording stacks model weighing and over-determination structurally, so a refuted ground is demoted while its dependent claim survives on its remaining grounds as the normal case, not a failure."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The structure already avoids the assumed clean form."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 9,
+      "heat": {
+        "content": 4.168831,
+        "rating": 0.0
+      },
+      "id": "n009",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The map aims to make explicit where the weight of a disagreement sits and how wide the reasonable range is, giving values a first-class prescription node type with an is/ought firewall and endorsement rating instead of manufacturing a resolution."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The goal is to locate where the weighing sits."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 10,
+      "heat": {
+        "content": 3.009458,
+        "rating": 0.0
+      },
+      "id": "n010",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The intended audience is third parties consulting a durable shared artifact rather than the two people in a live fight, so inefficiency at changing arguers' minds measures the wrong thing, and cheap AI agents can author, maintain, and rate the map at a scale that removes the authorship cost that sank earlier efforts."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The platform targets durable readers."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 11,
+      "heat": {
+        "content": 3.769133,
+        "rating": 0.0
+      },
+      "id": "n011",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Cheap AI authorship and rating, reputation-weighting, and enforced-blind rating are conditions unavailable to two thousand years of prior attempts, comparable to how encyclopedias, prediction markets, and systematic review only succeeded once the right medium and incentives arrived, not new philosophy."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The conditions for solving this have genuinely changed."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 12,
+      "heat": {
+        "content": 3.185188,
+        "rating": 0.0
+      },
+      "id": "n012",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Whether the platform 'works' turns entirely on whether one demands resolution — making parties agree — or mere faithful representation of the disagreement."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The dispute is over which goal to demand."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 13,
+      "heat": {
+        "content": 3.774882,
+        "rating": 0.0
+      },
+      "id": "n013",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The critique's strongest points target resolution, a goal the builders concede they do not deliver, while the builders' actual claims are about representation, so the two sides are largely talking past rather than past each other's evidence."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The critique's force lands on resolution."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 14,
+      "heat": {
+        "content": 2.952375,
+        "rating": 0.0
+      },
+      "id": "n014",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Whether the platform works is itself an over-determined, value-laden question, so by the critique's own analysis it cannot be settled either — only located and mapped."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The meta-dispute is itself unresolved."
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 15,
+      "heat": {
+        "content": 1.712249,
+        "rating": 0.0
+      },
+      "id": "n015",
+      "kind": "ought",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A tool that faithfully maps a disagreement — making its value-cruxes explicit and openly unresolved — is worth building even if it never makes the disputing parties agree."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Faithful mapping is worth building even without agreement"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 16,
+      "heat": {
+        "content": 1.71621,
+        "rating": 0.0
+      },
+      "id": "n016",
+      "kind": "ought",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A debate tool is only worth building if it actually changes minds or produces agreement; a map that leaves everyone where they started is not worth the effort."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Only mind-changing or agreement justifies the tool"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 28,
+      "heat": {
+        "content": 1.126482,
+        "rating": 0.0
+      },
+      "id": "n017",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Real arguments and disputes almost never decompose into a set of clean premises leading to a conclusion where a single false premise or invalid inferential step can be pinpointed and fixed."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Arguments rarely reduce to one false premise"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 29,
+      "heat": {
+        "content": 1.646374,
+        "rating": 0.0
+      },
+      "id": "n018",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Real disagreements rarely turn on one specific checkable false fact or a nameable logical fallacy; even when someone is mistaken, they seldom assert a single identifiable false claim."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Disagreements rarely hinge on a checkable fact"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 30,
+      "heat": {
+        "content": 1.126824,
+        "rating": 0.0
+      },
+      "id": "n019",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "In an AI-risk panel discussion, the sharpest disagreement was ultimately traced not to any false fact or fallacy but to some participants weighting a theoretical argument heavily while others distrusted theoretical arguments and expected slow change."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Panel dispute traced to weighting, not facts"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 31,
+      "heat": {
+        "content": 1.954508,
+        "rating": 0.0
+      },
+      "id": "n020",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Adding more circles and premises to an argument map does not make it more accurate; it misrepresents inherently probabilistic, weighed reasoning as if it were a strictly valid logical syllogism."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "More map nodes misrepresent reasoning as syllogism"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 32,
+      "heat": {
+        "content": 1.699694,
+        "rating": 0.0
+      },
+      "id": "n021",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The load-bearing work in a real disagreement is quantifying magnitudes and weighing them against each other, not checking whether individual premises are true or false."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Weighing magnitudes, not premises, drives disagreement"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 33,
+      "heat": {
+        "content": 1.176411,
+        "rating": 0.0
+      },
+      "id": "n022",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Many disagreements are ultimately generated by differing underlying values and ethical frameworks, such as prioritizing rights regardless of cost-benefit versus prioritizing the welfare of the worst-off, rather than by disputes over factual premises."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Differing values generate disagreement, not facts"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 34,
+      "heat": {
+        "content": 1.178761,
+        "rating": 0.0
+      },
+      "id": "n023",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "People typically hold a position through many weakly-held considerations rather than a single decisive crux, so refuting or flipping any one consideration does not change their overall position."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Over-determined positions resist single-crux refutation"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 39,
+      "heat": {
+        "content": 1.146717,
+        "rating": 0.0
+      },
+      "id": "n024",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Even when a premise such as 'lockdowns hurt the economy' is granted as true, reaching a verdict like 'lockdowns are bad' still requires quantifying the economic harm, the other harms, and the benefits, and weighing them against each other using some theory of interpersonal utility."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Lockdown verdict needs quantifying harms and benefits"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 44,
+      "heat": {
+        "content": 1.201119,
+        "rating": 0.0
+      },
+      "id": "n025",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Formal argument mapping is an inefficient way to change the minds of people who are actively arguing with each other."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Mapping is inefficient at changing arguers' minds"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 45,
+      "heat": {
+        "content": 2.575318,
+        "rating": 0.0
+      },
+      "id": "n026",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The person argument-mapping tools are designed for -- someone arguing online who wants a more rigorous way to do it -- is a persona that barely exists in practice."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The intended rigor-seeking arguer barely exists"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 46,
+      "heat": {
+        "content": 2.050059,
+        "rating": 0.0
+      },
+      "id": "n027",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Philosophy and rhetoric have not 'solved debate' in two thousand years, which is some evidence that the underlying problem is not fixable by a tool."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Two millennia of rhetoric haven't solved debate"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 47,
+      "heat": {
+        "content": 1.242679,
+        "rating": 0.0
+      },
+      "id": "n028",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "People who argue online are generally not there to update their views in response to argument, which undercuts the idea that a more rigorous mapping tool would find a ready audience among them."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Online arguers aren't there to update"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 52,
+      "heat": {
+        "content": 2.023634,
+        "rating": 0.0
+      },
+      "id": "n029",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "An argument map can use graded support edges that express strength of support rather than binary logical validity, representing weighing directly instead of forcing reasoning into true/false links."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Graded edges represent weighing, not validity"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 53,
+      "heat": {
+        "content": 1.203136,
+        "rating": 0.0
+      },
+      "id": "n030",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A map can represent a disagreement as two rival positive claims rather than as a claim and its negation, avoiding the assumption that one side must be a bare falsehood."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Rival positive claims replace negation framing"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 54,
+      "heat": {
+        "content": 1.20559,
+        "rating": 0.0
+      },
+      "id": "n031",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Grouping several independently-held considerations into a joint-support structure lets a map represent a position that is over-determined, held on many weakly-supporting grounds rather than one decisive crux."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Joint-support groups model over-determination"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 55,
+      "heat": {
+        "content": 1.208049,
+        "rating": 0.0
+      },
+      "id": "n032",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "In a support-graded map, refuting one ground of a claim only demotes that ground's contribution; the claim itself survives on its remaining grounds, which is the ordinary modeled outcome rather than a breakdown of the map."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Refuted ground demoted; claim survives on rest"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 60,
+      "heat": {
+        "content": 1.192995,
+        "rating": 0.0
+      },
+      "id": "n033",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The platform's own account concedes that it does not make disputing parties actually agree with one another."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Platform doesn't make parties agree"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 61,
+      "heat": {
+        "content": 1.195488,
+        "rating": 0.0
+      },
+      "id": "n034",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The platform's internal rating mechanism measures how much the crowd agrees with a claim rather than whether the claim is true."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Rating measures consensus, not truth"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 62,
+      "heat": {
+        "content": 1.197987,
+        "rating": 0.0
+      },
+      "id": "n035",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Rating dispersion turned out to be a low-reliability signal of how contested a claim actually is."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Rating dispersion is unreliable signal"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 63,
+      "heat": {
+        "content": 1.200492,
+        "rating": 0.0
+      },
+      "id": "n036",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Adoption of the platform by real human communities at scale remains unproven."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Adoption by real communities unproven"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 68,
+      "heat": {
+        "content": 1.213466,
+        "rating": 0.0
+      },
+      "id": "n037",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "In an assessed real-world build on a contested pandemic-origin question, the map's honest verdict of \"currently unresolved\" scored highest, rather than a fabricated resolution."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Unresolved verdict scored highest in assessment"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 69,
+      "heat": {
+        "content": 1.216006,
+        "rating": 0.0
+      },
+      "id": "n038",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "An argument-mapping system can give values a first-class node type, called a prescription, distinct from factual claims."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Values get a first-class prescription node"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 70,
+      "heat": {
+        "content": 1.218552,
+        "rating": 0.0
+      },
+      "id": "n039",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "An is/ought firewall keeps factual claims structurally separate from value claims in an argument map."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "An is/ought firewall separates facts and values"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 71,
+      "heat": {
+        "content": 1.221104,
+        "rating": 0.0
+      },
+      "id": "n040",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Prescription (value) nodes are rated by endorsement -- how much they are agreed with -- rather than by truth."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Prescriptions rated by endorsement, not truth"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 76,
+      "heat": {
+        "content": 2.676385,
+        "rating": 0.0
+      },
+      "id": "n041",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "An argument-mapping platform's intended audience is third-party readers and future deciders consulting a durable shared artifact, not the two people engaged in a live argument."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Audience Is Third-Party Readers Not Arguers"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 78,
+      "heat": {
+        "content": 1.32658,
+        "rating": 0.0
+      },
+      "id": "n042",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Evaluating an argument-mapping platform by how efficiently it changes the two original arguers' minds measures success against the wrong audience, since its actual audience is later third-party readers."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Changing Arguers Minds Is Wrong Metric"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 80,
+      "heat": {
+        "content": 1.853761,
+        "rating": 0.0
+      },
+      "id": "n043",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Cheap AI agents can author, maintain, and rate an argument map at a scale that would be cost-prohibitive for human authors working alone."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Cheap AI Agents Enable Map Authorship At Scale"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 82,
+      "heat": {
+        "content": 1.264243,
+        "rating": 0.0
+      },
+      "id": "n044",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Achieving argument-map authorship and maintenance at AI-driven scale removes the authorship cost that limited the practical viability of earlier, human-only mapping efforts."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "AI Scale Removes Prior Authorship-Cost Barrier"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 84,
+      "heat": {
+        "content": 1.857304,
+        "rating": 0.0
+      },
+      "id": "n045",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Cheap AI-agent labor removes the authorship cost that limited earlier attempts at sustained, large-scale argument mapping."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Cheap AI labor removes mapping's cost barrier"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 85,
+      "heat": {
+        "content": 1.272663,
+        "rating": 0.0
+      },
+      "id": "n046",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Enforced-blind rating and reputation-weighting are integrity mechanisms with no equivalent in two thousand years of prior attempts to resolve disagreement."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Blind rating and reputation-weighting lack precedent"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 86,
+      "heat": {
+        "content": 2.121386,
+        "rating": 0.0
+      },
+      "id": "n047",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Encyclopedias, prediction markets, and systematic review each languished for a long time and only succeeded once the right medium and incentives arrived, not from any new philosophical insight."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Encyclopedias succeeded via medium, not philosophy"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 87,
+      "heat": {
+        "content": 1.281826,
+        "rating": 0.0
+      },
+      "id": "n048",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Several differently-shaped contested questions have already been built and rated end-to-end by AI agents, showing cheap AI-driven mapping is already operating rather than merely hypothetical."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "AI agents already built several contested maps"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 92,
+      "heat": {
+        "content": 1.254156,
+        "rating": 0.0
+      },
+      "id": "n049",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The idea of 'solving debate' is ambiguous between two different goals: making the disagreeing parties actually agree, versus accurately and faithfully representing their disagreement without resolving it."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Solving debate has two candidate goals"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 93,
+      "heat": {
+        "content": 2.070331,
+        "rating": 0.0
+      },
+      "id": "n050",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A tool that faithfully maps a disagreement's value-cruxes and leaves them explicitly unresolved is worth building even if it never makes the disputing parties agree."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Faithful mapping is worth it unresolved"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 94,
+      "heat": {
+        "content": 2.074902,
+        "rating": 0.0
+      },
+      "id": "n051",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A debate tool is only worth building if it actually changes minds or produces agreement; a map that leaves everyone exactly where they started is not worth the effort."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Only agreement-producing tools are worthwhile"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 98,
+      "heat": {
+        "content": 1.308664,
+        "rating": 0.0
+      },
+      "id": "n052",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The critique treats 'solving debate' as succeeding only if it gets the disagreeing parties to actually agree with each other."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Critique equates solving debate with agreement"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 99,
+      "heat": {
+        "content": 1.311384,
+        "rating": 0.0
+      },
+      "id": "n053",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The builders explicitly concede that the platform does not make the disagreeing parties agree with one another."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Builders concede no agreement is produced"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 100,
+      "heat": {
+        "content": 1.314111,
+        "rating": 0.0
+      },
+      "id": "n054",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The builders' reply does not mainly dispute the critique's mechanism; instead it disputes what goal a debate tool should be judged against."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Reply disputes the goal, not the mechanism"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 104,
+      "heat": {
+        "content": 1.288409,
+        "rating": 0.0
+      },
+      "id": "n055",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A dispute that is over-determined and value-laden cannot be settled by identifying and resolving one decisive fact; by that same standard it can only be mapped and located, not settled."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Over-determined, value-laden disputes resist single-fact fixes"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 105,
+      "heat": {
+        "content": 1.291167,
+        "rating": 0.0
+      },
+      "id": "n056",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The verdict on whether an argument-mapping platform succeeds rests on many separate considerations, such as its mechanism, its goal, its practicality, and its evidence, rather than on any single decisive one, making that verdict itself over-determined."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The success verdict is itself over-determined"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "builder",
+      "comments": [],
+      "created_seq": 106,
+      "heat": {
+        "content": 1.293931,
+        "rating": 0.0
+      },
+      "id": "n057",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The verdict on whether an argument-mapping platform succeeds also depends on contested values about what a debate tool should accomplish, making that verdict value-laden rather than purely factual."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Whether it succeeds is also value-laden"
+        }
+      ]
+    }
+  ]
+}

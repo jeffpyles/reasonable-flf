@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# v0 playground runtime artifacts (regenerable via seed_demo.py; keep the viewer fixture)
+v0/data/events.jsonl
+v0/data/graph.json
+v0/data/audit.jsonl
+v0/data/config.json
+
+# runtime file-lock artifacts from concurrent CLI writers
+**/.lock
+
+# per-run graph byproducts (rejected-write audit log; regenerated each build)
+audit.jsonl

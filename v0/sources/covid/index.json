@@ -1,0 +1,100 @@
+[
+  {
+    "ref_id": "cov-debate",
+    "citation": "Rootclaim / Saar Wilf vs. Peter Miller. \"Did SARS-CoV-2 originate in a lab or in nature?\" Moderated public debate with a $100k wager, judged by two independent adjudicators, 2024.",
+    "url": "https://www.rootclaim.com/analysis/what-is-the-source-of-covid-19-sars-cov-2",
+    "claim_summary": "The curated debate this graph is modeled on. Rootclaim's founder argued the lab-leak side; the opposing debater argued zoonosis. Two independent judges, after a long written adjudication, ruled that the evidence favored natural zoonotic origin, and Rootclaim paid the wager. Establishes the case SHAPE (a curated, adjudicated debate) and that the top question remained contested even as this adjudication favored zoonosis. Use for framing, not as a terminal authority.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-proximal",
+    "citation": "Andersen KG, Rambaut A, Lipkin WI, Holmes EC, Garry RF. \"The proximal origin of SARS-CoV-2.\" Nature Medicine, 2020.",
+    "url": "https://www.nature.com/articles/s41591-020-0820-9",
+    "claim_summary": "Influential early analysis arguing that SARS-CoV-2's genome shows no signatures of deliberate genetic engineering and that its features (receptor-binding domain, backbone) are more consistent with natural selection than with laboratory manipulation. Widely cited for the zoonosis side. Note the documented context: the authors privately expressed more uncertainty in internal messages than the published paper conveyed, which the lab-leak side treats as material.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-market-epicenter",
+    "citation": "Worobey M, et al. \"The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic.\" Science, 2022.",
+    "url": "https://www.science.org/doi/10.1126/science.abp8715",
+    "claim_summary": "Spatial-epidemiological analysis reporting that the earliest known COVID-19 cases cluster geographically around the Huanan market, and that within the market, positive environmental samples concentrate in the section where live mammals were sold. Central to the zoonosis (market-spillover) case. Principal objection the lab-leak side raises: ascertainment/surveillance bias, since early case-finding was itself focused on the market.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-two-lineages",
+    "citation": "Pekar JE, et al. \"The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2.\" Science, 2022.",
+    "url": "https://www.science.org/doi/10.1126/science.abp8337",
+    "claim_summary": "Phylogenetic analysis arguing that two distinct early lineages (A and B) reflect at least two separate introductions into humans, both linked to the market, and estimating the timing of the earliest spillover. Used to argue that a single lab-escape point-source is a worse fit than repeated market-associated spillovers. Objection: the two-introductions inference and the timing estimates rest on modeling assumptions the lab-leak side disputes.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-raccoon-dna",
+    "citation": "Crits-Christoph A, et al. \"Genetic evidence of susceptible wildlife in SARS-CoV-2 positive samples at the Huanan Wholesale Seafood Market.\" Preprint / later peer-reviewed analysis, 2023-2024.",
+    "url": "https://zenodo.org/record/7754299",
+    "claim_summary": "Analysis of market environmental-swab metagenomic data reporting that some SARS-CoV-2-positive samples also contain abundant genetic material from susceptible wildlife (notably raccoon dogs). Argued to place a plausible intermediate-host species at the plausible origin location. Objection: co-location of viral and animal RNA in an environmental sample shows the animal was present, not that it was infected or was the transmission source.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-defuse",
+    "citation": "EcoHealth Alliance / Wuhan Institute of Virology et al. \"DEFUSE\" research proposal submitted to DARPA (2018); released via FOIA / public disclosure.",
+    "url": "https://usrtk.org/wp-content/uploads/2021/09/DEFUSE-proposal.pdf",
+    "claim_summary": "A 2018 grant proposal (not funded by DARPA) that described plans including inserting furin cleavage sites into bat SARS-related coronaviruses and working with Wuhan Institute of Virology collaborators. The lab-leak side's strongest circumstantial document: it shows the specific capability and intent to engineer the very kind of feature (a furin cleavage site) that SARS-CoV-2 unexpectedly has. Objection: the proposal was rejected and there is no direct evidence the described work was carried out or produced SARS-CoV-2.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-furin",
+    "citation": "Reviews and analyses of the SARS-CoV-2 furin cleavage site (e.g., Coutard B et al., 2020; and subsequent contested commentary on its origin).",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0166354220300528",
+    "claim_summary": "SARS-CoV-2 has a furin cleavage site (FCS) at the S1/S2 boundary that is absent in its closest known sarbecovirus relatives and that enhances transmissibility. Both sides agree the FCS EXISTS and is functionally important. The dispute is interpretive: the lab-leak side reads it as an unexpected, engineering-plausible insertion (cf. DEFUSE); the zoonosis side notes furin cleavage sites arise naturally in many coronaviruses and that the specific sequence is not a clear engineering signature.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-ratg13-wiv",
+    "citation": "Zhou P, Shi ZL, et al. \"A pneumonia outbreak associated with a new coronavirus of probable bat origin.\" Nature, 2020 (RaTG13); plus public record of Wuhan Institute of Virology coronavirus research.",
+    "url": "https://www.nature.com/articles/s41586-020-2012-7",
+    "claim_summary": "The closest-then-known relative of SARS-CoV-2, RaTG13 (~96% genome identity, still evolutionarily distant), was sampled and held at the Wuhan Institute of Virology, which conducted extensive bat-coronavirus research in the outbreak city. Used by the lab-leak side to establish means, materials, and proximity. Objection: 96% identity is many years of evolution away, RaTG13 is not a plausible direct progenitor, and proximity of a major virology institute to a coronavirus outbreak is expected given where such institutes are sited.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-no-intermediate",
+    "citation": "Status-of-evidence reviews noting the absence, as of the debate, of an identified intermediate host or infected source animal for SARS-CoV-2 (contrast SARS-CoV-1 civets, MERS camels).",
+    "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+    "claim_summary": "Unlike SARS-CoV-1 (palm civets) and MERS (dromedary camels), no infected intermediate host animal or direct animal progenitor of SARS-CoV-2 had been identified as of the debate. The lab-leak side treats this absence as significant. The zoonosis side notes the intermediate host for SARS-CoV-1 also took time to find, that relevant market animals were removed/culled before sampling, and that absence of evidence under limited sampling is weak evidence of absence.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-who-joint",
+    "citation": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part (WHO-China joint report), 2021.",
+    "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+    "claim_summary": "The joint WHO-China study assessed origin hypotheses and rated zoonotic spillover (direct or via intermediate host) as likely-to-very-likely and a laboratory incident as extremely unlikely. Represents one institutional assessment. Its access limitations and the political constraints on the investigation are widely noted, including by the WHO Director-General, so treat as a pointer to underlying evidence and its limits, not a terminal authority.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-intel-assessments",
+    "citation": "US Intelligence Community assessments on COVID-19 origins (ODNI declassified summaries, 2021 and 2023).",
+    "url": "https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf",
+    "claim_summary": "US intelligence agencies reached NO consensus: several assessed natural exposure as more likely, at least one assessed a lab-associated incident as more likely, and all with low-to-moderate confidence; all agreed SARS-CoV-2 was not developed as a biological weapon. Directly evidences that the top question is genuinely unresolved at the level of expert institutions, which is the epistemic state this graph must represent honestly.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-chan-ridley",
+    "citation": "Chan A, Ridley M. \"Viral: The Search for the Origin of COVID-19.\" 2021; and associated analyses of the lab-origin hypothesis.",
+    "url": "https://en.wikipedia.org/wiki/Viral:_The_Search_for_the_Origin_of_COVID-19",
+    "claim_summary": "A prominent articulation of the research-related-incident (lab-leak) case, assembling the circumstantial argument (WIV research profile, DEFUSE, the furin cleavage site, early suppression of the hypothesis, gaps in the market case). Use to steelman the lab-leak position fairly as a set of positive claims. Objection the zoonosis side raises: the case is largely circumstantial and coincidence-based, with no direct documentary or biological evidence of a specific lab incident.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-endonuclease",
+    "citation": "Bruttel V, Washburne A, VanDongen A. \"Endonuclease fingerprint indicates a synthetic origin of SARS-CoV-2.\" bioRxiv preprint, 2022 (DOI 10.1101/2022.10.18.512756); plus published scientific responses/critiques.",
+    "url": "https://www.biorxiv.org/content/10.1101/2022.10.18.512756v2",
+    "claim_summary": "A lab-leak genomic-signature argument: SARS-CoV-2's genome carries a pattern of BsaI/BsmBI restriction sites (regular spacing, silent mutations concentrated at the sites) that the authors argue matches an idealized in-vitro reverse-genetics assembly system and is anomalous vs natural coronaviruses. One of the more concrete synthetic-origin arguments. Objection (widely made by other scientists): the pattern is not statistically anomalous -- comparably even BsaI/BsmBI spacings occur in natural coronavirus genomes, the result depended on selective enzyme choice and modeling assumptions, and the preprint was not peer-reviewed/published; so the pattern is consistent with a natural genome.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "cov-fcs-codon",
+    "citation": "Debate over the CGG-CGG codon doublet in the SARS-CoV-2 furin cleavage site: raised in commentary (e.g. Chan & Ridley, 'Viral', 2021) and rebutted in the peer-reviewed literature (e.g. 'SARS-CoV-2 furin cleavage site was not engineered', PNAS, 2022; 'Emergence of the Spike Furin Cleavage Site in SARS-CoV-2', Mol Biol Evol, 2022).",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2211107119",
+    "claim_summary": "A lab-leak genomic-signature argument: the two arginines of the furin cleavage site are encoded by a rare CGG-CGG doublet (CGG relative usage ~0 in pangolin CoV, ~0.08 in bat CoV, ~0.3 in SARS-CoV-2), argued to be improbable in a natural SARSr-CoV and suggestive of human codon optimization. Objection (peer-reviewed): CGG occurs in SARS-CoV and SARS-CoV-2 at comparable frequencies, codon rarity cannot establish provenance, and both CGG codons are >99.8% conserved across millions of sequenced genomes -- indicating natural functional constraint rather than an inserted low-fitness artifact that selection would have removed.",
+    "status": "VERIFY_BEFORE_USE"
+  }
+]

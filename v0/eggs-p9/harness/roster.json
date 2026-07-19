@@ -1,0 +1,200 @@
+{
+  "agents": [
+    {
+      "id": "mbh01",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbh02",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbh03",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbh04",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbh05",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbh06",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbh07",
+      "model": "haiku",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "mbs01",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "mbs02",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "mbs03",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "mbs04",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "mbs05",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "mbs06",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "mbs07",
+      "model": "sonnet",
+      "tier": "mild_biased",
+      "disposition": "mild_biased",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "nh01",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "nh02",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "nh03",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "nh04",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "nh05",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "nh06",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "nh07",
+      "model": "haiku",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "haiku"
+    },
+    {
+      "id": "ns01",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "ns02",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "ns03",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "ns04",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "ns05",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "ns06",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    },
+    {
+      "id": "ns07",
+      "model": "sonnet",
+      "tier": "neutral",
+      "disposition": "neutral",
+      "model_tier": "sonnet"
+    }
+  ]
+}

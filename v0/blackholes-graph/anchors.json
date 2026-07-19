@@ -1,0 +1,886 @@
+{
+  "panelists": [
+    "orc-sonnet-b",
+    "orc-sonnet-a",
+    "orc-opus",
+    "orc-fable"
+  ],
+  "tight_threshold": 0.75,
+  "calibration_anchors": [
+    "n003",
+    "n005",
+    "n006",
+    "n008",
+    "n009",
+    "n010",
+    "n012",
+    "n014",
+    "n015",
+    "n016",
+    "n017",
+    "n021",
+    "n023",
+    "n024",
+    "n025",
+    "n026",
+    "n030",
+    "n031",
+    "n032",
+    "n033",
+    "n035",
+    "n037",
+    "n038",
+    "n040",
+    "n042",
+    "n043",
+    "n044",
+    "n045",
+    "n048",
+    "n049",
+    "n051",
+    "n052",
+    "n055",
+    "n057",
+    "n059",
+    "n060",
+    "n061",
+    "n063",
+    "n064",
+    "n065"
+  ],
+  "weak_anchor_facts": [],
+  "reference_verdict": {
+    "n001": 4.7,
+    "n002": 0.325
+  },
+  "nodes": {
+    "n001": {
+      "class": "verdict",
+      "oracle_mean": 4.7,
+      "oracle_sd": 0.071,
+      "spread": 0.2,
+      "panel": {
+        "orc-sonnet-b": 4.7,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.7,
+        "orc-fable": 4.8
+      }
+    },
+    "n002": {
+      "class": "verdict",
+      "oracle_mean": 0.325,
+      "oracle_sd": 0.043,
+      "spread": 0.1,
+      "panel": {
+        "orc-sonnet-b": 0.3,
+        "orc-sonnet-a": 0.3,
+        "orc-opus": 0.4,
+        "orc-fable": 0.3
+      }
+    },
+    "n003": {
+      "class": "anchors",
+      "oracle_mean": 4.85,
+      "oracle_sd": 0.087,
+      "spread": 0.2,
+      "panel": {
+        "orc-sonnet-b": 4.8,
+        "orc-sonnet-a": 4.8,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n004": {
+      "class": "meta",
+      "oracle_mean": 4.85,
+      "oracle_sd": 0.05,
+      "spread": 0.1,
+      "panel": {
+        "orc-sonnet-b": 4.8,
+        "orc-sonnet-a": 4.8,
+        "orc-opus": 4.9,
+        "orc-fable": 4.9
+      }
+    },
+    "n005": {
+      "class": "anchors",
+      "oracle_mean": 4.7,
+      "oracle_sd": 0.187,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.7,
+        "orc-fable": 5
+      }
+    },
+    "n006": {
+      "class": "anchors",
+      "oracle_mean": 4.725,
+      "oracle_sd": 0.13,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.8,
+        "orc-fable": 4.9
+      }
+    },
+    "n007": {
+      "class": "meta",
+      "oracle_mean": 4.55,
+      "oracle_sd": 0.166,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.6,
+        "orc-fable": 4.8
+      }
+    },
+    "n008": {
+      "class": "anchors",
+      "oracle_mean": 4.35,
+      "oracle_sd": 0.206,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.2,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4.3,
+        "orc-fable": 4.7
+      }
+    },
+    "n009": {
+      "class": "anchors",
+      "oracle_mean": 4.35,
+      "oracle_sd": 0.206,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4.2,
+        "orc-fable": 4.7
+      }
+    },
+    "n010": {
+      "class": "anchors",
+      "oracle_mean": 4.6,
+      "oracle_sd": 0.212,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.7,
+        "orc-fable": 4.9
+      }
+    },
+    "n011": {
+      "class": "meta",
+      "oracle_mean": 3.975,
+      "oracle_sd": 0.148,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4,
+        "orc-sonnet-a": 3.8,
+        "orc-opus": 3.9,
+        "orc-fable": 4.2
+      }
+    },
+    "n012": {
+      "class": "anchors",
+      "oracle_mean": 4.525,
+      "oracle_sd": 0.043,
+      "spread": 0.1,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.5,
+        "orc-fable": 4.6
+      }
+    },
+    "n013": {
+      "class": "meta",
+      "oracle_mean": 3.9,
+      "oracle_sd": 0.3,
+      "spread": 0.8,
+      "panel": {
+        "orc-sonnet-b": 4,
+        "orc-sonnet-a": 3.4,
+        "orc-opus": 4.2,
+        "orc-fable": 4
+      }
+    },
+    "n014": {
+      "class": "anchors",
+      "oracle_mean": 4.775,
+      "oracle_sd": 0.083,
+      "spread": 0.2,
+      "panel": {
+        "orc-sonnet-b": 4.7,
+        "orc-sonnet-a": 4.7,
+        "orc-opus": 4.8,
+        "orc-fable": 4.9
+      }
+    },
+    "n015": {
+      "class": "anchors",
+      "oracle_mean": 4.625,
+      "oracle_sd": 0.164,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 4.9
+      }
+    },
+    "n016": {
+      "class": "anchors",
+      "oracle_mean": 4.725,
+      "oracle_sd": 0.192,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n017": {
+      "class": "anchors",
+      "oracle_mean": 4.875,
+      "oracle_sd": 0.083,
+      "spread": 0.2,
+      "panel": {
+        "orc-sonnet-b": 4.8,
+        "orc-sonnet-a": 4.8,
+        "orc-opus": 4.9,
+        "orc-fable": 5
+      }
+    },
+    "n018": {
+      "class": "meta",
+      "oracle_mean": 4.2,
+      "oracle_sd": 0.3,
+      "spread": 0.8,
+      "panel": {
+        "orc-sonnet-b": 3.7,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.3,
+        "orc-fable": 4.5
+      }
+    },
+    "n019": {
+      "class": "cruxes",
+      "oracle_mean": 1.9,
+      "oracle_sd": 0.43,
+      "spread": 1.2,
+      "panel": {
+        "orc-sonnet-b": 1.8,
+        "orc-sonnet-a": 2,
+        "orc-opus": 2.5,
+        "orc-fable": 1.3
+      }
+    },
+    "n020": {
+      "class": "cruxes",
+      "oracle_mean": 4.275,
+      "oracle_sd": 0.043,
+      "spread": 0.1,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4.3,
+        "orc-fable": 4.3
+      }
+    },
+    "n021": {
+      "class": "anchors",
+      "oracle_mean": 4.7,
+      "oracle_sd": 0.122,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.7,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.6,
+        "orc-fable": 4.9
+      }
+    },
+    "n022": {
+      "class": "meta",
+      "oracle_mean": 4.55,
+      "oracle_sd": 0.15,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.5,
+        "orc-fable": 4.8
+      }
+    },
+    "n023": {
+      "class": "anchors",
+      "oracle_mean": 4.625,
+      "oracle_sd": 0.164,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 4.9
+      }
+    },
+    "n024": {
+      "class": "anchors",
+      "oracle_mean": 4.725,
+      "oracle_sd": 0.192,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n025": {
+      "class": "anchors",
+      "oracle_mean": 4.625,
+      "oracle_sd": 0.164,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 4.9
+      }
+    },
+    "n026": {
+      "class": "anchors",
+      "oracle_mean": 4.675,
+      "oracle_sd": 0.148,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.7,
+        "orc-fable": 4.9
+      }
+    },
+    "n027": {
+      "class": "meta",
+      "oracle_mean": 4.7,
+      "oracle_sd": 0.122,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.7,
+        "orc-fable": 4.9
+      }
+    },
+    "n028": {
+      "class": "meta",
+      "oracle_mean": 3.825,
+      "oracle_sd": 0.249,
+      "spread": 0.6,
+      "panel": {
+        "orc-sonnet-b": 4,
+        "orc-sonnet-a": 4,
+        "orc-opus": 3.9,
+        "orc-fable": 3.4
+      }
+    },
+    "n029": {
+      "class": "meta",
+      "oracle_mean": 4.35,
+      "oracle_sd": 0.25,
+      "spread": 0.7,
+      "panel": {
+        "orc-sonnet-b": 4,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.4,
+        "orc-fable": 4.7
+      }
+    },
+    "n030": {
+      "class": "anchors",
+      "oracle_mean": 4.65,
+      "oracle_sd": 0.15,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 4.9
+      }
+    },
+    "n031": {
+      "class": "anchors",
+      "oracle_mean": 4.525,
+      "oracle_sd": 0.228,
+      "spread": 0.6,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.5,
+        "orc-fable": 4.9
+      }
+    },
+    "n032": {
+      "class": "anchors",
+      "oracle_mean": 4.15,
+      "oracle_sd": 0.335,
+      "spread": 0.9,
+      "panel": {
+        "orc-sonnet-b": 3.7,
+        "orc-sonnet-a": 4,
+        "orc-opus": 4.3,
+        "orc-fable": 4.6
+      }
+    },
+    "n033": {
+      "class": "anchors",
+      "oracle_mean": 4.55,
+      "oracle_sd": 0.166,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.6,
+        "orc-fable": 4.8
+      }
+    },
+    "n034": {
+      "class": "meta",
+      "oracle_mean": 4.3,
+      "oracle_sd": 0.141,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.1,
+        "orc-opus": 4.3,
+        "orc-fable": 4.5
+      }
+    },
+    "n035": {
+      "class": "anchors",
+      "oracle_mean": 4.425,
+      "oracle_sd": 0.228,
+      "spread": 0.6,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4.4,
+        "orc-fable": 4.8
+      }
+    },
+    "n036": {
+      "class": "meta",
+      "oracle_mean": 4.325,
+      "oracle_sd": 0.148,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.1,
+        "orc-opus": 4.4,
+        "orc-fable": 4.5
+      }
+    },
+    "n037": {
+      "class": "anchors",
+      "oracle_mean": 4.375,
+      "oracle_sd": 0.109,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.5,
+        "orc-fable": 4.2
+      }
+    },
+    "n038": {
+      "class": "anchors",
+      "oracle_mean": 4.45,
+      "oracle_sd": 0.05,
+      "spread": 0.1,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.5,
+        "orc-fable": 4.5
+      }
+    },
+    "n039": {
+      "class": "cruxes",
+      "oracle_mean": 4.2,
+      "oracle_sd": 0.173,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.3,
+        "orc-fable": 3.9
+      }
+    },
+    "n040": {
+      "class": "anchors",
+      "oracle_mean": 4.475,
+      "oracle_sd": 0.179,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.6,
+        "orc-fable": 4.7
+      }
+    },
+    "n041": {
+      "class": "cruxes",
+      "oracle_mean": 4.25,
+      "oracle_sd": 0.18,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.2,
+        "orc-sonnet-a": 4,
+        "orc-opus": 4.3,
+        "orc-fable": 4.5
+      }
+    },
+    "n042": {
+      "class": "anchors",
+      "oracle_mean": 4.55,
+      "oracle_sd": 0.206,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.7,
+        "orc-fable": 4.8
+      }
+    },
+    "n043": {
+      "class": "anchors",
+      "oracle_mean": 4.4,
+      "oracle_sd": 0.212,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.2,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4.5,
+        "orc-fable": 4.7
+      }
+    },
+    "n044": {
+      "class": "anchors",
+      "oracle_mean": 4.8,
+      "oracle_sd": 0.122,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.7,
+        "orc-sonnet-a": 4.7,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n045": {
+      "class": "anchors",
+      "oracle_mean": 4.625,
+      "oracle_sd": 0.043,
+      "spread": 0.1,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.7,
+        "orc-fable": 4.6
+      }
+    },
+    "n046": {
+      "class": "meta",
+      "oracle_mean": 4.6,
+      "oracle_sd": 0.122,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 4.8
+      }
+    },
+    "n047": {
+      "class": "meta",
+      "oracle_mean": 4.425,
+      "oracle_sd": 0.13,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.5,
+        "orc-fable": 4.6
+      }
+    },
+    "n048": {
+      "class": "anchors",
+      "oracle_mean": 4.65,
+      "oracle_sd": 0.206,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 5
+      }
+    },
+    "n049": {
+      "class": "anchors",
+      "oracle_mean": 4.675,
+      "oracle_sd": 0.205,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.7,
+        "orc-fable": 5
+      }
+    },
+    "n050": {
+      "class": "meta",
+      "oracle_mean": 4.75,
+      "oracle_sd": 0.166,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n051": {
+      "class": "anchors",
+      "oracle_mean": 4.575,
+      "oracle_sd": 0.192,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.5,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.5,
+        "orc-fable": 4.9
+      }
+    },
+    "n052": {
+      "class": "anchors",
+      "oracle_mean": 4.5,
+      "oracle_sd": 0.187,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.5,
+        "orc-fable": 4.8
+      }
+    },
+    "n053": {
+      "class": "cruxes",
+      "oracle_mean": 4.15,
+      "oracle_sd": 0.166,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4,
+        "orc-fable": 4.4
+      }
+    },
+    "n054": {
+      "class": "cruxes",
+      "oracle_mean": 4.2,
+      "oracle_sd": 0.212,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4,
+        "orc-sonnet-a": 4,
+        "orc-opus": 4.3,
+        "orc-fable": 4.5
+      }
+    },
+    "n055": {
+      "class": "anchors",
+      "oracle_mean": 4.85,
+      "oracle_sd": 0.087,
+      "spread": 0.2,
+      "panel": {
+        "orc-sonnet-b": 4.8,
+        "orc-sonnet-a": 4.8,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n056": {
+      "class": "meta",
+      "oracle_mean": 4.525,
+      "oracle_sd": 0.13,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.6,
+        "orc-fable": 4.7
+      }
+    },
+    "n057": {
+      "class": "anchors",
+      "oracle_mean": 4.7,
+      "oracle_sd": 0.122,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.7,
+        "orc-fable": 4.9
+      }
+    },
+    "n058": {
+      "class": "meta",
+      "oracle_mean": 4.05,
+      "oracle_sd": 0.229,
+      "spread": 0.6,
+      "panel": {
+        "orc-sonnet-b": 4.2,
+        "orc-sonnet-a": 3.7,
+        "orc-opus": 4.3,
+        "orc-fable": 4
+      }
+    },
+    "n059": {
+      "class": "anchors",
+      "oracle_mean": 4.775,
+      "oracle_sd": 0.148,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.7,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n060": {
+      "class": "anchors",
+      "oracle_mean": 4.675,
+      "oracle_sd": 0.148,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.7,
+        "orc-fable": 4.9
+      }
+    },
+    "n061": {
+      "class": "anchors",
+      "oracle_mean": 4.55,
+      "oracle_sd": 0.206,
+      "spread": 0.5,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.4,
+        "orc-opus": 4.7,
+        "orc-fable": 4.8
+      }
+    },
+    "n062": {
+      "class": "meta",
+      "oracle_mean": 4.2,
+      "oracle_sd": 0.245,
+      "spread": 0.6,
+      "panel": {
+        "orc-sonnet-b": 3.8,
+        "orc-sonnet-a": 4.2,
+        "orc-opus": 4.4,
+        "orc-fable": 4.4
+      }
+    },
+    "n063": {
+      "class": "anchors",
+      "oracle_mean": 4.8,
+      "oracle_sd": 0.122,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.7,
+        "orc-sonnet-a": 4.7,
+        "orc-opus": 4.8,
+        "orc-fable": 5
+      }
+    },
+    "n064": {
+      "class": "anchors",
+      "oracle_mean": 4.675,
+      "oracle_sd": 0.13,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.6,
+        "orc-sonnet-a": 4.6,
+        "orc-opus": 4.6,
+        "orc-fable": 4.9
+      }
+    },
+    "n065": {
+      "class": "anchors",
+      "oracle_mean": 4.575,
+      "oracle_sd": 0.148,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.5,
+        "orc-opus": 4.6,
+        "orc-fable": 4.8
+      }
+    },
+    "n066": {
+      "class": "meta",
+      "oracle_mean": 4.35,
+      "oracle_sd": 0.15,
+      "spread": 0.4,
+      "panel": {
+        "orc-sonnet-b": 4.3,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.2,
+        "orc-fable": 4.6
+      }
+    },
+    "n067": {
+      "class": "meta",
+      "oracle_mean": 4.3,
+      "oracle_sd": 0.071,
+      "spread": 0.2,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.2,
+        "orc-fable": 4.3
+      }
+    },
+    "n068": {
+      "class": "cruxes",
+      "oracle_mean": 1.35,
+      "oracle_sd": 0.517,
+      "spread": 1.4,
+      "panel": {
+        "orc-sonnet-b": 1.2,
+        "orc-sonnet-a": 1.2,
+        "orc-opus": 2.2,
+        "orc-fable": 0.8
+      }
+    },
+    "n069": {
+      "class": "meta",
+      "oracle_mean": 4.45,
+      "oracle_sd": 0.112,
+      "spread": 0.3,
+      "panel": {
+        "orc-sonnet-b": 4.4,
+        "orc-sonnet-a": 4.3,
+        "orc-opus": 4.5,
+        "orc-fable": 4.6
+      }
+    }
+  }
+}

@@ -1,0 +1,454 @@
+[
+  {
+    "panelist": "orc-sonnet-a",
+    "scores": [
+      {
+        "node": "n001",
+        "score": 3.3
+      },
+      {
+        "node": "n002",
+        "score": 2
+      },
+      {
+        "node": "n003",
+        "score": 4.4
+      },
+      {
+        "node": "n004",
+        "score": 4
+      },
+      {
+        "node": "n005",
+        "score": 4.3
+      },
+      {
+        "node": "n006",
+        "score": 2.2
+      },
+      {
+        "node": "n007",
+        "score": 3.4
+      },
+      {
+        "node": "n008",
+        "score": 2.9
+      },
+      {
+        "node": "n009",
+        "score": 2.8
+      },
+      {
+        "node": "n010",
+        "score": 4.3
+      },
+      {
+        "node": "n011",
+        "score": 4.5
+      },
+      {
+        "node": "n012",
+        "score": 4.3
+      },
+      {
+        "node": "n013",
+        "score": 2.1
+      },
+      {
+        "node": "n014",
+        "score": 2.3
+      },
+      {
+        "node": "n015",
+        "score": 3
+      },
+      {
+        "node": "n016",
+        "score": 1.8
+      },
+      {
+        "node": "n017",
+        "score": 3.5
+      },
+      {
+        "node": "n018",
+        "score": 4.7
+      },
+      {
+        "node": "n019",
+        "score": 3.4
+      },
+      {
+        "node": "n020",
+        "score": 3.7
+      },
+      {
+        "node": "n021",
+        "score": 4.3
+      },
+      {
+        "node": "n022",
+        "score": 4
+      },
+      {
+        "node": "n023",
+        "score": 4
+      },
+      {
+        "node": "n024",
+        "score": 4.5
+      },
+      {
+        "node": "n025",
+        "score": 4
+      },
+      {
+        "node": "n026",
+        "score": 4.3
+      },
+      {
+        "node": "n027",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "panelist": "orc-sonnet-b",
+    "scores": [
+      {
+        "node": "n001",
+        "score": 3.3
+      },
+      {
+        "node": "n002",
+        "score": 2
+      },
+      {
+        "node": "n003",
+        "score": 4.5
+      },
+      {
+        "node": "n004",
+        "score": 4.5
+      },
+      {
+        "node": "n005",
+        "score": 4.5
+      },
+      {
+        "node": "n006",
+        "score": 2
+      },
+      {
+        "node": "n007",
+        "score": 3.5
+      },
+      {
+        "node": "n008",
+        "score": 3
+      },
+      {
+        "node": "n009",
+        "score": 2.8
+      },
+      {
+        "node": "n010",
+        "score": 4.5
+      },
+      {
+        "node": "n011",
+        "score": 4.7
+      },
+      {
+        "node": "n012",
+        "score": 4.5
+      },
+      {
+        "node": "n013",
+        "score": 1.5
+      },
+      {
+        "node": "n014",
+        "score": 2.2
+      },
+      {
+        "node": "n015",
+        "score": 3.3
+      },
+      {
+        "node": "n016",
+        "score": 2
+      },
+      {
+        "node": "n017",
+        "score": 3.5
+      },
+      {
+        "node": "n018",
+        "score": 4.8
+      },
+      {
+        "node": "n019",
+        "score": 3.2
+      },
+      {
+        "node": "n020",
+        "score": 4
+      },
+      {
+        "node": "n021",
+        "score": 4.3
+      },
+      {
+        "node": "n022",
+        "score": 3.8
+      },
+      {
+        "node": "n023",
+        "score": 4.3
+      },
+      {
+        "node": "n024",
+        "score": 4.7
+      },
+      {
+        "node": "n025",
+        "score": 4
+      },
+      {
+        "node": "n026",
+        "score": 4.4
+      },
+      {
+        "node": "n027",
+        "score": 4
+      }
+    ]
+  },
+  {
+    "panelist": "orc-opus",
+    "scores": [
+      {
+        "node": "n001",
+        "score": 3.2
+      },
+      {
+        "node": "n002",
+        "score": 2.2
+      },
+      {
+        "node": "n003",
+        "score": 4.3
+      },
+      {
+        "node": "n004",
+        "score": 4
+      },
+      {
+        "node": "n005",
+        "score": 4.4
+      },
+      {
+        "node": "n006",
+        "score": 2.3
+      },
+      {
+        "node": "n007",
+        "score": 3.3
+      },
+      {
+        "node": "n008",
+        "score": 2.8
+      },
+      {
+        "node": "n009",
+        "score": 3.3
+      },
+      {
+        "node": "n010",
+        "score": 4.6
+      },
+      {
+        "node": "n011",
+        "score": 4.5
+      },
+      {
+        "node": "n012",
+        "score": 4.4
+      },
+      {
+        "node": "n013",
+        "score": 2.2
+      },
+      {
+        "node": "n014",
+        "score": 2.6
+      },
+      {
+        "node": "n015",
+        "score": 3.2
+      },
+      {
+        "node": "n016",
+        "score": 2
+      },
+      {
+        "node": "n017",
+        "score": 3.4
+      },
+      {
+        "node": "n018",
+        "score": 4.6
+      },
+      {
+        "node": "n019",
+        "score": 3.2
+      },
+      {
+        "node": "n020",
+        "score": 4.3
+      },
+      {
+        "node": "n021",
+        "score": 3.7
+      },
+      {
+        "node": "n022",
+        "score": 4.1
+      },
+      {
+        "node": "n023",
+        "score": 4.3
+      },
+      {
+        "node": "n024",
+        "score": 4.4
+      },
+      {
+        "node": "n025",
+        "score": 4.3
+      },
+      {
+        "node": "n026",
+        "score": 4
+      },
+      {
+        "node": "n027",
+        "score": 3.7
+      }
+    ]
+  },
+  {
+    "panelist": "orc-fable",
+    "scores": [
+      {
+        "node": "n001",
+        "score": 3.5
+      },
+      {
+        "node": "n002",
+        "score": 2.3
+      },
+      {
+        "node": "n003",
+        "score": 4.5
+      },
+      {
+        "node": "n004",
+        "score": 4.2
+      },
+      {
+        "node": "n005",
+        "score": 4.5
+      },
+      {
+        "node": "n006",
+        "score": 2
+      },
+      {
+        "node": "n007",
+        "score": 3.5
+      },
+      {
+        "node": "n008",
+        "score": 2.8
+      },
+      {
+        "node": "n009",
+        "score": 3.2
+      },
+      {
+        "node": "n010",
+        "score": 4.6
+      },
+      {
+        "node": "n011",
+        "score": 4.5
+      },
+      {
+        "node": "n012",
+        "score": 4.5
+      },
+      {
+        "node": "n013",
+        "score": 2.2
+      },
+      {
+        "node": "n014",
+        "score": 2.5
+      },
+      {
+        "node": "n015",
+        "score": 3.3
+      },
+      {
+        "node": "n016",
+        "score": 2
+      },
+      {
+        "node": "n017",
+        "score": 3.5
+      },
+      {
+        "node": "n018",
+        "score": 4.7
+      },
+      {
+        "node": "n019",
+        "score": 3.4
+      },
+      {
+        "node": "n020",
+        "score": 4.5
+      },
+      {
+        "node": "n021",
+        "score": 4
+      },
+      {
+        "node": "n022",
+        "score": 3.8
+      },
+      {
+        "node": "n023",
+        "score": 4.5
+      },
+      {
+        "node": "n024",
+        "score": 4.5
+      },
+      {
+        "node": "n025",
+        "score": 4.5
+      },
+      {
+        "node": "n026",
+        "score": 4
+      },
+      {
+        "node": "n027",
+        "score": 3.6
+      }
+    ]
+  }
+]

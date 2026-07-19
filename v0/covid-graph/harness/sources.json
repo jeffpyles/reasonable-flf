@@ -1,0 +1,271 @@
+{
+  "question": "Did SARS-CoV-2 arise by natural zoonotic spillover or by a research-related incident?",
+  "sources": [
+    {
+      "id": "s01",
+      "url": "https://academic.oup.com/mbe/article/42/6/msaf118/8158589",
+      "title": "Data are Insufficient to Confidently Root the SARS-CoV-2 Phylogenetic Tree (2025), Molecular Biology and Evolution",
+      "quality": "primary",
+      "claims": [
+        "For SARS-CoV-2 the two standard rooting principles conflict: the earliest-collected sequences (mostly from people who visited or worked at the Huanan Market, i.e. lineage B) are NOT the sequences most similar to the bat-coronavirus outgroups, so outgroup-based rooting (which favors lineage A as ancestral) and date-based rooting (which favors the earliest, market-linked lineage B) point to different roots.",
+        "The root of the SARS-CoV-2 tree cannot be confidently placed between lineage A and lineage B with current genomic data, which means genomic/phylogenetic data alone cannot definitively establish whether the pandemic began with one or two independent introductions into humans.",
+        "The discrepancy between outgroup- and date-based rooting is attributable to demonstrable bias among the earliest available SARS-CoV-2 sequences, and this bias is why the root cannot be conclusively resolved with existing data.",
+        "The paper is a single-author peer-reviewed analysis by Jesse D. Bloom (Fred Hutchinson Cancer Center / HHMI) published in Molecular Biology and Evolution in 2025 (vol. 42, issue 6, article msaf118; DOI 10.1093/molbev/msaf118), accompanied by an interactive narrative letting readers examine the underlying sequence data."
+      ]
+    },
+    {
+      "id": "s02",
+      "url": "https://academic.oup.com/ve/article/9/2/vead050/7249794",
+      "title": "Bloom (2023), Association between SARS-CoV-2 and metagenomic content of samples from the Huanan Seafood Market, Virus Evolution",
+      "quality": "primary",
+      "claims": [
+        "In the Huanan market environmental samples, SARS-CoV-2 reads are NOT consistently correlated with reads from susceptible non-human animals like raccoon dogs; samples with abundant raccoon-dog material usually contain little or no SARS-CoV-2, undercutting the inference that these samples pinpoint an infected animal.",
+        "The co-mingling of viral and animal genetic material in the January 2020 market environmental samples is unlikely to reveal which species (if any) was an intermediate host, because the virus was already widespread in the market by then.",
+        "Bloom's reanalysis and the original (China CDC / Crits-Christoph et al.) analysis agree on the underlying data: the market samples contain genetic material from many species, including raccoon dogs, which are susceptible to SARS-CoV-2. The disagreement is over interpretation, not the presence of susceptible-species DNA.",
+        "The environmental samples analyzed were collected only after the market was closed on 1 January 2020, meaning they postdate the earliest human cases and cannot directly establish an animal source of the initial spillover."
+      ]
+    },
+    {
+      "id": "s03",
+      "url": "https://arxiv.org/pdf/2502.20076",
+      "title": "Purported quantitative support for multiple introductions of SARS-CoV-2 into humans is an artefact of an imbalanced hypothesis-testing framework (2025)",
+      "quality": "primary",
+      "claims": [
+        "Pekar et al.'s widely-cited genomic analysis claimed strong support (Bayes factor ~60) for two separate zoonotic introductions of SARS-CoV-2 into humans, underpinning the argument that the market outbreak resulted from multiple animal-to-human spillovers rather than one introduction.",
+        "McCowan argues the claimed statistical support for two introductions is an artefact of an imbalanced hypothesis-testing framework in which the single-introduction model was held to more stringent acceptance conditions than the two-introduction model.",
+        "When the two-introduction model is subjected to the same conditions imposed on the single-introduction model, the quantitative support for multiple introductions disappears, undermining a load-bearing genomic argument for zoonotic origin.",
+        "The specific asymmetries driving the inflated Bayes factor are identifiable as a relative-clade-size condition, an evolutionary-separation condition, and a root-shape condition applied unequally to the competing models."
+      ]
+    },
+    {
+      "id": "s04",
+      "url": "https://www.biorxiv.org/content/10.1101/2022.10.10.511625.full.pdf",
+      "title": "Statistical challenges for inferring multiple SARS-CoV-2 spillovers with early outbreak phylodynamics (preprint critique)",
+      "quality": "primary",
+      "claims": [
+        "The paper argues that the phylodynamic model used by Pekar et al. is biased against polytomies, so Pekar et al.'s finding of a low probability of basal (Lineage A and B) polytomies under a single-introduction scenario is a model artifact rather than genuine evidence for two spillovers.",
+        "The paper contends that Pekar et al. improperly excluded 20 SARS-CoV-2 genomes with intermediate (A-B) haplotypes using questionable criteria (low read depth, claims of erroneous base calls at lineage-defining sites), and that these intermediate genomes are inconsistent with a strict two-spillover model that requires lineages A and B to arise from separate introductions.",
+        "The critique identifies two specific methodological artifacts that it says drive Pekar et al.'s two-spillover conclusion: the exclusion of informative genomes and reliance on unrealistic phylodynamic models; correcting these undermines the quantitative support for multiple introductions.",
+        "The paper concludes that the phylogenetic/phylodynamic evidence does not robustly distinguish two independent zoonotic introductions from a single introduction, because the analyses fail to account for ascertainment and sampling biases in how early Wuhan cases were detected and sampled."
+      ]
+    },
+    {
+      "id": "s05",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(24)00901-2",
+      "title": "Crits-Christoph, Levy, Pekar et al. (2024), Genetic tracing of market wildlife and viruses at the epicenter of the COVID-19 pandemic, Cell",
+      "quality": "primary",
+      "claims": [
+        "Environmental samples from a specific wildlife stall in the southwest corner of the Huanan Seafood Market showed increased SARS-CoV-2 positivity, and wildlife DNA was identified in every SARS-CoV-2-positive sample from that stall.",
+        "The wildlife species whose DNA co-occurred with SARS-CoV-2-positive market samples include civets, bamboo rats, and raccoon dogs \u2014 species previously proposed as candidate intermediate hosts \u2014 with raccoon dogs and hoary bamboo rats being the most abundant mammalian wildlife detected.",
+        "Specific market objects associated with a wildlife stall (animal carts, a cage, and a hair/feather remover) tested SARS-CoV-2-positive and contained more mammalian wildlife DNA than human DNA, indicating the virus co-located with animals rather than merely with infected humans.",
+        "Both SARS-CoV-2 lineage A and lineage B were detected in market environmental samples, and the earliest lineage A cases were geographically close to the market \u2014 consistent with two spillover events at the market rather than a single introduction.",
+        "The authors conclude that multiple independent lines of evidence corroborate a live wildlife market origin of the COVID-19 pandemic via the wildlife trade, rather than a lab-related origin."
+      ]
+    },
+    {
+      "id": "s06",
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf",
+      "title": "Report on Potential Links Between the Wuhan Institute of Virology and the Origins of COVID-19 (ODNI, June 23, 2023)",
+      "quality": "primary",
+      "claims": [
+        "The US Intelligence Community assessed that SARS-CoV-2 was almost certainly not genetically engineered: most agencies concluded with low confidence that it probably was not engineered, while two agencies found insufficient evidence to assess either way. This weighs against the specific 'engineered bioweapon' variant of the lab-leak hypothesis.",
+        "The report confirms that the Wuhan Institute of Virology had the technical capability to create and genetically engineer novel coronaviruses (including chimeras), establishing that a lab-origin pathway was technically feasible even though the IC found no evidence it occurred.",
+        "Several WIV staff were ill with respiratory or other symptoms in the fall of 2019, but the IC judged these illnesses did not clearly point to COVID-19, so the 'sick researchers' reporting neither confirms nor refutes a lab-associated origin.",
+        "The declassified IC assessment did not identify direct evidence that the WIV possessed SARS-CoV-2 or a close progenitor virus before the pandemic, leaving the central lab-leak mechanism unproven by the intelligence available.",
+        "The report was mandated by the COVID-19 Origin Act of 2023 and declassified by DNI Avril Haines on 23 June 2023, documenting that the IC remained divided (five agencies plus the National Intelligence Council favoring natural spillover, the FBI and Department of Energy favoring a lab-associated origin)."
+      ]
+    },
+    {
+      "id": "s07",
+      "url": "https://www.mdpi.com/2036-7481/14/1/33",
+      "title": "Unwarranted Exclusion of Intermediate Lineage A-B SARS-CoV-2 Genomes Is Inconsistent with the Two-Spillover Hypothesis (2023), Microbiology Research",
+      "quality": "primary",
+      "claims": [
+        "Lineages A and B are differentiated by two SNVs (at positions 8782 and 28144), so the two-spillover hypothesis of Pekar et al. logically requires that a single-SNV A-B intermediate genome existed in an unsampled animal host; finding such an intermediate in humans would falsify the two-spillover model.",
+        "Pekar et al. (2022) identified and excluded 20 A-B intermediate human genomes from their phylogenetic analysis supporting two separate zoonotic spillovers at the Huanan Seafood Market.",
+        "The exclusion criteria used by Pekar et al. \u2014 low read depth and assertion of erroneous base calls at lineage-defining positions 8782 and 28144 \u2014 are inconsistent with GISAID data showing most excluded genomes were sequenced to high average sequencing depth.",
+        "The authors conclude that the exclusion of the intermediate genomes is unfounded, which leaves the conclusion of two independent natural zoonoses unsupported."
+      ]
+    },
+    {
+      "id": "s08",
+      "url": "https://www.nature.com/articles/s41586-023-06043-2",
+      "title": "Liu, Liu et al. (2023), Surveillance of SARS-CoV-2 at the Huanan Seafood Market, Nature",
+      "quality": "primary",
+      "claims": [
+        "SARS-CoV-2 was detected by RT-qPCR in 73 environmental samples from the Huanan market, but in none of the 457 animal samples collected (from 18 species), meaning no infected animal was directly identified.",
+        "Some SARS-CoV-2-positive environmental samples also contained genetic material from animals susceptible to the virus, including raccoon dogs, establishing co-location of virus and susceptible-species DNA at the market.",
+        "Both viral lineages were represented in the market environment: lineage A (defined by the 8782T and 28144C markers) was recovered from an environmental sample, in addition to lineage B.",
+        "The original authors interpreted their data cautiously, concluding that presence of susceptible-animal DNA in positive samples does not prove those animals were infected, and that human-to-animal reverse transmission could not be excluded because sampling occurred in January 2020, after human cases had been reported and the market was closed.",
+        "Sampling occurred only after the market's closure: 923 environmental samples were collected from 1 January 2020 and 457 animal samples from 18 January 2020, so the dataset cannot capture the live-animal state of the market before closure."
+      ]
+    },
+    {
+      "id": "s09",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2211107119",
+      "title": "The SARS-CoV-2 furin cleavage site was not engineered (2022), PNAS",
+      "quality": "primary",
+      "claims": [
+        "The 8-amino-acid similarity (RRARSVAS) between the SARS-CoV-2 spike furin cleavage site and a human ENaC furin cleavage site is coincidental, not the product of engineering.",
+        "Codon usage rules out ENaC-mimicry engineering: except for a single codon (cgu encoding arginine 685), every codon encoding RRARSVAS differs between human ENaC and SARS-CoV-2, which would not be expected if the sequence had been copied from ENaC.",
+        "Five of the eight amino acids (RSVAS) in/near the shared ENaC-like motif are already present in the spikes of naturally occurring sarbecoviruses such as BANAL-20-52, so the motif arises naturally in related coronaviruses rather than requiring a human-ENaC template.",
+        "The paper directly rebuts Harrison and Sachs' accusation that UNC and Wuhan Institute of Virology coronavirologists mimicked the human ENaC furin cleavage site to make SARS-CoV-2 more infectious for lung epithelia; a designer would illogically have used a coronavirus FCS rather than ENaC's."
+      ]
+    },
+    {
+      "id": "s10",
+      "url": "https://www.science.org/doi/10.1126/science.abp8337",
+      "title": "Pekar et al. (2022), The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2, Science",
+      "quality": "primary",
+      "claims": [
+        "Prior to February 2020, SARS-CoV-2 genomic diversity comprised only two distinct viral lineages, designated A and B, which cannot be readily explained by a single introduction into humans.",
+        "Phylodynamic rooting and epidemic simulations indicate the two lineages resulted from at least two separate cross-species (zoonotic) transmission events into humans, rather than one spillover.",
+        "The most probable explanation for SARS-CoV-2's emergence in humans is zoonotic jumps from as-yet undetermined intermediate host animals at the Huanan Seafood Market, favoring a market-based zoonotic origin over a lab origin.",
+        "The first zoonotic transmission likely involved lineage B viruses around 18 November 2019 (range 23 October to 8 December 2019), with the separate lineage A introduction occurring within weeks of that event.",
+        "Statistical analysis of the earliest human cases located them to one section of the Huanan market where live wild-animal vendors congregated and where virus-positive environmental samples were concentrated."
+      ]
+    },
+    {
+      "id": "s11",
+      "url": "https://www.science.org/doi/10.1126/science.abp8715",
+      "title": "Worobey et al. (2022), The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic, Science",
+      "quality": "primary",
+      "claims": [
+        "The earliest known COVID-19 cases from December 2019, including those with no reported link to the market, were geographically centered on the Huanan Seafood Wholesale Market, statistically identifying it as the early epicenter of the pandemic.",
+        "SARS-CoV-2-positive environmental samples inside the market (73 positives, with three live-virus isolations) were spatially clustered in the section where vendors sold live wild/susceptible mammals, linking the virus to the wildlife trade rather than to seafood or human traffic generally.",
+        "The two early viral lineages (A and B) circulating before February 2020 reflect at least two separate cross-species (animal-to-human) introductions at the Huanan market, rather than a single spillover event.",
+        "The authors conclude the pandemic's emergence occurred via the live wildlife trade in China, with the Huanan market as the origin point \u2014 supporting a natural zoonotic-spillover hypothesis over a lab-associated origin.",
+        "Live SARS-CoV-2-susceptible mammals were being sold at the Huanan market in late 2019, establishing the physical presence of a plausible intermediate-host pathway at the identified epicenter."
+      ]
+    },
+    {
+      "id": "s12",
+      "url": "https://www.nature.com/articles/s41591-020-0820-9",
+      "title": "Andersen KG, Rambaut A, Lipkin WI, Holmes EC, Garry RF. \"The proximal origin of SARS-CoV-2.\" Nature Medicine 26, 450-452 (2020)",
+      "quality": "secondary",
+      "claims": [
+        "The paper \"The proximal origin of SARS-CoV-2\" (Andersen, Rambaut, Lipkin, Holmes, Garry), published in Nature Medicine on 17 March 2020, concluded that the virus arose by natural zoonotic spillover and explicitly rejected a laboratory origin.",
+        "During drafting, the authors privately considered a lab origin (including the furin cleavage site arising via serial passage) and acknowledged the evidence did not rule out an accidental lab infection, in tension with the confident public conclusion.",
+        "An early draft of the paper stated that furin cleavage sites can arise in betacoronaviruses in the lab through serial passage, but this discussion was altered before the final published version dismissed the lab scenario.",
+        "The paper's case for natural origin rested on specific genomic features \u2014 the receptor-binding domain and the spike protein / furin cleavage site \u2014 which the authors argued were more consistent with natural selection than with laboratory engineering."
+      ]
+    },
+    {
+      "id": "s13",
+      "url": "https://healthpolicy-watch.news/breaking-animal-source-most-likely-origin-of-sars-cov2-but-findings-inconclusive-says-who-expert-group/",
+      "title": "Animal Source Most Likely Origin But Missing Chinese Data Leave Findings Inconclusive: WHO SAGO (Health Policy Watch)",
+      "quality": "secondary",
+      "claims": [
+        "The WHO Scientific Advisory Group for the Origins of Novel Pathogens (SAGO) concluded that the weight of scientific evidence supports SARS-CoV-2 first entering humans either directly from bats or via an intermediate host, making a zoonotic (animal-source) origin the most likely explanation.",
+        "SAGO received information (from China CDC) of molecular evidence that animals sold at the Huanan market, including raccoon dogs, were susceptible to SARS-CoV-2, and DNA from such susceptible wildlife was found in SARS-CoV-2-positive environmental samples from the market.",
+        "Despite favoring an animal origin, SAGO stated the origins of SARS-CoV-2 will remain inconclusive until more data becomes available, and it could not rule out a laboratory-related origin, largely because of data gaps attributed to China.",
+        "A key barrier to a definitive conclusion is unshared Chinese data \u2014 including genetic sequences from Wuhan patient samples and 'upstream' information on the farms and traders supplying animals to Wuhan markets \u2014 which also constrains investigation of the lab-leak hypothesis."
+      ]
+    },
+    {
+      "id": "s14",
+      "url": "https://journals.asm.org/doi/10.1128/jvi.00365-23",
+      "title": "A Critical Analysis of the Evidence for the SARS-CoV-2 Origin Hypotheses (2023), Journal of Virology",
+      "quality": "secondary",
+      "claims": [
+        "The two leading origin hypotheses cannot currently be distinguished or falsified with available evidence, so a definitive determination of SARS-CoV-2's origin is unlikely.",
+        "The core reason the origin debate remains unresolved is missing data, not conclusive evidence for either side; the lab-leak hypothesis in particular cannot be confirmed without new evidence.",
+        "The intact furin cleavage site in early SARS-CoV-2 isolates argues against a laboratory cell-culture origin, because culturing the virus in cell lines reproducibly deletes the furin cleavage site region of the spike gene.",
+        "No single viral genome feature (including the furin cleavage site or RBD ACE2-binding residues) provides definitive evidence for either hypothesis; each is consistent with both natural evolution and laboratory scenarios such as serial passage.",
+        "An intermediate host is presumed for zoonotic transmission (bats as natural reservoir, pangolins proposed as intermediate), but the identity and even existence of an intermediate host remain controversial and unconfirmed."
+      ]
+    },
+    {
+      "id": "s15",
+      "url": "https://journals.asm.org/doi/10.1128/mbio.00583-23",
+      "title": "A Critical Analysis of the Evidence for the SARS-CoV-2 Origin Hypotheses (mBio)",
+      "quality": "secondary",
+      "claims": [
+        "The authors conclude the two origin hypotheses are not equally probable and that the balance of evidence favors natural zoonotic origin, while acknowledging a definitive determination is unlikely with currently available data.",
+        "Early SARS-CoV-2 isolates retained an intact furin cleavage site, whereas that site tends to be deleted during laboratory cell-culture handling, which the authors argue is evidence against introduction into humans after passage in laboratory cell culture.",
+        "Two genetically distinct early lineages (A and B), distinguishable by genome sequence, circulated in early Wuhan cases, which the authors interpret as consistent with multiple independent spillover events into humans.",
+        "The intermediate host and the specific viral lineage that seeded the pandemic remain unidentified because the host niche harboring the direct precursors of SARS-CoV-2 has not been adequately sampled.",
+        "Roughly one-quarter of the first 174 documented December 2019 cases were epidemiologically linked to the Huanan Seafood Wholesale Market, supporting the market as an early focus of the outbreak."
+      ]
+    },
+    {
+      "id": "s16",
+      "url": "https://usrtk.org/covid-19-origins/nih-files-reveal-broader-coronavirus-engineering-research-before-covid-19/",
+      "title": "U.S. Right to Know \u2014 NIH files reveal broader coronavirus engineering research before COVID-19",
+      "quality": "secondary",
+      "claims": [
+        "On March 31, 2016, NIH notified the University of Minnesota that a Li-Baric coronavirus grant might fall under the federal gain-of-function funding pause, asking the researchers to clarify whether the work could produce enhanced pathogen traits in mammals via the respiratory route.",
+        "A grant component labeled 'Experiment 4' proposed creating live recombinant SARS-like viruses with engineered mutations to test how efficiently the viruses could infect different species.",
+        "The 2018 DEFUSE proposal, coauthored by the Wuhan Institute of Virology (Zhengli Shi), EcoHealth Alliance, and UNC's Ralph Baric, proposed engineering high-risk SARS-related coronaviruses including cleavage-site insertions and spike-protein swaps, but was never funded.",
+        "Ralph Baric, a UNC virologist who pioneered coronavirus reverse-genetics (no-see-um / seamless cloning) systems, had a years-long collaboration with Chinese researcher Li and others studying how coronaviruses adapt to new hosts."
+      ]
+    },
+    {
+      "id": "s17",
+      "url": "https://www.nbcnews.com/politics/politics-news/us-intelligence-agencies-remain-divided-likely-covid-origin-rcna90914",
+      "title": "Newly declassified report shows U.S. intelligence community remains divided over likely origin of Covid (NBC News)",
+      "quality": "secondary",
+      "claims": [
+        "As of the June 2023 declassified report, all U.S. intelligence agencies continued to assess that both a natural and a laboratory-associated origin remain plausible hypotheses for the first human SARS-CoV-2 infection; none reached certainty.",
+        "The National Intelligence Council and four unnamed intelligence agencies assessed that natural exposure to an infected animal was the most likely scenario for the first human COVID-19 infection.",
+        "The Department of Energy and the FBI assessed that a laboratory-associated incident was more likely the cause of the pandemic's origin (splitting from the agencies favoring natural origin).",
+        "The CIA and one unidentified agency remained unable to determine the precise origin, citing that both hypotheses rely on significant assumptions or face conflicting reporting.",
+        "The declassified report was released in June 2023 as required by the COVID-19 Origin Act of 2023, which passed both chambers of Congress unanimously and was signed into law by President Biden."
+      ]
+    },
+    {
+      "id": "s18",
+      "url": "https://www.snopes.com/news/2023/03/03/fbi-doe-covid-origin/",
+      "title": "DOE and FBI Say Lab Origin of COVID Is 'Most Likely' \u2014 But Won't Say Why (Snopes)",
+      "quality": "secondary",
+      "claims": [
+        "As of the article's March 2023 publication, the U.S. Department of Energy assessed with 'low confidence' that a laboratory-associated incident was the 'most likely' origin of the first human SARS-CoV-2 infection, while the FBI assessed a lab origin with 'moderate confidence.'",
+        "The intelligence community was divided, with four IC elements plus the National Intelligence Council assessing (with low confidence) that natural zoonotic exposure was the most likely origin, contradicting the DOE and FBI lab-leak assessments.",
+        "The FBI and DOE lab-origin assessments are not based on scientific analysis of the virus but on circumstantial arguments, and the specific reasoning/evidence behind them was not publicly disclosed.",
+        "Based on the limited details released, the evidence supporting a laboratory-associated origin appeared to be largely or entirely circumstantial, and it is unclear what scientific analyses (if any) informed these intelligence assessments."
+      ]
+    },
+    {
+      "id": "s19",
+      "url": "https://en.wikipedia.org/wiki/COVID-19_lab_leak_theory",
+      "title": "COVID-19 lab leak theory \u2014 Wikipedia",
+      "quality": "unreliable",
+      "claims": []
+    },
+    {
+      "id": "s20",
+      "url": "https://theintercept.com/2021/09/09/covid-origins-gain-of-function-research/",
+      "title": "The Intercept \u2014 NIH Documents Provide New Evidence U.S. Funded Gain-of-Function Research in Wuhan",
+      "quality": "unreliable",
+      "claims": []
+    },
+    {
+      "id": "s21",
+      "url": "https://usrtk.org/covid-19-origins/american-scientists-misled-pentagon-on-wuhan-research/",
+      "title": "U.S. Right to Know \u2014 American scientists misled Pentagon on research at the Wuhan Institute of Virology",
+      "quality": "unreliable",
+      "claims": []
+    },
+    {
+      "id": "s22",
+      "url": "https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf",
+      "title": "Updated Assessment on COVID-19 Origins (ODNI, declassified)",
+      "quality": "unreliable",
+      "claims": []
+    },
+    {
+      "id": "s23",
+      "url": "https://www.intechopen.com/online-first/1246535",
+      "title": "Current Debate Regarding Laboratory and Natural Origin Hypotheses of SARS-CoV-2: A Critically Balanced Review (IntechOpen)",
+      "quality": "unreliable",
+      "claims": []
+    },
+    {
+      "id": "s24",
+      "url": "https://www.unmc.edu/healthsecurity/transmission/2023/03/21/covid-origins-study-links-raccoon-dogs-to-wuhan-market-what-scientists-think/",
+      "title": "COVID-origins study links raccoon dogs to Wuhan market: what scientists think (UNMC)",
+      "quality": "unreliable",
+      "claims": []
+    }
+  ]
+}

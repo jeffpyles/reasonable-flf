@@ -1,0 +1,1000 @@
+{
+ "v1 naive": {
+  "nodes": [
+   {
+    "id": "n001",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single assertion: platform will not improve reasoning/debate."
+   },
+   {
+    "id": "n002",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim with clarification (third-party focused, not debate-winning)."
+   },
+   {
+    "id": "n003",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Cannot resolve + can map + Scott-vs-Reasonable is goal-disagreement (three independent claims)."
+   },
+   {
+    "id": "n004",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Arguments lack clean structure (fact) + therefore maps assume false structure (inference)."
+   },
+   {
+    "id": "n005",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about what matters in arguments: weighing, not premise resolution."
+   },
+   {
+    "id": "n006",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Example illustrating a single point about weighing in real arguments."
+   },
+   {
+    "id": "n007",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: values/frameworks cause disagreement and maps cannot resolve them."
+   },
+   {
+    "id": "n008",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Over-determination exists (fact) + therefore refuting premise doesn't move people (inference)."
+   },
+   {
+    "id": "n009",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Mapping inefficient for minds + intended users barely exist + online arguers not seeking updates (three independent claims)."
+   },
+   {
+    "id": "n010",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Unsolved for 2000 years (fact) + therefore unfixable by new tools (logical inference)."
+   },
+   {
+    "id": "n011",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified claim about altitude/level of decisive generators of disagreement."
+   },
+   {
+    "id": "n012",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Doesn't force premise-conclusion + uses specific features (graded edges, antithesis sets) + models over-determination (three independent propositions)."
+   },
+   {
+    "id": "n013",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified claim: goal is to locate/make weights explicit, shown by metrics."
+   },
+   {
+    "id": "n014",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about map behavior, with evidence from covid-origins graph."
+   },
+   {
+    "id": "n015",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified claim about how Reasonable gives values first-class treatment."
+   },
+   {
+    "id": "n016",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified claim: over-determination is native to Reasonable's grammar."
+   },
+   {
+    "id": "n017",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Wikipedia-like third-party artifact (claim 1) + cheap AI can build/maintain at scale (claim 2)."
+   },
+   {
+    "id": "n018",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: AI agents demonstrated automation of map building is possible and cheap."
+   },
+   {
+    "id": "n019",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified argument: changed conditions make 2000-year history irrelevant."
+   },
+   {
+    "id": "n020",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: Reasonable produces maps not consensus."
+   },
+   {
+    "id": "n021",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Consensus-vs-truth problem exists + needs external anchors + anchors are scarce (three independent claims)."
+   },
+   {
+    "id": "n022",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Retired alignment + reputation inverts on bias + calibration must decline (three independent findings)."
+   },
+   {
+    "id": "n023",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Dispersion is low-reliability signal (finding) + therefore contestedness must be read structurally (inference)."
+   },
+   {
+    "id": "n024",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: adoption and behavior at scale with real humans is unproven."
+   },
+   {
+    "id": "n025",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Scott's strongest points are X/Y/Z + Reasonable concedes/addresses differently + therefore goal disagreement (three independent propositions)."
+   },
+   {
+    "id": "n026",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Disagreement is over-determined and value-laden + won't be resolved by Scott's logic + Reasonable graphs handle it correctly."
+   },
+   {
+    "id": "n027",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single evaluative claim: mapping-without-agreement is worth building."
+   },
+   {
+    "id": "n028",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single evaluative claim: tool only worth building if it changes minds/produces agreement."
+   },
+   {
+    "id": "n029",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified argument: arguments rarely hinge on false facts, so premise-finding tools are misdirected."
+   },
+   {
+    "id": "n030",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: AI-risk disagreement was about weighing, not facts/fallacies."
+   },
+   {
+    "id": "n031",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified argument: dense premise maps worsen by misrepresenting probabilistic as necessary."
+   },
+   {
+    "id": "n032",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single unified claim: Reasonable models jettison-and-continue, not premise-finding."
+   }
+  ],
+  "sets": [
+   {
+    "id": "s1",
+    "both_true": true,
+    "reason": "n002 (improves via mapping) and n003 (can map but depends on demands) can coexist; n003 adds nuance rather than contradicting."
+   },
+   {
+    "id": "s2",
+    "both_true": true,
+    "reason": "n004 critiques traditional maps + n012 shows Reasonable addresses the critique; compatible, not contradictory."
+   },
+   {
+    "id": "s3",
+    "both_true": true,
+    "reason": "n005 (weighing is key) and n013 (locate weighing) are compatible claims about same phenomenon."
+   },
+   {
+    "id": "s4",
+    "both_true": true,
+    "reason": "n007 (can't resolve values) and n015 (maps values) coexist; n015 doesn't claim resolution, just representation."
+   },
+   {
+    "id": "s5",
+    "both_true": true,
+    "reason": "n008 (over-determination exists) and n016 (Reasonable models it) are compatible descriptions."
+   },
+   {
+    "id": "s6",
+    "both_true": true,
+    "reason": "n009 (inefficient for arguers) and n017 (use as third-party artifact instead) agree on problem and diverge on solution."
+   },
+   {
+    "id": "s7",
+    "both_true": false,
+    "reason": "n010 asserts history proves unfixability; n019 asserts that proof is invalid due to changed conditions. Contradictory evidentiary claims."
+   },
+   {
+    "id": "s8",
+    "both_true": false,
+    "reason": "n027 (mapping-without-agreement IS worth it) and n028 (is NOT worth it) are direct contradictions on value."
+   },
+   {
+    "id": "s9",
+    "both_true": true,
+    "reason": "n029 (premise-finding is wrong) and n032 (Reasonable doesn't use it) are compatible; second shows solution to problem posed by first."
+   },
+   {
+    "id": "s10",
+    "both_true": true,
+    "reason": "n031 (dense premise maps fail) and n012 (Reasonable uses graded support) are compatible; one describes problem, other shows solution."
+   }
+  ]
+ },
+ "harnessed": {
+  "nodes": [
+   {
+    "id": "n001",
+    "bundled": true,
+    "propositions": 4,
+    "reason": "Bundles main claim (mapping cannot improve reasoning) + structural reason (misdescription) + practical reason (not usable) + inference (endeavor is doomed)"
+   },
+   {
+    "id": "n002",
+    "bundled": true,
+    "propositions": 4,
+    "reason": "Bundles: platform succeeds + by faithful representation + for different audience + thereby meets objections"
+   },
+   {
+    "id": "n003",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Bundles: success hinges on goal definition + dispute is value-laden + can only be mapped not settled"
+   },
+   {
+    "id": "n004",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: forcing into logical map misrepresents probabilistic weighing"
+   },
+   {
+    "id": "n005",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Bundles: true generators are weighing/values + positions are over-determined + no single element moves them"
+   },
+   {
+    "id": "n006",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Two independent claims: formal mapping is inefficient AND user barely exists"
+   },
+   {
+    "id": "n007",
+    "bundled": true,
+    "propositions": 5,
+    "reason": "Bundles: history hasn't solved debate + multiple platform limitations + conclusion all point same direction"
+   },
+   {
+    "id": "n008",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles: design features model weighing (empirical) + outcome is normal not failure (evaluative)"
+   },
+   {
+    "id": "n009",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Bundles: goal is to make weighing explicit + values as first-class + unresolved counts as success"
+   },
+   {
+    "id": "n010",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Two separable claims: intended audience is third-party AND low-cost automation removes cost barrier"
+   },
+   {
+    "id": "n011",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Bundles: non-solution reflects absent conditions + these conditions are genuinely new + parallels other tools"
+   },
+   {
+    "id": "n012",
+    "bundled": true,
+    "propositions": 4,
+    "reason": "Meta-claim bundling: critique targets resolution + conceded + defense targets representation + argument talks past itself"
+   },
+   {
+    "id": "n013",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Bundles: success is over-determined/value-laden + therefore cannot be settled by argument + only located"
+   },
+   {
+    "id": "n014",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles: inability to resolve is distinct from inability to represent (empirical) + conceding former doesn't concede latter (logical)"
+   },
+   {
+    "id": "n015",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Value judgment with conditions: worth for faithful mapping + making value-cruxes explicit + even without agreement"
+   },
+   {
+    "id": "n016",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles: worth only if changes minds/produces agreement (value claim) + because leaving unchanged isn't worth it (reason)"
+   },
+   {
+    "id": "n017",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about what load-bearing work consists of"
+   },
+   {
+    "id": "n018",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: disagreements generated by differing values not checkable fact"
+   },
+   {
+    "id": "n019",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about how positions are held: many weak vs single decisive"
+   },
+   {
+    "id": "n020",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: disagreements rarely decompose into form maps assume"
+   },
+   {
+    "id": "n021",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: people abandon fact but continue position on other grounds"
+   },
+   {
+    "id": "n022",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: some disagreements trace entirely to different weighing"
+   },
+   {
+    "id": "n023",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence example illustrating single point"
+   },
+   {
+    "id": "n024",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim with necessary consequence about misrepresentation"
+   },
+   {
+    "id": "n025",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence demonstrating complexity of reaching verdict"
+   },
+   {
+    "id": "n026",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Examples illustrating how values drive disagreement"
+   },
+   {
+    "id": "n027",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Reason and consequence tightly bound: because held through many, changing one typically fails"
+   },
+   {
+    "id": "n028",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: formal mapping is inefficient compared to ordinary argument"
+   },
+   {
+    "id": "n029",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about imagined user barely existing"
+   },
+   {
+    "id": "n030",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: online arguers typically not motivated to update beliefs"
+   },
+   {
+    "id": "n031",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design feature with necessary consequence: graded edges enable partial backing"
+   },
+   {
+    "id": "n032",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design principle: rival positive representation means links not binary"
+   },
+   {
+    "id": "n033",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design feature: joint-support groups weak considerations mirroring reality"
+   },
+   {
+    "id": "n034",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design feature: re-wording stacks preserve support despite wording shifts"
+   },
+   {
+    "id": "n035",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single mechanism: graded map reduces support but doesn't delete claim"
+   },
+   {
+    "id": "n036",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles: historical fact (philosophy hasn't solved) + inference (therefore not just tooling gap)"
+   },
+   {
+    "id": "n037",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles: definition of success (if=agreement) + builders concede they don't achieve it"
+   },
+   {
+    "id": "n038",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: consensus-vs-truth problem remains unresolved"
+   },
+   {
+    "id": "n039",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Mechanism and consequence tightly bound: rules measure crowd, so inverted on biased crowd"
+   },
+   {
+    "id": "n040",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Two independent factual claims: requires external anchors AND anchors scarce on contested questions"
+   },
+   {
+    "id": "n041",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Fact and consequence tightly bound: dispersion unreliable so must infer structurally"
+   },
+   {
+    "id": "n042",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: adoption at scale by real humans remains unproven"
+   },
+   {
+    "id": "n043",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence: demonstrations used AI agents not humans"
+   },
+   {
+    "id": "n044",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about success definition for contested questions"
+   },
+   {
+    "id": "n045",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles design features (values get dedicated type + is/ought firewall) with consequence"
+   },
+   {
+    "id": "n046",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence example: unresolved verdict scored well"
+   },
+   {
+    "id": "n047",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design rule with tight reason: rated by endorsement because values aren't truth-apt"
+   },
+   {
+    "id": "n048",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about intended audience"
+   },
+   {
+    "id": "n049",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Criticism and reason tightly bound: efficiency criterion wrong because not built to persuade them"
+   },
+   {
+    "id": "n050",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: AI authorship removes cost that doomed earlier efforts"
+   },
+   {
+    "id": "n051",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence: three questions built by AI agents"
+   },
+   {
+    "id": "n052",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: automated authorship/rating is genuinely new capability"
+   },
+   {
+    "id": "n053",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: reputation-weighting is mechanism earlier efforts lacked"
+   },
+   {
+    "id": "n054",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: blind rating before consensus is unavailable mechanism"
+   },
+   {
+    "id": "n055",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: tools languished until medium arrived"
+   },
+   {
+    "id": "n056",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence: three questions built demonstrating low-cost authorship at scale"
+   },
+   {
+    "id": "n057",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim with necessary consequence: success depends on multiple weak considerations"
+   },
+   {
+    "id": "n058",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: success determination hinges on value judgment not checkable fact"
+   },
+   {
+    "id": "n059",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Descriptive claim listing two positions; single phenomenon"
+   },
+   {
+    "id": "n060",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: over-determined disputes can locate but not resolve"
+   },
+   {
+    "id": "n061",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single factual claim: defense concedes tool doesn't make disagreers agree"
+   },
+   {
+    "id": "n062",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: strongest objections concern resolution-achievement"
+   },
+   {
+    "id": "n063",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: defense makes representation claims not resolution claims"
+   },
+   {
+    "id": "n064",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence: unresolved verdict scored well"
+   },
+   {
+    "id": "n065",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: strongest objections target resolution not faithful representation"
+   },
+   {
+    "id": "n066",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "Bundles: definition of success (if=agreement) + builders concede they don't achieve it"
+   },
+   {
+    "id": "n067",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design principle with necessary consequence: dedicated type means values represented-as-values"
+   },
+   {
+    "id": "n068",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Design rule with tight reason: rated by endorsement because values not truth-apt"
+   }
+  ],
+  "sets": [
+   {
+    "id": "s1",
+    "both_true": true,
+    "reason": "Members n002 (platform succeeds by representing) and n003 (whether it works depends on goal definition) can both be true simultaneously; n003 is compatible with n002's answer to the definitional question"
+   },
+   {
+    "id": "s2",
+    "both_true": false,
+    "reason": "n004 claims forcing into logical map misrepresents weighing; n008 claims graded edges, rivals, groupings DO model weighing properly. These directly contradict about whether the map form succeeds"
+   },
+   {
+    "id": "s3",
+    "both_true": true,
+    "reason": "Members n005 (weighing operates beneath surface claims) and n009 (goal is to make weighing explicit) are complementary and both true simultaneously: one describes the problem, one describes the solution"
+   },
+   {
+    "id": "s4",
+    "both_true": false,
+    "reason": "n007 concludes historical non-solution and current issues point toward doom/unsolvability; n011 interprets history as reflecting absent conditions (not unsolvability) and asserts new conditions now exist, reaching opposite conclusion about solvability"
+   },
+   {
+    "id": "s5",
+    "both_true": false,
+    "reason": "n015 claims tool is worth building for representation even without agreement; n016 claims worth only if produces agreement. These are contrary value judgments: worth for X-without-Y vs worth only-if-Y"
+   }
+  ]
+ },
+ "v2 hand": {
+  "nodes": [
+   {
+    "id": "n001",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: platforms will not improve reasoning/debate"
+   },
+   {
+    "id": "n002",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim with qualifier: maps improve reasoning as third-party artifact, not debate-winning tool"
+   },
+   {
+    "id": "n003",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "\"Cannot RESOLVE disagreement\" + \"can MAP it\" + \"dispute is about GOAL not mechanism\" - three distinct propositions"
+   },
+   {
+    "id": "n004",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: map form presumes logical skeleton that real disagreement lacks"
+   },
+   {
+    "id": "n005",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim about how real arguments are structured"
+   },
+   {
+    "id": "n006",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "\"Rarely hinge on false fact/fallacy\" AND \"when pointed out people drop it and argue elsewhere\""
+   },
+   {
+    "id": "n007",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence node illustrating one point: experts disagreed on weighting, not facts"
+   },
+   {
+    "id": "n008",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "\"Adding premises makes maps worse\" AND \"this recasts probabilistic reasoning as logical\""
+   },
+   {
+    "id": "n009",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: maps settle premises but that is not where disagreements are decided"
+   },
+   {
+    "id": "n010",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: weighting magnitudes is the load-bearing work"
+   },
+   {
+    "id": "n011",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence node: even with fact true, complex weighing is required"
+   },
+   {
+    "id": "n012",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: deepest disagreements come from values"
+   },
+   {
+    "id": "n013",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: positions held through many weakly-held considerations"
+   },
+   {
+    "id": "n014",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: refuting single consideration rarely changes position"
+   },
+   {
+    "id": "n015",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "\"Decisions happen at high-level worldview\" AND \"maps operate at surface level (wrong)\""
+   },
+   {
+    "id": "n016",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: argument-mapping not practically viable for debate"
+   },
+   {
+    "id": "n017",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: formal mapping is inefficient for changing minds"
+   },
+   {
+    "id": "n018",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim with elaboration: people do not want to argue rigorously"
+   },
+   {
+    "id": "n019",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single inferential claim: unsolved history implies unfixable"
+   },
+   {
+    "id": "n020",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: conceded limitations count against platforms working"
+   },
+   {
+    "id": "n021",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single conditional claim: if working=agreement, maps do not work"
+   },
+   {
+    "id": "n022",
+    "bundled": true,
+    "propositions": 2,
+    "reason": "\"Rating rules measure crowd agreement only\" AND \"on bias they reward bias\""
+   },
+   {
+    "id": "n023",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: correction needs external truth, scarce on contested questions"
+   },
+   {
+    "id": "n024",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Three empirical findings: reputation rule buried raters; discrimination inverted; calibration declined"
+   },
+   {
+    "id": "n025",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: dispersion is low-reliability signal, structure is better"
+   },
+   {
+    "id": "n026",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim with evidence: adoption by humans is unproven"
+   },
+   {
+    "id": "n027",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: maps do not need logical form, graded grammar works better"
+   },
+   {
+    "id": "n028",
+    "bundled": true,
+    "propositions": 3,
+    "reason": "Three design choices: \"graded not binary\" + \"positive rivals not negation\" + \"joint grounds\""
+   },
+   {
+    "id": "n029",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: graphs handle over-determined positions natively"
+   },
+   {
+    "id": "n030",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: how graded maps handle refutation as normal case"
+   },
+   {
+    "id": "n031",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: proper job is to locate weighing/values, not resolve"
+   },
+   {
+    "id": "n032",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: goal is to locate weighting, not resolve it"
+   },
+   {
+    "id": "n033",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence node: honest \"unresolved\" verdict scored high"
+   },
+   {
+    "id": "n034",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: value claims can be represented separately"
+   },
+   {
+    "id": "n035",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: maps have viable audience and production route"
+   },
+   {
+    "id": "n036",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: audience is third parties, not live arguers"
+   },
+   {
+    "id": "n037",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: AI agents can build/rate maps at scale"
+   },
+   {
+    "id": "n038",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Evidence node: three questions successfully mapped by AI"
+   },
+   {
+    "id": "n039",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: inference from history fails due to new conditions"
+   },
+   {
+    "id": "n040",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: history does not imply unsolvable with new conditions"
+   },
+   {
+    "id": "n041",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: longstanding failure before success is normal for tools"
+   },
+   {
+    "id": "n042",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: two sides argue about purpose, not mechanism"
+   },
+   {
+    "id": "n043",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single claim: meta-dispute is contested and value-laden"
+   },
+   {
+    "id": "n044",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single evaluative claim: such a tool is worth building"
+   },
+   {
+    "id": "n045",
+    "bundled": false,
+    "propositions": 1,
+    "reason": "Single evaluative claim: only worth building if changes minds"
+   }
+  ],
+  "sets": [
+   {
+    "id": "s1",
+    "both_true": false,
+    "reason": "n001 (will NOT improve) and n002 (WILL improve for third parties) directly contradict on whether meaningful improvement occurs"
+   },
+   {
+    "id": "s2",
+    "both_true": false,
+    "reason": "n004 says maps MUST assume logical form; n027 says they do NOT have to. Direct contradiction on form requirements"
+   },
+   {
+    "id": "s3",
+    "both_true": true,
+    "reason": "n009 describes limitation (maps settle premises); n031 describes proper job (locate weighing). Compatible: descriptive vs prescriptive"
+   },
+   {
+    "id": "s4",
+    "both_true": true,
+    "reason": "n016 (not viable for debate) and n035 (viable for third parties) refer to different purposes. Both can hold"
+   },
+   {
+    "id": "s5",
+    "both_true": false,
+    "reason": "n019 (history unsolved implies unfixable) and n040 (does NOT imply unfixable) directly contradict on logical inference"
+   },
+   {
+    "id": "s6",
+    "both_true": true,
+    "reason": "n008 identifies problem (premises make worse); n028 proposes solution (alternatives exist). Compatible: problem and solution"
+   },
+   {
+    "id": "s7",
+    "both_true": false,
+    "reason": "n044 (tool IS worth building) and n045 (only IF changes minds) directly contradict on evaluative worth"
+   }
+  ]
+ }
+}

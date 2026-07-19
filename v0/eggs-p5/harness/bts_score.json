@@ -1,0 +1,35 @@
+{
+  "items_rated": 79,
+  "rating_cells": 1653,
+  "prediction_cells": 1653,
+  "methods": {
+    "alignment": {
+      "expert_pctile": 0.217,
+      "crowd_pctile": 0.534,
+      "spearman_vs_competence": -0.532,
+      "n_scored": 60
+    },
+    "discrimination": {
+      "expert_pctile": 0.235,
+      "crowd_pctile": 0.531,
+      "spearman_vs_competence": -0.594,
+      "n_scored": 60
+    },
+    "bts_info": {
+      "expert_pctile": 0.229,
+      "crowd_pctile": 0.532,
+      "spearman_vs_competence": -0.446,
+      "n_scored": 60
+    },
+    "bts_full": {
+      "expert_pctile": 0.402,
+      "crowd_pctile": 0.505,
+      "spearman_vs_competence": -0.455,
+      "n_scored": 60
+    }
+  },
+  "prediction_accuracy_negKL": {
+    "expert": -0.4723,
+    "crowd": -0.3337
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "question": "Did SARS-CoV-2 arise by natural zoonotic spillover or by a research-related incident?",
+  "note": "Fresh, coverage-driven build from the deep-research report + its sources, for the report-vs-graph comparison. Cooperative throughout; no adversarial roles.",
+  "build_authors": [
+    {"id": "epi-01",       "model": "sonnet", "cluster": "geography/market/timeline/ascertainment"},
+    {"id": "viro-02",      "model": "sonnet", "cluster": "genomic/phylogenetic/furin/relatives"},
+    {"id": "zoo-host-03",  "model": "sonnet", "cluster": "intermediate-host/wildlife-trade/base-rate"},
+    {"id": "biosafety-04", "model": "sonnet", "cluster": "WIV/gain-of-function/DEFUSE/intelligence"},
+    {"id": "synth-05",     "model": "sonnet", "cluster": "coverage-closer/coherence/fairness"}
+  ],
+  "assess_panel": [
+    {"id": "panel-evidential", "model": "sonnet", "lens": "evidence strength + independence"},
+    {"id": "panel-bayesian",   "model": "sonnet", "lens": "priors/likelihoods, IBE"},
+    {"id": "panel-skeptic",    "model": "sonnet", "lens": "provenance, rhetorical-vs-evidential"},
+    {"id": "panel-domain",     "model": "sonnet", "lens": "technical plausibility"}
+  ]
+}

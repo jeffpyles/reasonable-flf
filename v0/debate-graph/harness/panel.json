@@ -1,0 +1,76 @@
+{
+  "panel": [
+    {
+      "id": "epistemic-1",
+      "persona": "epistemic",
+      "model": "sonnet",
+      "seed": 1
+    },
+    {
+      "id": "epistemic-2",
+      "persona": "epistemic",
+      "model": "sonnet",
+      "seed": 2
+    },
+    {
+      "id": "epistemic-3",
+      "persona": "epistemic",
+      "model": "sonnet",
+      "seed": 3
+    },
+    {
+      "id": "pragmatic-1",
+      "persona": "pragmatic",
+      "model": "sonnet",
+      "seed": 1
+    },
+    {
+      "id": "pragmatic-2",
+      "persona": "pragmatic",
+      "model": "sonnet",
+      "seed": 2
+    },
+    {
+      "id": "pragmatic-3",
+      "persona": "pragmatic",
+      "model": "sonnet",
+      "seed": 3
+    },
+    {
+      "id": "values-1",
+      "persona": "values",
+      "model": "sonnet",
+      "seed": 1
+    },
+    {
+      "id": "values-2",
+      "persona": "values",
+      "model": "sonnet",
+      "seed": 2
+    },
+    {
+      "id": "values-3",
+      "persona": "values",
+      "model": "sonnet",
+      "seed": 3
+    },
+    {
+      "id": "skeptic-1",
+      "persona": "skeptic",
+      "model": "sonnet",
+      "seed": 1
+    },
+    {
+      "id": "skeptic-2",
+      "persona": "skeptic",
+      "model": "sonnet",
+      "seed": 2
+    },
+    {
+      "id": "skeptic-3",
+      "persona": "skeptic",
+      "model": "sonnet",
+      "seed": 3
+    }
+  ]
+}

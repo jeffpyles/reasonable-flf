@@ -1,0 +1,45 @@
+{
+ "panel": [
+  {
+   "id": "haiku-evidential-1",
+   "persona": "evidential",
+   "seed": 1
+  },
+  {
+   "id": "haiku-evidential-2",
+   "persona": "evidential",
+   "seed": 2
+  },
+  {
+   "id": "haiku-physics-1",
+   "persona": "physics",
+   "seed": 1
+  },
+  {
+   "id": "haiku-physics-2",
+   "persona": "physics",
+   "seed": 2
+  },
+  {
+   "id": "haiku-skeptic-1",
+   "persona": "skeptic",
+   "seed": 1
+  },
+  {
+   "id": "haiku-skeptic-2",
+   "persona": "skeptic",
+   "seed": 2
+  },
+  {
+   "id": "haiku-bayesian-1",
+   "persona": "bayesian",
+   "seed": 1
+  },
+  {
+   "id": "haiku-bayesian-2",
+   "persona": "bayesian",
+   "seed": 2
+  }
+ ],
+ "bloc": "cheap"
+}

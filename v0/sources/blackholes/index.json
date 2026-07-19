@@ -1,0 +1,44 @@
+[
+  {
+    "ref_id": "lhc-001",
+    "citation": "Ellis J, Giudice G, Mangano M, Tkachev I, Wiedemann U (LHC Safety Assessment Group). \"Review of the Safety of LHC Collisions.\" Journal of Physics G, 2008.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Review+of+the+Safety+of+LHC+Collisions+Ellis+Giudice+Mangano",
+    "claim_summary": "The official LHC Safety Assessment Group review. Argues LHC collisions present no danger, drawing heavily on the cosmic-ray argument (nature has run equivalent or higher-energy collisions on Earth and astronomical bodies for billions of years). Landmark safety reference.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "lhc-002",
+    "citation": "Giddings SB, Mangano ML. \"Astrophysical implications of hypothetical stable TeV-scale black holes.\" Physical Review D, 2008.",
+    "url": "https://arxiv.org/abs/0806.3381",
+    "claim_summary": "Addresses the scenario where hypothetical microscopic black holes do NOT evaporate. Argues that if such stable black holes could be produced and were dangerous, cosmic rays would have produced them and destroyed dense astronomical bodies (white dwarfs, neutron stars); the observed survival of those bodies bounds the risk. Directly answers the 'collider black holes could be slow/captured while cosmic-ray ones escape' objection.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "lhc-003",
+    "citation": "Hut P, Rees MJ. \"How stable is our vacuum?\" Nature, 1983.",
+    "url": "https://www.nature.com/articles/302508a0",
+    "claim_summary": "Early formulation of the cosmic-ray safety argument for high-energy physics experiments: naturally occurring cosmic-ray collisions vastly exceed accelerator energies and have not produced catastrophe. Precursor to later LHC safety analyses.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "lhc-004",
+    "citation": "Hawking SW. \"Particle creation by black holes.\" Communications in Mathematical Physics, 1975.",
+    "url": "https://link.springer.com/article/10.1007/BF02345020",
+    "claim_summary": "Foundational theoretical result that black holes radiate and lose mass ('Hawking radiation'); smaller black holes evaporate faster. The basis for the claim that any microscopic black hole produced at the LHC would evaporate near-instantly. Note: Hawking radiation has never been directly observed, which is a live point of contention.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "lhc-005",
+    "citation": "CERN. Public LHC safety statements / FAQ on microscopic black holes and safety.",
+    "url": "https://home.cern/science/accelerators/large-hadron-collider/safety-lhc",
+    "claim_summary": "CERN's public-facing safety position: micro black holes, if produced at all, would be harmless (evaporate via Hawking radiation; even if not, cosmic-ray argument applies). Accessible restatement of the LSAG conclusions. Represents the institutional/authority position.",
+    "status": "VERIFY_BEFORE_USE"
+  },
+  {
+    "ref_id": "lhc-006",
+    "citation": "Dimopoulos S, Landsberg G. \"Black Holes at the LHC.\" Physical Review Letters, 2001.",
+    "url": "https://arxiv.org/abs/hep-ph/0106295",
+    "claim_summary": "Proposes that, IF certain large-extra-dimension theories hold, TeV-scale microscopic black holes could be produced at the LHC. This is the production hypothesis the safety analyses respond to — establishing that black-hole production is a live theoretical possibility, not that it is dangerous.",
+    "status": "VERIFY_BEFORE_USE"
+  }
+]

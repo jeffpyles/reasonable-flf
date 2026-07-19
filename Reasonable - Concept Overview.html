@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasonable — Concept Overview</title>
+<style>
+  :root{
+    --bg:#0f1216;
+    --panel:#161b22;
+    --panel-2:#1c232c;
+    --ink:#e8e6e1;
+    --ink-soft:#b8b4ab;
+    --ink-dim:#8a8780;
+    --line:#2a323c;
+    --accent:#c9a227;      /* ground / gold */
+    --accent-2:#6fb3c9;    /* dependent / cyan */
+    --accent-3:#b96f8f;    /* antithesis / rose */
+    --accent-4:#8a8fc9;    /* alternative / violet */
+    --good:#7ec98f;
+    --warn:#d98c5f;
+    --maxw:980px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    font-size:18px;
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{display:flex;max-width:1320px;margin:0 auto;}
+  /* ---- sidebar nav ---- */
+  nav{
+    position:sticky;top:0;align-self:flex-start;
+    height:100vh;overflow-y:auto;
+    width:250px;flex:0 0 250px;
+    padding:34px 20px 60px 28px;
+    border-right:1px solid var(--line);
+    font-family:"Inter","Helvetica Neue",Arial,sans-serif;
+    font-size:13.5px;line-height:1.45;
+  }
+  nav .brand{font-family:inherit;font-weight:700;font-size:18px;letter-spacing:.02em;color:var(--ink);margin-bottom:2px;}
+  nav .brand b{color:var(--accent);}
+  nav .tag{color:var(--ink-dim);font-size:11.5px;text-transform:uppercase;letter-spacing:.16em;margin-bottom:26px;}
+  nav a{display:block;color:var(--ink-soft);text-decoration:none;padding:4px 0;border-left:2px solid transparent;padding-left:12px;margin-left:-2px;transition:.15s;}
+  nav a:hover{color:var(--ink);border-left-color:var(--accent);}
+  nav a.sub{padding-left:26px;font-size:12.5px;color:var(--ink-dim);}
+  nav .grp{margin-top:18px;color:var(--ink-dim);font-size:11px;text-transform:uppercase;letter-spacing:.14em;padding-left:12px;}
+  /* ---- main ---- */
+  main{flex:1 1 auto;min-width:0;padding:0 6vw 140px;}
+  .col{max-width:var(--maxw);margin:0 auto;}
+  header.hero{padding:90px 0 40px;border-bottom:1px solid var(--line);margin-bottom:10px;}
+  .kicker{font-family:"Inter",sans-serif;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);margin-bottom:22px;}
+  h1{font-size:62px;line-height:1.02;margin:0 0 18px;font-weight:600;letter-spacing:-.01em;}
+  h1 .dot{color:var(--accent);}
+  .lede{font-size:23px;line-height:1.5;color:var(--ink-soft);max-width:760px;margin:0;}
+  .meta-line{font-family:"Inter",sans-serif;font-size:12.5px;color:var(--ink-dim);margin-top:34px;letter-spacing:.02em;}
+  section{padding:54px 0 8px;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  h2{font-size:33px;font-weight:600;letter-spacing:-.01em;margin:0 0 6px;line-height:1.12;}
+  h2 .num{font-family:"Inter",sans-serif;font-size:14px;font-weight:600;color:var(--accent);letter-spacing:.1em;display:block;margin-bottom:10px;}
+  h3{font-size:21px;font-weight:600;margin:34px 0 4px;color:var(--ink);}
+  h4{font-family:"Inter",sans-serif;font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--ink-dim);margin:26px 0 6px;}
+  p{margin:14px 0;}
+  a.inline{color:var(--accent-2);text-decoration:none;border-bottom:1px solid rgba(111,179,201,.35);}
+  strong{color:#fff;font-weight:600;}
+  em{color:var(--ink);}
+  .soft{color:var(--ink-soft);}
+  ul,ol{padding-left:22px;}
+  li{margin:8px 0;}
+  blockquote{
+    margin:26px 0;padding:6px 0 6px 26px;border-left:3px solid var(--accent);
+    font-style:italic;color:var(--ink-soft);font-size:19px;line-height:1.5;
+  }
+  blockquote cite{display:block;font-style:normal;font-size:14px;color:var(--ink-dim);margin-top:8px;font-family:"Inter",sans-serif;}
+  /* cards / callouts */
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px 26px;margin:22px 0;}
+  .card h3{margin-top:0;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .mini{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:18px 20px;}
+  .mini h4{margin-top:0;color:var(--accent-2);}
+  .mini.g h4{color:var(--accent);}
+  .mini.r h4{color:var(--accent-3);}
+  .mini.v h4{color:var(--accent-4);}
+  .mini p{font-size:15.5px;margin:6px 0 0;color:var(--ink-soft);line-height:1.5;}
+  .pill{display:inline-block;font-family:"Inter",sans-serif;font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:3px 10px;border-radius:20px;border:1px solid var(--line);color:var(--ink-dim);margin:0 6px 6px 0;}
+  .open{background:linear-gradient(180deg,rgba(217,140,95,.08),rgba(217,140,95,.02));border:1px solid rgba(217,140,95,.3);border-radius:14px;padding:22px 26px;margin:22px 0;}
+  .open h4{color:var(--warn);margin-top:0;}
+  .open ul{margin:8px 0 0;}
+  .quietnote{font-family:"Inter",sans-serif;font-size:14px;color:var(--ink-dim);background:var(--panel);border-radius:10px;padding:14px 18px;border:1px solid var(--line);}
+  /* relation legend diagram */
+  .relfig{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:30px;margin:26px 0;}
+  .relfig svg{width:100%;height:auto;display:block;}
+  figcaption{font-family:"Inter",sans-serif;font-size:13.5px;color:var(--ink-dim);text-align:center;margin-top:14px;}
+  .legend{display:flex;flex-wrap:wrap;gap:18px;justify-content:center;margin-top:18px;font-family:"Inter",sans-serif;font-size:13px;}
+  .legend span{display:inline-flex;align-items:center;gap:8px;color:var(--ink-soft);}
+  .sw{width:13px;height:13px;border-radius:3px;display:inline-block;}
+  .footer{padding:60px 0 0;color:var(--ink-dim);font-family:"Inter",sans-serif;font-size:14px;}
+  .toc-top{display:none;}
+  /* table-ish */
+  .vs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:22px 0;}
+  .vs>div{padding:20px 24px;}
+  .vs .a{background:var(--panel-2);border-right:1px solid var(--line);}
+  .vs .b{background:var(--panel);}
+  .vs h4{margin-top:0;}
+  .vs .a h4{color:var(--accent-2);}
+  .vs .b h4{color:var(--accent);}
+  .vs p{font-size:15.5px;color:var(--ink-soft);margin:4px 0;}
+  @media (max-width:1080px){
+    nav{display:none;}
+    main{padding:0 28px 100px;}
+    h1{font-size:44px;}
+    .grid2,.grid3,.vs{grid-template-columns:1fr;}
+    .vs .a{border-right:none;border-bottom:1px solid var(--line);}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav>
+  <div class="brand">Reason<b>able</b></div>
+  <div class="tag">Concept Overview</div>
+  <a href="#vision">The vision in one breath</a>
+  <a href="#problem">1 · The problem</a>
+  <a href="#thesis">2 · The core thesis</a>
+  <div class="grp">The artifact</div>
+  <a href="#graph">3 · The Graph</a>
+  <a href="#stacks" class="sub">Argument stacks</a>
+  <a href="#geometry" class="sub">Relational geometry</a>
+  <a href="#ui">4 · UI &amp; map mechanics</a>
+  <div class="grp">The engine</div>
+  <a href="#ratings">5 · Rating &amp; reputation</a>
+  <a href="#consensus" class="sub">Consensus vs. truth</a>
+  <a href="#blocs" class="sub">Blind blocs</a>
+  <a href="#trolls">6 · Race to the bottom</a>
+  <div class="grp">The reach</div>
+  <a href="#orgs">7 · Assessing organizations</a>
+  <a href="#revenue">8 · Revenue model</a>
+  <a href="#effects">9 · Social &amp; political effects</a>
+  <div class="grp">Foundations</div>
+  <a href="#assumptions">10 · Load-bearing assumptions</a>
+  <a href="#questions">11 · Open questions</a>
+</nav>
+
+<main>
+<div class="col">
+
+<header class="hero" id="vision">
+  <div class="kicker">A format for collective truth-finding</div>
+  <h1>Reasonable<span class="dot">.</span></h1>
+  <p class="lede">A website that crowdsources, organizes, and sorts the world's <em>arguments</em> — the way Wikipedia did for the world's <em>facts</em> — turning the overwhelming flood of human opinion into a navigable, visual map of our strongest reasoning and where exactly it forks.</p>
+  <!-- REV 2026-06-22: updated meta-line to note the revision + companion doc -->
+  <div class="meta-line">My synthesis of your background documents · a shared starting point for refinement, not a finished spec · June 2026 · rev. 22 Jun 2026 (see companion <em>Claims Index</em>)</div>
+</header>
+
+<p class="soft" style="margin-top:34px;">What follows is my understanding of the idea as it lives across your twenty documents — the philosophical fables, the mechanics notes, the rating-scheme arguments, the feature outlines. I've tried to state it back to you as a single coherent system: what it's <em>for</em>, what it would <em>look and feel like</em>, how its <em>incentives</em> are meant to work, and what would happen to the world if it actually caught on. Where I see tension or an unresolved choice, I've flagged it rather than papered over it. Think of this as a mirror to argue with.</p>
+
+<!-- REV 2026-06-22: added cross-reference to the new companion "Claims Index" doc -->
+<div class="quietnote" style="margin-top:22px;">Companion document: <strong>Reasonable — Claims Index</strong> is a scannable, bullet-by-bullet census of <em>every</em> claim across the documents, grouped under the same five headings you asked about (why the format matters · how it's arranged · the mechanics · societal effects · monetization). This Overview is the <em>argument</em> — narrative, with the seams and open questions flagged; the Index is the <em>checklist</em>. Read the Index to audit coverage; read this to think with.</div>
+
+<!-- ===================================================== -->
+<section id="problem">
+  <h2><span class="num">PROBLEM 01</span>Why we don't reliably know what's true</h2>
+
+  <p>The premise begins where Socrates began: knowing what is true, consistent, and reliable is <em>extraordinarily hard</em>, and we are barely better at it than the Athenians were. Most of us cannot defend even our deepest beliefs for more than a few logical steps in either direction — toward their justifications or toward their consequences — and most of us cannot even <em>state</em> the serious alternatives to the positions we hold. If you don't understand the other answers to a question, in what sense do you understand the question?</p>
+
+  <p>We <em>have</em> made staggering progress — but unevenly, and for a structural reason. We advance fastest in domains that admit <strong>concrete refutation</strong>: where reality slaps down errors clearly and repeatably, the way gravity corrects a toddler. That gives us three fields of relatively reliable knowledge:</p>
+
+  <div class="grid3">
+    <div class="mini g"><h4>Technology</h4><p>The first falsifiable field. That-which-works was so plainly distinct from that-which-doesn't that it barely registered as "knowledge."</p></div>
+    <div class="mini"><h4>Mathematics</h4><p>The first reliable <em>abstract</em> knowledge — and still the most certain — because error is easy to show, and we delight in showing it.</p></div>
+    <div class="mini v"><h4>Empirical science</h4><p>A disciplined method for checking hypotheses against reality, guarding against our bias toward believing what we wish.</p></div>
+  </div>
+
+  <p style="margin-top:24px;">But these three do not exhaust knowledge. The questions humans care about <em>most</em> — ethical, political, religious, social — are often metaphysically intractable, or too complex, or play out over timescales too long to test. They cannot be proven or decisively falsified, yet they govern what we should <em>do</em> with our rapidly growing power. And, as the documents put it, <strong>systems whose power exceeds their ability to control that power rarely last.</strong> In an era of nuclear weapons, climate change, AI, and cheap bioengineering, our inability to reason reliably in the untestable domains is no longer a philosophical inconvenience — it's an existential liability.</p>
+
+  <blockquote>Not having the full chains of justification for every competing claim available for open public comparison is what makes propaganda possible — whoever owns the loudest voice can control the perception of truth merely by drowning out the rest.</blockquote>
+
+  <p>When claims to truth are bare <em>assertions</em> rather than references to their entire justifying arguments, the only limits on what can be effectively asserted are loudness, monopoly over the narrative, charisma, and the ability to push the buttons on our irrational minds. "Alternative facts" and "fake news" are symptoms of a missing piece of infrastructure.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="thesis">
+  <h2><span class="num">THESIS 02</span>The core idea: a 2-D map for a 2-D thing</h2>
+
+  <p>The deepest claim running through the fables is structural, almost geometric. Speech is bound to time, and time (as we experience it) is <strong>one-dimensional</strong> — so speech is one-dimensional: it can only pick a single path through the space of everything that could be said, leaving all other paths unsaid and unmarked. When we invented writing, we freed ourselves from time — but out of habit we imported the old linear constraint into a medium that didn't require it. Sentences, paragraphs, pages, books: all single run-on strings, "one and only one of the infinite possible paths, and the roads not traveled almost entirely ignored."</p>
+
+  <p>But ideas are <em>not</em> linear. They branch, fork, recombine, and interweave. One claim leads to and from many others. <strong>A faithful map of reasoning needs at least two dimensions.</strong> Trying to represent that branching web in 1-D strings is, in the documents' own analogy, like being handed a logic puzzle ("the woman in the purple shirt sits two seats left of Bob…") to convey what a single <em>picture</em> would make obvious at a glance. The information is identical; the linear form just strips out the structure of the connections.</p>
+
+  <p>So the move is this: take the same impulse that produced language, writing, the printing press, and the internet — each a leap in our ability to share and preserve ideas — and make the next leap. Not more information (we are drowning in it), but a way to <strong>map what is known</strong>: to draw related ideas together, show how each connects to its grounds and consequences, expose where the edges and gaps are, and reliably assess the strength of every piece. The bottleneck is no longer scarcity of knowledge; it's the chaotic overabundance of it.</p>
+
+  <!-- REV 2026-06-22: surfaced the "possibility space" framing, which recurs across the docs but wasn't named in the Overview -->
+  <p>One framing from the documents is worth naming directly: every field of ideas has its own <strong>possibility space</strong>, and the progress of that field <em>is</em> the gradual exploring, mapping, and clarifying of the objects and relationships within it. "To know where you are, where you have been, and how you got from there to here — and what remains unknown — is vital to rational, efficient progress." No medium yet shows the <em>full map</em> of a space: what has been said, which ideas connect to which and why, what is settled, and where the live edges now are. The Graph is meant to be that map.</p>
+
+  <div class="vs">
+    <div class="a">
+      <h4>Wikipedia is for facts</h4>
+      <p>Neutral-point-of-view, consensus overview. Excellent for "where is Timbuktu" — the kind of question a smartphone has already ended pub arguments about.</p>
+      <p>Optimized for <em>description</em>.</p>
+    </div>
+    <div class="b">
+      <h4>Reasonable is for arguments</h4>
+      <p>The strongest case from every side of a <em>disputed</em> question, stated clearly, placed side by side so they sharpen each other, in context with their assumptions, evidence, and consequences.</p>
+      <p>Optimized for <em>persuasion &amp; comparison</em>.</p>
+    </div>
+  </div>
+
+  <p>The hoped-for cultural echo is precise: just as Wikipedia + smartphones made it socially costly to be confidently wrong about a checkable <em>fact</em>, an accessible public repository of the world's best arguments and counter-arguments would make it costly to expound a <em>weak belief</em> — because anyone who bothered to check would have immediate access to the strongest rebuttal you'd struggle to answer. The aim is to <strong>raise the cultural floor for what counts as a reasonable argument</strong>, and to tighten the Overton window toward more defensible positions.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="graph">
+  <h2><span class="num">ARTIFACT 03</span>The Graph of ideas</h2>
+
+  <p>The central artifact is <strong>the Graph</strong>: a single, durable, continuously evolving, user-generated network of ideas, visually connected by lines and spatial position that represent the <em>logical</em> relationships between them. Over time it grows toward a "complete but always-growing ideological taxonomy of the sum total of human knowledge" — not a record merely of what is believed, but of the structured chains of argument and evidence that justify each belief.</p>
+
+  <p>An <strong>idea</strong> is a node: a single claim about the world, reduced as far as possible to its smallest coherent, meaningful component — so it can be examined for clarity, precision, and validity with minimum ambiguity. The ambition stated most plainly in the video script: <em>to bring the clarity and precision of non-quantitative thought as close to the precision of mathematics as is humanly possible.</em></p>
+
+  <h3 id="stacks">Argument stacks</h3>
+  <p>A hot question might attract hundreds or thousands of comments. Reasonable lets users collapse them: every distinct version of <em>one single point</em> gets gathered into a <strong>stack</strong>. Within a stack, the community's assessment floats the clearest, strongest phrasing to the top and sinks the murkiest to the bottom — but nothing is deleted; weaker versions remain beneath, visible, recoverable. The result is that a chaotic question resolves into a manageable handful of stacks, each representing a plausible answer, each showing its best face on top, sitting next to its strongest opposition.</p>
+
+  <h3 id="geometry">The relational geometry</h3>
+  <p>This is the part I want to make sure I've understood correctly, because it's the heart of the UI. Ideas are connected by four logical relationships, each given a fixed <em>spatial</em> meaning so that position itself carries argument:</p>
+
+  <figure class="relfig">
+    <svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" font-family="Inter,sans-serif">
+      <!-- antithesis ring above -->
+      <ellipse cx="380" cy="70" rx="120" ry="34" fill="none" stroke="#b96f8f" stroke-width="1.5" stroke-dasharray="5 5" opacity=".8"/>
+      <rect x="300" y="48" width="160" height="44" rx="9" fill="#1c232c" stroke="#b96f8f" stroke-width="1.5"/>
+      <text x="380" y="75" fill="#b96f8f" font-size="14" text-anchor="middle">Antithesis</text>
+
+      <!-- ground left -->
+      <rect x="40" y="178" width="150" height="64" rx="9" fill="#1c232c" stroke="#c9a227" stroke-width="1.5"/>
+      <text x="115" y="206" fill="#c9a227" font-size="14" text-anchor="middle">Ground</text>
+      <text x="115" y="224" fill="#8a8780" font-size="11" text-anchor="middle">(justifies)</text>
+
+      <!-- central idea -->
+      <rect x="305" y="170" width="150" height="80" rx="10" fill="#222b35" stroke="#e8e6e1" stroke-width="2"/>
+      <text x="380" y="206" fill="#e8e6e1" font-size="15" text-anchor="middle" font-weight="600">THE IDEA</text>
+      <text x="380" y="226" fill="#8a8780" font-size="11" text-anchor="middle">a single claim</text>
+
+      <!-- dependent right -->
+      <rect x="570" y="178" width="150" height="64" rx="9" fill="#1c232c" stroke="#6fb3c9" stroke-width="1.5"/>
+      <text x="645" y="206" fill="#6fb3c9" font-size="14" text-anchor="middle">Dependent</text>
+      <text x="645" y="224" fill="#8a8780" font-size="11" text-anchor="middle">(follows from)</text>
+
+      <!-- alternative stack z, below -->
+      <rect x="338" y="356" width="150" height="44" rx="9" fill="#1c232c" stroke="#8a8fc9" stroke-width="1.5"/>
+      <rect x="330" y="348" width="150" height="44" rx="9" fill="#1c232c" stroke="#8a8fc9" stroke-width="1.5"/>
+      <rect x="322" y="340" width="150" height="44" rx="9" fill="#20283250" stroke="#8a8fc9" stroke-width="1.5"/>
+      <text x="397" y="367" fill="#8a8fc9" font-size="13" text-anchor="middle">Alt. statement</text>
+      <text x="397" y="382" fill="#8a8780" font-size="10" text-anchor="middle">(restatement, z-stack)</text>
+
+      <!-- connectors -->
+      <line x1="190" y1="210" x2="305" y2="210" stroke="#c9a227" stroke-width="1.5"/>
+      <line x1="455" y1="210" x2="570" y2="210" stroke="#6fb3c9" stroke-width="1.5"/>
+      <line x1="380" y1="170" x2="380" y2="104" stroke="#b96f8f" stroke-width="1.5"/>
+      <line x1="380" y1="250" x2="390" y2="340" stroke="#8a8fc9" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <!-- arrowheads -->
+      <polygon points="305,210 293,205 293,215" fill="#c9a227"/>
+      <polygon points="570,210 558,205 558,215" fill="#6fb3c9"/>
+    </svg>
+    <figcaption>Position <em>is</em> argument: where a node sits relative to another encodes how the two are logically related.</figcaption>
+    <div class="legend">
+      <span><span class="sw" style="background:#c9a227"></span>Ground → left · what justifies it</span>
+      <span><span class="sw" style="background:#6fb3c9"></span>Dependent → right · what follows from it</span>
+      <span><span class="sw" style="background:#b96f8f"></span>Antithesis → a ring up/down · what opposes it</span>
+      <span><span class="sw" style="background:#8a8fc9"></span>Alternative → z-axis stack · a re-statement of it</span>
+    </div>
+  </figure>
+
+  <div class="grid2">
+    <div class="mini g"><h4>Grounds — to the left</h4><p>The ideas that <em>justify</em> this one; its supporting assumptions and evidence. You read justification by moving leftward.</p></div>
+    <div class="mini"><h4>Dependents — to the right</h4><p>The ideas that <em>follow from</em> this one; its consequences. You trace implications by moving rightward.</p></div>
+    <div class="mini r"><h4>Antitheses — a ring up &amp; down</h4><p>The ideas that <em>oppose or counter</em> this one — its strongest rebuttals, held in direct visual confrontation.</p></div>
+    <div class="mini v"><h4>Alternative statements — stacked in z</h4><p>The <em>same</em> idea re-expressed: different phrasings, different intuitive framings, different explanatory levels, occupying one point in the plane but a depth-stack behind it.</p></div>
+  </div>
+
+  <p style="margin-top:22px;">A node may have any number of each, but it may not hold <em>logically contradictory</em> relationships to the same neighbor (it can't be both a Ground of X and a Consequence of X; it can't be both an Antithesis and an Alternative of X). When users' placement votes conflict, the majority placement becomes the prominent one — but minority placements persist, stay visible, and can grow into the new majority over time. <strong>Nothing true-seeming is ever permanently silenced; it's only ranked.</strong></p>
+</section>
+
+<!-- ===================================================== -->
+<section id="ui">
+  <h2><span class="num">EXPERIENCE 04</span>The map's mechanics &amp; feel</h2>
+
+  <p>The notes sketch a living, physical-feeling canvas — closer to watching a structure self-assemble than to editing a diagram. Drawing on the mindmap-feature notes:</p>
+
+  <h4>Two registers of zoom</h4>
+  <p>The <strong>macro view</strong> describes overall map structure and coherence; it deliberately de-emphasizes individual connections so the large shape reads clearly. The <strong>micro view</strong>, when you zoom into a node, switches mode entirely — now it lucidly and comprehensively shows that one node's immediate connections. Different jobs, different renderings.</p>
+
+  <h4>Zoom of explanation, not just of scale</h4>
+  <p>Independently, every concept can be explained at a sliding <em>depth</em>: ELI5 → 10 → 15 → 25 → PhD. The same idea offers an elementary on-ramp and a full frontier-of-understanding account, so a curious amateur and a domain adept can both stand on the same node. (This dovetails with Alternative-statement stacks: explanations pitched to mathematically-inclined vs. literarily-inclined minds.)</p>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Structural affordances</h3>
+      <ul>
+        <li><strong>Holes as well as nodes</strong> — explicit placeholders for things we'd <em>like</em> to know, answers indicated-but-unknown, so the map charts its own frontiers and invites strategies to reach them.</li>
+        <li><strong>Recombining paths</strong> — two sibling nodes can share a child; reasoning converges, not just branches.</li>
+        <li><strong>Conjunction</strong> — express that <em>node1 + node2 together</em> imply node3, distinct from either alone implying it.</li>
+        <li><strong>Self-arranging physics</strong> — the canvas settles toward a lowest-energy layout: gravity-like attraction pulls related structure together while repulsion keeps individual nodes legibly apart.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Reading state at a glance</h3>
+      <p>The proposal encodes a node's epistemic status in its <em>appearance</em>, so the health of an entire region is visible without reading a word:</p>
+      <ul>
+        <li><strong>Edge color</strong> (red → white): how <em>reliable</em> the rating is — i.e., how much weighted voting it has received.</li>
+        <li><strong>Brightness</strong>: <em>Reasonableness</em>. Ideas that sink below threshold fade to deep gray — still visible as "tried and found wanting," never erased.</li>
+        <li><strong>Body color</strong> (dark gray → white): <em>Lucidity / clarity</em>.</li>
+      </ul>
+      <p class="soft" style="font-size:15px;">Bright, white, well-rated nodes = strong, clear, settled. Dim/dark/red = where new and better ideas are needed. The map doubles as a to-do list for editors.</p>
+    </div>
+  </div>
+
+  <p>A couple of evocative extras from the notes: a whole-graph "global brain" view where activity ebbs and flows like electrochemical signals between neurons; and a partner <strong>history/biography mode</strong> that rotates the graph so its long axis runs through time, letting you zoom from past to present with people, organizations, and events positioned over a background world map.</p>
+
+  <div class="card">
+    <h3>Personal belief structures</h3>
+    <p>A user can map their own belief structure onto the Graph. Then, when a <em>load-bearing</em> node under one of their beliefs is significantly updated or newly challenged, they can be notified — the system pinpoints exactly where, in a disagreement, your chain of reasoning parted ways with someone else's: the last place you agreed, and therefore the last place it's actually useful to argue.</p>
+  </div>
+</section>
+
+<!-- ===================================================== -->
+<section id="ratings">
+  <h2><span class="num">ENGINE 05</span>Rating, reputation &amp; weighted voting</h2>
+
+  <p>None of the above matters if the map fills with noise. The engine that's meant to keep signal on top is a <strong>reputation-weighted assessment loop</strong>:</p>
+
+  <ol>
+    <li>Posting and rating require an <strong>account</strong>.</li>
+    <li>Users rate every idea/comment on at least two separate axes — <strong>Reasonableness</strong> (is this fairly and logically stated, free of obvious fallacy, rhetorical fog, or incivility?) and <strong>Clarity / Lucidity</strong> — kept deliberately distinct from "how much do I personally believe it?"</li>
+    <li>The Reasonableness ratings a user <em>receives</em> aggregate into a single <strong>account-level Reasonableness score</strong>.</li>
+    <li>That account score then <strong>governs how much weight the user's own votes carry</strong> — on ratings and on Graph placements alike.</li>
+  </ol>
+
+  <p>So an account that is consistently hostile, deceptive, or off-point sees its influence shrink toward insignificance and its contributions sink from view; an account that is consistently fair, frank, and to-the-point sees its visibility and its voting power steadily rise. The system is meant to be <em>self-correcting and stable</em> once tipped toward rewarding accurate, fair assessment.</p>
+
+  <div class="quietnote">A deliberate separation: "<em>Is this argument reasonable and fairly stated?</em>" is a different question, with its own outlet, from "<em>How much credence do I give it?</em>" — and the documents grant that there's value, probably small but real, in keeping them apart so that disagreement doesn't masquerade as a fairness judgment.</div>
+
+  <!-- REV 2026-06-22: added "what reasonableness tracks" — the weak-vs-strong-grounds taxonomy from the Features Outline, which sharpens what the rating axis is actually scoring -->
+  <p style="margin-top:22px;">It's worth being concrete about what the <em>Reasonableness</em> axis is meant to track. The Features Outline draws the line between <strong>weak grounds</strong> for an opinion — raw intuition, universal extrapolation from a single experience, and the mere desire that reality be a certain way — and <strong>strong grounds</strong>: well-vetted data and sound math, a well-populated field of hypotheses held up for comparison, vigorous and open debate, fine-grained attention to a concept's components and the links between them, and deliberate measures against individual bias. Reasonableness is the score that should reward the latter and starve the former.</p>
+
+  <h3 id="consensus">The hard part: consensus vs. truth</h3>
+  <p>You're candid in the documents that this is the central difficulty. If a user's credibility rises by <em>matching everyone else's votes</em>, the system strictly rewards predicting <strong>consensus</strong>, not <strong>truth</strong> — and a savvy user could in principle just learn to forecast the site's zeitgeist. Three reasons you give for why it can still beat anything else available:</p>
+  <ul>
+    <li><strong>The Schelling point.</strong> For a voter trying to match an unknown crowd, the most reliable focal guess is the <em>accurate</em> answer. Guessing "what would everyone conclude if they all voted their biases" is a harder, less consistent winning strategy than just assessing the question straight.</li>
+    <li><strong>It only has to beat the alternatives.</strong> The bar isn't perfect truth-detection. It's producing <em>better</em> assessments than are available anywhere else in the world — and that's a far lower, achievable bar.</li>
+    <li><strong>Self-stabilizing.</strong> Voters bad at tracking consensus lose influence; voters good at it gain influence. <em>If</em> the consensus can be tied to accurate, fair assessment (the role of viewpoint diversity), the loop has real stability and self-correction.</li>
+  </ul>
+
+  <h3 id="blocs">Blind voting &amp; randomized blocs</h3>
+  <p>To sharpen the incentive away from "guess the hivemind," two further mechanisms:</p>
+  <div class="grid2">
+    <div class="mini"><h4>Blind initial period</h4><p>During early voting, you can't see the community's existing scores until you've rated it yourself (or until it passes a vote threshold near its stability point). Author reputation is also hidden on the face of a post, so prior performance doesn't bias fresh ratings. Scores update only periodically, to blunt early-ranking cascades and ease load.</p></div>
+    <div class="mini r"><h4>Randomized blocs</h4><p>Voters are secretly sorted into blocs small enough to have unpredictable, non-representative bias — sometimes mostly one camp, sometimes a clean cross-section, and <em>you never know which</em>. Your credibility tracks how close you are to your bloc's average. Because you can't predict your bloc's lean, the only stable strategy is your honest best estimate of the accurate rating.</p></div>
+  </div>
+  <p class="soft" style="font-size:15.5px;">You also worked through how this penalizes a strategic "lowballer": someone shading a 4.2-consensus item to 4.1 lands, on average, farther from the center of the (more numerous) higher-leaning blocs than from the lower ones, so deliberate distortion costs more credibility than it gains. <span class="soft">(You later flagged one elaboration of the bloc-penalty as probably a mistake — noted below under open questions.)</span></p>
+
+  <div class="quietnote" style="margin-top:18px;">A concrete next step you already named: <em>vibe-code a dashboard that simulates different rating schemes and shows the credibility outcomes for users pursuing different strategies</em> — so the incentive structure can be tested empirically rather than argued in prose. This strikes me as one of the highest-leverage things we could build early.</div>
+
+  <p style="margin-top:22px;">And the honest philosophical floor, stated in your own words: in the domains Reasonable targets, <em>truth is not provably determinable</em> — that's <em>why</em> the site needs to exist. The best achievable is to make our perspectives and arguments as clear and explicit as possible and then see where the weighted consensus lands. The system doesn't claim to find Truth; it claims to find the closest approach humanity can currently construct.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="trolls">
+  <h2><span class="num">ENGINE 06</span>Not racing to the bottom</h2>
+  <p>The defining failure mode of open internet forums is degeneration into cesspits — anonymity breeding hostility that derails any productive thread. Reasonable's answer isn't a clever filter; it's the reputation loop above, applied as social physics: <strong>the right to influence is earned and revocable</strong>, and trolling is simply unprofitable because it shrinks your own weight while your content sinks out of sight.</p>
+  <p>Two caveats the documents hold honestly:</p>
+  <ul>
+    <li>Any human-designed system can be gamed by humans determined enough; this will be a <em>permanently evolving</em> area of the site, co-developed with its users — indeed, the site's own idea-assessing machinery can be turned on the problem of moderating itself.</li>
+    <li>The whole thing rests on a wager: that <strong>more people want to build, cooperate, and know what's true than want to manipulate and deceive</strong> — the same wager that explains why Wikipedia works, why Linux exists, and why our cities aren't all burnt ruins. If that wager is false, the site fails — but so, ultimately, does civilization.</li>
+  </ul>
+</section>
+
+<!-- ===================================================== -->
+<section id="orgs">
+  <h2><span class="num">REACH 07</span>Turning the lens on institutions</h2>
+  <p>Once you can aggregate many viewpoints into strong arguments about what's true, you can point that capacity at society's actual actors. The framing: <em>all behavior — even corporate behavior — is an implicit claim about what it's acceptable to do</em>, and such claims can be examined and judged reasonable or not. A soda company implicitly argues that selling pleasurable-but-unhealthy drinks is acceptable; a counter-argument holds that engineering over-consumption makes it predatory. The point isn't to prejudge — it's that <strong>these arguments are currently made implicitly and should be made explicit and publicly critiqued.</strong></p>
+  <p>To dodge the bottomless "define ethics" warren, the notes propose a pragmatic instrument: evaluative posts about an entity carry, alongside the usual measures, an <strong>Approval</strong> dimension; an entity's total Approval is compounded from all ratings on the set of posts the community agrees are genuinely evaluative of it (and users vote on which posts belong in that set, just as they vote on Graph placement). Examine enough organizations and a <em>gradient</em> emerges — and because the examination is granular, every entity gets a precise public map of exactly how to become more trustworthy, while challengers learn exactly where an unloved incumbent is vulnerable. A tide that, by every channel, flows toward better institutions.</p>
+
+  <!-- REV 2026-06-22: added the "one fundamental conflict" framing from the Video Script — a load-bearing societal claim the Overview had omitted -->
+  <p>Underneath this sits the strongest version of the claim, from the video script: there has only ever been <em>one</em> conflict — between those who want to control and exploit others and those who want to live in reasonable harmony with them — and in the absence of strong structures, power "naturally tends to fall into the hands of the people who want it most." On this reading the cooperative majority's most fundamental protection is simply <strong>a clear, shared awareness of the character of the people and institutions with power over them</strong>, so they can reliably coordinate support for the good actors and withdraw it from the bad. Institution-assessment is that awareness, made into infrastructure.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="revenue">
+  <h2><span class="num">REACH 08</span>A non-adversarial revenue model</h2>
+  <p>The funding idea elegantly reuses the Approval gradient and inverts the usual ad relationship. Today's advertising is a <em>zero-sum arms race</em> — advertisers grab attention and harvest data; users deploy blockers and resent the intrusion; incentives are not just unaligned but opposed. Reasonable proposes the cooperative alternative:</p>
+  <div class="grid3">
+    <div class="mini g"><h4>Admission as the ad</h4><p>Only entities in (say) the top quartile of Approval may advertise. Being <em>allowed</em> to advertise becomes the message — more than the ad's content. "Certified Top 1% / 5% / 10%" tiers carry escalating, sellable value.</p></div>
+    <div class="mini"><h4>Topic-matched, privacy-safe</h4><p>Because the site maps every field, it can match products to the <em>topics</em> users are reading — relevance without surveillance, no personal-data harvest required.</p></div>
+    <div class="mini v"><h4>An exported ad network</h4><p>Serve certified, top-approval, tasteful ads to <em>other</em> sites that want to align with their users — Wikipedia being the ideal client, since a trusted third party placing neutral, genuinely-valued ads could fund them without compromising neutrality.</p></div>
+  </div>
+  <p style="margin-top:20px;">When ads reliably surface things users actually approve of, and users trust that promise, advertising no longer needs manipulation to earn attention. And the surplus is the point: with even a fraction of Wikipedia's traffic, the model could generate <strong>net profit well beyond operating costs</strong> — to be directed, by the site's own collective-intelligence processes, toward whichever interventions the community judges most effective at raising global human flourishing. Personal profit is capped by design.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="effects">
+  <h2><span class="num">REACH 09</span>If it worked: the world it points toward</h2>
+  <p>The documents are ambitious about consequences, and I'll relay them at full strength while keeping them clearly in the conditional.</p>
+
+  <h3>Science &amp; peer review</h3>
+  <p>Open, detailed, <em>prospective</em> peer review — not just retrospective judgment of finished papers, but a forum for proposing which information a field most needs and how best to design studies to get it. Permanent, visible cross-links between fields; explicit awareness of which links in a chain of inference are strong, weak, or missing. The hoped-for result: less weak, un-replicable research, and faster progress against disease, poverty, climate, and AI risk.</p>
+
+  <h3>Politics &amp; democracy</h3>
+  <p>Three readings of politics, three corresponding effects: as a <em>science</em> of social solutions, finer-grained understanding yields better policy; as a <em>theater</em> where the power-hungry must pretend to act reasonably, a public standard of what's genuinely reasonable strips away the ability to dissemble; as <em>tribal warfare</em>, laying out the legitimate reasoning behind every real viewpoint should drain the righteous vitriol — while still marking clearly which parts of which beliefs really are malicious or misguided. At the horizon: a far more precise read on the actual public will, less unchecked power for a handful of officials, and possibly a new model of <strong>direct democracy</strong>.</p>
+
+  <h3>Technical innovation</h3>
+  <p>An extension of prospective peer review into invention: map what could be built and the best paths to build it. Monetizable too — an organization can specify a goal and post a reward for a viable concept-path to reach it, split between the site and the users most instrumental in charting it. <span class="soft">(The notes even gesture at graph-based programming as a further frontier.)</span></p>
+
+  <h3>The cultural shift underneath all of it</h3>
+  <blockquote>The people who grow up in the world where this exists will be saturated with the knowledge that there are plausible arguments on all sides of almost every question — and with how hard it is to out-think the best ideas humanity has collected.<cite>— from the Fable</cite></blockquote>
+  <p>That mindset — intellectual humility, the genuine willingness to have your mind changed by a strong argument — is, the documents argue, the <em>only</em> engine of individual and collective intellectual growth. Make it common and expected rather than rare, and arrogance and willful blindness become, to the average person, an obvious mistake. The single most important and far-reaching problem we have, in the Fable's framing, is simply that <strong>we are not as collectively intelligent as we could be</strong>; Reasonable is one concrete attempt to raise that ceiling.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="assumptions">
+  <h2><span class="num">FOUNDATIONS 10</span>What the whole thing rests on</h2>
+  <p>You name three load-bearing assumptions explicitly, and I think stating them sharply is the most useful thing this document can do — they're where the design is most falsifiable.</p>
+  <div class="grid3">
+    <div class="mini g"><h4>1 · Enough good faith</h4><p>More people are willing to be decent and fair than aren't, and they (collectively) outweigh the bad actors. If false, the site becomes partisan muck — but if false in general, we're arguably doomed regardless.</p></div>
+    <div class="mini"><h4>2 · Ideas are graph-mappable</h4><p>At least some kinds of knowledge become clearer when represented as a visual graph of stripped-to-core claims. <em>How much</em> is unknown until we try and make mistakes — but all language already strings ideas together, so branching strings should work too.</p></div>
+    <div class="mini v"><h4>3 · Strong arguments aren't fakeable</h4><p>Humans can, with effort and collision and error, reliably tell more-reasonable from less-reasonable. If we can't, our minds are unreliable and we can't claim to understand anything at all.</p></div>
+  </div>
+  <p style="margin-top:22px;">I'd add one I read between the lines as a fourth: that <strong>reducing ideas to atomic claims doesn't fatally distort them</strong> — that meaning survives decomposition into nodes well enough for the map to remain faithful to the territory. That one feels the most uncertain to me, and the most worth pressure-testing early.</p>
+</section>
+
+<!-- ===================================================== -->
+<section id="questions">
+  <h2><span class="num">FOUNDATIONS 11</span>Open questions &amp; tensions to chew on</h2>
+  <p>Places where the documents leave a genuine fork, or where building will force a choice. These are my candidates for what we discuss next — not objections, just the live edges.</p>
+
+  <div class="open">
+    <h4>The consensus-vs-truth problem isn't fully solved — and you know it</h4>
+    <ul>
+      <li>You explicitly flagged that the "extra penalty for deviating from the overall rating beyond your bloc" idea is probably a mistake, since the best strategy still reduces to guessing site-wide consensus. The bloc mechanism sharpens the Schelling point but doesn't escape the underlying fact that <em>we're rewarding agreement</em>. Is "best-available, viewpoint-diverse consensus" an honest enough proxy for truth, and how do we keep the diversity that makes it one?</li>
+      <li><strong>Proposed early build:</strong> the rating-scheme simulation dashboard, to make this empirical.</li>
+    </ul>
+  </div>
+  <div class="open">
+    <h4>Reputation systems can ossify into orthodoxy</h4>
+    <p>If influence flows to those who match consensus, how does a <em>correct minority</em> (the Semmelweis case haunts your own documents) ever accumulate the weight to overturn a wrong majority? The "minority placements persist and can grow" rule is the escape hatch — is it strong enough? Should novel-but-unpopular contributions get some structural protection or exploration bonus?</p>
+  </div>
+  <div class="open">
+    <h4>Atomicity vs. meaning</h4>
+    <p>Who decides where one "idea" ends and the next begins? Reduction-to-components is the source of the system's clarity <em>and</em> its biggest distortion risk. How much is decided by users, and how much can/should be assisted (e.g., by an LLM proposing decompositions and placements for human ratification)?</p>
+  </div>
+  <div class="grid2">
+    <div class="open">
+      <h4>The cold-start problem</h4>
+      <p>Wikipedia bootstrapped on a familiar format (the encyclopedia article). Reasonable asks users to learn a novel spatial grammar <em>and</em> populate an empty graph. What's the minimum lovable slice — one question, fully mapped — that demonstrates the value before the network exists?</p>
+    </div>
+    <div class="open">
+      <h4>Org-assessment &amp; capture</h4>
+      <p>Approval ratings that gate ad revenue create a powerful incentive to game those very ratings — exactly the entities with the most resources to do so. Does the reputation-weighting hold up under <em>motivated, funded</em> adversaries, not just casual trolls?</p>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="open">
+      <h4>Role of AI</h4>
+      <p>The original conception predates cheap LLMs. They change the calculus everywhere: drafting alternative-statement phrasings, generating ELI5→PhD ladders, proposing placements, surfacing missing antitheses, even acting as tireless first-pass reasonableness raters. Is AI a co-author of the Graph, a scaffolding tool, or a participant whose votes are weighted like anyone's? This feels like the biggest update the concept needs.</p>
+    </div>
+    <div class="open">
+      <h4>Visualization at scale</h4>
+      <p>A self-arranging 2-D+z physical graph is beautiful at ten nodes. At ten million, does the spatial metaphor still navigate, or does it need to become a queryable database that merely <em>renders</em> locally as a graph? The macro/micro split is the start of an answer; it probably isn't the whole one.</p>
+    </div>
+  </div>
+</section>
+
+<div class="footer">
+  <p><strong>Where this leaves us.</strong> I've tried to represent the idea faithfully and at full ambition, while marking the seams. My read: the philosophical core — that we lack infrastructure for reasoning in the untestable domains, and that a 2-D map of argument is the missing format — is genuinely strong and, if anything, <em>more</em> timely now than when you first wrote it down. The hardest unsolved knot remains consensus-vs-truth, and the biggest missing ingredient is a clear account of where modern AI fits. Those two feel like the right places to push next, and a small, sharp prototype — one question fully mapped, plus the rating-scheme simulator — feels like the right way to start turning prose into something we can actually poke at.</p>
+  <p class="soft" style="margin-top:18px;">A synthesis of the project's founding background documents. — Ready to argue with.</p>
+  <!-- REV 2026-06-22: footnote pointing to the companion Claims Index -->
+  <p class="soft" style="margin-top:12px;font-size:13.5px;">Revised 22 Jun 2026: added a pointer to the new companion <strong>Claims Index</strong>, named the "possibility space" framing (§2), spelled out the weak-vs-strong-grounds taxonomy behind the Reasonableness axis (§5), and added the "one fundamental conflict" claim (§7). All five inline edits are marked <code>REV 2026-06-22</code> in the source.</p>
+</div>
+
+</div>
+</main>
+</div>
+</body>
+</html>

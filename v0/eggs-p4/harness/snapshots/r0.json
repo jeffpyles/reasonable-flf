@@ -1,0 +1,55 @@
+{
+  "round": 0,
+  "graph": {
+    "nodes": 60,
+    "edges": 58,
+    "groups": 5,
+    "events": 1004
+  },
+  "population": {
+    "in_run": 0,
+    "with_ratings": 0
+  },
+  "HEADLINE_expert_vs_crowd": {
+    "expert": null,
+    "crowd": null,
+    "expert_minus_crowd_true_r": null,
+    "verdict": null
+  },
+  "expert_ranks": [],
+  "true_r_variance": {
+    "stdev": 0,
+    "min": null,
+    "max": null
+  },
+  "leaderboard": {
+    "top8": [],
+    "bottom8": []
+  },
+  "coverage": {
+    "rateable_A_items": 118,
+    "depth_min": 0,
+    "depth_median": 0,
+    "depth_mean": 2.8,
+    "items_ge_15": 0
+  },
+  "lifecycle": {
+    "nodes": {
+      "provisional": 33,
+      "contested": 1,
+      "sealed": 26
+    },
+    "edges": {
+      "provisional": 15,
+      "sealed": 43
+    }
+  },
+  "contested_nodes": [
+    {
+      "id": "n023",
+      "mean": 3.44,
+      "stdev": 1.05,
+      "n": 14
+    }
+  ]
+}

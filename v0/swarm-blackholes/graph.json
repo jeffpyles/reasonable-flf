@@ -1,0 +1,2868 @@
+{
+  "accounts": [
+    {
+      "agent": "phys-01",
+      "authored": 44,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "skeptic-02",
+      "authored": 21,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "synth-04",
+      "authored": 6,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    }
+  ],
+  "antithesis_sets": [
+    {
+      "id": "s1",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "phys-01",
+          "belonging": 1,
+          "node": "n001"
+        },
+        {
+          "agrees": 0,
+          "author": "phys-01",
+          "belonging": 1,
+          "node": "n002"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "phys-01",
+          "belonging": 1,
+          "node": "n007"
+        },
+        {
+          "agrees": 0,
+          "author": "phys-01",
+          "belonging": 1,
+          "node": "n008"
+        },
+        {
+          "agrees": 0,
+          "author": "skeptic-02",
+          "belonging": 1,
+          "node": "n018"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "phys-01",
+          "belonging": 1,
+          "node": "n012"
+        },
+        {
+          "agrees": 0,
+          "author": "phys-01",
+          "belonging": 1,
+          "node": "n013"
+        },
+        {
+          "agrees": 0,
+          "author": "skeptic-02",
+          "belonging": 1,
+          "node": "n019"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "synth-04",
+          "belonging": 1,
+          "node": "n023"
+        },
+        {
+          "agrees": 0,
+          "author": "synth-04",
+          "belonging": 1,
+          "node": "n021"
+        }
+      ]
+    }
+  ],
+  "conjunction_groups": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "id": "g1",
+      "members": [
+        "n011",
+        "n015"
+      ],
+      "to": "n013"
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "id": "g2",
+      "members": [
+        "n004",
+        "n008"
+      ],
+      "to": "n018"
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "synth-04",
+      "id": "g3",
+      "members": [
+        "n022",
+        "n001"
+      ],
+      "to": "n023"
+    }
+  ],
+  "frictions": [
+    {
+      "agent": "phys-01",
+      "id": "f1",
+      "refs": [
+        "n012",
+        "n013",
+        "n015"
+      ],
+      "text": "The white-dwarf/neutron-star argument (n013/n015, citing lhc-002) doesn't merely ADD support alongside the capture objection (n012) -- it specifically closes/rebuts that named objection. The grammar has no 'this answers that objection' relation, only support and antithesis-rivalry. I modeled n012 and n013 as rival positive claims in set s3 (is the capture loophole open or closed?), which works, but it required me to manually invent a rival phrasing rather than expressing 'n013 is a rebuttal of n012' directly -- the chain-of-cruxes structure the briefing describes (evaporation reliability -> cosmic-ray analogy -> white-dwarf backstop) is really a chain of objection/answer pairs, and antithesis-as-rivalry is a workable but slightly forced encoding of that.",
+      "ts": "2026-07-03T18:34:52.855205+00:00"
+    },
+    {
+      "agent": "phys-01",
+      "id": "f2",
+      "refs": [
+        "n001"
+      ],
+      "text": "BRIEFING.md's institutional/authority line ('CERN and LSAG conclude there is no danger... treat as a pointer to the reasoning above, not a terminal ground -- see the guide on authority nodes') refers to guidance that does not actually exist in AGENT-GUIDE.md. There is no relation for 'this source restates/summarizes an argument made elsewhere' as distinct from 'this source is independent new evidence for the claim.' I avoided creating a terminal CERN-FAQ (lhc-005) node grounding the top-level no-risk claim directly, to sidestep making an authority appeal look like independent evidence, but the grammar gives no positive way to mark a source as a restatement/pointer rather than a fresh ground -- a later author adding lhc-005 will hit the same ambiguity.",
+      "ts": "2026-07-03T18:34:52.908464+00:00"
+    },
+    {
+      "agent": "skeptic-02",
+      "id": "f3",
+      "refs": [
+        "n001",
+        "n002",
+        "n004"
+      ],
+      "text": "n004 ('production is theoretically possible, if large-extra-dimension theories hold') is, per BRIEFING.md, 'the premise both sides start from -- it establishes possibility, not danger.' But the grammar forced it to be wired as a directional Ground of only n002 (non-negligible risk), because that's the only place a prior author had drawn an edge from it and Grounds are inherently directional toward one dependent. There is no way to mark a node as a shared background precondition for a whole antithesis set (neutral to both rivals) rather than a Ground that reads as supporting one side specifically. I reused e002 rather than also drawing n004->n001, since 'possibility of production' isn't actual evidence that the outcome is harmless either -- but leaving it as a sole Ground into n002 visually overstates how much n004 argues FOR the minority position on its own.",
+      "ts": "2026-07-03T18:40:11.721641+00:00"
+    },
+    {
+      "agent": "method-03",
+      "id": "f4",
+      "refs": [
+        "n007",
+        "n008"
+      ],
+      "text": "Antithesis set s2 pairs n007 ('Hawking radiation is theoretically well-motivated enough to be relied upon') against n008, but n008 is kind=external_anchor -- its entire text is 'this source says the mechanism has never been directly observed,' not a judgment-level conclusion at the same grain as n007's 'reliable enough to trust.' The set reads as a clean rivalry but only one side actually states a verdict; the other is a raw evidentiary fact whose implied verdict ('...therefore NOT reliable enough to trust') the reader must infer. The grammar lets an external_anchor stand directly as an antithesis member with no requirement that rival claims be stated at comparable grain, which understates how much interpretive work is being smuggled into set membership. A cleaner encoding would route the anchor through an intermediate claim node (mirroring n007's grain) before add-antithesis, but nothing in the CLI or guide requires or nudges toward that -- it's a silent choice, not a flagged one.",
+      "ts": "2026-07-03T18:46:57.113931+00:00"
+    },
+    {
+      "agent": "method-03",
+      "id": "f5",
+      "refs": [
+        "n016",
+        "n017",
+        "n018",
+        "n019"
+      ],
+      "text": "Building on f2: skeptic-02's n016->n017 (CERN FAQ restates LSAG, therefore institutional reassurance is narrower than it appears) shows a workable escape from f2's problem -- route a meta-evaluation of a source's evidentiary weight through its own ordinary claim node rather than grounding the top-level claim directly. It works, but at a cost f2 didn't name: the resulting Ground edge (e015, n016->n017) is structurally identical to an ordinary object-level Ground -- nothing marks it as 'a claim ABOUT another source's independence/reliability' rather than 'a claim ABOUT the world.' Same pattern in n018 (evaporation safety case 'stacks two unconfirmed premises') and n019 (white-dwarf argument 'still rests on unconfirmed modeling'): all three are meta-commentary on the reliability of an argument elsewhere in the graph, wired through ordinary Grounds into n002 as if they were fresh first-order evidence for non-negligible risk. A reader traversing edges has no way to tell 'this Ground is part of the object-level case' from 'this Ground is a second-order comment on another node's evidentiary weight' without reading full text at every hop -- the two are visually and structurally the same relation.",
+      "ts": "2026-07-03T18:47:07.263684+00:00"
+    },
+    {
+      "agent": "synth-04",
+      "id": "f6",
+      "refs": [
+        "n002",
+        "n008",
+        "n016",
+        "n017",
+        "n018",
+        "n019",
+        "n021"
+      ],
+      "text": "Synthesizing f4 (antithesis grain mismatch) and f5 (meta-vs-object-level grounds look identical to object-level ones): both symptoms trace to one missing primitive -- the grammar tags a node's KIND as claim|external_anchor but has no way to mark a node's GRAIN, specifically whether it is an object-level claim about the world or a meta-claim about the evidentiary status/independence/reliability of another specific node or argument elsewhere in the graph. Because that distinction lives only in prose, it leaks into both relations identically: into antithesis sets (f4 -- a verdict-level claim can sit opposite a raw fact whose implied verdict the reader must infer) and into Ground edges (f5 -- n016->n017->n002 and n004/n008->n018->n002 and n004->n019->n021->n002 all read as ordinary first-order support into n002, though several are really commentary on the evidentiary weight of arguments made elsewhere, not fresh facts about LHC risk). While pressure-testing which existing grounds into n002 I would independently agree with, I found myself silently re-deriving this level distinction from scratch for every edge (agreeing n008->n002 as first-order, declining n017->n002 and n018->n002 and n019->n002 as second-order restatements) -- work a structural marker should do once rather than every reader repeating by close reading. A  pointer or a third node-kind (e.g. , naming which node/argument it evaluates) would let antithesis-grain and ground-directness be checked/rendered instead of inferred every time.",
+      "ts": "2026-07-03T18:52:29.296649+00:00"
+    },
+    {
+      "agent": "synth-04",
+      "id": "f7",
+      "refs": [
+        "n002",
+        "n008",
+        "n016",
+        "n017",
+        "n018",
+        "n019",
+        "n021"
+      ],
+      "text": "Correction/clean restatement of f6 (a shell-escaping artifact stripped two code-quoted terms from that entry, garbling its final sentence). The point: f4 and f5 both trace to one missing primitive -- the grammar tags a node KIND as claim or external_anchor but has no way to mark a node's GRAIN, i.e. whether it is an object-level claim about the world versus a meta-claim about the evidentiary status, independence, or reliability of another specific node/argument elsewhere in the graph. That distinction lives only in prose, so it leaks identically into antithesis sets (f4: a verdict-level claim can sit opposite a raw fact whose implied verdict must be inferred) and into Ground edges (f5: n016-to-n017-to-n002, n004/n008-to-n018-to-n002, and n004-to-n019-to-n002 all read as ordinary first-order support into n002, though several are really commentary on the evidentiary weight of arguments made elsewhere, not fresh facts about LHC risk). Pressure-testing which grounds into n002 I would independently agree with, I had to silently re-derive this level distinction per edge (agreed n008-to-n002 as first-order; declined n017-to-n002, n018-to-n002, n019-to-n002 as second-order restatements) -- work a structural marker should do once, not something every reader re-derives by close reading. A dedicated meta-claim node kind, or a points-at field naming which node/argument a claim evaluates, would let grain and ground-directness be checked or rendered instead of silently inferred.",
+      "ts": "2026-07-03T18:53:00.259399+00:00"
+    }
+  ],
+  "ground_edges": [
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 7,
+      "from": "n003",
+      "group": null,
+      "id": "e001",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n004",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 8,
+      "from": "n004",
+      "group": null,
+      "id": "e002",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 11,
+      "from": "n005",
+      "group": null,
+      "id": "e003",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n006",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 12,
+      "from": "n006",
+      "group": null,
+      "id": "e004",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 17,
+      "from": "n007",
+      "group": null,
+      "id": "e005",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n006",
+      "typings": []
+    },
+    {
+      "agents": [
+        "skeptic-02",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 18,
+      "from": "n008",
+      "group": null,
+      "id": "e006",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 22,
+      "from": "n009",
+      "group": null,
+      "id": "e007",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n011",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 23,
+      "from": "n010",
+      "group": null,
+      "id": "e008",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n011",
+      "typings": []
+    },
+    {
+      "agents": [
+        "skeptic-02",
+        "method-03",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 3,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 24,
+      "from": "n011",
+      "group": null,
+      "id": "e009",
+      "primary_typing": null,
+      "strength": 4,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 29,
+      "from": "n012",
+      "group": null,
+      "id": "e010",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-03",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 30,
+      "from": "n013",
+      "group": null,
+      "id": "e011",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 33,
+      "from": "n014",
+      "group": null,
+      "id": "e012",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n015",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 34,
+      "from": "n011",
+      "group": "g1",
+      "id": "e013",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-03",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 35,
+      "from": "n015",
+      "group": "g1",
+      "id": "e014",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-03",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 40,
+      "from": "n016",
+      "group": null,
+      "id": "e015",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n017",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 41,
+      "from": "n017",
+      "group": null,
+      "id": "e016",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 43,
+      "from": "n004",
+      "group": "g2",
+      "id": "e017",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n018",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-03",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 44,
+      "from": "n008",
+      "group": "g2",
+      "id": "e018",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n018",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 45,
+      "from": "n018",
+      "group": null,
+      "id": "e019",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 48,
+      "from": "n004",
+      "group": null,
+      "id": "e020",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n019",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 49,
+      "from": "n019",
+      "group": null,
+      "id": "e021",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-03",
+        "synth-04"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 53,
+      "from": "n020",
+      "group": null,
+      "id": "e022",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n021",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 54,
+      "from": "n021",
+      "group": null,
+      "id": "e023",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "synth-04",
+      "comments": [],
+      "created_seq": 68,
+      "from": "n022",
+      "group": "g3",
+      "id": "e024",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n023",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "synth-04",
+      "comments": [],
+      "created_seq": 69,
+      "from": "n001",
+      "group": "g3",
+      "id": "e025",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n023",
+      "typings": []
+    }
+  ],
+  "meta": {
+    "comment_count": 0,
+    "config": {
+      "aggregation": {
+        "epsilon": 0.001,
+        "iterations": 12,
+        "weight_by": "true_r"
+      },
+      "phase2": {
+        "bloc_min_ratings": 3,
+        "cold_factor": 0.5,
+        "confirm": 15,
+        "contested_threshold": 1.0,
+        "heat_diffuse": 0.15,
+        "heat_half_life": 300.0,
+        "nudge_distance": 1.5,
+        "quorum": 5
+      },
+      "phrasing_R_over_C_bias": 1.5,
+      "reputation": {
+        "K": 8.0,
+        "prior": 0.15,
+        "raw_blend": "mean"
+      },
+      "scale_max": 5.0
+    },
+    "event_count": 89,
+    "generated_ts": "2026-07-03T18:53:00.259399+00:00",
+    "heat_medians": {
+      "content": 3.044713511552761,
+      "rating": null
+    },
+    "question": "Could the LHC create a black hole that destroys Earth?",
+    "rating_count": 0
+  },
+  "nodes": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 1,
+      "heat": {
+        "content": 7.191484,
+        "rating": 0.0
+      },
+      "id": "n001",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The LHC poses no credible risk of creating a black hole that endangers Earth: even if microscopic black holes are produced, they are harmless."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "No credible risk (mainstream)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 2,
+      "heat": {
+        "content": 7.831196,
+        "rating": 0.0
+      },
+      "id": "n002",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The risk that LHC collisions could create a dangerous black hole was not adequately excluded and remains non-negligible."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Non-negligible risk (minority)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 5,
+      "heat": {
+        "content": 1.623057,
+        "rating": 0.0
+      },
+      "id": "n003",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Dimopoulos & Landsberg (2001) propose that, if certain large-extra-dimension theories are correct, TeV-scale microscopic black holes could be produced in LHC collisions."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-006",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Extra dimensions predict TeV black holes (Dimopoulos & Landsberg)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 6,
+      "heat": {
+        "content": 4.629123,
+        "rating": 0.0
+      },
+      "id": "n004",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "If certain large-extra-dimension theories are correct, microscopic black holes could in principle be produced at LHC collision energies."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Production is theoretically possible"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 9,
+      "heat": {
+        "content": 1.623911,
+        "rating": 0.0
+      },
+      "id": "n005",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Hawking (1975) showed theoretically that black holes radiate and lose mass ('Hawking radiation'), with smaller black holes evaporating faster."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-004",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Hawking radiation: black holes radiate and lose mass"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 10,
+      "heat": {
+        "content": 3.524296,
+        "rating": 0.0
+      },
+      "id": "n006",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Any microscopic black hole produced at the LHC would, per Hawking radiation, evaporate almost instantaneously and so could never grow to a dangerous size."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Micro black holes would evaporate near-instantly"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 13,
+      "heat": {
+        "content": 2.343412,
+        "rating": 0.0
+      },
+      "id": "n007",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Hawking radiation is theoretically well-motivated enough to be relied upon as the mechanism that would cause any LHC-produced microscopic black hole to evaporate safely."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Evaporation mechanism is reliable enough to trust"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 14,
+      "heat": {
+        "content": 4.847613,
+        "rating": 0.0
+      },
+      "id": "n008",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Hawking radiation, the mechanism by which a microscopic black hole would evaporate, has never been directly observed and remains an empirically unconfirmed theoretical prediction."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-004",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Evaporation mechanism is empirically unconfirmed"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 19,
+      "heat": {
+        "content": 1.7043,
+        "rating": 0.0
+      },
+      "id": "n009",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The LHC Safety Assessment Group review (Ellis, Giudice, Mangano, Tkachev & Wiedemann, 2008) concludes LHC collisions present no danger, drawing heavily on the cosmic-ray argument."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-001",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "LSAG safety review (2008)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 20,
+      "heat": {
+        "content": 1.707769,
+        "rating": 0.0
+      },
+      "id": "n010",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Hut & Rees (1983) formulated the early cosmic-ray safety argument: naturally occurring cosmic-ray collisions vastly exceed accelerator energies and have not produced catastrophe."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-003",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Hut & Rees (1983): early cosmic-ray safety argument"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 21,
+      "heat": {
+        "content": 5.738069,
+        "rating": 0.0
+      },
+      "id": "n011",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Cosmic rays collide with Earth, the Sun, and other astronomical bodies at energies far exceeding those reached at the LHC, and have done so for billions of years without any observed catastrophe."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Cosmic rays already exceed LHC energies, harmlessly"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 25,
+      "heat": {
+        "content": 2.65055,
+        "rating": 0.0
+      },
+      "id": "n012",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The cosmic-ray safety argument may not fully apply, because naturally occurring cosmic-ray collision products move at high speed and escape Earth, whereas an LHC-produced black hole could be slow-moving and gravitationally captured."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Objection: collider black holes could be captured, unlike cosmic-ray ones"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 26,
+      "heat": {
+        "content": 5.599693,
+        "rating": 0.0
+      },
+      "id": "n013",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The observed long-term survival of white dwarfs and neutron stars closes the objection that collider-produced black holes could be captured while cosmic-ray-produced ones escape, bounding the risk even in a no-evaporation scenario."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "White-dwarf/neutron-star survival closes the capture loophole"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 31,
+      "heat": {
+        "content": 1.342697,
+        "rating": 0.0
+      },
+      "id": "n014",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Giddings & Mangano (2008) show that if slow, stable, dangerous microscopic black holes could be produced by cosmic-ray collisions, they would also have been captured by and would have destroyed dense astronomical bodies such as white dwarfs and neutron stars."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-002",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Giddings & Mangano (2008): stable black holes would destroy dense stars"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "phys-01",
+      "comments": [],
+      "created_seq": 32,
+      "heat": {
+        "content": 3.044714,
+        "rating": 0.0
+      },
+      "id": "n015",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "White dwarfs and neutron stars are observed to persist over long timescales, which is evidence that they have not been destroyed by any stable, capturable black holes cosmic rays might have produced."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Dense stars persist, evidencing no destructive captures"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 38,
+      "heat": {
+        "content": 2.641307,
+        "rating": 0.0
+      },
+      "id": "n016",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "CERN's public FAQ on LHC safety states that microscopic black holes, if produced at all, would be harmless (evaporating via Hawking radiation, or otherwise covered by the cosmic-ray argument), restating the LSAG review's conclusions in accessible form."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "lhc-005",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "CERN public safety FAQ (restates LSAG)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 39,
+      "heat": {
+        "content": 3.346027,
+        "rating": 0.0
+      },
+      "id": "n017",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "CERN's public safety FAQ restates the LSAG review's conclusions rather than providing an independently derived risk assessment, so the appearance of multiple institutional endorsements overstates how many independent checks the safety case has actually received."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Institutional reassurance is narrower than it appears"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 42,
+      "heat": {
+        "content": 5.065253,
+        "rating": 0.0
+      },
+      "id": "n018",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The LHC evaporation safety argument is a compound theoretical claim: it requires both that large-extra-dimension theories permitting micro black hole production are correct and that Hawking's unconfirmed evaporation mechanism applies as calculated in that regime, so its overall reliability cannot exceed the weaker of those two unverified theoretical premises."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Safety case stacks two unconfirmed premises"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 47,
+      "heat": {
+        "content": 3.495501,
+        "rating": 0.0
+      },
+      "id": "n019",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The white-dwarf/neutron-star argument itself depends on theoretical modeling of how a stable black hole would capture matter and grow inside dense stellar material, an application of the same unconfirmed beyond-Standard-Model physics invoked elsewhere in the safety case, so it narrows but does not eliminate the theoretical uncertainty around the capture-loophole question."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "White-dwarf argument still rests on unconfirmed modeling"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 51,
+      "heat": {
+        "content": 2.296833,
+        "rating": 0.0
+      },
+      "id": "n020",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Because a wrongly-dismissed irreversible, planet-scale harm cannot be corrected after the fact, the asymmetry between the cost of erring toward caution and the cost of erring toward proceeding justifies applying a stricter safety standard than ordinary expected-value risk-tolerance would require."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Irreversible catastrophic stakes justify asymmetric caution (value premise)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "skeptic-02",
+      "comments": [],
+      "created_seq": 52,
+      "heat": {
+        "content": 3.941197,
+        "rating": 0.0
+      },
+      "id": "n021",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "For a risk that is irreversible and civilization-ending in scale, a probability that would be dismissed as negligible for an ordinary reversible risk should not be dismissed as negligible."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Negligibility threshold should rise with irreversible stakes"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "synth-04",
+      "comments": [],
+      "created_seq": 66,
+      "heat": {
+        "content": 1.425472,
+        "rating": 0.0
+      },
+      "id": "n022",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Ordinary expected-value reasoning already reflects an outcome's severity through its magnitude term, so an outcome being irreversible or catastrophic in scale does not by itself justify a categorically stricter standard than that reasoning already provides."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Expected-value reasoning already accounts for severity (value premise)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "synth-04",
+      "comments": [],
+      "created_seq": 67,
+      "heat": {
+        "content": 2.925067,
+        "rating": 0.0
+      },
+      "id": "n023",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "When astrophysical evidence bounds the physical probability of an LHC-created catastrophic black hole to negligible levels, that ordinary expected-value assessment already suffices as a decision standard, and no additional precautionary premium beyond it is warranted."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Ordinary expected-value reasoning suffices once evidence bounds the risk"
+        }
+      ]
+    }
+  ]
+}

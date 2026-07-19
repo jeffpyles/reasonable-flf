@@ -1,0 +1,365 @@
+{
+  "n_items": 307,
+  "methods": {
+    "true_r (live)": {
+      "expert_mean": 0.8086,
+      "crowd_mean": 0.8304,
+      "expert_minus_crowd": -0.0218,
+      "expert_median_pctile": 0.167,
+      "spearman_vs_hidden_competence": -0.637,
+      "n_scored": 60,
+      "top6": [
+        [
+          "h45-label-reader",
+          "crow",
+          0.862
+        ],
+        [
+          "h50-news-follower",
+          "crow",
+          0.858
+        ],
+        [
+          "h35-senior-health",
+          "crow",
+          0.854
+        ],
+        [
+          "h51-pragmatic-doctor-fan",
+          "crow",
+          0.854
+        ],
+        [
+          "h22-value-moderation",
+          "crow",
+          0.853
+        ],
+        [
+          "h28-calorie-counter",
+          "crow",
+          0.852
+        ]
+      ],
+      "bottom6": [
+        [
+          "s06-biostatistician",
+          "expe",
+          0.796
+        ],
+        [
+          "s04-endocrinologist",
+          "expe",
+          0.794
+        ],
+        [
+          "s02-nutri-epi",
+          "expe",
+          0.789
+        ],
+        [
+          "h08-parent-feeder",
+          "crow",
+          0.786
+        ],
+        [
+          "h06-plant-leaning",
+          "crow",
+          0.784
+        ],
+        [
+          "h14-diabetic-aware",
+          "crow",
+          0.783
+        ]
+      ]
+    },
+    "align (baseline)": {
+      "expert_mean": 0.9073,
+      "crowd_mean": 0.938,
+      "expert_minus_crowd": -0.0307,
+      "expert_median_pctile": 0.1,
+      "spearman_vs_hidden_competence": -0.535,
+      "n_scored": 60,
+      "top6": [
+        [
+          "h45-label-reader",
+          "crow",
+          0.968
+        ],
+        [
+          "h50-news-follower",
+          "crow",
+          0.963
+        ],
+        [
+          "h35-senior-health",
+          "crow",
+          0.96
+        ],
+        [
+          "h51-pragmatic-doctor-fan",
+          "crow",
+          0.96
+        ],
+        [
+          "h22-value-moderation",
+          "crow",
+          0.957
+        ],
+        [
+          "h28-calorie-counter",
+          "crow",
+          0.956
+        ]
+      ],
+      "bottom6": [
+        [
+          "s03-ebm-meta",
+          "expe",
+          0.909
+        ],
+        [
+          "h31-keto-leaning",
+          "crow",
+          0.907
+        ],
+        [
+          "h52-supplement-minded",
+          "crow",
+          0.907
+        ],
+        [
+          "s02-nutri-epi",
+          "expe",
+          0.898
+        ],
+        [
+          "s06-biostatistician",
+          "expe",
+          0.892
+        ],
+        [
+          "s05-biochemist",
+          "expe",
+          0.886
+        ]
+      ]
+    },
+    "align_debiased": {
+      "expert_mean": 0.8948,
+      "crowd_mean": 0.9427,
+      "expert_minus_crowd": -0.0479,
+      "expert_median_pctile": 0.067,
+      "spearman_vs_hidden_competence": -0.574,
+      "n_scored": 60,
+      "top6": [
+        [
+          "h50-news-follower",
+          "crow",
+          0.97
+        ],
+        [
+          "h45-label-reader",
+          "crow",
+          0.969
+        ],
+        [
+          "h35-senior-health",
+          "crow",
+          0.968
+        ],
+        [
+          "h51-pragmatic-doctor-fan",
+          "crow",
+          0.967
+        ],
+        [
+          "h49-contrarian-honest",
+          "crow",
+          0.962
+        ],
+        [
+          "h41-athlete-endurance",
+          "crow",
+          0.959
+        ]
+      ],
+      "bottom6": [
+        [
+          "s03-ebm-meta",
+          "expe",
+          0.901
+        ],
+        [
+          "h52-supplement-minded",
+          "crow",
+          0.901
+        ],
+        [
+          "s07-guidelines-pubh",
+          "expe",
+          0.897
+        ],
+        [
+          "s02-nutri-epi",
+          "expe",
+          0.886
+        ],
+        [
+          "s06-biostatistician",
+          "expe",
+          0.885
+        ],
+        [
+          "s05-biochemist",
+          "expe",
+          0.873
+        ]
+      ]
+    },
+    "ds_reliability": {
+      "expert_mean": 2.5411,
+      "crowd_mean": 6.3551,
+      "expert_minus_crowd": -3.8139,
+      "expert_median_pctile": 0.075,
+      "spearman_vs_hidden_competence": -0.545,
+      "n_scored": 60,
+      "top6": [
+        [
+          "h50-news-follower",
+          "crow",
+          13.668
+        ],
+        [
+          "h51-pragmatic-doctor-fan",
+          "crow",
+          11.692
+        ],
+        [
+          "h45-label-reader",
+          "crow",
+          11.2
+        ],
+        [
+          "h35-senior-health",
+          "crow",
+          10.181
+        ],
+        [
+          "h22-value-moderation",
+          "crow",
+          10.071
+        ],
+        [
+          "h49-contrarian-honest",
+          "crow",
+          10.034
+        ]
+      ],
+      "bottom6": [
+        [
+          "h19-label-reader",
+          "crow",
+          2.76
+        ],
+        [
+          "h52-supplement-minded",
+          "crow",
+          2.467
+        ],
+        [
+          "s07-guidelines-pubh",
+          "expe",
+          2.453
+        ],
+        [
+          "s06-biostatistician",
+          "expe",
+          2.163
+        ],
+        [
+          "s02-nutri-epi",
+          "expe",
+          2.138
+        ],
+        [
+          "s05-biochemist",
+          "expe",
+          1.812
+        ]
+      ]
+    },
+    "discrimination": {
+      "expert_mean": 0.8281,
+      "crowd_mean": 0.7322,
+      "expert_minus_crowd": 0.0959,
+      "expert_median_pctile": 0.766,
+      "spearman_vs_hidden_competence": 0.111,
+      "n_scored": 60,
+      "top6": [
+        [
+          "s04-endocrinologist",
+          "expe",
+          0.914
+        ],
+        [
+          "h45-label-reader",
+          "crow",
+          0.892
+        ],
+        [
+          "h49-contrarian-honest",
+          "crow",
+          0.886
+        ],
+        [
+          "h50-news-follower",
+          "crow",
+          0.886
+        ],
+        [
+          "s01-lipidologist",
+          "expe",
+          0.874
+        ],
+        [
+          "h51-pragmatic-doctor-fan",
+          "crow",
+          0.871
+        ]
+      ],
+      "bottom6": [
+        [
+          "h10-food-safety",
+          "crow",
+          0.62
+        ],
+        [
+          "h44-nurse-practical",
+          "crow",
+          0.595
+        ],
+        [
+          "h33-budget-shopper",
+          "crow",
+          0.546
+        ],
+        [
+          "h47-environmental",
+          "crow",
+          0.531
+        ],
+        [
+          "h42-culinary-culture",
+          "crow",
+          0.5
+        ],
+        [
+          "h19-label-reader",
+          "crow",
+          0.417
+        ]
+      ]
+    }
+  }
+}

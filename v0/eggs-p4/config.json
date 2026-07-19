@@ -1,0 +1,8 @@
+{
+  "phase2": {
+    "confirm": 10,
+    "contested_threshold": 1.0,
+    "heat_half_life": 300.0,
+    "quorum": 5
+  }
+}

@@ -1,0 +1,2151 @@
+{
+  "n076:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n077:p0:C": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n076:p0:R": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n075:p0:C": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e075:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e072:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n078:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n078:p0:R": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n077:p0:R": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n079:p0:R": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e074:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n075:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n076:p0:C": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n078:p0:C": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n077:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n079:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e073:A": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n079:p0:C": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n075:p0:R": {
+    "prior": 0,
+    "added": 18,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n010:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n029:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n013:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n057:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e004:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e037:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n035:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e002:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n054:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n043:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n024:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n044:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "group:g3:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n038:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n030:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e010:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n046:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n034:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n030:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n039:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n060:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n057:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n006:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e003:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n012:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n040:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n039:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n042:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e054:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n028:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e035:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n035:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n044:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n014:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n025:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n045:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n026:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e050:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e018:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n020:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n035:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n025:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n056:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "group:g1:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n030:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n060:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n041:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e055:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n021:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n027:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n020:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n055:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n004:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n028:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n016:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n012:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e027:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n026:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n031:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e001:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n016:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n015:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e005:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n024:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n029:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n014:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n011:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n036:p0:R": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "e015:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n015:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "n020:A": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n038:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n036:p0:C": {
+    "prior": 8,
+    "added": 10,
+    "target": 18,
+    "reached": 18,
+    "short": 0
+  },
+  "phrasing:n051:p0:C": {
+    "prior": 8,
+    "added": 8,
+    "target": 18,
+    "reached": 16,
+    "short": 2
+  },
+  "n011:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n043:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n007:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n010:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n031:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "group:g4:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n013:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n059:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n037:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n038:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n059:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n050:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n021:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e014:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n026:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e019:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n027:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n040:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e009:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e038:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e012:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n043:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n049:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n045:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n047:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e013:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e040:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n042:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e057:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n015:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n045:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n047:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e006:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n040:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n004:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e042:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n028:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e023:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n024:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "group:g5:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n057:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n053:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n058:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n006:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e025:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n046:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n006:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e058:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n058:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n025:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n049:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n021:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n048:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n004:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n034:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n059:p0:C": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e034:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n027:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e043:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n037:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n053:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n053:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "e053:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n014:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n049:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "n007:A": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n042:p0:R": {
+    "prior": 8,
+    "added": 0,
+    "target": 18,
+    "reached": 8,
+    "short": 10
+  },
+  "phrasing:n032:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n001:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n009:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n032:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n033:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n003:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n033:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n008:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n003:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n005:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n005:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n018:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n033:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n001:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n002:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n022:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n005:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n022:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n017:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n022:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n002:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n019:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n018:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n032:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n017:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n017:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n001:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n019:p0:C": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n003:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n019:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n008:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n008:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n009:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n018:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "phrasing:n009:p0:R": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n002:A": {
+    "prior": 9,
+    "added": 0,
+    "target": 18,
+    "reached": 9,
+    "short": 9
+  },
+  "n055:A": {
+    "prior": 12,
+    "added": 0,
+    "target": 18,
+    "reached": 12,
+    "short": 6
+  },
+  "phrasing:n071:p0:R": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n062:p0:R": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n069:p0:C": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n072:p0:R": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "e022:A": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n066:p0:C": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n070:p0:R": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n073:p0:R": {
+    "prior": 13,
+    "added": 0,
+    "target": 18,
+    "reached": 13,
+    "short": 5
+  },
+  "phrasing:n063:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n023:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e030:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e044:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n052:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n069:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n064:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n050:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e051:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n054:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n071:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e068:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n070:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e049:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e067:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e070:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n013:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n011:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e007:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n048:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n074:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n068:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n065:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e046:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e056:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n056:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n068:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e029:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n051:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n067:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n066:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n064:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n074:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e071:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n073:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "group:g2:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e036:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e028:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e065:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n054:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n016:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e059:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n039:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e062:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n063:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n023:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e066:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n072:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e026:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n048:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n065:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n065:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n067:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n046:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n067:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n012:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n058:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n064:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n050:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n034:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n051:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n056:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e024:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n073:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e061:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e017:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e033:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n070:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n041:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n061:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e039:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n071:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n029:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n031:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n074:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n044:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n061:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n010:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n052:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n068:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n063:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n060:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n072:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e064:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n041:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e008:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n069:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n066:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n062:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n036:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n037:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n007:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n061:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e060:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e052:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n062:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n047:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "n023:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e063:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "e069:A": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n052:p0:R": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  },
+  "phrasing:n055:p0:C": {
+    "prior": 14,
+    "added": 0,
+    "target": 18,
+    "reached": 14,
+    "short": 4
+  }
+}

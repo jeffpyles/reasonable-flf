@@ -1,0 +1,3897 @@
+{
+  "accounts": [
+    {
+      "agent": "epi-01",
+      "authored": 27,
+      "confidence": 0.9712230215827338,
+      "n_assessments": 270,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "hon-lab01",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.8892197852099234,
+      "true_r": 0.7202552628762267
+    },
+    {
+      "agent": "hon-lab02",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.8935587390420469,
+      "true_r": 0.7236024558324362
+    },
+    {
+      "agent": "hon-lab03",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.8834708328469351,
+      "true_r": 0.7158203567676357
+    },
+    {
+      "agent": "hon-lab04",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9022607832535984,
+      "true_r": 0.7303154613670616
+    },
+    {
+      "agent": "hon-lab05",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.8982568475973352,
+      "true_r": 0.7272267110036585
+    },
+    {
+      "agent": "hon-neu01",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9561219741373526,
+      "true_r": 0.7718655229059577
+    },
+    {
+      "agent": "hon-neu02",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9473659629544214,
+      "true_r": 0.7651108857076966
+    },
+    {
+      "agent": "hon-neu03",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9319626544310922,
+      "true_r": 0.7532283334182711
+    },
+    {
+      "agent": "hon-neu04",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9527013781512476,
+      "true_r": 0.7692267774309625
+    },
+    {
+      "agent": "hon-zoo01",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9091264341793649,
+      "true_r": 0.735611820652653
+    },
+    {
+      "agent": "hon-zoo02",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9113884343219296,
+      "true_r": 0.7373567921912029
+    },
+    {
+      "agent": "hon-zoo03",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9200478862076572,
+      "true_r": 0.7440369407887641
+    },
+    {
+      "agent": "hon-zoo04",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9431918420166993,
+      "true_r": 0.7618908495557395
+    },
+    {
+      "agent": "hon-zoo05",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9277603575656734,
+      "true_r": 0.7499865615506623
+    },
+    {
+      "agent": "method-04",
+      "authored": 14,
+      "confidence": 0.9493670886075949,
+      "n_assessments": 150,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "origins-skeptic-02",
+      "authored": 25,
+      "confidence": 0.967741935483871,
+      "n_assessments": 240,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "slp-01",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7286348901795604,
+      "true_r": 0.5963754867099466
+    },
+    {
+      "agent": "slp-02",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7423186951621255,
+      "true_r": 0.606931564839354
+    },
+    {
+      "agent": "slp-03",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7274320177656639,
+      "true_r": 0.5954475565620836
+    },
+    {
+      "agent": "slp-04",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7226532636189378,
+      "true_r": 0.5917610890774663
+    },
+    {
+      "agent": "slp-05",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9317936721628781,
+      "true_r": 0.753097975668506
+    },
+    {
+      "agent": "slp-06",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.9264855389539474,
+      "true_r": 0.749003130050188
+    },
+    {
+      "agent": "slp-07",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7296794654626635,
+      "true_r": 0.5971813019283404
+    },
+    {
+      "agent": "slp-08",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7459491325969245,
+      "true_r": 0.6097321880033417
+    },
+    {
+      "agent": "slp-z01",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7856870902129188,
+      "true_r": 0.6403871838785373
+    },
+    {
+      "agent": "slp-z02",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.786529202480603,
+      "true_r": 0.6410368133421794
+    },
+    {
+      "agent": "slp-z03",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.781938074567631,
+      "true_r": 0.6374950860950296
+    },
+    {
+      "agent": "slp-z04",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7956197472469251,
+      "true_r": 0.6480495193047707
+    },
+    {
+      "agent": "slp-z05",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7855109709968823,
+      "true_r": 0.6402513204833091
+    },
+    {
+      "agent": "slp-z06",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7796548005590102,
+      "true_r": 0.6357337032883793
+    },
+    {
+      "agent": "slp-z07",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.8035831226842609,
+      "true_r": 0.6541926946421441
+    },
+    {
+      "agent": "slp-z08",
+      "authored": 0,
+      "confidence": 0.7714285714285715,
+      "n_assessments": 27,
+      "rated": 27,
+      "raw_r": 0.7852018863343124,
+      "true_r": 0.6400128837436124
+    },
+    {
+      "agent": "synth-05",
+      "authored": 1,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "virologist-03",
+      "authored": 16,
+      "confidence": 0.9493670886075949,
+      "n_assessments": 150,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    }
+  ],
+  "antithesis_sets": [
+    {
+      "id": "s1",
+      "members": [
+        {
+          "agrees": 1,
+          "author": "epi-01",
+          "belonging": 2,
+          "node": "n001"
+        },
+        {
+          "agrees": 1,
+          "author": "epi-01",
+          "belonging": 2,
+          "node": "n002"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "members": [
+        {
+          "agrees": 1,
+          "author": "epi-01",
+          "belonging": 2,
+          "node": "n007"
+        },
+        {
+          "agrees": 1,
+          "author": "epi-01",
+          "belonging": 2,
+          "node": "n006"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "members": [
+        {
+          "agrees": 1,
+          "author": "epi-01",
+          "belonging": 2,
+          "node": "n008"
+        },
+        {
+          "agrees": 1,
+          "author": "epi-01",
+          "belonging": 2,
+          "node": "n009"
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "members": [
+        {
+          "agrees": 1,
+          "author": "origins-skeptic-02",
+          "belonging": 2,
+          "node": "n013"
+        },
+        {
+          "agrees": 1,
+          "author": "virologist-03",
+          "belonging": 2,
+          "node": "n019"
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "members": [
+        {
+          "agrees": 1,
+          "author": "origins-skeptic-02",
+          "belonging": 2,
+          "node": "n014"
+        },
+        {
+          "agrees": 1,
+          "author": "origins-skeptic-02",
+          "belonging": 2,
+          "node": "n015"
+        },
+        {
+          "agrees": 1,
+          "author": "virologist-03",
+          "belonging": 2,
+          "node": "n022"
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "members": [
+        {
+          "agrees": 1,
+          "author": "origins-skeptic-02",
+          "belonging": 2,
+          "node": "n016"
+        },
+        {
+          "agrees": 1,
+          "author": "origins-skeptic-02",
+          "belonging": 2,
+          "node": "n017"
+        }
+      ]
+    }
+  ],
+  "conjunction_groups": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "origins-skeptic-02",
+      "id": "g1",
+      "members": [
+        "n010",
+        "n011",
+        "n018"
+      ],
+      "to": "n014"
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "method-04",
+      "id": "g2",
+      "members": [
+        "n023",
+        "n024"
+      ],
+      "to": "n026"
+    }
+  ],
+  "frictions": [
+    {
+      "agent": "epi-01",
+      "id": "f1",
+      "refs": [
+        "n004",
+        "n008",
+        "n009"
+      ],
+      "text": "The pack's single ref_id cov-two-lineages spans both layers the graph wants to keep separate: the raw phylogenetic observation (two distinct market-linked lineages, which I anchored narrowly as n004) and the source paper's own headline inferential conclusion (that this proves >=2 independent spillovers, which I had to split out as the contested crux n008/n009). Citing one ref_id as the --source for an anchored fact node, when that same paper's abstract already asserts the contested inference, risks readers treating the crux as pre-endorsed by the anchor. The grammar has no way to mark 'this source's raw finding is anchored here, but its own interpretive conclusion is NOT endorsed by this anchor and lives in a separate un-anchored node.'",
+      "ts": "2026-07-15T06:24:26.212085+00:00"
+    },
+    {
+      "agent": "epi-01",
+      "id": "f2",
+      "refs": [
+        "n003",
+        "n006",
+        "n007"
+      ],
+      "text": "n006 (ascertainment bias) and n007 (true epicenter) are rival positive claims in antithesis set s2, but they are not free-floating competing claims about the world in general -- they are specifically two rival EXPLANATIONS of the same anchored fact (n003, the market clustering). The Ground edges from n003 into both n006's sibling n007 (and, honestly, implicitly into n006 too, since n006 only makes sense as an account of what n003 shows) look structurally identical to any other Ground-into-antithesis pattern. The grammar has no way to distinguish 'these two rivals are both explanations of that specific upstream fact' from 'these two rivals just happen to both cite that fact among other things' -- a reader can't tell, from edges alone, that s2 is specifically an interpretation-of-n003 fork rather than a general disagreement.",
+      "ts": "2026-07-15T06:24:38.791087+00:00"
+    },
+    {
+      "agent": "epi-01",
+      "id": "f3",
+      "refs": [
+        "n005"
+      ],
+      "text": "n005 (raccoon-dog DNA co-occurrence) needed a scope-limiting caveat folded directly into its claim text ('this establishes presence, not confirmed infection or transmission source') because the grammar has no clean way to attach a caveat qualifying an anchored fact's evidential reach. It isn't a rival claim (no camp asserts the narrower reading is false, so it doesn't belong in an antithesis set) and it isn't a Ground/Dependent relation (nothing supports or is supported by the caveat). Writing the limitation into the node prose works but means the caveat can't be independently agreed-with, rated, or attributed the way a structural element could -- an agent who thinks the caveat itself needs sharpening can only propose-phrasing the whole node, not target the caveat alone.",
+      "ts": "2026-07-15T06:24:47.209959+00:00"
+    },
+    {
+      "agent": "origins-skeptic-02",
+      "id": "f4",
+      "refs": [
+        "n010",
+        "n011",
+        "n014"
+      ],
+      "text": "The combined-circumstantial-case claim (n014: DEFUSE + WIV proximity together favor a lab incident) is conceptually a THREE-way conjunction with the furin cleavage site fact, per the BRIEFING's own framing ('DEFUSE + WIV proximity + the FCS together'). But the FCS fact node belongs to another persona's assignment and does not exist yet in this session, so I could only draw a 2-of-3 conjunction group (g1: DEFUSE, RaTG13/WIV) now. The grammar has no way to mark a conjunction group as provisionally incomplete pending a specific future node, nor a way for a later author to safely extend group g1 without already knowing its id and intent. In practice this either fragments into a second conjunction claim once the FCS fact lands, or requires the later author to reverse-engineer which existing group to join. Multi-author sequencing of conjunction groups is a real, unaddressed coordination gap.",
+      "ts": "2026-07-15T06:32:25.830484+00:00"
+    },
+    {
+      "agent": "origins-skeptic-02",
+      "id": "f5",
+      "refs": [
+        "n014",
+        "n015"
+      ],
+      "text": "n015 ('DEFUSE/WIV/FCS are unconnected coincidences') is the antithesis rival to n014 (the conjunctive combined-circumstantial-case claim), but its actual content isn't a rival explanation of the same evidence in the usual sense -- it disputes whether GROUPING the three facts into one joint argument is itself warranted, rather than disputing any individual fact or offering a competing positive account of what happened. Antithesis-set membership renders this identically to an ordinary rival claim (like n013 vs. a natural-acquisition claim), but the disagreement here is one level up: it's about whether a conjunction is a fair aggregation versus cherry-picked circumstantial stacking. The grammar has no way to mark 'this rival contests the linkage/grouping move, not the facts or the conclusion' -- that distinction is lost once both are just two nodes in set s5.",
+      "ts": "2026-07-15T06:32:36.140286+00:00"
+    },
+    {
+      "agent": "virologist-03",
+      "id": "f6",
+      "refs": [
+        "n010",
+        "n011",
+        "n014",
+        "n018"
+      ],
+      "text": "Completing origins-skeptic-02's provisional 2-of-3 conjunction group g1 (f4) confirms their diagnosis exactly. I could only join g1 with the FCS fact (n018) because I happened to read the prior friction log and the existing graph before writing -- nothing in the CLI or graph structure itself flagged g1 as incomplete-pending-a-specific-node, offered a list of 'open' conjunction groups, or warned me that a semantically related node I was about to create belonged in an existing group rather than a new one. draw-ground --group g1 succeeded silently whether or not g1 was 'supposed' to still be open; the coordination worked this time only because I did the archaeology by hand. A multi-author graph needs some surfaced signal (e.g. a group note, or search matching against group membership) for this, not just append-only luck.",
+      "ts": "2026-07-15T06:38:15.236414+00:00"
+    },
+    {
+      "agent": "virologist-03",
+      "id": "f7",
+      "refs": [
+        "n019",
+        "n020",
+        "n021",
+        "n013"
+      ],
+      "text": "n021 (the Proximal Origin authors' documented private uncertainty about ruling out a lab-related origin) has no clean Ground target. Its honest epistemic role is to QUALIFY confidence in n020 (the paper's published no-engineering-signature conclusion) and, downstream, in the natural-acquisition crux n019 -- not to positively support the lab-insertion crux n013. I drew e022 (n021 -> n013) anyway because grounds are support-only and this is the nearest-fitting positive framing (lab-leak proponents do cite the messages as evidence), but that edge overstates what n021 actually establishes: it is evidence that a conclusion was oversold, not first-order evidence for the rival conclusion. This is the same class of gap epi-01 flagged in f3 (no structural home for a caveat on an anchored fact's evidential reach) recurring at the fact-vs-fact level rather than fact-vs-claim: the grammar has no 'discounts confidence in' relation distinct from 'supports.'",
+      "ts": "2026-07-15T06:38:26.774913+00:00"
+    },
+    {
+      "agent": "method-04",
+      "id": "f8",
+      "refs": [
+        "n023",
+        "n024",
+        "n025",
+        "n026",
+        "n027"
+      ],
+      "text": "Placing WHO-China (n023) and US-IC (n024) institutional conclusions honestly required a THIRD node (n026, their disagreement) and a FOURTH (n027, 'read as pointers, not terminal grounds') just to avoid the naive move of drawing n023/n024 as direct Grounds into n001/n002 -- which would look like settling the question by appeal to authority, exactly what the BRIEFING warns against. The grammar has no first-class way to mark a source-class ('institutional/adjudicated conclusion') as carrying a different EVIDENTIAL REGISTER than a primary fact or measurement (n003-n005, n010-n012, n018 etc.) -- I had to manufacture that distinction entirely out of extra claim nodes and their Ground routing rather than being able to tag n023/n024/n025 themselves as 'authority-pointer' anchors. This is the same underlying gap epi-01 (f3) and virologist-03 (f7) each hit at the single-fact-caveat level, recurring a third time at the whole-source-class level: there is still no relation for 'this evidence should be weighted/read differently in kind, not just discounted in strength' distinct from plain support.",
+      "ts": "2026-07-15T06:45:21.619028+00:00"
+    },
+    {
+      "agent": "method-04",
+      "id": "f9",
+      "refs": [
+        "n001",
+        "n003",
+        "n004",
+        "n005",
+        "n006",
+        "n007",
+        "n008"
+      ],
+      "text": "Three raw facts (n003 market clustering, n004 two lineages, n005 raccoon-dog DNA) each carry a DIRECT Ground edge straight to the top-level claim n001 (edges e001, e002, e003) IN ADDITION TO a separate, properly-mediated path through the actual interpretive crux nodes that contest what those facts mean (n003/n004/n005 -> n007 'market=true epicenter' via e004/e005/e006, and n004 -> n008 'two lineages=multiple spillovers' via e008). The direct edges silently treat a contested inference-to-best-explanation step as if the raw fact entails the conclusion on its own, bypassing the very antithesis sets (s2, s3) built to hold that inference open -- exactly the 'smuggled fact' failure mode my persona is meant to audit for. Grounds/Dependents can't distinguish 'this is the fully-mediated, crux-routed support path' from 'this is a shortcut that quietly presupposes one side of an unresolved crux'; both render as identical Ground edges into n001. I used propose-typing (edge e001, --node n007) to at least point that edge's inference at the crux node it actually depends on, but the CLI has no way to mark e001 as superseded-by or redundant-with the mediated chain, nor to warn a reader that agreeing with e001 alone would tacitly resolve s2/s3 without engaging their rival members.",
+      "ts": "2026-07-15T06:45:33.494614+00:00"
+    },
+    {
+      "agent": "synth-05",
+      "id": "f10",
+      "refs": [
+        "n002",
+        "n010",
+        "n011",
+        "n013",
+        "n014",
+        "n019",
+        "n022"
+      ],
+      "text": "Reviewing the whole graph, I found the same 'smuggled fact' pattern method-04 caught and fixed on the zoonosis side (f9, e001) recurring unaudited on the lab-leak side: n010 (DEFUSE) and n011 (RaTG13/WIV) each carry a direct Ground straight to the top claim n002 (e010, e011) IN ADDITION TO their properly crux-mediated paths (n010->n013 lab-insertion e012, n010->n014 combined-case e014, n011->n014 e015, n011->n022 evolutionary-distance e023). The direct edges bypass antithesis sets s4/s5 the same way e001-e003 bypassed s2/s3 -- agreeing e010/e011 alone would tacitly presuppose the lab-insertion/combined-case cruxes without engaging their rivals (n019/n015/n022). I used propose-typing (matching method-04's fix) to point e010 and e011 at n014, the combined-case crux they most directly presuppose, but as method-04 already noted for e001, the grammar still has no way to mark the raw edge as superseded/redundant, only to add a competing typing alongside it.",
+      "ts": "2026-07-15T06:55:29.855789+00:00"
+    },
+    {
+      "agent": "synth-05",
+      "id": "f11",
+      "refs": [
+        "n001",
+        "n002",
+        "n006",
+        "n009",
+        "n015",
+        "n017"
+      ],
+      "text": "Across three different authors (epi-01, origins-skeptic-02) the graph consistently leaves undercutting-rebuttal cruxes (n006 ascertainment-bias, n009 disputed-modeling, n015 unconnected-coincidences, n017 weak-evidence-under-sampling) as pure orphans: zero incoming grounds, zero outgoing grounds, membership in an antithesis set only. This is a deliberate, principled convention (rebutting the opposing side's positive case is not the same epistemic move as adding positive evidence for one's own side), and I did not disturb it. But it is worth naming explicitly rather than leaving as tacit practice, because at least one of these nodes' own text gestures at the opposite top claim (n009: '...cannot be excluded on this evidence alone' explicitly names 'a research-related incident'), and a reader could reasonably expect that to cash out as a Ground into n002. The grammar cannot distinguish 'this undermines claim X's case' from 'this therefore supports rival claim Y' -- those are different inferential moves (elimination vs. direct support) that Grounds/Dependents renders identically if drawn, which is exactly why the convention exists, but it also means the four rebuttal nodes look structurally weaker (isolated, unconnected) than their content actually warrants.",
+      "ts": "2026-07-15T06:55:29.937577+00:00"
+    },
+    {
+      "agent": "synth-05",
+      "id": "f12",
+      "refs": [
+        "n003",
+        "n006",
+        "n007",
+        "n008"
+      ],
+      "text": "Coherence-pass finding on the fact-to-crux layer: n003 (market clustering fact) grounds n007 (true-epicenter crux) via e004, but has no edge into n006 (ascertainment-bias crux), n007's own antithesis rival explaining the SAME fact. I deliberately did not add n003->n006 to force symmetry: n003 is the explanandum both cruxes compete to explain, not independent evidence for either explanation, so drawing it as a Ground for n006 would be exactly as circular as e004 already arguably is for n007 (a concern f2 already raised). The result is a visual asymmetry -- n007 shows three incoming grounds (e004/e005/e006), n006 shows none -- that reflects which claim the pack happened to supply supporting facts for, not a real evidential imbalance between the two readings. A reader skimming edge-counts alone could mistake this for the graph judging the crux, when the honest state is: no source in the pack documents the ascertainment-bias mechanism as its own fact.",
+      "ts": "2026-07-15T06:55:30.017498+00:00"
+    }
+  ],
+  "ground_edges": [
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 8,
+      "from": "n003",
+      "group": null,
+      "id": "e001",
+      "primary_typing": "ty1",
+      "strength": 1,
+      "to": "n001",
+      "typings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "author": "method-04",
+          "id": "ty1",
+          "label": null,
+          "node": "n007"
+        }
+      ]
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 9,
+      "from": "n004",
+      "group": null,
+      "id": "e002",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 10,
+      "from": "n005",
+      "group": null,
+      "id": "e003",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 15,
+      "from": "n003",
+      "group": null,
+      "id": "e004",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 16,
+      "from": "n004",
+      "group": null,
+      "id": "e005",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-04",
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 17,
+      "from": "n005",
+      "group": null,
+      "id": "e006",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n007",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 18,
+      "from": "n007",
+      "group": null,
+      "id": "e007",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 23,
+      "from": "n004",
+      "group": null,
+      "id": "e008",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 24,
+      "from": "n008",
+      "group": null,
+      "id": "e009",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 31,
+      "from": "n010",
+      "group": null,
+      "id": "e010",
+      "primary_typing": "ty1",
+      "strength": 1,
+      "to": "n002",
+      "typings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "author": "synth-05",
+          "id": "ty1",
+          "label": null,
+          "node": "n014"
+        }
+      ]
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 32,
+      "from": "n011",
+      "group": null,
+      "id": "e011",
+      "primary_typing": "ty1",
+      "strength": 1,
+      "to": "n002",
+      "typings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "author": "synth-05",
+          "id": "ty1",
+          "label": null,
+          "node": "n014"
+        }
+      ]
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 35,
+      "from": "n010",
+      "group": null,
+      "id": "e012",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 36,
+      "from": "n013",
+      "group": null,
+      "id": "e013",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 39,
+      "from": "n010",
+      "group": "g1",
+      "id": "e014",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n014",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 40,
+      "from": "n011",
+      "group": "g1",
+      "id": "e015",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n014",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 41,
+      "from": "n014",
+      "group": null,
+      "id": "e016",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 46,
+      "from": "n012",
+      "group": null,
+      "id": "e017",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n016",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 47,
+      "from": "n016",
+      "group": null,
+      "id": "e018",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 59,
+      "from": "n018",
+      "group": null,
+      "id": "e019",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 61,
+      "from": "n018",
+      "group": null,
+      "id": "e020",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n019",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 64,
+      "from": "n020",
+      "group": null,
+      "id": "e021",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n019",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 66,
+      "from": "n021",
+      "group": null,
+      "id": "e022",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n013",
+      "typings": []
+    },
+    {
+      "agents": [
+        "method-04",
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 68,
+      "from": "n011",
+      "group": null,
+      "id": "e023",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n022",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 73,
+      "from": "n018",
+      "group": "g1",
+      "id": "e024",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n014",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 81,
+      "from": "n023",
+      "group": "g2",
+      "id": "e025",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n026",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 82,
+      "from": "n024",
+      "group": "g2",
+      "id": "e026",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n026",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 83,
+      "from": "n026",
+      "group": null,
+      "id": "e027",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n027",
+      "typings": []
+    },
+    {
+      "agents": [
+        "synth-05"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 84,
+      "from": "n025",
+      "group": null,
+      "id": "e028",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n027",
+      "typings": []
+    }
+  ],
+  "meta": {
+    "comment_count": 1,
+    "config": {
+      "aggregation": {
+        "epsilon": 0.001,
+        "iterations": 12,
+        "weight_by": "true_r"
+      },
+      "phase2": {
+        "bloc_min_ratings": 3,
+        "cold_factor": 0.5,
+        "confirm": 15,
+        "contested_threshold": 1.0,
+        "heat_diffuse": 0.15,
+        "heat_half_life": 300.0,
+        "nudge_distance": 1.5,
+        "quorum": 5
+      },
+      "phrasing_R_over_C_bias": 1.5,
+      "reputation": {
+        "K": 8.0,
+        "prior": 0.15,
+        "raw_blend": "mean"
+      },
+      "scale_max": 5.0
+    },
+    "event_count": 968,
+    "generated_ts": "2026-07-15T14:34:30.384140+00:00",
+    "heat_medians": {
+      "content": 0.7218492070250005,
+      "rating": 13.460515147494652
+    },
+    "question": "Did SARS-CoV-2 arise by natural zoonotic spillover or by a research-related incident?",
+    "rating_count": 810
+  },
+  "nodes": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.906666666666666,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.9457726786365277,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.6260244633939416
+      },
+      "author": "epi-01",
+      "comments": [
+        {
+          "agent": "synth-05",
+          "agents": [],
+          "agrees": 0,
+          "id": "c001",
+          "parent": null,
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Closing coherence check (synth-05, final pass): the two-layer discipline held throughout. All 12 external_anchor nodes (n003-n005, n010-n012, n018, n020-n021, n023-n025) are evidential facts both camps can accept; every interpretive crux (n006-n009, n013-n017, n019, n022, n026-n027) remained an un-anchored claim node -- none got silently pinned to a single source_ref. Both top-level positions (n001, n002) are reachable via fully-grounded, fact-to-crux-to-topclaim chains, and opposition is expressed as rival positive claims in antithesis sets (s2-s6) throughout, never as negations. Residual issues are structural, not two-layer violations, and are filed as f9-f12 (direct fact-to-topclaim edges bypassing crux mediation on both sides; asymmetric fact-grounding within one antithesis pair; undercutting-rebuttal nodes left as orphans by convention).",
+          "ts": "2026-07-15T06:55:41.468227+00:00"
+        }
+      ],
+      "created_seq": 1,
+      "heat": {
+        "content": 1.534604,
+        "rating": 15.471116
+      },
+      "id": "n001",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "method-04",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "SARS-CoV-2 crossed into humans through a natural zoonotic spillover from an animal reservoir, most plausibly connected to wildlife trade at or near the Huanan Seafood Market, directly or via an intermediate host."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "t0",
+          "text": "Natural zoonotic spillover (market-associated)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.36,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.33657294218737,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.6473412923050683
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 2,
+      "heat": {
+        "content": 1.559355,
+        "rating": 14.684417
+      },
+      "id": "n002",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "origins-skeptic-02",
+            "method-04",
+            "synth-05"
+          ],
+          "agrees": 3,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "SARS-CoV-2 entered the human population through a research-related incident connected to coronavirus research, such as work conducted at or associated with the Wuhan Institute of Virology, involving either a collected natural virus or a laboratory-modified one."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "t0",
+          "text": "Research-related incident (lab leak)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.3566666666666665,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.358275804634453,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.2290317784840251
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 5,
+      "heat": {
+        "content": 0.746606,
+        "rating": 12.238466
+      },
+      "id": "n003",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "origins-skeptic-02",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The earliest known COVID-19 cases and the SARS-CoV-2-positive environmental samples cluster geographically around the Huanan Seafood Wholesale Market in Wuhan, concentrated in the section of the market where live mammals were sold."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-market-epicenter",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Market spatial clustering of early cases/samples"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.0,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.001670324444987,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.2816617356570348
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 6,
+      "heat": {
+        "content": 0.758849,
+        "rating": 13.298839
+      },
+      "id": "n004",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "origins-skeptic-02",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Phylogenetic analysis of early SARS-CoV-2 genomes identifies two genetically distinct early lineages, designated A and B, both epidemiologically linked to the Huanan market."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-two-lineages",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Two distinct early market-linked lineages"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.166666666666667,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.1653369293886415,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.19032136564826932
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 7,
+      "heat": {
+        "content": 0.716505,
+        "rating": 12.30888
+      },
+      "id": "n005",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "origins-skeptic-02",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Genetic material from susceptible wildlife species, notably raccoon dogs, co-occurs with SARS-CoV-2-positive material in some Huanan market environmental samples; this establishes the animals' presence at the market, not confirmed infection or that they were the transmission source."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-raccoon-dna",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Raccoon-dog DNA co-occurrence in market samples"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.273333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.246518036698625,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5524031549683082
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 11,
+      "heat": {
+        "content": 0.736236,
+        "rating": 13.424161
+      },
+      "id": "n006",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "origins-skeptic-02",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The apparent geographic clustering of early COVID-19 cases and positive samples around the Huanan market is better explained by ascertainment and surveillance bias in early case-finding, which itself focused on the market, than by the market being the true site of a natural spillover."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Market clustering = ascertainment bias (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 3.019999999999999,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 3.0694048691467626,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5826981181935276
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 12,
+      "heat": {
+        "content": 1.074054,
+        "rating": 14.489903
+      },
+      "id": "n007",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The clustering of early cases and environmental samples at the Huanan market reflects the true early epicenter of the outbreak, rather than being an artifact of where early surveillance happened to look."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Market clustering = true epicenter (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.7,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.725377726639862,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5159155649309761
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 19,
+      "heat": {
+        "content": 0.692687,
+        "rating": 12.484026
+      },
+      "id": "n008",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The existence of two genetically distinct early lineages, both linked to the Huanan market, indicates at least two independent zoonotic spillover events there, which best explains the pattern of early viral diversity."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Two lineages indicate multiple spillovers (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.633333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.6381480656093705,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5790996027976054
+      },
+      "author": "epi-01",
+      "comments": [],
+      "created_seq": 20,
+      "heat": {
+        "content": 0.816857,
+        "rating": 13.460515
+      },
+      "id": "n009",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "origins-skeptic-02",
+            "method-04",
+            "synth-05"
+          ],
+          "agrees": 3,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The inference that two early lineages prove multiple independent market spillovers rests on disputed phylogenetic and molecular-clock modeling assumptions, so a single introduction followed by early diversification, including via a research-related incident, cannot be excluded on this evidence alone."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Two-lineage inference rests on disputed modeling (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.513333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.509501867459079,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.12578641509408808
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 28,
+      "heat": {
+        "content": 0.749403,
+        "rating": 12.806074
+      },
+      "id": "n010",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A 2018 DEFUSE proposal, submitted to DARPA by EcoHealth Alliance with Wuhan Institute of Virology collaborators, described plans including inserting furin cleavage sites into bat SARS-related coronaviruses; DARPA did not fund it."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-defuse",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "DEFUSE proposal (2018, unfunded)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.516666666666667,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.513052815439353,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.08595864638818419
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 29,
+      "heat": {
+        "content": 0.99835,
+        "rating": 14.398533
+      },
+      "id": "n011",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "virologist-03",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "RaTG13, the closest then-known relative of SARS-CoV-2 (~96% genome identity, still evolutionarily distant), was sampled and held at the Wuhan Institute of Virology, which conducted extensive bat-coronavirus research in the outbreak city."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-ratg13-wiv",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "RaTG13 held at WIV; WIV bat-CoV research profile"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.34,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.337613347980967,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.18903262505010437
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 30,
+      "heat": {
+        "content": 0.481444,
+        "rating": 12.467893
+      },
+      "id": "n012",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "virologist-03",
+            "synth-05"
+          ],
+          "agrees": 2,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "As of the debate, no infected intermediate host animal or direct animal progenitor of SARS-CoV-2 had been identified, unlike SARS-CoV-1 (palm civets) or MERS (dromedary camels)."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-no-intermediate",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "No identified intermediate host (agreed absence)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.193333333333334,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.157156763903516,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.632571250784752
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 33,
+      "heat": {
+        "content": 0.926572,
+        "rating": 15.272186
+      },
+      "id": "n013",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The SARS-CoV-2 furin cleavage site is better explained by deliberate laboratory insertion than by natural acquisition, given documented WIV-collaborator plans (DEFUSE) to engineer exactly this kind of feature into bat coronaviruses shortly before the outbreak."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "FCS better explained by lab insertion (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.3366666666666664,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.311432742113265,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.637372556533451
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 37,
+      "heat": {
+        "content": 1.07231,
+        "rating": 13.905727
+      },
+      "id": "n014",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "DEFUSE's demonstrated intent and capability to engineer furin cleavage sites into bat coronaviruses, taken together with the Wuhan Institute of Virology's proximity to the outbreak and to the closest known relative (RaTG13), make a research-related incident the more likely explanation than treating each fact in isolation would suggest."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "DEFUSE + WIV proximity together favor lab incident (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.8199999999999994,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.85737891487806,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5674607916414796
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 42,
+      "heat": {
+        "content": 0.600926,
+        "rating": 13.55701
+      },
+      "id": "n015",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "DEFUSE, the WIV's research profile, and the furin cleavage site are independent circumstantial facts with no documented evidentiary link tying them into a single incident; treating them as a combined case mistakes coincidence of proximity for connection."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "DEFUSE/WIV/FCS are unconnected coincidences (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.2266666666666666,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 2.193875726306469,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.6004027270936803
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 44,
+      "heat": {
+        "content": 0.674506,
+        "rating": 13.982626
+      },
+      "id": "n016",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The absence of any identified intermediate host or animal progenitor for SARS-CoV-2, unlike the civet (SARS-1) and camel (MERS) precedents, strongly favors a research-related origin over a natural spillover that has gone unusually unverified."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Absent intermediate host favors lab origin (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 3.106666666666667,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 3.166547382011558,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5677868335827918
+      },
+      "author": "origins-skeptic-02",
+      "comments": [],
+      "created_seq": 48,
+      "heat": {
+        "content": 0.802271,
+        "rating": 13.617603
+      },
+      "id": "n017",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "virologist-03",
+            "method-04",
+            "synth-05"
+          ],
+          "agrees": 3,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The absence of an identified intermediate host is weak evidence given limited and late sampling, as with SARS-1's civet reservoir, which also took considerable time to establish and was aided by animals having already been sold or culled before targeted sampling began."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Absence is weak evidence under limited sampling (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.843333333333334,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.844082864596722,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.1909333798882625
+      },
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 58,
+      "heat": {
+        "content": 0.721849,
+        "rating": 13.610979
+      },
+      "id": "n018",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "SARS-CoV-2 has a furin cleavage site (FCS) at the S1/S2 junction of its spike protein that is absent in its closest known sarbecovirus relatives and that enhances transmissibility; both camps accept that this feature exists and is functionally important."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-furin",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Furin cleavage site exists (agreed fact)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 2.983333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 3.030280242205399,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.5765116202834946
+      },
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 60,
+      "heat": {
+        "content": 0.706582,
+        "rating": 14.318546
+      },
+      "id": "n019",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The furin cleavage site is better explained by natural acquisition than by deliberate laboratory insertion, since furin cleavage sites arise independently in numerous coronavirus lineages and the SARS-CoV-2 sequence shows no signature specific to laboratory manipulation rather than natural recombination or mutation."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "FCS better explained by natural acquisition (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.13,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.127516566732072,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.2956912804486014
+      },
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 63,
+      "heat": {
+        "content": 0.417982,
+        "rating": 12.694908
+      },
+      "id": "n020",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Andersen, Rambaut, Lipkin, Holmes and Garry's 'Proximal Origin' analysis (Nature Medicine, 2020) concluded that the SARS-CoV-2 genome shows no signature of deliberate genetic engineering, finding its receptor-binding domain and backbone more consistent with natural selection than with laboratory manipulation."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-proximal",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Proximal Origin: no engineering signature found"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.126666666666667,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.117925336170103,
+        "n": 30,
+        "state": "settled",
+        "stdev": 0.24621580416825853
+      },
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 65,
+      "heat": {
+        "content": 0.335174,
+        "rating": 12.205958
+      },
+      "id": "n021",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The Proximal Origin authors privately expressed substantially more uncertainty about ruling out a lab-related origin, in contemporaneous messages later made public, than the published paper's confident conclusion conveyed."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-proximal",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Proximal Origin authors' documented private uncertainty"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 3.313333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 3.371788510348125,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.4303224189749046
+      },
+      "author": "virologist-03",
+      "comments": [],
+      "created_seq": 67,
+      "heat": {
+        "content": 0.68904,
+        "rating": 12.410638
+      },
+      "id": "n022",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "RaTG13's roughly 96% genome identity to SARS-CoV-2 reflects on the order of decades of evolutionary divergence between the two viruses, so RaTG13 itself cannot be a direct progenitor; WIV's possession of RaTG13 therefore establishes proximity to a distant relative, not access to the actual progenitor lineage, which limits how much weight the DEFUSE+WIV-proximity case can bear."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "RaTG13's evolutionary distance limits the proximity inference (crux)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.133333333333334,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.124370762114169,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.1885618083164127
+      },
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 76,
+      "heat": {
+        "content": 0.401754,
+        "rating": 12.45438
+      },
+      "id": "n023",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The WHO-convened China joint study assessed a zoonotic spillover pathway (direct or via an intermediate host) as likely-to-very-likely and rated a laboratory-related incident as extremely unlikely; the investigation's access to underlying data and sites was constrained by Chinese government control of the process, a limitation the WHO Director-General himself later noted publicly."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-who-joint",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "WHO-China joint study: zoonosis likely, lab incident extremely unlikely"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.423333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.424571619846681,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.1406729856400613
+      },
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 77,
+      "heat": {
+        "content": 0.40255,
+        "rating": 12.492866
+      },
+      "id": "n024",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "US intelligence agencies reached no consensus on SARS-CoV-2's origin: several assessed natural exposure as more likely, at least one assessed a laboratory-associated incident as more likely, and every agency reached its assessment with only low-to-moderate confidence."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-intel-assessments",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "US intelligence community: split, low-to-moderate confidence"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 3.8899999999999997,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 3.888039208384597,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.183212081115484
+      },
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 78,
+      "heat": {
+        "content": 0.411066,
+        "rating": 12.861605
+      },
+      "id": "n025",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A moderated public debate between a lab-leak proponent and a zoonosis proponent, judged by two independent adjudicators against a wagered stake, concluded in favor of natural zoonotic origin; as a single curated adjudication of one framing of the arguments, this result does not by itself settle the broader disagreement among expert institutions."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "cov-debate",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Curated debate adjudicated toward zoonosis (single exercise, not a settlement)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 4.283333333333333,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 4.28120103575236,
+        "n": 30,
+        "state": "provisional",
+        "stdev": 0.20179747823553748
+      },
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 79,
+      "heat": {
+        "content": 0.778258,
+        "rating": 17.055399
+      },
+      "id": "n026",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Expert institutions assessing SARS-CoV-2's origin have not converged: the WHO-China joint study leaned toward zoonotic spillover as likely-to-very-likely while the US intelligence community split internally, with at least one agency favoring a lab-associated incident, and neither reached its conclusion with unconstrained access to the underlying evidence."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Institutional disagreement on origin (WHO vs. US IC)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "b1": {
+            "mean": 3.2466666666666657,
+            "n": 30
+          }
+        },
+        "era": 1,
+        "history": [],
+        "mean": 3.2890331832845447,
+        "n": 30,
+        "state": "contested",
+        "stdev": 1.6487840637539197
+      },
+      "author": "method-04",
+      "comments": [],
+      "created_seq": 80,
+      "heat": {
+        "content": 0.588815,
+        "rating": 14.652254
+      },
+      "id": "n027",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "synth-05"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Because institutional and adjudicated conclusions on SARS-CoV-2's origin diverge from one another and were each reached under significant access, scope, or framing constraints, they are best read as pointers to the reasoners' underlying evidence and its limits, not as terminal authorities that settle the question independent of that evidence."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Institutional conclusions are pointers, not terminal grounds"
+        }
+      ]
+    }
+  ]
+}

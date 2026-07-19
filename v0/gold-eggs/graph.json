@@ -1,0 +1,2026 @@
+{
+  "accounts": [
+    {
+      "agent": "agent-a",
+      "authored": 41,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "agent-b",
+      "authored": 1,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    },
+    {
+      "agent": "agent-c",
+      "authored": 6,
+      "confidence": 0.0,
+      "n_assessments": 0,
+      "rated": 0,
+      "raw_r": 0.15,
+      "true_r": 0.15
+    }
+  ],
+  "antithesis_sets": [
+    {
+      "id": "s1",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "agent-a",
+          "belonging": 1,
+          "node": "n001"
+        },
+        {
+          "agrees": 0,
+          "author": "agent-a",
+          "belonging": 1,
+          "node": "n002"
+        },
+        {
+          "agrees": 2,
+          "author": "agent-a",
+          "belonging": 3,
+          "node": "n003"
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "agent-a",
+          "belonging": 1,
+          "node": "n005"
+        },
+        {
+          "agrees": 0,
+          "author": "agent-a",
+          "belonging": 1,
+          "node": "n009"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "agent-c",
+          "belonging": 1,
+          "node": "n016"
+        },
+        {
+          "agrees": 1,
+          "author": "agent-c",
+          "belonging": 2,
+          "node": "n017"
+        }
+      ]
+    }
+  ],
+  "conjunction_groups": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "id": "g1",
+      "members": [
+        "n008",
+        "n009"
+      ],
+      "to": "n012"
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "id": "g2",
+      "members": [
+        "n012",
+        "n010"
+      ],
+      "to": "n002"
+    }
+  ],
+  "frictions": [
+    {
+      "agent": "agent-a",
+      "id": "f1",
+      "refs": [
+        "n007"
+      ],
+      "text": "n007 (guidelines dropped the cholesterol cap) is offered as a Ground for 'eggs are ~neutral', but it is an APPEAL TO AUTHORITY / consensus signal, not direct biological or epidemiological evidence. The grammar has no way to mark that this support is evidential-weak / rhetorical rather than a first-order reason. FLF explicitly wants rhetorical-vs-evidential moves surfaced; a plain Ground edge hides the distinction.",
+      "ts": "2026-07-02T15:25:31.082353+00:00"
+    },
+    {
+      "agent": "agent-a",
+      "id": "f2",
+      "refs": [
+        "n004",
+        "n013"
+      ],
+      "text": "A SINGLE source (eggs-001, Hu 1999) yields TWO findings that support DIFFERENT positions: no CVD link in non-diabetics (grounds N1) and higher risk in diabetics (grounds N3). I had to split it into two external_anchor nodes both citing eggs-001. Nothing records that these are the same study, so a reader can't see that one dataset cuts both ways, and double-counting its evidential weight is invisible.",
+      "ts": "2026-07-02T15:25:31.149767+00:00"
+    },
+    {
+      "agent": "agent-a",
+      "id": "f3",
+      "refs": [
+        "n008"
+      ],
+      "text": "n008 (yolks ~185mg cholesterol) is a hard empirical fact that should exit the graph to a food-composition database, but the source pack has no such reference, so I left it as a bare internal claim. The grammar's 'external_anchor must cite a pack ref' rule and the pack's coverage are out of sync; the graph looks internally-grounded where it should touch reality.",
+      "ts": "2026-07-02T15:25:31.201095+00:00"
+    },
+    {
+      "agent": "agent-b",
+      "id": "f4",
+      "refs": [
+        "n005",
+        "n009"
+      ],
+      "text": "I placed n005 (diet cholesterol weak effect for most) and n009 (raises LDL, esp. hyper-responders) in one antithesis set as 'in tension', but they are NOT mutually exclusive — both can be true at once (weak on average, strong in a subgroup). Antithesis membership renders them as rivals of equal kind to the N1/N2/N3 answers, overstating the opposition. Need graded / partial tension, not binary set membership.",
+      "ts": "2026-07-02T15:25:31.258372+00:00"
+    },
+    {
+      "agent": "agent-c",
+      "id": "f5",
+      "refs": [
+        "n017",
+        "n016",
+        "n013"
+      ],
+      "text": "n017 (confounding) does not deny n013 (the diabetic association is real); it attacks the INFERENCE from n013 to a causal reading. Support-only has no undercut edge, so I was forced to invent a positive 'it's causal' node (n016) purely to have something for the confounding claim to be antithesis to. This distorts an argument about inference-strength into a rival factual claim. This is the core relational-sufficiency finding: undercutting defeaters do not fit cleanly.",
+      "ts": "2026-07-02T15:25:31.309875+00:00"
+    },
+    {
+      "agent": "agent-a",
+      "id": "f6",
+      "refs": [
+        "n010"
+      ],
+      "text": "n010 ('elevated LDL causally raises CVD') is a huge separately-contested question (the diet-heart hypothesis) that the egg argument LEANS ON but truncates at a single external anchor (n011). The boundary where we stop decomposing is doing load-bearing work and is semi-arbitrary — the relevance-horizon problem. A reader can't tell whether we endorse n010 or merely need it.",
+      "ts": "2026-07-02T15:25:31.374940+00:00"
+    },
+    {
+      "agent": "agent-c",
+      "id": "f7",
+      "refs": [
+        "n015",
+        "n003"
+      ],
+      "text": "n015 ('high-risk people SHOULD limit eggs') is normative but is grounded by purely empirical claims (n003/n013). The grammar marks no is->ought transition, so a value-laden conclusion and a factual ground look identical as nodes and the Ground edge silently crosses the is/ought gap.",
+      "ts": "2026-07-02T15:25:31.429931+00:00"
+    }
+  ],
+  "ground_edges": [
+    {
+      "agents": [
+        "agent-b"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 18,
+      "from": "n004",
+      "group": null,
+      "id": "e001",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 19,
+      "from": "n005",
+      "group": null,
+      "id": "e002",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [
+        "agent-b"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 20,
+      "from": "n006",
+      "group": null,
+      "id": "e003",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n005",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 21,
+      "from": "n007",
+      "group": null,
+      "id": "e004",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n001",
+      "typings": []
+    },
+    {
+      "agents": [
+        "agent-b"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 22,
+      "from": "n008",
+      "group": "g1",
+      "id": "e005",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n012",
+      "typings": []
+    },
+    {
+      "agents": [
+        "agent-b"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 1,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 23,
+      "from": "n009",
+      "group": "g1",
+      "id": "e006",
+      "primary_typing": null,
+      "strength": 2,
+      "to": "n012",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 24,
+      "from": "n012",
+      "group": "g2",
+      "id": "e007",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 25,
+      "from": "n010",
+      "group": "g2",
+      "id": "e008",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [
+        "agent-b",
+        "agent-c"
+      ],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 2,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 26,
+      "from": "n011",
+      "group": null,
+      "id": "e009",
+      "primary_typing": null,
+      "strength": 3,
+      "to": "n010",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 27,
+      "from": "n013",
+      "group": null,
+      "id": "e010",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n016",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 28,
+      "from": "n016",
+      "group": null,
+      "id": "e011",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n003",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 29,
+      "from": "n014",
+      "group": null,
+      "id": "e012",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n003",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "agrees": 0,
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 30,
+      "from": "n003",
+      "group": null,
+      "id": "e013",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n015",
+      "typings": []
+    }
+  ],
+  "meta": {
+    "comment_count": 0,
+    "config": {
+      "aggregation": {
+        "epsilon": 0.001,
+        "iterations": 12,
+        "weight_by": "true_r"
+      },
+      "phase2": {
+        "bloc_min_ratings": 3,
+        "cold_factor": 0.5,
+        "confirm": 15,
+        "contested_threshold": 1.0,
+        "heat_diffuse": 0.15,
+        "heat_half_life": 300.0,
+        "nudge_distance": 1.5,
+        "quorum": 5
+      },
+      "phrasing_R_over_C_bias": 1.5,
+      "reputation": {
+        "K": 8.0,
+        "prior": 0.15,
+        "raw_blend": "mean"
+      },
+      "scale_max": 5.0
+    },
+    "event_count": 56,
+    "generated_ts": "2026-07-02T15:25:31.429931+00:00",
+    "heat_medians": {
+      "content": 3.182098614591305,
+      "rating": null
+    },
+    "question": "Are eggs good for you?",
+    "rating_count": 0
+  },
+  "nodes": [
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 1,
+      "heat": {
+        "content": 4.943445,
+        "rating": 0.0
+      },
+      "id": "n001",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "For most healthy adults, moderate egg consumption (about one per day) has little or no effect on cardiovascular-disease risk."
+        },
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p1",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "For the general adult population, eating an egg a day is not linked to higher heart-disease risk."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Eggs ~neutral for most"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 2,
+      "heat": {
+        "content": 3.628905,
+        "rating": 0.0
+      },
+      "id": "n002",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Regular egg consumption meaningfully increases cardiovascular-disease risk for many people."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Eggs raise CVD risk"
+        },
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t1",
+          "text": "Limit eggs for heart health"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 3,
+      "heat": {
+        "content": 5.563951,
+        "rating": 0.0
+      },
+      "id": "n003",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The health effect of eggs depends strongly on individual factors, notably diabetes status and cholesterol hyper-responsiveness, rather than being uniform across people."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "It depends on the person"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 4,
+      "heat": {
+        "content": 2.204056,
+        "rating": 0.0
+      },
+      "id": "n004",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "In large U.S. prospective cohorts, consumption of up to about one egg per day showed no significant association with cardiovascular disease among people without diabetes."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "eggs-001",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Cohorts: no CVD link (non-diabetics)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 5,
+      "heat": {
+        "content": 3.683303,
+        "rating": 0.0
+      },
+      "id": "n005",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Dietary cholesterol has only a weak effect on serum LDL for most people, because the body compensates by reducing its own cholesterol production."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Homeostasis blunts diet effect"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 6,
+      "heat": {
+        "content": 1.837151,
+        "rating": 0.0
+      },
+      "id": "n006",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "When dietary cholesterol intake rises, the liver downregulates its own cholesterol synthesis (feedback regulation)."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Hepatic synthesis downregulates"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 7,
+      "heat": {
+        "content": 2.222499,
+        "rating": 0.0
+      },
+      "id": "n007",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Later editions of the U.S. Dietary Guidelines removed the explicit numeric daily cap on dietary cholesterol."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "eggs-002",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Guidelines dropped cholesterol cap"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 8,
+      "heat": {
+        "content": 3.395077,
+        "rating": 0.0
+      },
+      "id": "n008",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [
+            "agent-b"
+          ],
+          "agrees": 1,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Egg yolks are high in dietary cholesterol, roughly 185 mg per large egg."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Yolks high in cholesterol"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 9,
+      "heat": {
+        "content": 2.961563,
+        "rating": 0.0
+      },
+      "id": "n009",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Dietary cholesterol raises serum LDL cholesterol, substantially so in a subset of people known as hyper-responders."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Diet cholesterol raises LDL (esp. hyper-responders)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 10,
+      "heat": {
+        "content": 3.859641,
+        "rating": 0.0
+      },
+      "id": "n010",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Elevated serum LDL cholesterol is a causal driver of cardiovascular disease."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "LDL causally raises CVD"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 11,
+      "heat": {
+        "content": 2.271357,
+        "rating": 0.0
+      },
+      "id": "n011",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Foundational multi-country epidemiology correlated dietary fat patterns with serum cholesterol levels and coronary heart disease rates."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "eggs-003",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Seven Countries: diet-cholesterol-CHD"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 12,
+      "heat": {
+        "content": 4.11429,
+        "rating": 0.0
+      },
+      "id": "n012",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "Because yolks are cholesterol-rich and dietary cholesterol raises serum LDL, regular egg consumption raises serum LDL, at least in susceptible people."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Eggs raise serum LDL"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 13,
+      "heat": {
+        "content": 2.10431,
+        "rating": 0.0
+      },
+      "id": "n013",
+      "kind": "external_anchor",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "In the same cohorts, among people with diabetes, higher egg consumption was associated with increased coronary heart disease risk."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": "eggs-001",
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Cohorts: higher risk in diabetics"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-a",
+      "comments": [],
+      "created_seq": 14,
+      "heat": {
+        "content": 1.455406,
+        "rating": 0.0
+      },
+      "id": "n014",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "A subset of people are cholesterol hyper-responders whose serum LDL rises markedly in response to dietary cholesterol."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Hyper-responders exist"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-c",
+      "comments": [],
+      "created_seq": 15,
+      "heat": {
+        "content": 1.883114,
+        "rating": 0.0
+      },
+      "id": "n015",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "People at elevated cardiovascular risk, such as those with type 2 diabetes, should moderate their egg intake."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "High-risk people should limit eggs"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-c",
+      "comments": [],
+      "created_seq": 16,
+      "heat": {
+        "content": 3.279017,
+        "rating": 0.0
+      },
+      "id": "n016",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The elevated cardiovascular risk seen in diabetics with high egg intake reflects a causal effect of eggs."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Diabetic link is causal (eggs)"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {},
+        "era": 1,
+        "history": [],
+        "mean": null,
+        "n": 0,
+        "state": "sealed",
+        "stdev": null
+      },
+      "author": "agent-c",
+      "comments": [],
+      "created_seq": 17,
+      "heat": {
+        "content": 3.182099,
+        "rating": 0.0
+      },
+      "id": "n017",
+      "kind": "claim",
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {},
+              "era": 1,
+              "history": [],
+              "mean": null,
+              "n": 0,
+              "state": "sealed",
+              "stdev": null
+            }
+          },
+          "text": "The elevated cardiovascular risk seen in diabetics with high egg intake may reflect confounding by overall diet and lifestyle rather than a causal effect of eggs."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {},
+          "era": 1,
+          "history": [],
+          "mean": null,
+          "n": 0,
+          "state": "sealed",
+          "stdev": null
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Diabetic link may be confounded"
+        }
+      ]
+    }
+  ]
+}

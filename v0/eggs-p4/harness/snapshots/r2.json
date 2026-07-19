@@ -1,0 +1,203 @@
+{
+  "round": 2,
+  "graph": {
+    "nodes": 79,
+    "edges": 75,
+    "groups": 5,
+    "events": 3311
+  },
+  "population": {
+    "in_run": 60,
+    "with_ratings": 60
+  },
+  "HEADLINE_expert_vs_crowd": {
+    "expert": {
+      "n": 8,
+      "mean_true_r": 0.7756,
+      "median_true_r": 0.7725,
+      "mean_raw_r": 0.8794,
+      "mean_conf": 0.859,
+      "mean_n_assessments": 56.2
+    },
+    "crowd": {
+      "n": 52,
+      "mean_true_r": 0.7912,
+      "median_true_r": 0.7912,
+      "mean_raw_r": 0.9169,
+      "mean_conf": 0.838,
+      "mean_n_assessments": 47.0
+    },
+    "expert_minus_crowd_true_r": -0.0156,
+    "verdict": "experts PENALIZED (below crowd)"
+  },
+  "expert_ranks": [
+    {
+      "agent": "s03-ebm-meta",
+      "true_r": 0.8064,
+      "raw_r": 0.8654,
+      "pctile": 0.85
+    },
+    {
+      "agent": "s07-guidelines-pubh",
+      "true_r": 0.8008,
+      "raw_r": 0.9049,
+      "pctile": 0.7
+    },
+    {
+      "agent": "s04-endocrinologist",
+      "true_r": 0.7805,
+      "raw_r": 0.8353,
+      "pctile": 0.267
+    },
+    {
+      "agent": "s02-nutri-epi",
+      "true_r": 0.774,
+      "raw_r": 0.8397,
+      "pctile": 0.2
+    },
+    {
+      "agent": "s01-lipidologist",
+      "true_r": 0.771,
+      "raw_r": 0.909,
+      "pctile": 0.133
+    },
+    {
+      "agent": "s08-synthesizer",
+      "true_r": 0.7672,
+      "raw_r": 0.9083,
+      "pctile": 0.1
+    },
+    {
+      "agent": "s05-biochemist",
+      "true_r": 0.7535,
+      "raw_r": 0.8877,
+      "pctile": 0.033
+    },
+    {
+      "agent": "s06-biostatistician",
+      "true_r": 0.7511,
+      "raw_r": 0.8847,
+      "pctile": 0.017
+    }
+  ],
+  "true_r_variance": {
+    "stdev": 0.0171,
+    "min": 0.7442,
+    "max": 0.8312
+  },
+  "leaderboard": {
+    "top8": [
+      {
+        "agent": "h10-food-safety",
+        "tier": "crowd",
+        "true_r": 0.8312
+      },
+      {
+        "agent": "h50-news-follower",
+        "tier": "crowd",
+        "true_r": 0.8124
+      },
+      {
+        "agent": "h51-pragmatic-doctor-fan",
+        "tier": "crowd",
+        "true_r": 0.8118
+      },
+      {
+        "agent": "h45-label-reader",
+        "tier": "crowd",
+        "true_r": 0.8115
+      },
+      {
+        "agent": "h48-value-moderation",
+        "tier": "crowd",
+        "true_r": 0.8079
+      },
+      {
+        "agent": "h13-trusting-guidelines",
+        "tier": "crowd",
+        "true_r": 0.8074
+      },
+      {
+        "agent": "h35-senior-health",
+        "tier": "crowd",
+        "true_r": 0.8074
+      },
+      {
+        "agent": "h12-skeptic-reader",
+        "tier": "crowd",
+        "true_r": 0.8067
+      }
+    ],
+    "bottom8": [
+      {
+        "agent": "h18-nurse-practical",
+        "tier": "crowd",
+        "true_r": 0.7697
+      },
+      {
+        "agent": "s08-synthesizer",
+        "tier": "expert",
+        "true_r": 0.7672
+      },
+      {
+        "agent": "h52-supplement-minded",
+        "tier": "crowd",
+        "true_r": 0.762
+      },
+      {
+        "agent": "h31-keto-leaning",
+        "tier": "crowd",
+        "true_r": 0.7607
+      },
+      {
+        "agent": "h21-environmental",
+        "tier": "crowd",
+        "true_r": 0.7578
+      },
+      {
+        "agent": "s05-biochemist",
+        "tier": "expert",
+        "true_r": 0.7535
+      },
+      {
+        "agent": "s06-biostatistician",
+        "tier": "expert",
+        "true_r": 0.7511
+      },
+      {
+        "agent": "h19-label-reader",
+        "tier": "crowd",
+        "true_r": 0.7442
+      }
+    ]
+  },
+  "coverage": {
+    "rateable_A_items": 154,
+    "depth_min": 0,
+    "depth_median": 8,
+    "depth_mean": 9.3,
+    "items_ge_15": 0
+  },
+  "lifecycle": {
+    "nodes": {
+      "provisional": 67,
+      "settled": 6,
+      "contested": 1,
+      "sealed": 5
+    },
+    "edges": {
+      "provisional": 57,
+      "settled": 3,
+      "sealed": 14,
+      "contested": 1
+    }
+  },
+  "contested_nodes": [
+    {
+      "id": "n023",
+      "mean": 3.44,
+      "stdev": 1.05,
+      "n": 14
+    }
+  ]
+}

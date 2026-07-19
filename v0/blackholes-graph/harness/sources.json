@@ -1,0 +1,205 @@
+{
+  "question": "Could a high-energy particle collider (the LHC) create a black hole that destroys Earth?",
+  "method_note": "Assembled by graded verification (faithfulness/provenance filter + 0-5 support score, no default-refute). WebFetch was blocked by the session egress policy (HTTP 403 on all hosts, including example.com), so claims were corroborated via WebSearch result synthesis rather than full-text fetch. Provenance was checked at the level of: does the cited source demonstrably exist, is it correctly attributed, and does the retrieved summary genuinely support the claim. Exact verbatim page quotes could NOT be independently confirmed and are therefore not asserted; claims are paraphrased load-bearing statements. Support scores follow the graded-verify spec: a genuinely contested claim sits near the middle (~3), not 0; uncertainty lowers the score but never drops a claim; only a provenance failure drops one.",
+  "sources": [
+    {
+      "id": "s01",
+      "url": "https://arxiv.org/abs/0806.3414",
+      "title": "Review of the Safety of LHC Collisions (LHC Safety Assessment Group: Ellis, Giudice, Mangano, Tkachev, Wiedemann), 2008; publ. J. Phys. G 35, 115004",
+      "quality": "primary",
+      "tags": ["official-review", "cosmic-rays", "hawking", "lawsuit-context"],
+      "claims": [
+        "CERN's LHC Safety Assessment Group (LSAG) — John Ellis, Gian Giudice, Michelangelo Mangano, Igor Tkachev and Urs Wiedemann — reviewed the hypothetical risks of LHC collisions and concluded that 'LHC collisions present no danger and that there are no reasons for concern', reaffirming and extending the 2003 review.",
+        "The report's central empirical argument is that cosmic rays have bombarded Earth and other astronomical bodies at energies at or above LHC energies for billions of years without catastrophe: over 3x10^22 cosmic rays with energy 10^17 eV or more have struck Earth's surface since its formation, equivalent to Nature having already run about a hundred thousand LHC experimental programmes on Earth alone.",
+        "The report's overarching safety principle is that whatever the LHC does, Nature has already done many times over on Earth and other astronomical bodies during their lifetimes.",
+        "The report assessed the specific speculative catastrophe scenarios raised publicly — microscopic black holes, strangelets, vacuum bubbles, and magnetic monopoles — and found no conceivable danger from any of them at LHC energies.",
+        "The report notes that hypothetical microscopic black holes are expected to evaporate rapidly via Hawking radiation, and that even setting Hawking radiation aside, the astrophysical (cosmic-ray/white-dwarf/neutron-star) evidence independently bounds the risk to negligible."
+      ]
+    },
+    {
+      "id": "s02",
+      "url": "https://arxiv.org/abs/0806.3381",
+      "title": "Giddings & Mangano, Astrophysical implications of hypothetical stable TeV-scale black holes, 2008; Phys. Rev. D 78, 035009",
+      "quality": "primary",
+      "tags": ["cosmic-rays", "white-dwarfs", "neutron-stars", "accretion"],
+      "claims": [
+        "Giddings and Mangano analyzed the extremely hypothetical worst case in which a TeV-scale black hole is stable (does not evaporate) and becomes gravitationally trapped inside Earth and begins to accrete matter, building accretion models from first-principles, well-tested physics across a wide range of TeV-gravity scenarios.",
+        "They show the scenarios split into two classes by whether accretion could have any macroscopic effect on Earth on a timescale shorter than the Sun's remaining lifetime; any scenario dangerous on that timescale is ruled out because cosmic rays striking far denser white dwarfs and neutron stars would then have produced black holes that destroyed those stars.",
+        "The continued existence of old, dense white dwarfs and neutron stars — which would have captured slow, stable, dangerous black holes produced by cosmic-ray collisions on them — therefore provides an empirical bound on the risk that closes the loophole left open when collider-produced black holes are slow-moving rather than fast like cosmic-ray products.",
+        "The paper identifies specific observed white dwarf stars whose mass, magnetic field and age make them 'living evidence' that stable dangerous micro black holes cannot be produced, because those stars would otherwise have been destroyed.",
+        "The paper notes neutron stars alone are less decisive than white dwarfs for some scenarios because their strong magnetic fields can decelerate incoming cosmic rays enough to lower the effective collision energy below the LHC range, which is why the white-dwarf argument carries the main load."
+      ]
+    },
+    {
+      "id": "s03",
+      "url": "https://arxiv.org/abs/hep-ph/9910333",
+      "title": "Jaffe, Busza, Sandweiss & Wilczek, Review of Speculative 'Disaster Scenarios' at RHIC, 2000; Rev. Mod. Phys. 72, 1125",
+      "quality": "primary",
+      "tags": ["cosmic-rays", "methodology", "strangelets", "vacuum"],
+      "claims": [
+        "This peer-reviewed review established the methodology later reused for the LHC: it quantitatively assessed speculative catastrophe scenarios (strangelets, vacuum transitions, black holes) for the Relativistic Heavy Ion Collider and found the relevant parameters 'absurdly small'.",
+        "The review argued that cosmic-ray collisions elsewhere in the universe have already provided far more numerous and higher-energy opportunities for any such catastrophic transition than a terrestrial collider does, and no catastrophe has occurred.",
+        "The cosmic-ray safety argument in its careful form originates with this kind of analysis: if a collider process were dangerous, naturally occurring higher-energy collisions would already have triggered the catastrophe long ago."
+      ]
+    },
+    {
+      "id": "s04",
+      "url": "https://arxiv.org/abs/hep-ph/0106295",
+      "title": "Dimopoulos & Landsberg, Black Holes at the LHC, 2001; Phys. Rev. Lett. 87, 161602",
+      "quality": "primary",
+      "tags": ["production-theory", "extra-dimensions"],
+      "claims": [
+        "In large-extra-dimension (low-scale-gravity) scenarios where the fundamental Planck scale is near 1 TeV, microscopic black holes could be produced copiously at the LHC — one of the least model-dependent predictions of TeV-scale gravity.",
+        "Under such scenarios the LHC could in principle produce microscopic black holes at a rate of order one per second if the fundamental Planck scale is low enough (e.g. below ~2 TeV), making black-hole production a potential experimental signature of extra dimensions.",
+        "This production prediction is conditional on the existence of large extra dimensions / a low fundamental Planck scale; in standard four-dimensional gravity the Planck scale is ~10^16 TeV, about 10^15 times LHC energies, so no black-hole production is expected."
+      ]
+    },
+    {
+      "id": "s05",
+      "url": "https://arxiv.org/abs/hep-ph/0106219",
+      "title": "Giddings & Thomas, High-energy colliders as black-hole factories: the end of short-distance physics, 2001; Phys. Rev. D 65, 056010",
+      "quality": "primary",
+      "tags": ["production-theory", "extra-dimensions"],
+      "claims": [
+        "Giddings and Thomas independently argued that if the fundamental scale of gravity is near a TeV, high-energy colliders would function as 'black-hole factories', with black-hole production becoming a dominant process above the fundamental scale.",
+        "Any such collider-produced black holes would be governed by semiclassical/thermodynamic behavior only well above the fundamental Planck scale, and would decay by Hawking evaporation rather than persist — production and rapid decay are part of the same theoretical package."
+      ]
+    },
+    {
+      "id": "s06",
+      "url": "https://arxiv.org/abs/hep-ph/0106295",
+      "title": "Dimopoulos S, Landsberg G. \"Black Holes at the LHC.\" Physical Review Letters 87, 161602 (2001)",
+      "quality": "secondary",
+      "tags": ["production-theory", "hawking", "overview"],
+      "claims": [
+        "A microscopic (micro) black hole would, on standard theory, evaporate almost instantaneously via Hawking radiation — a smaller black hole radiates faster and is very unstable, disappearing in a tiny fraction of a second.",
+        "The possibility of producing micro black holes at the LHC requires physics beyond the Standard Model (extra spatial dimensions lowering the effective Planck scale); the Standard Model itself predicts LHC energies are far too low to create black holes."
+      ]
+    },
+    {
+      "id": "s07",
+      "url": "https://www.nature.com/articles/248030a0",
+      "title": "Hawking SW. \"Black hole explosions?\" Nature 248, 30-31 (1974)",
+      "quality": "secondary",
+      "tags": ["hawking", "uncertainty"],
+      "claims": [
+        "Hawking radiation is a theoretically well-motivated prediction that black holes emit thermal radiation and lose mass, with smaller black holes radiating more intensely and evaporating faster.",
+        "Hawking radiation from an astrophysical or micro black hole has never been directly observed; the LHC micro-black-hole safety case relies on it as a theoretical prediction rather than an experimentally confirmed fact, which is the specific assumption the contrarian risk argument targets."
+      ]
+    },
+    {
+      "id": "s08",
+      "url": "https://en.wikipedia.org/wiki/Safety_of_high-energy_particle_collision_experiments",
+      "title": "Safety of high-energy particle collision experiments — Wikipedia",
+      "quality": "secondary",
+      "tags": ["overview", "official-review", "cosmic-rays", "lawsuit-context", "empirical-searches"],
+      "claims": [
+        "The mainstream scientific position is that even if the LHC produced microscopic black holes, they would be harmless: they would evaporate near-instantly via Hawking radiation, and independent astrophysical evidence bounds the risk even if they did not.",
+        "Searches for micro-black-hole signatures have been carried out at the LHC and found no evidence for black-hole production, consistent with the Standard Model expectation that LHC energies are too low to create them.",
+        "The contested minority position, associated with a 2008 US lawsuit (Walter Wagner and Luis Sancho), held that the danger had not been adequately excluded because key safety arguments rely on unconfirmed assumptions such as Hawking radiation.",
+        "The cosmic-ray argument is that nature has been colliding cosmic rays with Earth, the Sun, and dense stars at LHC-and-higher energies for billions of years without producing a catastrophe, which empirically bounds the danger of collider collisions."
+      ]
+    },
+    {
+      "id": "s09",
+      "url": "https://arxiv.org/abs/1202.6396",
+      "title": "CMS Collaboration, Search for microscopic black holes in pp collisions at sqrt(s) = 7 TeV, 2012; JHEP 04 (2012) 061",
+      "quality": "primary",
+      "tags": ["empirical-searches", "exclusion-limits"],
+      "claims": [
+        "A CMS search of 7 TeV proton-proton collisions found no excess of high-multiplicity, high-transverse-energy events over Standard Model background expectations — i.e. no evidence of microscopic black hole production.",
+        "The absence of a signal was used to set lower limits excluding semiclassical/microscopic black hole production below minimum masses of several TeV (of order 4-6 TeV) across a range of extra-dimension model parameters."
+      ]
+    },
+    {
+      "id": "s10",
+      "url": "https://arxiv.org/abs/1012.3375",
+      "title": "CMS Collaboration, Search for Microscopic Black Hole Signatures at the Large Hadron Collider, 2011; Phys. Lett. B 697, 434",
+      "quality": "primary",
+      "tags": ["empirical-searches", "exclusion-limits"],
+      "claims": [
+        "The first CMS search for microscopic black hole signatures, using 35 inverse picobarns of 7 TeV data, analyzed events with large total transverse energy and multiple high-energy jets, leptons and photons and observed good agreement with Standard Model backgrounds (dominated by QCD multijet production).",
+        "This first search set lower limits on the minimum black hole mass in the range 3.5-4.5 TeV for a variety of large-extra-dimension model parameters, with no black-hole signal seen.",
+        "Later and higher-energy (8 and 13 TeV) LHC searches by CMS and ATLAS extended these exclusions to substantially higher masses (roughly 5-11 TeV depending on the model), continuing to find no black-hole signal in of order 10^15 collisions."
+      ]
+    },
+    {
+      "id": "s11",
+      "url": "https://home.web.cern.ch/science/accelerators/large-hadron-collider/safety-lhc",
+      "title": "The Safety of the LHC — CERN",
+      "quality": "primary",
+      "tags": ["official-review", "institutional", "cosmic-rays", "hawking"],
+      "claims": [
+        "CERN's official position is that the LHC is safe: microscopic black holes, if produced, would decay immediately via Hawking radiation, and the cosmic-ray record shows nature has run the equivalent collisions on Earth and in the cosmos without harm.",
+        "CERN states that no microscopic black holes have ever been observed at the LHC and that their production would require physics (extra dimensions) beyond the Standard Model.",
+        "CERN endorses the LSAG conclusion that there is no basis for concern about catastrophic scenarios (black holes, strangelets, vacuum bubbles, magnetic monopoles) from LHC collisions."
+      ]
+    },
+    {
+      "id": "s12",
+      "url": "https://indico.cern.ch/event/39099/attachments/782382/1072600/LHCsafe.pdf",
+      "title": "John Ellis, 'The LHC is Safe', CERN Colloquium, 14 August 2008 (slides)",
+      "quality": "primary",
+      "tags": ["official-review", "cosmic-rays", "hawking", "communication"],
+      "claims": [
+        "In presenting the LSAG findings, Ellis laid out the layered safety case: micro black holes would Hawking-evaporate; if hypothetically stable, the cosmic-ray natural experiment plus white-dwarf/neutron-star survival still bounds the risk to negligible.",
+        "Ellis emphasized that the cosmic-ray argument rests on collisions Nature has already performed at energies equal to or exceeding the LHC's, so the LHC introduces no novel danger."
+      ]
+    },
+    {
+      "id": "s13",
+      "url": "https://arxiv.org/abs/0808.4087",
+      "title": "Giddings & Mangano, Comments on claimed risk from metastable black holes, 2008",
+      "quality": "primary",
+      "tags": ["cosmic-rays", "rebuttal", "accretion"],
+      "claims": [
+        "Giddings and Mangano rebutted specific counter-claims (associated with Rössler and others) that micro black holes could be metastable and dangerous, arguing those scenarios either contradict well-tested physics or are already excluded by the same astrophysical (white-dwarf/neutron-star) bounds.",
+        "They argue that in the scenarios where a collider black hole could be slow enough to be captured by Earth, the accretion rate is so small (bounded well below Bondi accretion, and further suppressed quantum-mechanically at subatomic scales) that no macroscopic growth occurs within the lifetime of the solar system."
+      ]
+    },
+    {
+      "id": "s14",
+      "url": "https://www.nbcnews.com/id/wbna23844529",
+      "title": "Doomsday fears spark lawsuit over collider — NBC News (Cosmic Log), 2008",
+      "quality": "secondary",
+      "tags": ["lawsuit-context", "contrarian"],
+      "claims": [
+        "Walter Wagner (a retired nuclear-safety officer) and Luis Sancho (a Spanish science writer) filed suit in the U.S. District Court in Hawaii in March 2008 seeking to delay LHC start-up for a renewed safety review, naming the U.S. Department of Energy, Fermilab, the National Science Foundation and CERN.",
+        "The plaintiffs raised four catastrophe scenarios: microscopic black holes that might grow by consuming Earth; strangelets that could convert normal matter to strange matter; magnetic monopoles that could catalyze proton decay; and vacuum bubbles that could rip apart Earth and the universe.",
+        "The lawsuit represents the documented contrarian minority position; it was a legal and public-communication challenge rather than a peer-reviewed scientific refutation of the safety case."
+      ]
+    },
+    {
+      "id": "s15",
+      "url": "https://phys.org/news/2010-09-lhc-lawsuit-case-dismissed-court.html",
+      "title": "LHC lawsuit case dismissed by US court — Phys.org, 2010",
+      "quality": "secondary",
+      "tags": ["lawsuit-context", "outcome"],
+      "claims": [
+        "The Wagner-Sancho lawsuit was dismissed: the court held it lacked jurisdiction over the LHC (the U.S. does not control CERN's operations) and, on appeal, that the plaintiffs had failed to show a credible threat of harm.",
+        "During the appeal, a friend-of-the-court brief from physicists including Richard Wilson and Nobel laureates Sheldon Glashow and Frank Wilczek argued the doomsday scenarios had no realistic chance of occurring."
+      ]
+    },
+    {
+      "id": "s16",
+      "url": "https://www.symmetrymagazine.org/breaking/2010/08/26/lhc-lawsuit-dismissed-by-us-court",
+      "title": "LHC lawsuit dismissed by US court — Symmetry Magazine, 2010",
+      "quality": "secondary",
+      "tags": ["lawsuit-context", "outcome"],
+      "claims": [
+        "The final dismissal of the LHC lawsuit was reported as turning on the plaintiffs' failure to demonstrate a credible, imminent threat of harm, consistent with the scientific consensus that the collisions are safe."
+      ]
+    },
+    {
+      "id": "s17",
+      "url": "https://phys.org/news/2008-09-physicists-production-dangerous-black-holes.html",
+      "title": "Physicists Rule Out the Production of Dangerous Black Holes at the LHC — Phys.org, 2008",
+      "quality": "secondary",
+      "tags": ["cosmic-rays", "white-dwarfs", "communication"],
+      "claims": [
+        "Popular reporting summarized the Giddings-Mangano result as ruling out dangerous LHC black holes: the key step was showing that certain white dwarf stars are dense enough to trap slow, stable micro black holes if such existed, so their continued existence proves such black holes are not produced.",
+        "The reporting noted the first line of defense remains that black holes evaporate via Hawking radiation, with the white-dwarf/neutron-star argument as an independent backstop for the hypothetical no-evaporation case."
+      ]
+    }
+  ]
+}

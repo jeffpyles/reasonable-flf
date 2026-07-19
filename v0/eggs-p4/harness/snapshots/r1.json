@@ -1,0 +1,200 @@
+{
+  "round": 1,
+  "graph": {
+    "nodes": 74,
+    "edges": 71,
+    "groups": 5,
+    "events": 2170
+  },
+  "population": {
+    "in_run": 60,
+    "with_ratings": 60
+  },
+  "HEADLINE_expert_vs_crowd": {
+    "expert": {
+      "n": 8,
+      "mean_true_r": 0.6629,
+      "median_true_r": 0.662,
+      "mean_raw_r": 0.8942,
+      "mean_conf": 0.689,
+      "mean_n_assessments": 17.8
+    },
+    "crowd": {
+      "n": 52,
+      "mean_true_r": 0.69,
+      "median_true_r": 0.6917,
+      "mean_raw_r": 0.9331,
+      "mean_conf": 0.689,
+      "mean_n_assessments": 17.8
+    },
+    "expert_minus_crowd_true_r": -0.0271,
+    "verdict": "experts PENALIZED (below crowd)"
+  },
+  "expert_ranks": [
+    {
+      "agent": "s05-biochemist",
+      "true_r": 0.6774,
+      "raw_r": 0.9118,
+      "pctile": 0.333
+    },
+    {
+      "agent": "s01-lipidologist",
+      "true_r": 0.6686,
+      "raw_r": 0.8991,
+      "pctile": 0.183
+    },
+    {
+      "agent": "s06-biostatistician",
+      "true_r": 0.6686,
+      "raw_r": 0.8991,
+      "pctile": 0.2
+    },
+    {
+      "agent": "s02-nutri-epi",
+      "true_r": 0.6628,
+      "raw_r": 0.8907,
+      "pctile": 0.117
+    },
+    {
+      "agent": "s03-ebm-meta",
+      "true_r": 0.6611,
+      "raw_r": 0.9017,
+      "pctile": 0.083
+    },
+    {
+      "agent": "s07-guidelines-pubh",
+      "true_r": 0.6594,
+      "raw_r": 0.8859,
+      "pctile": 0.067
+    },
+    {
+      "agent": "s08-synthesizer",
+      "true_r": 0.656,
+      "raw_r": 0.8941,
+      "pctile": 0.05
+    },
+    {
+      "agent": "s04-endocrinologist",
+      "true_r": 0.6493,
+      "raw_r": 0.8713,
+      "pctile": 0.017
+    }
+  ],
+  "true_r_variance": {
+    "stdev": 0.0188,
+    "min": 0.6374,
+    "max": 0.7205
+  },
+  "leaderboard": {
+    "top8": [
+      {
+        "agent": "h45-label-reader",
+        "tier": "crowd",
+        "true_r": 0.7205
+      },
+      {
+        "agent": "h39-trusting-guidelines",
+        "tier": "crowd",
+        "true_r": 0.7178
+      },
+      {
+        "agent": "h37-clean-eating",
+        "tier": "crowd",
+        "true_r": 0.7153
+      },
+      {
+        "agent": "h28-calorie-counter",
+        "tier": "crowd",
+        "true_r": 0.7108
+      },
+      {
+        "agent": "h27-home-cook",
+        "tier": "crowd",
+        "true_r": 0.7106
+      },
+      {
+        "agent": "h06-plant-leaning",
+        "tier": "crowd",
+        "true_r": 0.7091
+      },
+      {
+        "agent": "h48-value-moderation",
+        "tier": "crowd",
+        "true_r": 0.709
+      },
+      {
+        "agent": "h13-trusting-guidelines",
+        "tier": "crowd",
+        "true_r": 0.708
+      }
+    ],
+    "bottom8": [
+      {
+        "agent": "s02-nutri-epi",
+        "tier": "expert",
+        "true_r": 0.6628
+      },
+      {
+        "agent": "h43-longevity-buff",
+        "tier": "crowd",
+        "true_r": 0.6612
+      },
+      {
+        "agent": "s03-ebm-meta",
+        "tier": "expert",
+        "true_r": 0.6611
+      },
+      {
+        "agent": "s07-guidelines-pubh",
+        "tier": "expert",
+        "true_r": 0.6594
+      },
+      {
+        "agent": "s08-synthesizer",
+        "tier": "expert",
+        "true_r": 0.656
+      },
+      {
+        "agent": "h31-keto-leaning",
+        "tier": "crowd",
+        "true_r": 0.6514
+      },
+      {
+        "agent": "s04-endocrinologist",
+        "tier": "expert",
+        "true_r": 0.6493
+      },
+      {
+        "agent": "h52-supplement-minded",
+        "tier": "crowd",
+        "true_r": 0.6374
+      }
+    ]
+  },
+  "coverage": {
+    "rateable_A_items": 145,
+    "depth_min": 0,
+    "depth_median": 8,
+    "depth_mean": 6.1,
+    "items_ge_15": 0
+  },
+  "lifecycle": {
+    "nodes": {
+      "provisional": 59,
+      "contested": 1,
+      "sealed": 14
+    },
+    "edges": {
+      "provisional": 48,
+      "sealed": 23
+    }
+  },
+  "contested_nodes": [
+    {
+      "id": "n023",
+      "mean": 3.44,
+      "stdev": 1.05,
+      "n": 14
+    }
+  ]
+}

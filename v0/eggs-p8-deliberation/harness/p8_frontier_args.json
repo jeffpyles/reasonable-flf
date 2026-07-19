@@ -1,0 +1,76 @@
+{
+ "nodes": [
+  {
+   "id": "n030",
+   "kind": "p8_frontier",
+   "title": "Avoid cheap risks under uncertainty",
+   "text": "When evidence about a health exposure is genuinely uncertain, it is worth avoiding cheap, low-cost precautions against it even without definitive proof of harm."
+  },
+  {
+   "id": "n043",
+   "kind": "p8_frontier",
+   "title": "Cardiovascular risk should dominate the verdict",
+   "text": "Because cardiovascular disease is a leading cause of death, cardiovascular risk should be the dominant consideration in judging whether eggs are good for you, even when other nutritional properties are favorable."
+  },
+  {
+   "id": "n065",
+   "kind": "p8_frontier",
+   "title": "Egg protein's high biological value supports child development",
+   "text": "Egg protein has a biological value of 97%, the highest among common foods, providing all nine essential amino acids in optimal proportions for supporting skeletal and muscle development during childhood growth."
+  },
+  {
+   "id": "n038",
+   "kind": "p8_frontier",
+   "title": "Athletes clear dietary cholesterol faster",
+   "text": "Athletes and other highly physically active people typically exhibit greater lipid turnover and more efficient clearance of dietary cholesterol, driven by exercise-induced increases in lipoprotein lipase activity and HDL-mediated reverse cholesterol transport, which may blunt the LDL-raising effect of egg consumption seen in sedentary populations."
+  },
+  {
+   "id": "n002",
+   "kind": "p8_frontier",
+   "title": "Eggs raise cardiovascular risk",
+   "text": "Egg consumption meaningfully raises cardiovascular disease risk by increasing dietary cholesterol intake."
+  },
+  {
+   "id": "n001",
+   "kind": "p8_frontier",
+   "title": "Eggs are neutral for most healthy adults",
+   "text": "For most healthy adults, moderate egg consumption is nutritionally neutral and does not meaningfully raise cardiovascular disease risk."
+  },
+  {
+   "id": "n008",
+   "kind": "p8_frontier",
+   "title": "Diabetic egg-CVD link is causal",
+   "text": "The elevated egg-CVD association seen among people with diabetes is causal: eggs, or their cholesterol and nutrient load, directly worsen cardiovascular risk given diabetic physiology."
+  },
+  {
+   "id": "n063",
+   "kind": "p8_frontier",
+   "title": "No CVD association in meta-analyses (general population)",
+   "text": "Meta-analytic evidence shows no statistically significant association between egg consumption and risk of cardiovascular disease in the general adult population."
+  },
+  {
+   "id": "n033",
+   "kind": "p8_frontier",
+   "title": "Saturated fat, not cholesterol, drives LDL",
+   "text": "Dietary saturated fat, not dietary cholesterol intake itself, is the primary dietary driver of serum LDL cholesterol levels for most people."
+  },
+  {
+   "id": "n039",
+   "kind": "p8_frontier",
+   "title": "Eggs support childhood brain development",
+   "text": "Dietary cholesterol and choline supplied by eggs serve as building blocks for brain and nervous system development during childhood, giving eggs a comparatively larger developmental benefit in that life stage than in adulthood."
+  },
+  {
+   "id": "n056",
+   "kind": "p8_frontier",
+   "title": "",
+   "text": "Egg allergy prevalence shapes population-level advice."
+  },
+  {
+   "id": "n066",
+   "kind": "p8_frontier",
+   "title": "Dose-response analysis: no CVD risk gradient in general population",
+   "text": "Dose-response meta-analytic evidence indicates no relationship between increasing egg consumption quantity and cardiovascular disease risk in the general adult population."
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+{
+ "question": "Did SARS-CoV-2 arise by natural zoonotic spillover or by a research-related incident?",
+ "rating_mode_only": true,
+ "phase2": {
+  "static": true
+ }
+}

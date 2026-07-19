@@ -1,0 +1,99 @@
+{
+  "summary": "The strongest peer-reviewed evidence\u2014concentrated in high-profile Science, Nature, and Cell papers\u2014favors a natural zoonotic origin centered on the Huanan Seafood Wholesale Market via the live wildlife trade: SARS-CoV-2 was detected in 73 market environmental samples, both viral lineages (A and B) appear in the market environment, and SARS-CoV-2-positive surfaces at a specific southwest-corner wildlife stall co-located with abundant DNA from candidate intermediate-host species (raccoon dogs, civets, bamboo rats). However, no infected animal was ever directly identified, all sampling occurred in January 2020 after human cases and market closure (so reverse human-to-animal transmission cannot be excluded), and the specific genomic argument for two independent spillovers\u2014Pekar et al.'s Bayes-factor ~60 finding\u2014has been substantially weakened by an acknowledged coding-error correction (dropping the likelihood ratio to ~4.3) and by peer-reviewed and preprint critiques of its phylodynamic assumptions and genome-exclusion criteria. Critically, the root of the SARS-CoV-2 phylogenetic tree cannot be confidently placed between lineages A and B with current data, meaning genomics alone cannot definitively resolve whether the pandemic began with one or two introductions. The evidence base overall leans toward market-based zoonosis as the most probable explanation per the scientific majority, but the intermediate host, the one-vs-two-introduction question, and the rooting of the tree remain genuinely unresolved.",
+  "findings": [
+    {
+      "claim": "Only two viral lineages (A and B) existed before February 2020, and the leading genomic analysis (Pekar et al. 2022) argues phylodynamic rooting plus epidemic simulations show these resulted from at least two separate zoonotic introductions into humans, with the Huanan market as the most probable origin point.",
+      "confidence": "high",
+      "vote": "2-1 and 3-0",
+      "sources": [
+        "https://www.science.org/doi/10.1126/science.abp8337"
+      ],
+      "evidence": "Pekar et al. (Science 2022) state SARS-CoV-2 diversity before Feb 2020 'likely comprised only two distinct viral lineages, denoted A and B' and that 'phylodynamic rooting methods, coupled with epidemic simulations, reveal that these lineages were the result of at least two separate cross-species transmission events into humans.' They conclude 'the most probable explanation... involves zoonotic jumps from as-yet undetermined, intermediate host animals at the Huanan market.' The two-lineage fact is uncontested; the two-introduction INFERENCE is contested (see later findings). Merges claims [0], [1], [2]."
+    },
+    {
+      "claim": "Worobey et al. (Science 2022) conclude, from case geography and market sampling, that SARS-CoV-2 emergence occurred via the live wildlife trade in China with the Huanan market as the epicenter of the pandemic, supporting natural zoonotic spillover over a lab origin.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://www.science.org/doi/10.1126/science.abp8715"
+      ],
+      "evidence": "The paper states 'the emergence of SARS-CoV-2 occurred via the live wildlife trade in China, and show that the Huanan market was the epicenter of the COVID-19 pandemic.' Caveats: a March 2024 Science Erratum (adp1133) retracted a key statistical claim that lineage A/B cases clustered nearer the market than expected, and critics (Stoyan & Chiu 2024; Weissman) contest the epicenter inference on proximity/ascertainment-bias grounds. These weaken evidentiary strength but not what the authors concluded. Note: two related Worobey-paper claims (earliest cases centered on market; two lineages reflect two spillovers at market) were REFUTED in verification (votes 1-2 and 0-3). Claim [3]."
+    },
+    {
+      "claim": "China CDC market environmental sampling (Nature 2023) found SARS-CoV-2 in 73 environmental samples but in NONE of 457 animal samples from 18 species; some positive environmental samples co-located with DNA from susceptible species including raccoon dogs, and lineage A (8782T/28144C markers) as well as lineage B were recovered from the market environment.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://www.nature.com/articles/s41586-023-06043-2"
+      ],
+      "evidence": "Liu et al. (Nature 2023): 'Using RT-qPCR, SARS-CoV-2 was detected in 73 environmental samples, but none of the animal samples' (457 samples, 18 species). 'Some environmental samples contained genetic material from animals susceptible to SARS-CoV-2, including raccoon dogs.' 'SARS-CoV-2 lineage A (8782T and 28144C) was found in an environmental sample.' Load-bearing point: co-location of virus and susceptible-animal DNA is established, but NO infected animal was directly identified. Merges claims [4], [5], [6]."
+    },
+    {
+      "claim": "The original China CDC authors interpreted their data cautiously: presence of susceptible-animal DNA in positive samples does not prove those animals were infected, and human-to-animal reverse transmission cannot be excluded because sampling occurred in January 2020, after human cases were reported and the market was closed.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://www.nature.com/articles/s41586-023-06043-2"
+      ],
+      "evidence": "The paper states 'even if animals were infected, it cannot be ruled out that human-to-animal reverse transmission occurred after human beings were infected with the virus, since the sampling period was in January, 2020, after the time when human cases were reported.' This is a key crux limiting what market environmental sampling can prove about the intermediate host. Claim [7]."
+    },
+    {
+      "claim": "Reanalysis of the market metagenomic data (Crits-Christoph et al., Cell 2024) found increased SARS-CoV-2 positivity near/within a specific southwest-corner wildlife stall, with wildlife DNA in every positive sample from that stall; positive market objects (animal carts, a cage, a hair/feather remover) contained more mammalian wildlife DNA than human DNA; and the co-occurring species (raccoon dogs, hoary bamboo rats, civets) match previously proposed candidate intermediate hosts.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(24)00901-2",
+        "https://www.nature.com/articles/s41586-023-06043-2"
+      ],
+      "evidence": "Cell 2024: 'increased SARS-CoV-2 positivity near and within a wildlife stall. We identify wildlife DNA in all SARS-CoV-2-positive samples from this stall.' 'Animal carts, a cage, and a hair/feather remover... tested positive... and there was more DNA from mammalian wildlife species in these samples than human DNA.' Raccoon dogs and hoary bamboo rats were 'the two most commonly detected mammalian wildlife species.' The DESCRIPTIVE facts (positivity gradient, DNA co-location) are not disputed; the CAUSAL inference that animals were infected is contested (Bloom; Stoyan/Chiu; Weissman). Merges claims [8], [9], [10], [12]."
+    },
+    {
+      "claim": "Both lineages A and B were detected in market environmental samples and the earliest lineage A cases were geographically close to the market, which the pro-zoonosis authors argue is consistent with two spillover events at the market rather than a single introduction.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(24)00901-2"
+      ],
+      "evidence": "Cell 2024: 'sequenced market-linked cases were of lineage B, but the earliest-known lineage A cases were close to the market, and both lineages A and B were detected in environmental samples at the market.' The claim asserts only CONSISTENCY with two spillovers, matching the authors' hedged conclusion; the two-spillover inference itself is contested. Claim [11]."
+    },
+    {
+      "claim": "The genomic argument for two independent introductions is seriously contested: Pekar et al.'s originally reported Bayes factor of ~60 was corrected downward to a likelihood ratio of ~4.3 after acknowledged coding errors, and critics argue even the residual support is an artifact of an imbalanced hypothesis-testing framework and of a phylodynamic model biased against polytomies.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://arxiv.org/pdf/2502.20076",
+        "https://www.biorxiv.org/content/10.1101/2022.10.10.511625.full.pdf",
+        "https://www.science.org/doi/10.1126/science.abp8337"
+      ],
+      "evidence": "Pekar et al. originally reported Bayes factors of ~60 for two introductions. A Science erratum (Oct 2023, adl0585) corrected three coding errors, dropping the likelihood ratio from ~60 to ~4.3 (still nominally favoring multiple introductions but far more weakly). arXiv:2502.20076 argues the residual support 'is an artefact of an imbalanced hypothesis testing framework.' The Washburne et al. preprint argues 'the phylodynamic model of Pekar et al. is biased against polytomies, making their finding of a low probability of basal polytomies an artifact of their model.' Note the corrected Pekar et al. still report their conclusion holds. Merges claims [19], [14], [16]. Caveat: the biorxiv critique is a non-peer-reviewed preprint by lab-leak-associated authors."
+    },
+    {
+      "claim": "Critics contend Pekar et al. improperly excluded 20 SARS-CoV-2 genomes with intermediate (A-B) haplotypes on questionable criteria; such intermediate genomes, if genuine, would be inconsistent with a strict two-separate-introductions model \u2014 but a 2025 peer-reviewed paper rebuts this, arguing the purported intermediates are recombinant/derived artifacts rather than true single-introduction intermediates.",
+      "confidence": "medium",
+      "vote": "3-0",
+      "sources": [
+        "https://www.biorxiv.org/content/10.1101/2022.10.10.511625.full.pdf"
+      ],
+      "evidence": "The Washburne et al. preprint states Pekar et al. 'identified and excluded 20 A-B intermediate genomes... applying a variety of exclusion criteria including low read depth and assertions of repeated erroneous base calls at lineage-defining positions.' A 2025 Virus Evolution paper (veaf008) rebuts, arguing the intermediates 'are instead likely derived' (recombinant artifacts). Medium confidence: the source is a lab-leak-associated preprint and the underlying scientific dispute is genuinely unresolved. Merges claims [15], [16]."
+    },
+    {
+      "claim": "For SARS-CoV-2 the two standard tree-rooting principles conflict \u2014 outgroup-based rooting (bat-CoV similarity) favors lineage A as ancestral, while date-based rooting favors the earliest, market-linked lineage B \u2014 and consequently the root cannot be confidently placed between lineages A and B with current genomic data, meaning genomics alone cannot definitively establish one vs. two introductions.",
+      "confidence": "high",
+      "vote": "3-0",
+      "sources": [
+        "https://academic.oup.com/mbe/article/42/6/msaf118/8158589"
+      ],
+      "evidence": "Bloom (MBE 2025, 'The Data are Insufficient to Confidently Root the SARS-CoV-2 Phylogenetic Tree'): 'these two basic rooting principles are in conflict: the first collected sequences (which are mostly from people who visited or worked at the Huanan Market) are not the sequences that are most similar to SARS-CoV-2's bat coronavirus relatives.' 'the evidence is insufficient to confidently position the root of the evolutionary tree between lineage A and lineage B.' This is a central genomic crux acknowledged across camps. A related claim attributing the rooting conflict specifically to demonstrable early-sequence sampling bias was REFUTED in verification (vote 1-2). Merges claims [17], [18]."
+    },
+    {
+      "claim": "Environmental co-mingling of viral and animal genetic material in the January 2020 samples is unlikely to reveal which species (if any) was an intermediate host, because the virus was already widespread in the market by then \u2014 though this Bloom argument is contested by a published rebuttal.",
+      "confidence": "medium",
+      "vote": "2-1",
+      "sources": [
+        "https://academic.oup.com/ve/article/9/2/vead050/7249794"
+      ],
+      "evidence": "Bloom (Virus Evolution 2023, vead050): 'SARS-CoV-2 was widespread in the market by January 2020 and therefore... co-mingling of viral and animal genetic material in environmental samples collected at that time is unlikely to be informative about zoonotic origins.' Contested by D\u00e9barre & Crits-Christoph (Virus Evolution 2024, vead077), who argue Bloom's fish-correlation analysis is a DNA-abundance artifact and that susceptible mammals (raccoon dog) dominate the highest-virus sample. A stronger related Bloom claim (that viral reads are NOT correlated with raccoon-dog reads) was REFUTED in verification (vote 1-2). Medium confidence: split vote, live published dispute. Claim [13]."
+    }
+  ],
+  "caveats": ""
+}

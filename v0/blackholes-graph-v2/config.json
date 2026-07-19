@@ -1,0 +1,8 @@
+{
+ "phase2": {
+  "confirm": 8,
+  "static": true
+ },
+ "question": "Could a high-energy particle collider (the LHC) create a black hole that destroys Earth?",
+ "rating_mode_only": true
+}

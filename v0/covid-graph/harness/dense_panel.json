@@ -1,0 +1,60 @@
+{
+ "panel": [
+  {
+   "id": "ev-s2",
+   "persona": "panel-evidential",
+   "model": "sonnet",
+   "seed": 2,
+   "bloc": "refdense"
+  },
+  {
+   "id": "ev-s3",
+   "persona": "panel-evidential",
+   "model": "sonnet",
+   "seed": 3,
+   "bloc": "refdense"
+  },
+  {
+   "id": "bayes-s2",
+   "persona": "panel-bayesian",
+   "model": "sonnet",
+   "seed": 2,
+   "bloc": "refdense"
+  },
+  {
+   "id": "bayes-s3",
+   "persona": "panel-bayesian",
+   "model": "sonnet",
+   "seed": 3,
+   "bloc": "refdense"
+  },
+  {
+   "id": "skeptic-s2",
+   "persona": "panel-skeptic",
+   "model": "sonnet",
+   "seed": 2,
+   "bloc": "refdense"
+  },
+  {
+   "id": "skeptic-s3",
+   "persona": "panel-skeptic",
+   "model": "sonnet",
+   "seed": 3,
+   "bloc": "refdense"
+  },
+  {
+   "id": "domain-s2",
+   "persona": "panel-domain",
+   "model": "sonnet",
+   "seed": 2,
+   "bloc": "refdense"
+  },
+  {
+   "id": "domain-s3",
+   "persona": "panel-domain",
+   "model": "sonnet",
+   "seed": 3,
+   "bloc": "refdense"
+  }
+ ]
+}

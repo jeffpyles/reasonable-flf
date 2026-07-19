@@ -1,0 +1,7 @@
+{
+ "question": "Are eggs bad for your health? (Does egg / dietary-cholesterol consumption meaningfully raise cardiovascular-disease and mortality risk for most people?)",
+ "rating_mode_only": true,
+ "phase2": {
+  "static": true
+ }
+}

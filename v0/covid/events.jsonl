@@ -1,0 +1,968 @@
+{"agent": "epi-01", "payload": {"id": "n001", "kind": "claim", "source": null, "text": "SARS-CoV-2 crossed into humans through a natural zoonotic spillover from an animal reservoir, most plausibly connected to wildlife trade at or near the Huanan Seafood Market, directly or via an intermediate host.", "title": "Natural zoonotic spillover (market-associated)"}, "seq": 1, "ts": "2026-07-15T06:22:26.124032+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"id": "n002", "kind": "claim", "source": null, "text": "SARS-CoV-2 entered the human population through a research-related incident connected to coronavirus research, such as work conducted at or associated with the Wuhan Institute of Virology, involving either a collected natural virus or a laboratory-modified one.", "title": "Research-related incident (lab leak)"}, "seq": 2, "ts": "2026-07-15T06:22:26.255115+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"node": "n001", "set": "s1"}, "seq": 3, "ts": "2026-07-15T06:22:35.143656+00:00", "verb": "add_antithesis"}
+{"agent": "epi-01", "payload": {"node": "n002", "set": "s1"}, "seq": 4, "ts": "2026-07-15T06:22:35.216747+00:00", "verb": "add_antithesis"}
+{"agent": "epi-01", "payload": {"id": "n003", "kind": "external_anchor", "source": "cov-market-epicenter", "text": "The earliest known COVID-19 cases and the SARS-CoV-2-positive environmental samples cluster geographically around the Huanan Seafood Wholesale Market in Wuhan, concentrated in the section of the market where live mammals were sold.", "title": "Market spatial clustering of early cases/samples"}, "seq": 5, "ts": "2026-07-15T06:23:01.921256+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"id": "n004", "kind": "external_anchor", "source": "cov-two-lineages", "text": "Phylogenetic analysis of early SARS-CoV-2 genomes identifies two genetically distinct early lineages, designated A and B, both epidemiologically linked to the Huanan market.", "title": "Two distinct early market-linked lineages"}, "seq": 6, "ts": "2026-07-15T06:23:01.989123+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"id": "n005", "kind": "external_anchor", "source": "cov-raccoon-dna", "text": "Genetic material from susceptible wildlife species, notably raccoon dogs, co-occurs with SARS-CoV-2-positive material in some Huanan market environmental samples; this establishes the animals' presence at the market, not confirmed infection or that they were the transmission source.", "title": "Raccoon-dog DNA co-occurrence in market samples"}, "seq": 7, "ts": "2026-07-15T06:23:02.056416+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"from": "n003", "group": null, "id": "e001", "to": "n001"}, "seq": 8, "ts": "2026-07-15T06:23:11.056927+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"from": "n004", "group": null, "id": "e002", "to": "n001"}, "seq": 9, "ts": "2026-07-15T06:23:11.130440+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"from": "n005", "group": null, "id": "e003", "to": "n001"}, "seq": 10, "ts": "2026-07-15T06:23:11.226534+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"id": "n006", "kind": "claim", "source": null, "text": "The apparent geographic clustering of early COVID-19 cases and positive samples around the Huanan market is better explained by ascertainment and surveillance bias in early case-finding, which itself focused on the market, than by the market being the true site of a natural spillover.", "title": "Market clustering = ascertainment bias (crux)"}, "seq": 11, "ts": "2026-07-15T06:23:27.190285+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"id": "n007", "kind": "claim", "source": null, "text": "The clustering of early cases and environmental samples at the Huanan market reflects the true early epicenter of the outbreak, rather than being an artifact of where early surveillance happened to look.", "title": "Market clustering = true epicenter (crux)"}, "seq": 12, "ts": "2026-07-15T06:23:27.267310+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"node": "n007", "set": "s2"}, "seq": 13, "ts": "2026-07-15T06:23:34.499483+00:00", "verb": "add_antithesis"}
+{"agent": "epi-01", "payload": {"node": "n006", "set": "s2"}, "seq": 14, "ts": "2026-07-15T06:23:34.575587+00:00", "verb": "add_antithesis"}
+{"agent": "epi-01", "payload": {"from": "n003", "group": null, "id": "e004", "to": "n007"}, "seq": 15, "ts": "2026-07-15T06:23:41.956937+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"from": "n004", "group": null, "id": "e005", "to": "n007"}, "seq": 16, "ts": "2026-07-15T06:23:42.030940+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"from": "n005", "group": null, "id": "e006", "to": "n007"}, "seq": 17, "ts": "2026-07-15T06:23:42.109734+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"from": "n007", "group": null, "id": "e007", "to": "n001"}, "seq": 18, "ts": "2026-07-15T06:23:42.184783+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"id": "n008", "kind": "claim", "source": null, "text": "The existence of two genetically distinct early lineages, both linked to the Huanan market, indicates at least two independent zoonotic spillover events there, which best explains the pattern of early viral diversity.", "title": "Two lineages indicate multiple spillovers (crux)"}, "seq": 19, "ts": "2026-07-15T06:23:57.864848+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"id": "n009", "kind": "claim", "source": null, "text": "The inference that two early lineages prove multiple independent market spillovers rests on disputed phylogenetic and molecular-clock modeling assumptions, so a single introduction followed by early diversification, including via a research-related incident, cannot be excluded on this evidence alone.", "title": "Two-lineage inference rests on disputed modeling (crux)"}, "seq": 20, "ts": "2026-07-15T06:23:57.949896+00:00", "verb": "create_node"}
+{"agent": "epi-01", "payload": {"node": "n008", "set": "s3"}, "seq": 21, "ts": "2026-07-15T06:24:06.869470+00:00", "verb": "add_antithesis"}
+{"agent": "epi-01", "payload": {"node": "n009", "set": "s3"}, "seq": 22, "ts": "2026-07-15T06:24:06.950016+00:00", "verb": "add_antithesis"}
+{"agent": "epi-01", "payload": {"from": "n004", "group": null, "id": "e008", "to": "n008"}, "seq": 23, "ts": "2026-07-15T06:24:07.028966+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"from": "n008", "group": null, "id": "e009", "to": "n001"}, "seq": 24, "ts": "2026-07-15T06:24:07.111222+00:00", "verb": "draw_ground"}
+{"agent": "epi-01", "payload": {"id": "f1", "refs": ["n004", "n008", "n009"], "text": "The pack's single ref_id cov-two-lineages spans both layers the graph wants to keep separate: the raw phylogenetic observation (two distinct market-linked lineages, which I anchored narrowly as n004) and the source paper's own headline inferential conclusion (that this proves >=2 independent spillovers, which I had to split out as the contested crux n008/n009). Citing one ref_id as the --source for an anchored fact node, when that same paper's abstract already asserts the contested inference, risks readers treating the crux as pre-endorsed by the anchor. The grammar has no way to mark 'this source's raw finding is anchored here, but its own interpretive conclusion is NOT endorsed by this anchor and lives in a separate un-anchored node.'"}, "seq": 25, "ts": "2026-07-15T06:24:26.212085+00:00", "verb": "flag_friction"}
+{"agent": "epi-01", "payload": {"id": "f2", "refs": ["n003", "n006", "n007"], "text": "n006 (ascertainment bias) and n007 (true epicenter) are rival positive claims in antithesis set s2, but they are not free-floating competing claims about the world in general -- they are specifically two rival EXPLANATIONS of the same anchored fact (n003, the market clustering). The Ground edges from n003 into both n006's sibling n007 (and, honestly, implicitly into n006 too, since n006 only makes sense as an account of what n003 shows) look structurally identical to any other Ground-into-antithesis pattern. The grammar has no way to distinguish 'these two rivals are both explanations of that specific upstream fact' from 'these two rivals just happen to both cite that fact among other things' -- a reader can't tell, from edges alone, that s2 is specifically an interpretation-of-n003 fork rather than a general disagreement."}, "seq": 26, "ts": "2026-07-15T06:24:38.791087+00:00", "verb": "flag_friction"}
+{"agent": "epi-01", "payload": {"id": "f3", "refs": ["n005"], "text": "n005 (raccoon-dog DNA co-occurrence) needed a scope-limiting caveat folded directly into its claim text ('this establishes presence, not confirmed infection or transmission source') because the grammar has no clean way to attach a caveat qualifying an anchored fact's evidential reach. It isn't a rival claim (no camp asserts the narrower reading is false, so it doesn't belong in an antithesis set) and it isn't a Ground/Dependent relation (nothing supports or is supported by the caveat). Writing the limitation into the node prose works but means the caveat can't be independently agreed-with, rated, or attributed the way a structural element could -- an agent who thinks the caveat itself needs sharpening can only propose-phrasing the whole node, not target the caveat alone."}, "seq": 27, "ts": "2026-07-15T06:24:47.209959+00:00", "verb": "flag_friction"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n010", "kind": "external_anchor", "source": "cov-defuse", "text": "A 2018 DEFUSE proposal, submitted to DARPA by EcoHealth Alliance with Wuhan Institute of Virology collaborators, described plans including inserting furin cleavage sites into bat SARS-related coronaviruses; DARPA did not fund it.", "title": "DEFUSE proposal (2018, unfunded)"}, "seq": 28, "ts": "2026-07-15T06:29:50.311720+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n011", "kind": "external_anchor", "source": "cov-ratg13-wiv", "text": "RaTG13, the closest then-known relative of SARS-CoV-2 (~96% genome identity, still evolutionarily distant), was sampled and held at the Wuhan Institute of Virology, which conducted extensive bat-coronavirus research in the outbreak city.", "title": "RaTG13 held at WIV; WIV bat-CoV research profile"}, "seq": 29, "ts": "2026-07-15T06:29:57.651918+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n012", "kind": "external_anchor", "source": "cov-no-intermediate", "text": "As of the debate, no infected intermediate host animal or direct animal progenitor of SARS-CoV-2 had been identified, unlike SARS-CoV-1 (palm civets) or MERS (dromedary camels).", "title": "No identified intermediate host (agreed absence)"}, "seq": 30, "ts": "2026-07-15T06:30:01.502790+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n010", "group": null, "id": "e010", "to": "n002"}, "seq": 31, "ts": "2026-07-15T06:30:09.204564+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n011", "group": null, "id": "e011", "to": "n002"}, "seq": 32, "ts": "2026-07-15T06:30:09.283380+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n013", "kind": "claim", "source": null, "text": "The SARS-CoV-2 furin cleavage site is better explained by deliberate laboratory insertion than by natural acquisition, given documented WIV-collaborator plans (DEFUSE) to engineer exactly this kind of feature into bat coronaviruses shortly before the outbreak.", "title": "FCS better explained by lab insertion (crux)"}, "seq": 33, "ts": "2026-07-15T06:30:28.417223+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"node": "n013", "set": "s4"}, "seq": 34, "ts": "2026-07-15T06:30:35.183909+00:00", "verb": "add_antithesis"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n010", "group": null, "id": "e012", "to": "n013"}, "seq": 35, "ts": "2026-07-15T06:30:35.258883+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n013", "group": null, "id": "e013", "to": "n002"}, "seq": 36, "ts": "2026-07-15T06:30:35.334865+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n014", "kind": "claim", "source": null, "text": "DEFUSE's demonstrated intent and capability to engineer furin cleavage sites into bat coronaviruses, taken together with the Wuhan Institute of Virology's proximity to the outbreak and to the closest known relative (RaTG13), make a research-related incident the more likely explanation than treating each fact in isolation would suggest.", "title": "DEFUSE + WIV proximity together favor lab incident (crux)"}, "seq": 37, "ts": "2026-07-15T06:30:51.786310+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"node": "n014", "set": "s5"}, "seq": 38, "ts": "2026-07-15T06:30:59.595897+00:00", "verb": "add_antithesis"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n010", "group": "g1", "id": "e014", "to": "n014"}, "seq": 39, "ts": "2026-07-15T06:30:59.670075+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n011", "group": "g1", "id": "e015", "to": "n014"}, "seq": 40, "ts": "2026-07-15T06:31:13.477529+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n014", "group": null, "id": "e016", "to": "n002"}, "seq": 41, "ts": "2026-07-15T06:31:13.562140+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n015", "kind": "claim", "source": null, "text": "DEFUSE, the WIV's research profile, and the furin cleavage site are independent circumstantial facts with no documented evidentiary link tying them into a single incident; treating them as a combined case mistakes coincidence of proximity for connection.", "title": "DEFUSE/WIV/FCS are unconnected coincidences (crux)"}, "seq": 42, "ts": "2026-07-15T06:31:21.113684+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"node": "n015", "set": "s5"}, "seq": 43, "ts": "2026-07-15T06:31:27.246553+00:00", "verb": "add_antithesis"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n016", "kind": "claim", "source": null, "text": "The absence of any identified intermediate host or animal progenitor for SARS-CoV-2, unlike the civet (SARS-1) and camel (MERS) precedents, strongly favors a research-related origin over a natural spillover that has gone unusually unverified.", "title": "Absent intermediate host favors lab origin (crux)"}, "seq": 44, "ts": "2026-07-15T06:31:34.977267+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"node": "n016", "set": "s6"}, "seq": 45, "ts": "2026-07-15T06:31:42.198705+00:00", "verb": "add_antithesis"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n012", "group": null, "id": "e017", "to": "n016"}, "seq": 46, "ts": "2026-07-15T06:31:42.277808+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"from": "n016", "group": null, "id": "e018", "to": "n002"}, "seq": 47, "ts": "2026-07-15T06:31:42.354926+00:00", "verb": "draw_ground"}
+{"agent": "origins-skeptic-02", "payload": {"id": "n017", "kind": "claim", "source": null, "text": "The absence of an identified intermediate host is weak evidence given limited and late sampling, as with SARS-1's civet reservoir, which also took considerable time to establish and was aided by animals having already been sold or culled before targeted sampling began.", "title": "Absence is weak evidence under limited sampling (crux)"}, "seq": 48, "ts": "2026-07-15T06:31:49.993390+00:00", "verb": "create_node"}
+{"agent": "origins-skeptic-02", "payload": {"node": "n017", "set": "s6"}, "seq": 49, "ts": "2026-07-15T06:31:57.237632+00:00", "verb": "add_antithesis"}
+{"agent": "origins-skeptic-02", "payload": {"target": "phrasing:n002:p0"}, "seq": 50, "ts": "2026-07-15T06:32:05.555469+00:00", "verb": "agree"}
+{"agent": "origins-skeptic-02", "payload": {"target": "phrasing:n003:p0"}, "seq": 51, "ts": "2026-07-15T06:32:05.631818+00:00", "verb": "agree"}
+{"agent": "origins-skeptic-02", "payload": {"target": "phrasing:n004:p0"}, "seq": 52, "ts": "2026-07-15T06:32:05.708912+00:00", "verb": "agree"}
+{"agent": "origins-skeptic-02", "payload": {"target": "phrasing:n005:p0"}, "seq": 53, "ts": "2026-07-15T06:32:05.784190+00:00", "verb": "agree"}
+{"agent": "origins-skeptic-02", "payload": {"target": "phrasing:n006:p0"}, "seq": 54, "ts": "2026-07-15T06:32:13.705363+00:00", "verb": "agree"}
+{"agent": "origins-skeptic-02", "payload": {"target": "phrasing:n009:p0"}, "seq": 55, "ts": "2026-07-15T06:32:13.798591+00:00", "verb": "agree"}
+{"agent": "origins-skeptic-02", "payload": {"id": "f4", "refs": ["n010", "n011", "n014"], "text": "The combined-circumstantial-case claim (n014: DEFUSE + WIV proximity together favor a lab incident) is conceptually a THREE-way conjunction with the furin cleavage site fact, per the BRIEFING's own framing ('DEFUSE + WIV proximity + the FCS together'). But the FCS fact node belongs to another persona's assignment and does not exist yet in this session, so I could only draw a 2-of-3 conjunction group (g1: DEFUSE, RaTG13/WIV) now. The grammar has no way to mark a conjunction group as provisionally incomplete pending a specific future node, nor a way for a later author to safely extend group g1 without already knowing its id and intent. In practice this either fragments into a second conjunction claim once the FCS fact lands, or requires the later author to reverse-engineer which existing group to join. Multi-author sequencing of conjunction groups is a real, unaddressed coordination gap."}, "seq": 56, "ts": "2026-07-15T06:32:25.830484+00:00", "verb": "flag_friction"}
+{"agent": "origins-skeptic-02", "payload": {"id": "f5", "refs": ["n014", "n015"], "text": "n015 ('DEFUSE/WIV/FCS are unconnected coincidences') is the antithesis rival to n014 (the conjunctive combined-circumstantial-case claim), but its actual content isn't a rival explanation of the same evidence in the usual sense -- it disputes whether GROUPING the three facts into one joint argument is itself warranted, rather than disputing any individual fact or offering a competing positive account of what happened. Antithesis-set membership renders this identically to an ordinary rival claim (like n013 vs. a natural-acquisition claim), but the disagreement here is one level up: it's about whether a conjunction is a fair aggregation versus cherry-picked circumstantial stacking. The grammar has no way to mark 'this rival contests the linkage/grouping move, not the facts or the conclusion' -- that distinction is lost once both are just two nodes in set s5."}, "seq": 57, "ts": "2026-07-15T06:32:36.140286+00:00", "verb": "flag_friction"}
+{"agent": "virologist-03", "payload": {"id": "n018", "kind": "external_anchor", "source": "cov-furin", "text": "SARS-CoV-2 has a furin cleavage site (FCS) at the S1/S2 junction of its spike protein that is absent in its closest known sarbecovirus relatives and that enhances transmissibility; both camps accept that this feature exists and is functionally important.", "title": "Furin cleavage site exists (agreed fact)"}, "seq": 58, "ts": "2026-07-15T06:35:57.245335+00:00", "verb": "create_node"}
+{"agent": "virologist-03", "payload": {"from": "n018", "group": null, "id": "e019", "to": "n013"}, "seq": 59, "ts": "2026-07-15T06:36:16.318816+00:00", "verb": "draw_ground"}
+{"agent": "virologist-03", "payload": {"id": "n019", "kind": "claim", "source": null, "text": "The furin cleavage site is better explained by natural acquisition than by deliberate laboratory insertion, since furin cleavage sites arise independently in numerous coronavirus lineages and the SARS-CoV-2 sequence shows no signature specific to laboratory manipulation rather than natural recombination or mutation.", "title": "FCS better explained by natural acquisition (crux)"}, "seq": 60, "ts": "2026-07-15T06:36:16.400282+00:00", "verb": "create_node"}
+{"agent": "virologist-03", "payload": {"from": "n018", "group": null, "id": "e020", "to": "n019"}, "seq": 61, "ts": "2026-07-15T06:36:24.622379+00:00", "verb": "draw_ground"}
+{"agent": "virologist-03", "payload": {"node": "n019", "set": "s4"}, "seq": 62, "ts": "2026-07-15T06:36:24.698817+00:00", "verb": "add_antithesis"}
+{"agent": "virologist-03", "payload": {"id": "n020", "kind": "external_anchor", "source": "cov-proximal", "text": "Andersen, Rambaut, Lipkin, Holmes and Garry's 'Proximal Origin' analysis (Nature Medicine, 2020) concluded that the SARS-CoV-2 genome shows no signature of deliberate genetic engineering, finding its receptor-binding domain and backbone more consistent with natural selection than with laboratory manipulation.", "title": "Proximal Origin: no engineering signature found"}, "seq": 63, "ts": "2026-07-15T06:36:33.090000+00:00", "verb": "create_node"}
+{"agent": "virologist-03", "payload": {"from": "n020", "group": null, "id": "e021", "to": "n019"}, "seq": 64, "ts": "2026-07-15T06:36:40.947562+00:00", "verb": "draw_ground"}
+{"agent": "virologist-03", "payload": {"id": "n021", "kind": "external_anchor", "source": "cov-proximal", "text": "The Proximal Origin authors privately expressed substantially more uncertainty about ruling out a lab-related origin, in contemporaneous messages later made public, than the published paper's confident conclusion conveyed.", "title": "Proximal Origin authors' documented private uncertainty"}, "seq": 65, "ts": "2026-07-15T06:36:41.021995+00:00", "verb": "create_node"}
+{"agent": "virologist-03", "payload": {"from": "n021", "group": null, "id": "e022", "to": "n013"}, "seq": 66, "ts": "2026-07-15T06:36:47.947561+00:00", "verb": "draw_ground"}
+{"agent": "virologist-03", "payload": {"id": "n022", "kind": "claim", "source": null, "text": "RaTG13's roughly 96% genome identity to SARS-CoV-2 reflects on the order of decades of evolutionary divergence between the two viruses, so RaTG13 itself cannot be a direct progenitor; WIV's possession of RaTG13 therefore establishes proximity to a distant relative, not access to the actual progenitor lineage, which limits how much weight the DEFUSE+WIV-proximity case can bear.", "title": "RaTG13's evolutionary distance limits the proximity inference (crux)", "warnings": ["claim text is 379 chars, over the 350-char soft cap"]}, "seq": 67, "ts": "2026-07-15T06:36:57.449467+00:00", "verb": "create_node"}
+{"agent": "virologist-03", "payload": {"from": "n011", "group": null, "id": "e023", "to": "n022"}, "seq": 68, "ts": "2026-07-15T06:37:04.379155+00:00", "verb": "draw_ground"}
+{"agent": "virologist-03", "payload": {"node": "n022", "set": "s5"}, "seq": 69, "ts": "2026-07-15T06:37:04.456113+00:00", "verb": "add_antithesis"}
+{"agent": "virologist-03", "payload": {"target": "phrasing:n011:p0"}, "seq": 70, "ts": "2026-07-15T06:37:20.185322+00:00", "verb": "agree"}
+{"agent": "virologist-03", "payload": {"target": "phrasing:n012:p0"}, "seq": 71, "ts": "2026-07-15T06:37:20.257940+00:00", "verb": "agree"}
+{"agent": "virologist-03", "payload": {"target": "phrasing:n017:p0"}, "seq": 72, "ts": "2026-07-15T06:37:20.330793+00:00", "verb": "agree"}
+{"agent": "virologist-03", "payload": {"from": "n018", "group": "g1", "id": "e024", "to": "n014"}, "seq": 73, "ts": "2026-07-15T06:38:04.023352+00:00", "verb": "draw_ground"}
+{"agent": "virologist-03", "payload": {"id": "f6", "refs": ["n010", "n011", "n014", "n018"], "text": "Completing origins-skeptic-02's provisional 2-of-3 conjunction group g1 (f4) confirms their diagnosis exactly. I could only join g1 with the FCS fact (n018) because I happened to read the prior friction log and the existing graph before writing -- nothing in the CLI or graph structure itself flagged g1 as incomplete-pending-a-specific-node, offered a list of 'open' conjunction groups, or warned me that a semantically related node I was about to create belonged in an existing group rather than a new one. draw-ground --group g1 succeeded silently whether or not g1 was 'supposed' to still be open; the coordination worked this time only because I did the archaeology by hand. A multi-author graph needs some surfaced signal (e.g. a group note, or search matching against group membership) for this, not just append-only luck."}, "seq": 74, "ts": "2026-07-15T06:38:15.236414+00:00", "verb": "flag_friction"}
+{"agent": "virologist-03", "payload": {"id": "f7", "refs": ["n019", "n020", "n021", "n013"], "text": "n021 (the Proximal Origin authors' documented private uncertainty about ruling out a lab-related origin) has no clean Ground target. Its honest epistemic role is to QUALIFY confidence in n020 (the paper's published no-engineering-signature conclusion) and, downstream, in the natural-acquisition crux n019 -- not to positively support the lab-insertion crux n013. I drew e022 (n021 -> n013) anyway because grounds are support-only and this is the nearest-fitting positive framing (lab-leak proponents do cite the messages as evidence), but that edge overstates what n021 actually establishes: it is evidence that a conclusion was oversold, not first-order evidence for the rival conclusion. This is the same class of gap epi-01 flagged in f3 (no structural home for a caveat on an anchored fact's evidential reach) recurring at the fact-vs-fact level rather than fact-vs-claim: the grammar has no 'discounts confidence in' relation distinct from 'supports.'"}, "seq": 75, "ts": "2026-07-15T06:38:26.774913+00:00", "verb": "flag_friction"}
+{"agent": "method-04", "payload": {"id": "n023", "kind": "external_anchor", "source": "cov-who-joint", "text": "The WHO-convened China joint study assessed a zoonotic spillover pathway (direct or via an intermediate host) as likely-to-very-likely and rated a laboratory-related incident as extremely unlikely; the investigation's access to underlying data and sites was constrained by Chinese government control of the process, a limitation the WHO Director-General himself later noted publicly.", "title": "WHO-China joint study: zoonosis likely, lab incident extremely unlikely", "warnings": ["claim text is 383 chars, over the 350-char soft cap"]}, "seq": 76, "ts": "2026-07-15T06:44:20.513251+00:00", "verb": "create_node"}
+{"agent": "method-04", "payload": {"id": "n024", "kind": "external_anchor", "source": "cov-intel-assessments", "text": "US intelligence agencies reached no consensus on SARS-CoV-2's origin: several assessed natural exposure as more likely, at least one assessed a laboratory-associated incident as more likely, and every agency reached its assessment with only low-to-moderate confidence.", "title": "US intelligence community: split, low-to-moderate confidence"}, "seq": 77, "ts": "2026-07-15T06:44:22.882343+00:00", "verb": "create_node"}
+{"agent": "method-04", "payload": {"id": "n025", "kind": "external_anchor", "source": "cov-debate", "text": "A moderated public debate between a lab-leak proponent and a zoonosis proponent, judged by two independent adjudicators against a wagered stake, concluded in favor of natural zoonotic origin; as a single curated adjudication of one framing of the arguments, this result does not by itself settle the broader disagreement among expert institutions.", "title": "Curated debate adjudicated toward zoonosis (single exercise, not a settlement)"}, "seq": 78, "ts": "2026-07-15T06:44:25.963563+00:00", "verb": "create_node"}
+{"agent": "method-04", "payload": {"id": "n026", "kind": "claim", "source": null, "text": "Expert institutions assessing SARS-CoV-2's origin have not converged: the WHO-China joint study leaned toward zoonotic spillover as likely-to-very-likely while the US intelligence community split internally, with at least one agency favoring a lab-associated incident, and neither reached its conclusion with unconstrained access to the underlying evidence.", "title": "Institutional disagreement on origin (WHO vs. US IC)", "warnings": ["claim text is 357 chars, over the 350-char soft cap"]}, "seq": 79, "ts": "2026-07-15T06:44:33.305924+00:00", "verb": "create_node"}
+{"agent": "method-04", "payload": {"id": "n027", "kind": "claim", "source": null, "text": "Because institutional and adjudicated conclusions on SARS-CoV-2's origin diverge from one another and were each reached under significant access, scope, or framing constraints, they are best read as pointers to the reasoners' underlying evidence and its limits, not as terminal authorities that settle the question independent of that evidence.", "title": "Institutional conclusions are pointers, not terminal grounds"}, "seq": 80, "ts": "2026-07-15T06:44:35.231554+00:00", "verb": "create_node"}
+{"agent": "method-04", "payload": {"from": "n023", "group": "g2", "id": "e025", "to": "n026"}, "seq": 81, "ts": "2026-07-15T06:44:41.741193+00:00", "verb": "draw_ground"}
+{"agent": "method-04", "payload": {"from": "n024", "group": "g2", "id": "e026", "to": "n026"}, "seq": 82, "ts": "2026-07-15T06:44:56.701762+00:00", "verb": "draw_ground"}
+{"agent": "method-04", "payload": {"from": "n026", "group": null, "id": "e027", "to": "n027"}, "seq": 83, "ts": "2026-07-15T06:44:56.793787+00:00", "verb": "draw_ground"}
+{"agent": "method-04", "payload": {"from": "n025", "group": null, "id": "e028", "to": "n027"}, "seq": 84, "ts": "2026-07-15T06:44:56.876832+00:00", "verb": "draw_ground"}
+{"agent": "method-04", "payload": {"edge": "e001", "id": "ty1", "label": null, "node": "n007"}, "seq": 85, "ts": "2026-07-15T06:45:02.828629+00:00", "verb": "propose_typing"}
+{"agent": "method-04", "payload": {"id": "f8", "refs": ["n023", "n024", "n025", "n026", "n027"], "text": "Placing WHO-China (n023) and US-IC (n024) institutional conclusions honestly required a THIRD node (n026, their disagreement) and a FOURTH (n027, 'read as pointers, not terminal grounds') just to avoid the naive move of drawing n023/n024 as direct Grounds into n001/n002 -- which would look like settling the question by appeal to authority, exactly what the BRIEFING warns against. The grammar has no first-class way to mark a source-class ('institutional/adjudicated conclusion') as carrying a different EVIDENTIAL REGISTER than a primary fact or measurement (n003-n005, n010-n012, n018 etc.) -- I had to manufacture that distinction entirely out of extra claim nodes and their Ground routing rather than being able to tag n023/n024/n025 themselves as 'authority-pointer' anchors. This is the same underlying gap epi-01 (f3) and virologist-03 (f7) each hit at the single-fact-caveat level, recurring a third time at the whole-source-class level: there is still no relation for 'this evidence should be weighted/read differently in kind, not just discounted in strength' distinct from plain support."}, "seq": 86, "ts": "2026-07-15T06:45:21.619028+00:00", "verb": "flag_friction"}
+{"agent": "method-04", "payload": {"id": "f9", "refs": ["n001", "n003", "n004", "n005", "n006", "n007", "n008"], "text": "Three raw facts (n003 market clustering, n004 two lineages, n005 raccoon-dog DNA) each carry a DIRECT Ground edge straight to the top-level claim n001 (edges e001, e002, e003) IN ADDITION TO a separate, properly-mediated path through the actual interpretive crux nodes that contest what those facts mean (n003/n004/n005 -> n007 'market=true epicenter' via e004/e005/e006, and n004 -> n008 'two lineages=multiple spillovers' via e008). The direct edges silently treat a contested inference-to-best-explanation step as if the raw fact entails the conclusion on its own, bypassing the very antithesis sets (s2, s3) built to hold that inference open -- exactly the 'smuggled fact' failure mode my persona is meant to audit for. Grounds/Dependents can't distinguish 'this is the fully-mediated, crux-routed support path' from 'this is a shortcut that quietly presupposes one side of an unresolved crux'; both render as identical Ground edges into n001. I used propose-typing (edge e001, --node n007) to at least point that edge's inference at the crux node it actually depends on, but the CLI has no way to mark e001 as superseded-by or redundant-with the mediated chain, nor to warn a reader that agreeing with e001 alone would tacitly resolve s2/s3 without engaging their rival members."}, "seq": 87, "ts": "2026-07-15T06:45:33.494614+00:00", "verb": "flag_friction"}
+{"agent": "method-04", "payload": {"target": "e006"}, "seq": 88, "ts": "2026-07-15T06:45:42.638812+00:00", "verb": "agree"}
+{"agent": "method-04", "payload": {"target": "e023"}, "seq": 89, "ts": "2026-07-15T06:45:42.731572+00:00", "verb": "agree"}
+{"agent": "method-04", "payload": {"target": "phrasing:n017:p0"}, "seq": 90, "ts": "2026-07-15T06:45:42.820174+00:00", "verb": "agree"}
+{"agent": "method-04", "payload": {"target": "phrasing:n009:p0"}, "seq": 91, "ts": "2026-07-15T06:45:42.899981+00:00", "verb": "agree"}
+{"agent": "method-04", "payload": {"target": "phrasing:n001:p0"}, "seq": 92, "ts": "2026-07-15T06:45:42.977308+00:00", "verb": "agree"}
+{"agent": "method-04", "payload": {"target": "phrasing:n002:p0"}, "seq": 93, "ts": "2026-07-15T06:45:43.057398+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n001:p0"}, "seq": 94, "ts": "2026-07-15T06:54:00.350510+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n002:p0"}, "seq": 95, "ts": "2026-07-15T06:54:00.436738+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n003:p0"}, "seq": 96, "ts": "2026-07-15T06:54:00.522808+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n004:p0"}, "seq": 97, "ts": "2026-07-15T06:54:00.606050+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n005:p0"}, "seq": 98, "ts": "2026-07-15T06:54:00.685123+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n006:p0"}, "seq": 99, "ts": "2026-07-15T06:54:00.766462+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n009:p0"}, "seq": 100, "ts": "2026-07-15T06:54:00.847197+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n010:p0"}, "seq": 101, "ts": "2026-07-15T06:54:00.926421+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n011:p0"}, "seq": 102, "ts": "2026-07-15T06:54:01.003458+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n012:p0"}, "seq": 103, "ts": "2026-07-15T06:54:01.082428+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n015:p0"}, "seq": 104, "ts": "2026-07-15T06:54:01.168475+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n017:p0"}, "seq": 105, "ts": "2026-07-15T06:54:01.251644+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n018:p0"}, "seq": 106, "ts": "2026-07-15T06:54:01.338207+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n020:p0"}, "seq": 107, "ts": "2026-07-15T06:54:01.424991+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n021:p0"}, "seq": 108, "ts": "2026-07-15T06:54:01.509748+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n022:p0"}, "seq": 109, "ts": "2026-07-15T06:54:01.602924+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n023:p0"}, "seq": 110, "ts": "2026-07-15T06:54:01.685004+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n024:p0"}, "seq": 111, "ts": "2026-07-15T06:54:01.765099+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n025:p0"}, "seq": 112, "ts": "2026-07-15T06:54:01.845616+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n026:p0"}, "seq": 113, "ts": "2026-07-15T06:54:01.927715+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "phrasing:n027:p0"}, "seq": 114, "ts": "2026-07-15T06:54:02.008642+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "title:n001:t0"}, "seq": 115, "ts": "2026-07-15T06:54:09.307666+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "title:n002:t0"}, "seq": 116, "ts": "2026-07-15T06:54:09.396277+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s1:n001"}, "seq": 117, "ts": "2026-07-15T06:54:09.495099+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s1:n002"}, "seq": 118, "ts": "2026-07-15T06:54:09.578084+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s2:n006"}, "seq": 119, "ts": "2026-07-15T06:54:09.658709+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s2:n007"}, "seq": 120, "ts": "2026-07-15T06:54:09.740702+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s3:n008"}, "seq": 121, "ts": "2026-07-15T06:54:09.821127+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s3:n009"}, "seq": 122, "ts": "2026-07-15T06:54:09.905960+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s4:n013"}, "seq": 123, "ts": "2026-07-15T06:54:10.004945+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s4:n019"}, "seq": 124, "ts": "2026-07-15T06:54:10.081807+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s5:n014"}, "seq": 125, "ts": "2026-07-15T06:54:10.163723+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s5:n015"}, "seq": 126, "ts": "2026-07-15T06:54:10.244815+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s5:n022"}, "seq": 127, "ts": "2026-07-15T06:54:10.326949+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s6:n016"}, "seq": 128, "ts": "2026-07-15T06:54:10.409963+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "set:s6:n017"}, "seq": 129, "ts": "2026-07-15T06:54:10.490749+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e004"}, "seq": 130, "ts": "2026-07-15T06:54:34.184657+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e005"}, "seq": 131, "ts": "2026-07-15T06:54:34.263022+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e006"}, "seq": 132, "ts": "2026-07-15T06:54:34.340080+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e007"}, "seq": 133, "ts": "2026-07-15T06:54:34.422270+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e008"}, "seq": 134, "ts": "2026-07-15T06:54:34.501365+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e009"}, "seq": 135, "ts": "2026-07-15T06:54:34.581803+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e012"}, "seq": 136, "ts": "2026-07-15T06:54:34.661530+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e013"}, "seq": 137, "ts": "2026-07-15T06:54:34.753139+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e014"}, "seq": 138, "ts": "2026-07-15T06:54:34.834367+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e015"}, "seq": 139, "ts": "2026-07-15T06:54:34.914087+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e016"}, "seq": 140, "ts": "2026-07-15T06:54:34.994345+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e017"}, "seq": 141, "ts": "2026-07-15T06:54:35.075448+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e018"}, "seq": 142, "ts": "2026-07-15T06:54:35.156011+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e019"}, "seq": 143, "ts": "2026-07-15T06:54:35.235755+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e020"}, "seq": 144, "ts": "2026-07-15T06:54:35.317082+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e021"}, "seq": 145, "ts": "2026-07-15T06:54:35.397621+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e023"}, "seq": 146, "ts": "2026-07-15T06:54:35.479440+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e024"}, "seq": 147, "ts": "2026-07-15T06:54:35.562116+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e025"}, "seq": 148, "ts": "2026-07-15T06:54:35.641911+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e026"}, "seq": 149, "ts": "2026-07-15T06:54:35.720980+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e027"}, "seq": 150, "ts": "2026-07-15T06:54:35.800448+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "e028"}, "seq": 151, "ts": "2026-07-15T06:54:35.879222+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"target": "typing:e001:ty1"}, "seq": 152, "ts": "2026-07-15T06:54:46.397948+00:00", "verb": "agree"}
+{"agent": "synth-05", "payload": {"edge": "e010", "id": "ty1", "label": null, "node": "n014"}, "seq": 153, "ts": "2026-07-15T06:54:46.481411+00:00", "verb": "propose_typing"}
+{"agent": "synth-05", "payload": {"edge": "e011", "id": "ty1", "label": null, "node": "n014"}, "seq": 154, "ts": "2026-07-15T06:54:46.560902+00:00", "verb": "propose_typing"}
+{"agent": "synth-05", "payload": {"id": "f10", "refs": ["n002", "n010", "n011", "n013", "n014", "n019", "n022"], "text": "Reviewing the whole graph, I found the same 'smuggled fact' pattern method-04 caught and fixed on the zoonosis side (f9, e001) recurring unaudited on the lab-leak side: n010 (DEFUSE) and n011 (RaTG13/WIV) each carry a direct Ground straight to the top claim n002 (e010, e011) IN ADDITION TO their properly crux-mediated paths (n010->n013 lab-insertion e012, n010->n014 combined-case e014, n011->n014 e015, n011->n022 evolutionary-distance e023). The direct edges bypass antithesis sets s4/s5 the same way e001-e003 bypassed s2/s3 -- agreeing e010/e011 alone would tacitly presuppose the lab-insertion/combined-case cruxes without engaging their rivals (n019/n015/n022). I used propose-typing (matching method-04's fix) to point e010 and e011 at n014, the combined-case crux they most directly presuppose, but as method-04 already noted for e001, the grammar still has no way to mark the raw edge as superseded/redundant, only to add a competing typing alongside it."}, "seq": 155, "ts": "2026-07-15T06:55:29.855789+00:00", "verb": "flag_friction"}
+{"agent": "synth-05", "payload": {"id": "f11", "refs": ["n001", "n002", "n006", "n009", "n015", "n017"], "text": "Across three different authors (epi-01, origins-skeptic-02) the graph consistently leaves undercutting-rebuttal cruxes (n006 ascertainment-bias, n009 disputed-modeling, n015 unconnected-coincidences, n017 weak-evidence-under-sampling) as pure orphans: zero incoming grounds, zero outgoing grounds, membership in an antithesis set only. This is a deliberate, principled convention (rebutting the opposing side's positive case is not the same epistemic move as adding positive evidence for one's own side), and I did not disturb it. But it is worth naming explicitly rather than leaving as tacit practice, because at least one of these nodes' own text gestures at the opposite top claim (n009: '...cannot be excluded on this evidence alone' explicitly names 'a research-related incident'), and a reader could reasonably expect that to cash out as a Ground into n002. The grammar cannot distinguish 'this undermines claim X's case' from 'this therefore supports rival claim Y' -- those are different inferential moves (elimination vs. direct support) that Grounds/Dependents renders identically if drawn, which is exactly why the convention exists, but it also means the four rebuttal nodes look structurally weaker (isolated, unconnected) than their content actually warrants."}, "seq": 156, "ts": "2026-07-15T06:55:29.937577+00:00", "verb": "flag_friction"}
+{"agent": "synth-05", "payload": {"id": "f12", "refs": ["n003", "n006", "n007", "n008"], "text": "Coherence-pass finding on the fact-to-crux layer: n003 (market clustering fact) grounds n007 (true-epicenter crux) via e004, but has no edge into n006 (ascertainment-bias crux), n007's own antithesis rival explaining the SAME fact. I deliberately did not add n003->n006 to force symmetry: n003 is the explanandum both cruxes compete to explain, not independent evidence for either explanation, so drawing it as a Ground for n006 would be exactly as circular as e004 already arguably is for n007 (a concern f2 already raised). The result is a visual asymmetry -- n007 shows three incoming grounds (e004/e005/e006), n006 shows none -- that reflects which claim the pack happened to supply supporting facts for, not a real evidential imbalance between the two readings. A reader skimming edge-counts alone could mistake this for the graph judging the crux, when the honest state is: no source in the pack documents the ascertainment-bias mechanism as its own fact."}, "seq": 157, "ts": "2026-07-15T06:55:30.017498+00:00", "verb": "flag_friction"}
+{"agent": "synth-05", "payload": {"id": "c001", "parent": null, "target": "n001", "text": "Closing coherence check (synth-05, final pass): the two-layer discipline held throughout. All 12 external_anchor nodes (n003-n005, n010-n012, n018, n020-n021, n023-n025) are evidential facts both camps can accept; every interpretive crux (n006-n009, n013-n017, n019, n022, n026-n027) remained an un-anchored claim node -- none got silently pinned to a single source_ref. Both top-level positions (n001, n002) are reachable via fully-grounded, fact-to-crux-to-topclaim chains, and opposition is expressed as rival positive claims in antithesis sets (s2-s6) throughout, never as negations. Residual issues are structural, not two-layer violations, and are filed as f9-f12 (direct fact-to-topclaim edges bypassing crux mediation on both sides; asymmetric fact-grounding within one antithesis pair; undercutting-rebuttal nodes left as orphans by convention)."}, "seq": 158, "ts": "2026-07-15T06:55:41.468227+00:00", "verb": "comment"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.0}, "seq": 159, "ts": "2026-07-15T07:06:16.334009+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 1.5}, "seq": 160, "ts": "2026-07-15T07:06:16.422053+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 161, "ts": "2026-07-15T07:06:16.511403+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 162, "ts": "2026-07-15T07:06:16.596987+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.5}, "seq": 163, "ts": "2026-07-15T07:06:16.715961+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 1.5}, "seq": 164, "ts": "2026-07-15T07:06:37.325188+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.0}, "seq": 165, "ts": "2026-07-15T07:06:37.410035+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 3.5}, "seq": 166, "ts": "2026-07-15T07:06:37.492895+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 2.5}, "seq": 167, "ts": "2026-07-15T07:06:37.573936+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 168, "ts": "2026-07-15T07:06:37.654643+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 169, "ts": "2026-07-15T07:07:00.966523+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 170, "ts": "2026-07-15T07:07:01.053224+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.5}, "seq": 171, "ts": "2026-07-15T07:07:01.138386+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 2.0}, "seq": 172, "ts": "2026-07-15T07:07:01.223825+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.5}, "seq": 173, "ts": "2026-07-15T07:07:01.311435+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.5}, "seq": 174, "ts": "2026-07-15T07:07:22.945350+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.0}, "seq": 175, "ts": "2026-07-15T07:07:23.029958+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.5}, "seq": 176, "ts": "2026-07-15T07:07:23.120297+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.0}, "seq": 177, "ts": "2026-07-15T07:07:23.213258+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.5}, "seq": 178, "ts": "2026-07-15T07:07:23.291836+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.0}, "seq": 179, "ts": "2026-07-15T07:07:26.134829+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 1.5}, "seq": 180, "ts": "2026-07-15T07:07:26.218617+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 181, "ts": "2026-07-15T07:07:26.303035+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.5}, "seq": 182, "ts": "2026-07-15T07:07:26.385713+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 183, "ts": "2026-07-15T07:07:26.471009+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 1.8}, "seq": 184, "ts": "2026-07-15T07:07:26.558866+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.0}, "seq": 185, "ts": "2026-07-15T07:07:26.647865+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 3.5}, "seq": 186, "ts": "2026-07-15T07:07:26.740829+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 2.0}, "seq": 187, "ts": "2026-07-15T07:07:26.823737+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 188, "ts": "2026-07-15T07:07:26.910732+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 189, "ts": "2026-07-15T07:07:26.994950+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 190, "ts": "2026-07-15T07:07:27.079571+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.5}, "seq": 191, "ts": "2026-07-15T07:07:27.170140+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 1.5}, "seq": 192, "ts": "2026-07-15T07:07:36.882276+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.5}, "seq": 193, "ts": "2026-07-15T07:07:36.967446+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.8}, "seq": 194, "ts": "2026-07-15T07:07:37.053031+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.0}, "seq": 195, "ts": "2026-07-15T07:07:37.138634+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 196, "ts": "2026-07-15T07:07:37.230440+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.0}, "seq": 197, "ts": "2026-07-15T07:07:37.321145+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 198, "ts": "2026-07-15T07:07:37.408573+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 199, "ts": "2026-07-15T07:07:37.492917+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 200, "ts": "2026-07-15T07:07:37.579099+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 201, "ts": "2026-07-15T07:07:37.669774+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 202, "ts": "2026-07-15T07:07:37.783346+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.8}, "seq": 203, "ts": "2026-07-15T07:07:37.881145+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 204, "ts": "2026-07-15T07:07:37.969217+00:00", "verb": "rate"}
+{"agent": "hon-zoo01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 205, "ts": "2026-07-15T07:07:38.063433+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 206, "ts": "2026-07-15T07:07:52.129607+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 207, "ts": "2026-07-15T07:07:52.242132+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 208, "ts": "2026-07-15T07:07:52.345082+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 209, "ts": "2026-07-15T07:07:52.431794+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 210, "ts": "2026-07-15T07:07:52.513643+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 211, "ts": "2026-07-15T07:08:08.896992+00:00", "verb": "rate"}
+{"agent": "hon-zoo02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 212, "ts": "2026-07-15T07:08:08.976615+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.5}, "seq": 213, "ts": "2026-07-15T07:09:12.051873+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.8}, "seq": 214, "ts": "2026-07-15T07:09:12.138626+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.6}, "seq": 215, "ts": "2026-07-15T07:09:12.224163+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 216, "ts": "2026-07-15T07:09:12.325384+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 217, "ts": "2026-07-15T07:09:12.409163+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.7}, "seq": 218, "ts": "2026-07-15T07:09:12.496439+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 1.8}, "seq": 219, "ts": "2026-07-15T07:09:12.586988+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.8}, "seq": 220, "ts": "2026-07-15T07:09:12.686353+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.4}, "seq": 221, "ts": "2026-07-15T07:09:12.773164+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.0}, "seq": 222, "ts": "2026-07-15T07:09:12.863721+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 3.6}, "seq": 223, "ts": "2026-07-15T07:09:12.956523+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 224, "ts": "2026-07-15T07:09:13.048297+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.3}, "seq": 225, "ts": "2026-07-15T07:09:13.145382+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 226, "ts": "2026-07-15T07:09:13.239791+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 227, "ts": "2026-07-15T07:09:13.328424+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.3}, "seq": 228, "ts": "2026-07-15T07:09:13.417602+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 229, "ts": "2026-07-15T07:09:13.505953+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 230, "ts": "2026-07-15T07:09:13.597155+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 2.7}, "seq": 231, "ts": "2026-07-15T07:09:13.689149+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 3.0}, "seq": 232, "ts": "2026-07-15T07:09:13.779405+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.6}, "seq": 233, "ts": "2026-07-15T07:09:13.866374+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 1.6}, "seq": 234, "ts": "2026-07-15T07:09:13.958348+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 3.7}, "seq": 235, "ts": "2026-07-15T07:09:14.062787+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.8}, "seq": 236, "ts": "2026-07-15T07:09:14.159246+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 2.0}, "seq": 237, "ts": "2026-07-15T07:09:14.248894+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 238, "ts": "2026-07-15T07:09:14.341674+00:00", "verb": "rate"}
+{"agent": "hon-zoo03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.4}, "seq": 239, "ts": "2026-07-15T07:09:14.436609+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 3.8}, "seq": 240, "ts": "2026-07-15T07:09:35.608202+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.0}, "seq": 241, "ts": "2026-07-15T07:09:35.692601+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.3}, "seq": 242, "ts": "2026-07-15T07:09:35.776771+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 243, "ts": "2026-07-15T07:09:35.861923+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 244, "ts": "2026-07-15T07:09:35.943373+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 1.8}, "seq": 245, "ts": "2026-07-15T07:09:36.025433+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.7}, "seq": 246, "ts": "2026-07-15T07:09:36.111620+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 3.0}, "seq": 247, "ts": "2026-07-15T07:09:36.193684+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 2.7}, "seq": 248, "ts": "2026-07-15T07:09:36.277067+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 249, "ts": "2026-07-15T07:09:36.361871+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.3}, "seq": 250, "ts": "2026-07-15T07:09:36.446957+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 251, "ts": "2026-07-15T07:09:36.530415+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.7}, "seq": 252, "ts": "2026-07-15T07:09:36.618974+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 1.8}, "seq": 253, "ts": "2026-07-15T07:09:36.743695+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.2}, "seq": 254, "ts": "2026-07-15T07:09:36.838754+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.8}, "seq": 255, "ts": "2026-07-15T07:09:36.926112+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.8}, "seq": 256, "ts": "2026-07-15T07:09:37.035102+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 257, "ts": "2026-07-15T07:09:37.121902+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.3}, "seq": 258, "ts": "2026-07-15T07:09:37.206831+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 259, "ts": "2026-07-15T07:09:37.292575+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 260, "ts": "2026-07-15T07:09:37.374053+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.8}, "seq": 261, "ts": "2026-07-15T07:09:37.453605+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.2}, "seq": 262, "ts": "2026-07-15T07:09:37.534670+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.3}, "seq": 263, "ts": "2026-07-15T07:09:37.618980+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 264, "ts": "2026-07-15T07:09:37.702638+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 265, "ts": "2026-07-15T07:09:37.785871+00:00", "verb": "rate"}
+{"agent": "hon-zoo04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 266, "ts": "2026-07-15T07:09:37.866659+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.0}, "seq": 267, "ts": "2026-07-15T07:11:05.230021+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 3.5}, "seq": 268, "ts": "2026-07-15T07:11:05.322263+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 269, "ts": "2026-07-15T07:11:05.419952+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 270, "ts": "2026-07-15T07:11:05.511810+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 271, "ts": "2026-07-15T07:11:05.597648+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 3.0}, "seq": 272, "ts": "2026-07-15T07:11:05.685470+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 2.5}, "seq": 273, "ts": "2026-07-15T07:11:05.776494+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.0}, "seq": 274, "ts": "2026-07-15T07:11:05.869111+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.5}, "seq": 275, "ts": "2026-07-15T07:11:05.956296+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 276, "ts": "2026-07-15T07:11:06.045522+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 277, "ts": "2026-07-15T07:11:06.158400+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 278, "ts": "2026-07-15T07:11:06.253759+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 3.5}, "seq": 279, "ts": "2026-07-15T07:11:06.346659+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.0}, "seq": 280, "ts": "2026-07-15T07:11:06.442610+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 2.0}, "seq": 281, "ts": "2026-07-15T07:11:06.538781+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 3.5}, "seq": 282, "ts": "2026-07-15T07:11:06.639977+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 2.5}, "seq": 283, "ts": "2026-07-15T07:11:06.729198+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 284, "ts": "2026-07-15T07:11:06.819323+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 2.0}, "seq": 285, "ts": "2026-07-15T07:11:06.912853+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 286, "ts": "2026-07-15T07:11:07.004437+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.5}, "seq": 287, "ts": "2026-07-15T07:11:07.101033+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.0}, "seq": 288, "ts": "2026-07-15T07:11:07.191618+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 289, "ts": "2026-07-15T07:11:07.283287+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 290, "ts": "2026-07-15T07:11:07.375568+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 291, "ts": "2026-07-15T07:11:07.463646+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 292, "ts": "2026-07-15T07:11:07.554022+00:00", "verb": "rate"}
+{"agent": "hon-lab01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 293, "ts": "2026-07-15T07:11:07.641301+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 294, "ts": "2026-07-15T07:11:11.506967+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.8}, "seq": 295, "ts": "2026-07-15T07:11:11.599225+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.7}, "seq": 296, "ts": "2026-07-15T07:11:11.704472+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.6}, "seq": 297, "ts": "2026-07-15T07:11:11.794413+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 298, "ts": "2026-07-15T07:11:11.880163+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.3}, "seq": 299, "ts": "2026-07-15T07:11:11.966932+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 1.5}, "seq": 300, "ts": "2026-07-15T07:11:12.056981+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.2}, "seq": 301, "ts": "2026-07-15T07:11:12.146548+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.7}, "seq": 302, "ts": "2026-07-15T07:11:12.255675+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.8}, "seq": 303, "ts": "2026-07-15T07:11:12.349728+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 304, "ts": "2026-07-15T07:11:12.437447+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.2}, "seq": 305, "ts": "2026-07-15T07:11:12.523801+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.2}, "seq": 306, "ts": "2026-07-15T07:11:12.615500+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.8}, "seq": 307, "ts": "2026-07-15T07:11:12.700302+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 308, "ts": "2026-07-15T07:11:12.785138+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 309, "ts": "2026-07-15T07:11:12.869804+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 310, "ts": "2026-07-15T07:11:12.955800+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 311, "ts": "2026-07-15T07:11:13.046519+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 2.3}, "seq": 312, "ts": "2026-07-15T07:11:13.134657+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 3.0}, "seq": 313, "ts": "2026-07-15T07:11:13.221956+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 314, "ts": "2026-07-15T07:11:13.306216+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 1.8}, "seq": 315, "ts": "2026-07-15T07:11:13.393085+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 3.8}, "seq": 316, "ts": "2026-07-15T07:11:13.476770+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.8}, "seq": 317, "ts": "2026-07-15T07:11:13.567502+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 1.8}, "seq": 318, "ts": "2026-07-15T07:11:13.658018+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 319, "ts": "2026-07-15T07:11:13.744985+00:00", "verb": "rate"}
+{"agent": "hon-zoo05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.3}, "seq": 320, "ts": "2026-07-15T07:11:13.829190+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.8}, "seq": 321, "ts": "2026-07-15T07:12:40.628773+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 2.6}, "seq": 322, "ts": "2026-07-15T07:12:40.739199+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.6}, "seq": 323, "ts": "2026-07-15T07:12:40.847722+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.6}, "seq": 324, "ts": "2026-07-15T07:12:40.957356+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.4}, "seq": 325, "ts": "2026-07-15T07:12:41.070177+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 3.4}, "seq": 326, "ts": "2026-07-15T07:12:41.179298+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 3.8}, "seq": 327, "ts": "2026-07-15T07:12:41.287160+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 2.0}, "seq": 328, "ts": "2026-07-15T07:12:41.402189+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 3.3}, "seq": 329, "ts": "2026-07-15T07:12:41.521570+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 2.7}, "seq": 330, "ts": "2026-07-15T07:12:41.637592+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.4}, "seq": 331, "ts": "2026-07-15T07:12:41.759642+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 332, "ts": "2026-07-15T07:12:41.874067+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.3}, "seq": 333, "ts": "2026-07-15T07:12:41.987654+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.7}, "seq": 334, "ts": "2026-07-15T07:12:42.095775+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.8}, "seq": 335, "ts": "2026-07-15T07:12:42.206526+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 336, "ts": "2026-07-15T07:12:42.330148+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.4}, "seq": 337, "ts": "2026-07-15T07:12:42.441407+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 338, "ts": "2026-07-15T07:12:42.569282+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.6}, "seq": 339, "ts": "2026-07-15T07:12:42.690283+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.0}, "seq": 340, "ts": "2026-07-15T07:12:42.818686+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.7}, "seq": 341, "ts": "2026-07-15T07:12:42.930871+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 3.5}, "seq": 342, "ts": "2026-07-15T07:12:43.045310+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.0}, "seq": 343, "ts": "2026-07-15T07:12:43.162268+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 2.2}, "seq": 344, "ts": "2026-07-15T07:12:43.288189+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 3.0}, "seq": 345, "ts": "2026-07-15T07:12:43.407030+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 346, "ts": "2026-07-15T07:12:43.520142+00:00", "verb": "rate"}
+{"agent": "hon-lab02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.2}, "seq": 347, "ts": "2026-07-15T07:12:43.640405+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.0}, "seq": 348, "ts": "2026-07-15T07:13:15.442585+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 3.5}, "seq": 349, "ts": "2026-07-15T07:13:15.533301+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 350, "ts": "2026-07-15T07:13:15.625124+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.5}, "seq": 351, "ts": "2026-07-15T07:13:15.717097+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 352, "ts": "2026-07-15T07:13:15.804635+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 3.0}, "seq": 353, "ts": "2026-07-15T07:13:15.891031+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 2.5}, "seq": 354, "ts": "2026-07-15T07:13:15.976708+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.0}, "seq": 355, "ts": "2026-07-15T07:13:16.065216+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.5}, "seq": 356, "ts": "2026-07-15T07:13:16.155618+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 357, "ts": "2026-07-15T07:13:16.245324+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 358, "ts": "2026-07-15T07:13:16.339003+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 359, "ts": "2026-07-15T07:13:16.435447+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 3.0}, "seq": 360, "ts": "2026-07-15T07:13:16.531845+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 3.5}, "seq": 361, "ts": "2026-07-15T07:13:24.584591+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 1.5}, "seq": 362, "ts": "2026-07-15T07:13:24.669002+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 3.5}, "seq": 363, "ts": "2026-07-15T07:13:24.755414+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 2.5}, "seq": 364, "ts": "2026-07-15T07:13:24.840183+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 365, "ts": "2026-07-15T07:13:24.926736+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 2.5}, "seq": 366, "ts": "2026-07-15T07:13:25.010307+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 3.0}, "seq": 367, "ts": "2026-07-15T07:13:25.092260+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.5}, "seq": 368, "ts": "2026-07-15T07:13:25.180769+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.0}, "seq": 369, "ts": "2026-07-15T07:13:25.266802+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 370, "ts": "2026-07-15T07:13:25.352628+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 371, "ts": "2026-07-15T07:13:25.437074+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.5}, "seq": 372, "ts": "2026-07-15T07:13:25.528563+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 373, "ts": "2026-07-15T07:13:25.614581+00:00", "verb": "rate"}
+{"agent": "hon-lab03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 374, "ts": "2026-07-15T07:13:25.706143+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.0}, "seq": 375, "ts": "2026-07-15T07:14:04.049335+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 3.8}, "seq": 376, "ts": "2026-07-15T07:14:04.140543+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 377, "ts": "2026-07-15T07:14:04.231746+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.8}, "seq": 378, "ts": "2026-07-15T07:14:04.318284+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.5}, "seq": 379, "ts": "2026-07-15T07:14:04.406412+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 3.0}, "seq": 380, "ts": "2026-07-15T07:14:04.494177+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 2.3}, "seq": 381, "ts": "2026-07-15T07:14:04.583556+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.2}, "seq": 382, "ts": "2026-07-15T07:14:04.668886+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.5}, "seq": 383, "ts": "2026-07-15T07:14:04.753024+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 384, "ts": "2026-07-15T07:14:04.837411+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 385, "ts": "2026-07-15T07:14:04.919938+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 386, "ts": "2026-07-15T07:14:05.006403+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 3.3}, "seq": 387, "ts": "2026-07-15T07:14:05.093260+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 3.3}, "seq": 388, "ts": "2026-07-15T07:14:05.188166+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 2.0}, "seq": 389, "ts": "2026-07-15T07:14:05.275218+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 3.2}, "seq": 390, "ts": "2026-07-15T07:14:05.366273+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 2.8}, "seq": 391, "ts": "2026-07-15T07:14:05.451522+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 392, "ts": "2026-07-15T07:14:05.539698+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 2.3}, "seq": 393, "ts": "2026-07-15T07:14:05.625690+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 394, "ts": "2026-07-15T07:14:05.714772+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.3}, "seq": 395, "ts": "2026-07-15T07:14:05.800367+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.0}, "seq": 396, "ts": "2026-07-15T07:14:05.889235+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 397, "ts": "2026-07-15T07:14:05.979959+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.3}, "seq": 398, "ts": "2026-07-15T07:14:06.070808+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 399, "ts": "2026-07-15T07:14:06.158607+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 400, "ts": "2026-07-15T07:14:06.245573+00:00", "verb": "rate"}
+{"agent": "hon-lab04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 401, "ts": "2026-07-15T07:14:06.339640+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 402, "ts": "2026-07-15T07:14:55.009155+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 2.0}, "seq": 403, "ts": "2026-07-15T07:14:55.101325+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 404, "ts": "2026-07-15T07:14:55.192091+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 405, "ts": "2026-07-15T07:14:55.283003+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 406, "ts": "2026-07-15T07:14:55.371821+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 3.0}, "seq": 407, "ts": "2026-07-15T07:14:55.460731+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 3.0}, "seq": 408, "ts": "2026-07-15T07:14:55.549902+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 2.0}, "seq": 409, "ts": "2026-07-15T07:14:55.639881+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 3.0}, "seq": 410, "ts": "2026-07-15T07:14:55.732266+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 2.5}, "seq": 411, "ts": "2026-07-15T07:14:55.822258+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.5}, "seq": 412, "ts": "2026-07-15T07:14:55.910966+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 413, "ts": "2026-07-15T07:14:56.000981+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 414, "ts": "2026-07-15T07:14:56.090940+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 2.5}, "seq": 415, "ts": "2026-07-15T07:14:56.179260+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 416, "ts": "2026-07-15T07:14:56.268551+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 417, "ts": "2026-07-15T07:14:56.364005+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 418, "ts": "2026-07-15T07:14:56.457565+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 419, "ts": "2026-07-15T07:14:56.554160+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.5}, "seq": 420, "ts": "2026-07-15T07:14:56.656709+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.0}, "seq": 421, "ts": "2026-07-15T07:14:56.750728+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 422, "ts": "2026-07-15T07:14:56.841289+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 3.5}, "seq": 423, "ts": "2026-07-15T07:14:56.935349+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.0}, "seq": 424, "ts": "2026-07-15T07:14:57.032980+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 2.5}, "seq": 425, "ts": "2026-07-15T07:14:57.134500+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 3.0}, "seq": 426, "ts": "2026-07-15T07:14:57.234189+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 427, "ts": "2026-07-15T07:14:57.330840+00:00", "verb": "rate"}
+{"agent": "hon-lab05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.5}, "seq": 428, "ts": "2026-07-15T07:14:57.427492+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.5}, "seq": 429, "ts": "2026-07-15T07:15:35.723667+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.0}, "seq": 430, "ts": "2026-07-15T07:15:35.825673+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.3}, "seq": 431, "ts": "2026-07-15T07:15:35.922978+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.3}, "seq": 432, "ts": "2026-07-15T07:15:36.030878+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.0}, "seq": 433, "ts": "2026-07-15T07:15:36.132930+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 2.0}, "seq": 434, "ts": "2026-07-15T07:15:36.226404+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 2.4}, "seq": 435, "ts": "2026-07-15T07:15:36.315163+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 2.6}, "seq": 436, "ts": "2026-07-15T07:15:36.413877+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.8}, "seq": 437, "ts": "2026-07-15T07:15:36.510640+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.5}, "seq": 438, "ts": "2026-07-15T07:15:36.606413+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 3.5}, "seq": 439, "ts": "2026-07-15T07:15:36.698116+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.2}, "seq": 440, "ts": "2026-07-15T07:15:36.791655+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 441, "ts": "2026-07-15T07:15:36.901063+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.8}, "seq": 442, "ts": "2026-07-15T07:15:37.001038+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.8}, "seq": 443, "ts": "2026-07-15T07:15:37.129418+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.3}, "seq": 444, "ts": "2026-07-15T07:15:37.231625+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 3.8}, "seq": 445, "ts": "2026-07-15T07:15:37.318218+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 446, "ts": "2026-07-15T07:15:37.418612+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 2.8}, "seq": 447, "ts": "2026-07-15T07:15:37.511265+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.6}, "seq": 448, "ts": "2026-07-15T07:15:37.607636+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.2}, "seq": 449, "ts": "2026-07-15T07:15:37.702838+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.5}, "seq": 450, "ts": "2026-07-15T07:15:37.797426+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.7}, "seq": 451, "ts": "2026-07-15T07:15:37.888520+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.0}, "seq": 452, "ts": "2026-07-15T07:15:37.985094+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 2.3}, "seq": 453, "ts": "2026-07-15T07:15:38.081730+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 454, "ts": "2026-07-15T07:15:38.177258+00:00", "verb": "rate"}
+{"agent": "hon-neu01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.8}, "seq": 455, "ts": "2026-07-15T07:15:38.275354+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 456, "ts": "2026-07-15T07:16:43.245264+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.5}, "seq": 457, "ts": "2026-07-15T07:16:43.336867+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 458, "ts": "2026-07-15T07:16:43.429456+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 459, "ts": "2026-07-15T07:16:43.542207+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 460, "ts": "2026-07-15T07:16:43.669579+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 2.0}, "seq": 461, "ts": "2026-07-15T07:16:43.771470+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 2.5}, "seq": 462, "ts": "2026-07-15T07:16:43.859406+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.0}, "seq": 463, "ts": "2026-07-15T07:16:43.951802+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 2.0}, "seq": 464, "ts": "2026-07-15T07:16:44.043562+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.8}, "seq": 465, "ts": "2026-07-15T07:16:44.135082+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 466, "ts": "2026-07-15T07:16:44.225840+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.5}, "seq": 467, "ts": "2026-07-15T07:16:44.318957+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 468, "ts": "2026-07-15T07:16:44.409689+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.3}, "seq": 469, "ts": "2026-07-15T07:16:44.496234+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.8}, "seq": 470, "ts": "2026-07-15T07:16:44.584132+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 471, "ts": "2026-07-15T07:16:44.676530+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 472, "ts": "2026-07-15T07:16:44.766647+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 473, "ts": "2026-07-15T07:16:44.853366+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.5}, "seq": 474, "ts": "2026-07-15T07:16:44.938340+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 3.0}, "seq": 475, "ts": "2026-07-15T07:16:45.024797+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 476, "ts": "2026-07-15T07:16:45.113051+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.5}, "seq": 477, "ts": "2026-07-15T07:16:45.201401+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 3.0}, "seq": 478, "ts": "2026-07-15T07:16:45.287152+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.5}, "seq": 479, "ts": "2026-07-15T07:16:45.372578+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 2.0}, "seq": 480, "ts": "2026-07-15T07:16:45.456925+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 481, "ts": "2026-07-15T07:16:45.542081+00:00", "verb": "rate"}
+{"agent": "hon-neu02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 482, "ts": "2026-07-15T07:16:45.629307+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.5}, "seq": 483, "ts": "2026-07-15T07:16:57.556699+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.5}, "seq": 484, "ts": "2026-07-15T07:16:57.643557+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 485, "ts": "2026-07-15T07:16:57.730162+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 486, "ts": "2026-07-15T07:16:57.816180+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 487, "ts": "2026-07-15T07:16:57.906965+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 3.5}, "seq": 488, "ts": "2026-07-15T07:16:57.992621+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.5}, "seq": 489, "ts": "2026-07-15T07:16:58.081389+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.5}, "seq": 490, "ts": "2026-07-15T07:16:58.169522+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.5}, "seq": 491, "ts": "2026-07-15T07:16:58.261382+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 492, "ts": "2026-07-15T07:16:58.352926+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 493, "ts": "2026-07-15T07:16:58.444803+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.0}, "seq": 494, "ts": "2026-07-15T07:16:58.538361+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 2.5}, "seq": 495, "ts": "2026-07-15T07:16:58.668376+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 2.5}, "seq": 496, "ts": "2026-07-15T07:16:58.768614+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.5}, "seq": 497, "ts": "2026-07-15T07:16:58.856760+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 2.5}, "seq": 498, "ts": "2026-07-15T07:16:58.959289+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.5}, "seq": 499, "ts": "2026-07-15T07:16:59.077721+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 500, "ts": "2026-07-15T07:16:59.164291+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.5}, "seq": 501, "ts": "2026-07-15T07:16:59.251094+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.5}, "seq": 502, "ts": "2026-07-15T07:16:59.335478+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 503, "ts": "2026-07-15T07:16:59.421027+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 504, "ts": "2026-07-15T07:16:59.529259+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 505, "ts": "2026-07-15T07:16:59.618108+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 506, "ts": "2026-07-15T07:16:59.711109+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.5}, "seq": 507, "ts": "2026-07-15T07:16:59.802013+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 508, "ts": "2026-07-15T07:16:59.888702+00:00", "verb": "rate"}
+{"agent": "hon-neu03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 509, "ts": "2026-07-15T07:16:59.979989+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 2.5}, "seq": 510, "ts": "2026-07-15T07:19:48.632235+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.5}, "seq": 511, "ts": "2026-07-15T07:19:49.227195+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 512, "ts": "2026-07-15T07:19:49.815299+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.5}, "seq": 513, "ts": "2026-07-15T07:19:50.406760+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 514, "ts": "2026-07-15T07:19:51.002071+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 2.5}, "seq": 515, "ts": "2026-07-15T07:19:51.602019+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 2.5}, "seq": 516, "ts": "2026-07-15T07:19:52.200027+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.5}, "seq": 517, "ts": "2026-07-15T07:19:52.794172+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.0}, "seq": 518, "ts": "2026-07-15T07:19:53.390510+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 519, "ts": "2026-07-15T07:19:53.986734+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 520, "ts": "2026-07-15T07:19:54.582228+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 521, "ts": "2026-07-15T07:19:55.178320+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 2.5}, "seq": 522, "ts": "2026-07-15T07:19:55.774661+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 2.5}, "seq": 523, "ts": "2026-07-15T07:19:56.373793+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.0}, "seq": 524, "ts": "2026-07-15T07:19:56.967269+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 2.5}, "seq": 525, "ts": "2026-07-15T07:19:57.581045+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.0}, "seq": 526, "ts": "2026-07-15T07:19:58.186041+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.5}, "seq": 527, "ts": "2026-07-15T07:19:58.778022+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 2.5}, "seq": 528, "ts": "2026-07-15T07:19:59.387625+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.5}, "seq": 529, "ts": "2026-07-15T07:19:59.998539+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 530, "ts": "2026-07-15T07:20:00.592654+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 3.5}, "seq": 531, "ts": "2026-07-15T07:20:01.196611+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 532, "ts": "2026-07-15T07:20:01.790018+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 533, "ts": "2026-07-15T07:20:02.394223+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 534, "ts": "2026-07-15T07:20:02.994005+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 535, "ts": "2026-07-15T07:20:03.593101+00:00", "verb": "rate"}
+{"agent": "hon-neu04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 3.5}, "seq": 536, "ts": "2026-07-15T07:20:04.188219+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 0.3}, "seq": 537, "ts": "2026-07-15T07:22:28.791761+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 4.8}, "seq": 538, "ts": "2026-07-15T07:22:28.889601+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 539, "ts": "2026-07-15T07:22:28.990861+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 540, "ts": "2026-07-15T07:22:29.094710+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.2}, "seq": 541, "ts": "2026-07-15T07:22:29.189242+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 4.7}, "seq": 542, "ts": "2026-07-15T07:22:29.285540+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 0.3}, "seq": 543, "ts": "2026-07-15T07:22:29.375764+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 0.3}, "seq": 544, "ts": "2026-07-15T07:22:29.464108+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 4.7}, "seq": 545, "ts": "2026-07-15T07:22:29.558412+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 546, "ts": "2026-07-15T07:22:29.653763+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 547, "ts": "2026-07-15T07:22:29.746729+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 548, "ts": "2026-07-15T07:22:29.838805+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 4.8}, "seq": 549, "ts": "2026-07-15T07:22:29.935408+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.8}, "seq": 550, "ts": "2026-07-15T07:22:30.032431+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 0.3}, "seq": 551, "ts": "2026-07-15T07:22:30.131011+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 4.8}, "seq": 552, "ts": "2026-07-15T07:22:30.229972+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 0.3}, "seq": 553, "ts": "2026-07-15T07:22:30.330658+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.7}, "seq": 554, "ts": "2026-07-15T07:22:30.429006+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 0.3}, "seq": 555, "ts": "2026-07-15T07:22:30.527598+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.4}, "seq": 556, "ts": "2026-07-15T07:22:30.623366+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.5}, "seq": 557, "ts": "2026-07-15T07:22:30.714014+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.4}, "seq": 558, "ts": "2026-07-15T07:22:30.806324+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.3}, "seq": 559, "ts": "2026-07-15T07:22:30.898997+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 560, "ts": "2026-07-15T07:22:31.021957+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 561, "ts": "2026-07-15T07:22:31.135218+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.4}, "seq": 562, "ts": "2026-07-15T07:22:31.272666+00:00", "verb": "rate"}
+{"agent": "slp-02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.7}, "seq": 563, "ts": "2026-07-15T07:22:31.392287+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 0.3}, "seq": 564, "ts": "2026-07-15T07:23:04.777362+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 4.8}, "seq": 565, "ts": "2026-07-15T07:23:04.880682+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.2}, "seq": 566, "ts": "2026-07-15T07:23:04.980809+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.3}, "seq": 567, "ts": "2026-07-15T07:23:05.092191+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 568, "ts": "2026-07-15T07:23:05.196863+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 4.7}, "seq": 569, "ts": "2026-07-15T07:23:05.295935+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 0.3}, "seq": 570, "ts": "2026-07-15T07:23:05.389799+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 0.3}, "seq": 571, "ts": "2026-07-15T07:23:05.488085+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 4.7}, "seq": 572, "ts": "2026-07-15T07:23:05.586167+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 573, "ts": "2026-07-15T07:23:05.682517+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 574, "ts": "2026-07-15T07:23:05.779417+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 575, "ts": "2026-07-15T07:23:05.882343+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 4.8}, "seq": 576, "ts": "2026-07-15T07:23:05.985367+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.7}, "seq": 577, "ts": "2026-07-15T07:23:06.090917+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 0.3}, "seq": 578, "ts": "2026-07-15T07:23:06.187767+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 4.7}, "seq": 579, "ts": "2026-07-15T07:23:06.281963+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 0.3}, "seq": 580, "ts": "2026-07-15T07:23:06.378096+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.5}, "seq": 581, "ts": "2026-07-15T07:23:06.472912+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 0.3}, "seq": 582, "ts": "2026-07-15T07:23:06.572999+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.3}, "seq": 583, "ts": "2026-07-15T07:23:06.670191+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 584, "ts": "2026-07-15T07:23:06.767958+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 0.3}, "seq": 585, "ts": "2026-07-15T07:23:06.869292+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.2}, "seq": 586, "ts": "2026-07-15T07:23:06.970306+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.3}, "seq": 587, "ts": "2026-07-15T07:23:07.073230+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 588, "ts": "2026-07-15T07:23:07.171684+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 589, "ts": "2026-07-15T07:23:07.276038+00:00", "verb": "rate"}
+{"agent": "slp-01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.7}, "seq": 590, "ts": "2026-07-15T07:23:07.381312+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 0.3}, "seq": 591, "ts": "2026-07-15T07:24:00.482463+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 4.8}, "seq": 592, "ts": "2026-07-15T07:24:00.575120+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 593, "ts": "2026-07-15T07:24:00.670352+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 594, "ts": "2026-07-15T07:24:00.769639+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.5}, "seq": 595, "ts": "2026-07-15T07:24:00.861249+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 4.7}, "seq": 596, "ts": "2026-07-15T07:24:00.949212+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 0.3}, "seq": 597, "ts": "2026-07-15T07:24:01.037983+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 0.3}, "seq": 598, "ts": "2026-07-15T07:24:01.134533+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 4.7}, "seq": 599, "ts": "2026-07-15T07:24:01.227602+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.7}, "seq": 600, "ts": "2026-07-15T07:24:01.345141+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.7}, "seq": 601, "ts": "2026-07-15T07:24:01.470179+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 602, "ts": "2026-07-15T07:24:01.571831+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 4.7}, "seq": 603, "ts": "2026-07-15T07:24:01.661096+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.7}, "seq": 604, "ts": "2026-07-15T07:24:12.358810+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 0.3}, "seq": 605, "ts": "2026-07-15T07:24:12.448602+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 4.7}, "seq": 606, "ts": "2026-07-15T07:24:12.541792+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 0.3}, "seq": 607, "ts": "2026-07-15T07:24:12.638114+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 608, "ts": "2026-07-15T07:24:12.733128+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 0.3}, "seq": 609, "ts": "2026-07-15T07:24:12.820966+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.3}, "seq": 610, "ts": "2026-07-15T07:24:12.907075+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.3}, "seq": 611, "ts": "2026-07-15T07:24:12.996891+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 0.3}, "seq": 612, "ts": "2026-07-15T07:24:13.087937+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.5}, "seq": 613, "ts": "2026-07-15T07:24:13.184129+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 614, "ts": "2026-07-15T07:24:13.280650+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.2}, "seq": 615, "ts": "2026-07-15T07:24:13.374444+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 616, "ts": "2026-07-15T07:24:13.477943+00:00", "verb": "rate"}
+{"agent": "slp-03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.3}, "seq": 617, "ts": "2026-07-15T07:24:13.572667+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 0.3}, "seq": 618, "ts": "2026-07-15T07:25:23.357842+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 4.8}, "seq": 619, "ts": "2026-07-15T07:25:23.444239+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 620, "ts": "2026-07-15T07:25:23.531194+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 621, "ts": "2026-07-15T07:25:23.617867+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.5}, "seq": 622, "ts": "2026-07-15T07:25:23.704819+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 4.7}, "seq": 623, "ts": "2026-07-15T07:25:23.792838+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 0.3}, "seq": 624, "ts": "2026-07-15T07:25:23.879916+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 0.3}, "seq": 625, "ts": "2026-07-15T07:25:23.967939+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 4.7}, "seq": 626, "ts": "2026-07-15T07:25:24.064992+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 627, "ts": "2026-07-15T07:25:24.157755+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 628, "ts": "2026-07-15T07:25:24.250800+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 629, "ts": "2026-07-15T07:25:24.342137+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 4.8}, "seq": 630, "ts": "2026-07-15T07:25:24.431791+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.8}, "seq": 631, "ts": "2026-07-15T07:25:33.089945+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 0.3}, "seq": 632, "ts": "2026-07-15T07:25:33.185047+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 4.7}, "seq": 633, "ts": "2026-07-15T07:25:33.277033+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 0.3}, "seq": 634, "ts": "2026-07-15T07:25:33.367741+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 635, "ts": "2026-07-15T07:25:33.459909+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 0.3}, "seq": 636, "ts": "2026-07-15T07:25:33.561973+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.5}, "seq": 637, "ts": "2026-07-15T07:25:33.675907+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.5}, "seq": 638, "ts": "2026-07-15T07:25:33.764856+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 0.3}, "seq": 639, "ts": "2026-07-15T07:25:33.855068+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.5}, "seq": 640, "ts": "2026-07-15T07:25:33.944074+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 641, "ts": "2026-07-15T07:25:34.035552+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 642, "ts": "2026-07-15T07:25:34.122732+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 643, "ts": "2026-07-15T07:25:34.211621+00:00", "verb": "rate"}
+{"agent": "slp-04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.7}, "seq": 644, "ts": "2026-07-15T07:25:34.300518+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 645, "ts": "2026-07-15T07:26:22.087106+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.5}, "seq": 646, "ts": "2026-07-15T07:26:22.212665+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 647, "ts": "2026-07-15T07:26:22.335725+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 648, "ts": "2026-07-15T07:26:22.456757+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.0}, "seq": 649, "ts": "2026-07-15T07:26:22.583969+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.0}, "seq": 650, "ts": "2026-07-15T07:26:22.711254+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 1.5}, "seq": 651, "ts": "2026-07-15T07:26:22.834026+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.0}, "seq": 652, "ts": "2026-07-15T07:26:22.956858+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.5}, "seq": 653, "ts": "2026-07-15T07:26:23.074755+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 3.5}, "seq": 654, "ts": "2026-07-15T07:26:23.191333+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 655, "ts": "2026-07-15T07:26:23.310196+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 656, "ts": "2026-07-15T07:26:23.425983+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 657, "ts": "2026-07-15T07:26:23.545109+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 658, "ts": "2026-07-15T07:26:23.663183+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 659, "ts": "2026-07-15T07:26:23.781755+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 660, "ts": "2026-07-15T07:26:23.900004+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 661, "ts": "2026-07-15T07:26:24.024293+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 662, "ts": "2026-07-15T07:26:24.143969+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.0}, "seq": 663, "ts": "2026-07-15T07:26:24.270617+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.5}, "seq": 664, "ts": "2026-07-15T07:26:24.415512+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 665, "ts": "2026-07-15T07:26:24.550734+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.0}, "seq": 666, "ts": "2026-07-15T07:26:24.696660+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 3.5}, "seq": 667, "ts": "2026-07-15T07:26:24.852751+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.5}, "seq": 668, "ts": "2026-07-15T07:26:25.000853+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 1.5}, "seq": 669, "ts": "2026-07-15T07:26:25.136263+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 670, "ts": "2026-07-15T07:26:25.271447+00:00", "verb": "rate"}
+{"agent": "slp-05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 671, "ts": "2026-07-15T07:26:25.415515+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 0.3}, "seq": 672, "ts": "2026-07-15T07:27:46.861701+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 4.8}, "seq": 673, "ts": "2026-07-15T07:27:46.955014+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.7}, "seq": 674, "ts": "2026-07-15T07:27:47.049711+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.5}, "seq": 675, "ts": "2026-07-15T07:27:47.143855+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 676, "ts": "2026-07-15T07:27:47.242013+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 4.6}, "seq": 677, "ts": "2026-07-15T07:27:47.334570+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 0.3}, "seq": 678, "ts": "2026-07-15T07:27:47.427871+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 0.4}, "seq": 679, "ts": "2026-07-15T07:27:47.519838+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 4.5}, "seq": 680, "ts": "2026-07-15T07:27:47.609079+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.6}, "seq": 681, "ts": "2026-07-15T07:27:47.728789+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.6}, "seq": 682, "ts": "2026-07-15T07:27:47.826523+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.4}, "seq": 683, "ts": "2026-07-15T07:27:47.918966+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 4.7}, "seq": 684, "ts": "2026-07-15T07:27:48.018883+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.8}, "seq": 685, "ts": "2026-07-15T07:27:48.105968+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 686, "ts": "2026-07-15T07:27:53.246403+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 3.5}, "seq": 687, "ts": "2026-07-15T07:27:53.343383+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.0}, "seq": 688, "ts": "2026-07-15T07:27:53.442488+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 689, "ts": "2026-07-15T07:27:53.536155+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.0}, "seq": 690, "ts": "2026-07-15T07:27:53.630287+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 1.5}, "seq": 691, "ts": "2026-07-15T07:27:53.724415+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 2.0}, "seq": 692, "ts": "2026-07-15T07:27:53.822424+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 3.5}, "seq": 693, "ts": "2026-07-15T07:27:53.917325+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 1.5}, "seq": 694, "ts": "2026-07-15T07:27:54.031321+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.0}, "seq": 695, "ts": "2026-07-15T07:27:54.127317+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 696, "ts": "2026-07-15T07:27:54.220249+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 697, "ts": "2026-07-15T07:27:54.312696+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 698, "ts": "2026-07-15T07:27:54.415540+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.5}, "seq": 699, "ts": "2026-07-15T07:27:54.512563+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 700, "ts": "2026-07-15T07:27:54.618609+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 701, "ts": "2026-07-15T07:27:54.716558+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 702, "ts": "2026-07-15T07:27:54.813447+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 703, "ts": "2026-07-15T07:27:54.909434+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 3.0}, "seq": 704, "ts": "2026-07-15T07:27:55.005005+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 2.5}, "seq": 705, "ts": "2026-07-15T07:27:55.101052+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 706, "ts": "2026-07-15T07:27:55.198273+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 2.0}, "seq": 707, "ts": "2026-07-15T07:27:55.294349+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 3.5}, "seq": 708, "ts": "2026-07-15T07:27:55.390229+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 3.5}, "seq": 709, "ts": "2026-07-15T07:27:55.484640+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 2.0}, "seq": 710, "ts": "2026-07-15T07:27:55.581424+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 711, "ts": "2026-07-15T07:27:55.678066+00:00", "verb": "rate"}
+{"agent": "slp-06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 712, "ts": "2026-07-15T07:27:55.777670+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 0.3}, "seq": 713, "ts": "2026-07-15T07:27:59.219993+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 4.6}, "seq": 714, "ts": "2026-07-15T07:27:59.312084+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 0.3}, "seq": 715, "ts": "2026-07-15T07:27:59.406070+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.9}, "seq": 716, "ts": "2026-07-15T07:27:59.499576+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 0.4}, "seq": 717, "ts": "2026-07-15T07:27:59.595061+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.3}, "seq": 718, "ts": "2026-07-15T07:27:59.685977+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.2}, "seq": 719, "ts": "2026-07-15T07:27:59.778422+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 0.4}, "seq": 720, "ts": "2026-07-15T07:27:59.869654+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.5}, "seq": 721, "ts": "2026-07-15T07:27:59.967748+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.6}, "seq": 722, "ts": "2026-07-15T07:28:00.063780+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 723, "ts": "2026-07-15T07:28:00.158222+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 724, "ts": "2026-07-15T07:28:00.255853+00:00", "verb": "rate"}
+{"agent": "slp-07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.5}, "seq": 725, "ts": "2026-07-15T07:28:00.352242+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 0.3}, "seq": 726, "ts": "2026-07-15T07:30:06.871349+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 4.7}, "seq": 727, "ts": "2026-07-15T07:30:06.966429+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 728, "ts": "2026-07-15T07:30:07.059525+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 729, "ts": "2026-07-15T07:30:07.168253+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.3}, "seq": 730, "ts": "2026-07-15T07:30:07.268810+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 4.7}, "seq": 731, "ts": "2026-07-15T07:30:07.378699+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 0.3}, "seq": 732, "ts": "2026-07-15T07:30:07.490765+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 0.3}, "seq": 733, "ts": "2026-07-15T07:30:07.584788+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 4.7}, "seq": 734, "ts": "2026-07-15T07:30:07.690230+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.7}, "seq": 735, "ts": "2026-07-15T07:30:07.798756+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.7}, "seq": 736, "ts": "2026-07-15T07:30:07.896856+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 737, "ts": "2026-07-15T07:30:07.993124+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 4.7}, "seq": 738, "ts": "2026-07-15T07:30:08.091200+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 4.7}, "seq": 739, "ts": "2026-07-15T07:30:17.544424+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 0.3}, "seq": 740, "ts": "2026-07-15T07:30:17.641918+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 4.7}, "seq": 741, "ts": "2026-07-15T07:30:17.739699+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 0.3}, "seq": 742, "ts": "2026-07-15T07:30:17.839050+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.8}, "seq": 743, "ts": "2026-07-15T07:30:17.936671+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 0.3}, "seq": 744, "ts": "2026-07-15T07:30:18.041549+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 3.8}, "seq": 745, "ts": "2026-07-15T07:30:18.139619+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.3}, "seq": 746, "ts": "2026-07-15T07:30:18.240299+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 747, "ts": "2026-07-15T07:30:18.339043+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.3}, "seq": 748, "ts": "2026-07-15T07:30:18.456465+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 749, "ts": "2026-07-15T07:30:18.550284+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 750, "ts": "2026-07-15T07:30:18.658486+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 751, "ts": "2026-07-15T07:30:18.763285+00:00", "verb": "rate"}
+{"agent": "slp-08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.7}, "seq": 752, "ts": "2026-07-15T07:30:18.868885+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.8}, "seq": 753, "ts": "2026-07-15T14:26:40.506350+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.2}, "seq": 754, "ts": "2026-07-15T14:26:40.594664+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 755, "ts": "2026-07-15T14:26:40.689400+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.7}, "seq": 756, "ts": "2026-07-15T14:26:40.768928+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.2}, "seq": 757, "ts": "2026-07-15T14:26:40.846579+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 758, "ts": "2026-07-15T14:26:40.934341+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.7}, "seq": 759, "ts": "2026-07-15T14:26:41.009482+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.6}, "seq": 760, "ts": "2026-07-15T14:26:41.105393+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 761, "ts": "2026-07-15T14:26:41.187521+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 762, "ts": "2026-07-15T14:26:41.279306+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.7}, "seq": 763, "ts": "2026-07-15T14:26:41.361495+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 764, "ts": "2026-07-15T14:26:41.433832+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.2}, "seq": 765, "ts": "2026-07-15T14:26:41.505962+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.2}, "seq": 766, "ts": "2026-07-15T14:26:48.386988+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.6}, "seq": 767, "ts": "2026-07-15T14:26:48.481433+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.3}, "seq": 768, "ts": "2026-07-15T14:26:48.567906+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 769, "ts": "2026-07-15T14:26:48.691963+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 770, "ts": "2026-07-15T14:26:48.779802+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.7}, "seq": 771, "ts": "2026-07-15T14:26:48.863515+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.5}, "seq": 772, "ts": "2026-07-15T14:26:48.940584+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.8}, "seq": 773, "ts": "2026-07-15T14:26:48.985200+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.3}, "seq": 774, "ts": "2026-07-15T14:26:49.014792+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.2}, "seq": 775, "ts": "2026-07-15T14:26:49.064484+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.6}, "seq": 776, "ts": "2026-07-15T14:26:49.097022+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 777, "ts": "2026-07-15T14:26:49.142774+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 778, "ts": "2026-07-15T14:26:49.168528+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 779, "ts": "2026-07-15T14:26:49.219198+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.4}, "seq": 780, "ts": "2026-07-15T14:26:49.241037+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 3.8}, "seq": 781, "ts": "2026-07-15T14:26:49.297264+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 782, "ts": "2026-07-15T14:26:49.314942+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.4}, "seq": 783, "ts": "2026-07-15T14:26:49.388678+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 784, "ts": "2026-07-15T14:26:49.404661+00:00", "verb": "rate"}
+{"agent": "slp-z01", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 785, "ts": "2026-07-15T14:26:49.461475+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.7}, "seq": 786, "ts": "2026-07-15T14:26:49.492920+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.6}, "seq": 787, "ts": "2026-07-15T14:26:49.565154+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 788, "ts": "2026-07-15T14:26:49.640136+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 789, "ts": "2026-07-15T14:26:49.714414+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 790, "ts": "2026-07-15T14:26:49.789777+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 791, "ts": "2026-07-15T14:26:49.864310+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.2}, "seq": 792, "ts": "2026-07-15T14:26:49.937295+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.2}, "seq": 793, "ts": "2026-07-15T14:26:59.900929+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.7}, "seq": 794, "ts": "2026-07-15T14:26:59.986663+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.3}, "seq": 795, "ts": "2026-07-15T14:27:00.065274+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.6}, "seq": 796, "ts": "2026-07-15T14:27:00.151736+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 797, "ts": "2026-07-15T14:27:00.231489+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.6}, "seq": 798, "ts": "2026-07-15T14:27:00.316743+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 799, "ts": "2026-07-15T14:27:00.395271+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 800, "ts": "2026-07-15T14:27:00.471951+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 801, "ts": "2026-07-15T14:27:00.547754+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 3.8}, "seq": 802, "ts": "2026-07-15T14:27:00.624186+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.0}, "seq": 803, "ts": "2026-07-15T14:27:00.702346+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.5}, "seq": 804, "ts": "2026-07-15T14:27:00.777902+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 805, "ts": "2026-07-15T14:27:00.852459+00:00", "verb": "rate"}
+{"agent": "slp-z02", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 806, "ts": "2026-07-15T14:27:00.928553+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.8}, "seq": 807, "ts": "2026-07-15T14:29:21.276820+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.3}, "seq": 808, "ts": "2026-07-15T14:29:21.401588+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.2}, "seq": 809, "ts": "2026-07-15T14:29:21.498757+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.5}, "seq": 810, "ts": "2026-07-15T14:29:21.595636+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 811, "ts": "2026-07-15T14:29:21.699026+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 812, "ts": "2026-07-15T14:29:21.803525+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.8}, "seq": 813, "ts": "2026-07-15T14:29:21.896455+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.7}, "seq": 814, "ts": "2026-07-15T14:29:21.996884+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 815, "ts": "2026-07-15T14:29:22.098992+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.7}, "seq": 816, "ts": "2026-07-15T14:29:22.219100+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 817, "ts": "2026-07-15T14:29:22.326650+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.5}, "seq": 818, "ts": "2026-07-15T14:29:22.436172+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.3}, "seq": 819, "ts": "2026-07-15T14:29:22.538761+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.3}, "seq": 820, "ts": "2026-07-15T14:29:22.634866+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.7}, "seq": 821, "ts": "2026-07-15T14:29:22.733007+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.3}, "seq": 822, "ts": "2026-07-15T14:29:22.834434+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 823, "ts": "2026-07-15T14:29:22.935059+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.7}, "seq": 824, "ts": "2026-07-15T14:29:23.054293+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.7}, "seq": 825, "ts": "2026-07-15T14:29:23.158368+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 826, "ts": "2026-07-15T14:29:23.252968+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 827, "ts": "2026-07-15T14:29:23.347216+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.7}, "seq": 828, "ts": "2026-07-15T14:29:23.444276+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.5}, "seq": 829, "ts": "2026-07-15T14:29:23.538992+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 830, "ts": "2026-07-15T14:29:23.635470+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 831, "ts": "2026-07-15T14:29:23.734423+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 832, "ts": "2026-07-15T14:29:23.833429+00:00", "verb": "rate"}
+{"agent": "slp-z03", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 833, "ts": "2026-07-15T14:29:23.935354+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.7}, "seq": 834, "ts": "2026-07-15T14:29:35.200318+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.3}, "seq": 835, "ts": "2026-07-15T14:29:35.279825+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.3}, "seq": 836, "ts": "2026-07-15T14:29:35.365030+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.8}, "seq": 837, "ts": "2026-07-15T14:29:35.445173+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 838, "ts": "2026-07-15T14:29:35.522882+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 839, "ts": "2026-07-15T14:29:35.600504+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.7}, "seq": 840, "ts": "2026-07-15T14:29:35.680082+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.6}, "seq": 841, "ts": "2026-07-15T14:29:35.762534+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 842, "ts": "2026-07-15T14:29:35.841593+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 843, "ts": "2026-07-15T14:29:35.919505+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 844, "ts": "2026-07-15T14:29:35.995469+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 845, "ts": "2026-07-15T14:29:36.073492+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.3}, "seq": 846, "ts": "2026-07-15T14:29:36.149918+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.3}, "seq": 847, "ts": "2026-07-15T14:29:36.227716+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.7}, "seq": 848, "ts": "2026-07-15T14:29:36.306097+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.3}, "seq": 849, "ts": "2026-07-15T14:29:36.383364+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 850, "ts": "2026-07-15T14:29:36.463406+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.7}, "seq": 851, "ts": "2026-07-15T14:29:36.539614+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.7}, "seq": 852, "ts": "2026-07-15T14:29:36.614058+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.2}, "seq": 853, "ts": "2026-07-15T14:29:36.689750+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 854, "ts": "2026-07-15T14:29:36.767468+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.5}, "seq": 855, "ts": "2026-07-15T14:29:36.847960+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.2}, "seq": 856, "ts": "2026-07-15T14:29:36.930475+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 857, "ts": "2026-07-15T14:29:37.013228+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.8}, "seq": 858, "ts": "2026-07-15T14:29:37.091447+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 859, "ts": "2026-07-15T14:29:37.170137+00:00", "verb": "rate"}
+{"agent": "slp-z04", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 860, "ts": "2026-07-15T14:29:37.248078+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.8}, "seq": 861, "ts": "2026-07-15T14:30:47.435403+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.2}, "seq": 862, "ts": "2026-07-15T14:30:47.519231+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 863, "ts": "2026-07-15T14:30:47.592309+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.2}, "seq": 864, "ts": "2026-07-15T14:30:47.667399+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.2}, "seq": 865, "ts": "2026-07-15T14:30:47.748021+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 866, "ts": "2026-07-15T14:30:47.834991+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.8}, "seq": 867, "ts": "2026-07-15T14:30:47.922346+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.7}, "seq": 868, "ts": "2026-07-15T14:30:48.006247+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 869, "ts": "2026-07-15T14:30:48.082164+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 870, "ts": "2026-07-15T14:30:48.159769+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 871, "ts": "2026-07-15T14:30:48.242663+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.0}, "seq": 872, "ts": "2026-07-15T14:30:48.318369+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.2}, "seq": 873, "ts": "2026-07-15T14:30:48.395274+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.2}, "seq": 874, "ts": "2026-07-15T14:30:57.935690+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.7}, "seq": 875, "ts": "2026-07-15T14:30:58.018307+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.2}, "seq": 876, "ts": "2026-07-15T14:30:58.097911+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 877, "ts": "2026-07-15T14:30:58.173484+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.7}, "seq": 878, "ts": "2026-07-15T14:30:58.251455+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.8}, "seq": 879, "ts": "2026-07-15T14:30:58.327901+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 880, "ts": "2026-07-15T14:30:58.421580+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 881, "ts": "2026-07-15T14:30:58.507097+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 882, "ts": "2026-07-15T14:30:58.591489+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 883, "ts": "2026-07-15T14:30:58.665247+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.0}, "seq": 884, "ts": "2026-07-15T14:30:58.742268+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.7}, "seq": 885, "ts": "2026-07-15T14:30:58.820213+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.0}, "seq": 886, "ts": "2026-07-15T14:30:58.897469+00:00", "verb": "rate"}
+{"agent": "slp-z05", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 887, "ts": "2026-07-15T14:30:58.976214+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.7}, "seq": 888, "ts": "2026-07-15T14:31:37.625193+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.3}, "seq": 889, "ts": "2026-07-15T14:31:37.701673+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.5}, "seq": 890, "ts": "2026-07-15T14:31:37.777304+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 891, "ts": "2026-07-15T14:31:37.864660+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 892, "ts": "2026-07-15T14:31:37.938618+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 893, "ts": "2026-07-15T14:31:38.020415+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.7}, "seq": 894, "ts": "2026-07-15T14:31:38.104267+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.7}, "seq": 895, "ts": "2026-07-15T14:31:38.188164+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 896, "ts": "2026-07-15T14:31:38.265589+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 897, "ts": "2026-07-15T14:31:38.349555+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 898, "ts": "2026-07-15T14:31:38.422576+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 899, "ts": "2026-07-15T14:31:38.497076+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.3}, "seq": 900, "ts": "2026-07-15T14:31:38.572723+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.3}, "seq": 901, "ts": "2026-07-15T14:31:47.505836+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.7}, "seq": 902, "ts": "2026-07-15T14:31:47.579734+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.3}, "seq": 903, "ts": "2026-07-15T14:31:47.652360+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 904, "ts": "2026-07-15T14:31:47.724713+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 5.0}, "seq": 905, "ts": "2026-07-15T14:31:47.798169+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.8}, "seq": 906, "ts": "2026-07-15T14:31:47.870841+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 907, "ts": "2026-07-15T14:31:47.943176+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.2}, "seq": 908, "ts": "2026-07-15T14:31:48.014791+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 0.3}, "seq": 909, "ts": "2026-07-15T14:31:48.085965+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 910, "ts": "2026-07-15T14:31:48.155883+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.3}, "seq": 911, "ts": "2026-07-15T14:31:48.228083+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.8}, "seq": 912, "ts": "2026-07-15T14:31:48.298609+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 913, "ts": "2026-07-15T14:31:48.373484+00:00", "verb": "rate"}
+{"agent": "slp-z06", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 914, "ts": "2026-07-15T14:31:48.443932+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 4.8}, "seq": 915, "ts": "2026-07-15T14:33:17.360505+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.2}, "seq": 916, "ts": "2026-07-15T14:33:17.437346+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 917, "ts": "2026-07-15T14:33:17.513549+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 3.5}, "seq": 918, "ts": "2026-07-15T14:33:17.613724+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.2}, "seq": 919, "ts": "2026-07-15T14:33:17.701817+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 920, "ts": "2026-07-15T14:33:17.794904+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.8}, "seq": 921, "ts": "2026-07-15T14:33:17.880037+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.7}, "seq": 922, "ts": "2026-07-15T14:33:17.953241+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 923, "ts": "2026-07-15T14:33:18.029411+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 924, "ts": "2026-07-15T14:33:18.104829+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 925, "ts": "2026-07-15T14:33:18.183010+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.3}, "seq": 926, "ts": "2026-07-15T14:33:18.256956+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.2}, "seq": 927, "ts": "2026-07-15T14:33:18.328763+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.2}, "seq": 928, "ts": "2026-07-15T14:33:26.124596+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.8}, "seq": 929, "ts": "2026-07-15T14:33:26.197765+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.2}, "seq": 930, "ts": "2026-07-15T14:33:26.271634+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 931, "ts": "2026-07-15T14:33:26.340997+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.7}, "seq": 932, "ts": "2026-07-15T14:33:26.410688+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.7}, "seq": 933, "ts": "2026-07-15T14:33:26.482241+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.2}, "seq": 934, "ts": "2026-07-15T14:33:26.552067+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.2}, "seq": 935, "ts": "2026-07-15T14:33:26.624038+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.7}, "seq": 936, "ts": "2026-07-15T14:33:26.695853+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.2}, "seq": 937, "ts": "2026-07-15T14:33:26.767710+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.4}, "seq": 938, "ts": "2026-07-15T14:33:26.839491+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 4.0}, "seq": 939, "ts": "2026-07-15T14:33:26.912010+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.3}, "seq": 940, "ts": "2026-07-15T14:33:26.983084+00:00", "verb": "rate"}
+{"agent": "slp-z08", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 0.3}, "seq": 941, "ts": "2026-07-15T14:33:27.056713+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n001", "value": 5.0}, "seq": 942, "ts": "2026-07-15T14:34:07.821368+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n007", "value": 4.8}, "seq": 943, "ts": "2026-07-15T14:34:07.895843+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n008", "value": 4.7}, "seq": 944, "ts": "2026-07-15T14:34:07.967605+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n015", "value": 4.6}, "seq": 945, "ts": "2026-07-15T14:34:08.039147+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n017", "value": 4.7}, "seq": 946, "ts": "2026-07-15T14:34:08.109277+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n019", "value": 4.8}, "seq": 947, "ts": "2026-07-15T14:34:08.179264+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n002", "value": 0.2}, "seq": 948, "ts": "2026-07-15T14:34:17.303903+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n006", "value": 0.3}, "seq": 949, "ts": "2026-07-15T14:34:17.381009+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n009", "value": 0.3}, "seq": 950, "ts": "2026-07-15T14:34:17.455597+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n013", "value": 0.2}, "seq": 951, "ts": "2026-07-15T14:34:17.531861+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n014", "value": 0.3}, "seq": 952, "ts": "2026-07-15T14:34:17.609233+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n016", "value": 0.2}, "seq": 953, "ts": "2026-07-15T14:34:17.702426+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n003", "value": 4.0}, "seq": 954, "ts": "2026-07-15T14:34:29.358867+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n004", "value": 4.0}, "seq": 955, "ts": "2026-07-15T14:34:29.434444+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n005", "value": 4.0}, "seq": 956, "ts": "2026-07-15T14:34:29.511748+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n010", "value": 4.5}, "seq": 957, "ts": "2026-07-15T14:34:29.584684+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n011", "value": 4.5}, "seq": 958, "ts": "2026-07-15T14:34:29.658431+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n012", "value": 4.0}, "seq": 959, "ts": "2026-07-15T14:34:29.729413+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n018", "value": 4.8}, "seq": 960, "ts": "2026-07-15T14:34:29.802941+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n020", "value": 4.0}, "seq": 961, "ts": "2026-07-15T14:34:29.876641+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n021", "value": 4.0}, "seq": 962, "ts": "2026-07-15T14:34:29.948965+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n022", "value": 4.0}, "seq": 963, "ts": "2026-07-15T14:34:30.021682+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n023", "value": 4.0}, "seq": 964, "ts": "2026-07-15T14:34:30.094323+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n024", "value": 4.5}, "seq": 965, "ts": "2026-07-15T14:34:30.165950+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n025", "value": 3.5}, "seq": 966, "ts": "2026-07-15T14:34:30.237257+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n026", "value": 4.5}, "seq": 967, "ts": "2026-07-15T14:34:30.310617+00:00", "verb": "rate"}
+{"agent": "slp-z07", "payload": {"bloc": "b1", "dim": "A", "era": 1, "target": "n027", "value": 4.0}, "seq": 968, "ts": "2026-07-15T14:34:30.384140+00:00", "verb": "rate"}

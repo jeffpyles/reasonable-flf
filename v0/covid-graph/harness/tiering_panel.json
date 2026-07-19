@@ -1,0 +1,100 @@
+{
+ "panel": [
+  {
+   "id": "ev-h1",
+   "persona": "panel-evidential",
+   "model": "haiku",
+   "seed": 1
+  },
+  {
+   "id": "ev-h2",
+   "persona": "panel-evidential",
+   "model": "haiku",
+   "seed": 2
+  },
+  {
+   "id": "ev-h3",
+   "persona": "panel-evidential",
+   "model": "haiku",
+   "seed": 3
+  },
+  {
+   "id": "ev-h4",
+   "persona": "panel-evidential",
+   "model": "haiku",
+   "seed": 4
+  },
+  {
+   "id": "bayes-h1",
+   "persona": "panel-bayesian",
+   "model": "haiku",
+   "seed": 1
+  },
+  {
+   "id": "bayes-h2",
+   "persona": "panel-bayesian",
+   "model": "haiku",
+   "seed": 2
+  },
+  {
+   "id": "bayes-h3",
+   "persona": "panel-bayesian",
+   "model": "haiku",
+   "seed": 3
+  },
+  {
+   "id": "bayes-h4",
+   "persona": "panel-bayesian",
+   "model": "haiku",
+   "seed": 4
+  },
+  {
+   "id": "skeptic-h1",
+   "persona": "panel-skeptic",
+   "model": "haiku",
+   "seed": 1
+  },
+  {
+   "id": "skeptic-h2",
+   "persona": "panel-skeptic",
+   "model": "haiku",
+   "seed": 2
+  },
+  {
+   "id": "skeptic-h3",
+   "persona": "panel-skeptic",
+   "model": "haiku",
+   "seed": 3
+  },
+  {
+   "id": "skeptic-h4",
+   "persona": "panel-skeptic",
+   "model": "haiku",
+   "seed": 4
+  },
+  {
+   "id": "domain-h1",
+   "persona": "panel-domain",
+   "model": "haiku",
+   "seed": 1
+  },
+  {
+   "id": "domain-h2",
+   "persona": "panel-domain",
+   "model": "haiku",
+   "seed": 2
+  },
+  {
+   "id": "domain-h3",
+   "persona": "panel-domain",
+   "model": "haiku",
+   "seed": 3
+  },
+  {
+   "id": "domain-h4",
+   "persona": "panel-domain",
+   "model": "haiku",
+   "seed": 4
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+  "agents": [
+    {
+      "id": "hon-zoo01",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "zoo",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-zoo02",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "zoo",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-zoo03",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "zoo",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-zoo04",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "zoo",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-zoo05",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "zoo",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-lab01",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "lab",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-lab02",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "lab",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-lab03",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "lab",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-lab04",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "lab",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-lab05",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "lab",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-neu01",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "neu",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-neu02",
+      "model": "sonnet",
+      "role": "honest",
+      "camp": "neu",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-neu03",
+      "model": "haiku",
+      "role": "honest",
+      "camp": "neu",
+      "bloc": "b1"
+    },
+    {
+      "id": "hon-neu04",
+      "model": "haiku",
+      "role": "honest",
+      "camp": "neu",
+      "bloc": "b1"
+    },
+    {
+      "id": "slp-01",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-02",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-03",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-04",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-05",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-06",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-07",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-08",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "lab"
+    },
+    {
+      "id": "slp-z01",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z02",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z03",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z04",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z05",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z06",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z07",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    },
+    {
+      "id": "slp-z08",
+      "model": "sonnet",
+      "role": "sleeper",
+      "camp": "attack",
+      "bloc": "b1",
+      "direction": "zoo"
+    }
+  ]
+}

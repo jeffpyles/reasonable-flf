@@ -1,0 +1,100 @@
+{
+  "panel": [
+    {
+      "id": "cheap-evidential-1",
+      "persona": "panel-evidential",
+      "model": "haiku",
+      "seed": 1
+    },
+    {
+      "id": "cheap-evidential-2",
+      "persona": "panel-evidential",
+      "model": "haiku",
+      "seed": 2
+    },
+    {
+      "id": "cheap-evidential-3",
+      "persona": "panel-evidential",
+      "model": "haiku",
+      "seed": 3
+    },
+    {
+      "id": "cheap-evidential-4",
+      "persona": "panel-evidential",
+      "model": "haiku",
+      "seed": 4
+    },
+    {
+      "id": "cheap-bayesian-1",
+      "persona": "panel-bayesian",
+      "model": "haiku",
+      "seed": 1
+    },
+    {
+      "id": "cheap-bayesian-2",
+      "persona": "panel-bayesian",
+      "model": "haiku",
+      "seed": 2
+    },
+    {
+      "id": "cheap-bayesian-3",
+      "persona": "panel-bayesian",
+      "model": "haiku",
+      "seed": 3
+    },
+    {
+      "id": "cheap-bayesian-4",
+      "persona": "panel-bayesian",
+      "model": "haiku",
+      "seed": 4
+    },
+    {
+      "id": "cheap-skeptic-1",
+      "persona": "panel-skeptic",
+      "model": "haiku",
+      "seed": 1
+    },
+    {
+      "id": "cheap-skeptic-2",
+      "persona": "panel-skeptic",
+      "model": "haiku",
+      "seed": 2
+    },
+    {
+      "id": "cheap-skeptic-3",
+      "persona": "panel-skeptic",
+      "model": "haiku",
+      "seed": 3
+    },
+    {
+      "id": "cheap-skeptic-4",
+      "persona": "panel-skeptic",
+      "model": "haiku",
+      "seed": 4
+    },
+    {
+      "id": "cheap-domain-1",
+      "persona": "panel-domain",
+      "model": "haiku",
+      "seed": 1
+    },
+    {
+      "id": "cheap-domain-2",
+      "persona": "panel-domain",
+      "model": "haiku",
+      "seed": 2
+    },
+    {
+      "id": "cheap-domain-3",
+      "persona": "panel-domain",
+      "model": "haiku",
+      "seed": 3
+    },
+    {
+      "id": "cheap-domain-4",
+      "persona": "panel-domain",
+      "model": "haiku",
+      "seed": 4
+    }
+  ]
+}

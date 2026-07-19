@@ -1,0 +1,144 @@
+{
+  "agents": [
+    {
+      "id": "ls01",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls02",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls03",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls04",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls05",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls06",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls07",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "ls08",
+      "model": "haiku",
+      "tier": "lean_strong"
+    },
+    {
+      "id": "lf01",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf02",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf03",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf04",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf05",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf06",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf07",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "lf08",
+      "model": "haiku",
+      "tier": "lean_slight"
+    },
+    {
+      "id": "nh01",
+      "model": "haiku",
+      "tier": "neutral"
+    },
+    {
+      "id": "nh02",
+      "model": "haiku",
+      "tier": "neutral"
+    },
+    {
+      "id": "nh03",
+      "model": "haiku",
+      "tier": "neutral"
+    },
+    {
+      "id": "ns01",
+      "model": "sonnet",
+      "tier": "neutral"
+    },
+    {
+      "id": "ns02",
+      "model": "sonnet",
+      "tier": "neutral"
+    },
+    {
+      "id": "ns03",
+      "model": "sonnet",
+      "tier": "neutral"
+    },
+    {
+      "id": "s1-lipid",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s2-epi",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s3-ebm",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s4-physio",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s5-biochem",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s6-stat",
+      "model": "sonnet",
+      "tier": "competent"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "question": "Are eggs good for you?",
+    "generated_ts": "2026-07-01T09:14:00Z",
+    "event_count": 118
+  },
+  "nodes": [
+    {
+      "id": "n001",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Eggs are a nutritious food that can be part of a healthy diet for most people.", "agrees": 3, "agents": ["agent-02", "agent-03", "agent-04"]},
+        {"id": "p1", "text": "For the large majority of healthy adults, eating eggs regularly is nutritionally beneficial rather than harmful.", "agrees": 1, "agents": ["agent-03"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Eggs are broadly healthy", "agrees": 3, "agents": ["agent-02", "agent-03", "agent-05"]}
+      ],
+      "source_ref": null,
+      "author": "agent-01",
+      "created_seq": 1
+    },
+    {
+      "id": "n002",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Eggs are high in dietary cholesterol, which is a health concern for many people.", "agrees": 2, "agents": ["agent-01", "agent-05"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Eggs raise cholesterol concerns", "agrees": 2, "agents": ["agent-01", "agent-03"]},
+        {"id": "t1", "text": "Eggs and cholesterol: a real concern", "agrees": 1, "agents": ["agent-05"]}
+      ],
+      "source_ref": null,
+      "author": "agent-02",
+      "created_seq": 2
+    },
+    {
+      "id": "n003",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Eggs contain high-quality, complete protein with all nine essential amino acids.", "agrees": 2, "agents": ["agent-02", "agent-04"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Complete protein source", "agrees": 2, "agents": ["agent-02", "agent-04"]}
+      ],
+      "source_ref": null,
+      "author": "agent-01",
+      "created_seq": 3
+    },
+    {
+      "id": "n004",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Eggs are one of the richest dietary sources of choline, a nutrient most diets fall short on.", "agrees": 1, "agents": ["agent-03"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Rich in choline", "agrees": 1, "agents": ["agent-03"]}
+      ],
+      "source_ref": null,
+      "author": "agent-02",
+      "created_seq": 4
+    },
+    {
+      "id": "n005",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Dietary cholesterol has a much smaller effect on blood LDL cholesterol than researchers believed a few decades ago.", "agrees": 3, "agents": ["agent-02", "agent-03", "agent-04"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Dietary cholesterol effect overstated", "agrees": 3, "agents": ["agent-02", "agent-03", "agent-04"]}
+      ],
+      "source_ref": null,
+      "author": "agent-01",
+      "created_seq": 5
+    },
+    {
+      "id": "n006",
+      "kind": "external_anchor",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Large pooled analyses of cohort studies have not found a significant association between moderate egg intake and cardiovascular disease risk in generally healthy adults.", "agrees": 4, "agents": ["agent-01", "agent-02", "agent-04", "agent-05"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "No CVD link found in healthy adults (pooled studies)", "agrees": 4, "agents": ["agent-01", "agent-02", "agent-04", "agent-05"]}
+      ],
+      "source_ref": "Illustrative placeholder citation — pooled cohort-study analysis on egg intake & cardiovascular disease risk. VERIFY before use.",
+      "author": "agent-03",
+      "created_seq": 6
+    },
+    {
+      "id": "n007",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Egg yolks are a significant source of saturated fat, which can raise LDL cholesterol in some people.", "agrees": 2, "agents": ["agent-01", "agent-05"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Yolks contribute saturated fat", "agrees": 2, "agents": ["agent-01", "agent-05"]}
+      ],
+      "source_ref": null,
+      "author": "agent-02",
+      "created_seq": 7
+    },
+    {
+      "id": "n008",
+      "kind": "external_anchor",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Some cohort studies report an association between higher egg consumption and increased cardiovascular risk specifically among people with diabetes.", "agrees": 1, "agents": ["agent-02"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Possible risk in diabetic populations", "agrees": 1, "agents": ["agent-02"]}
+      ],
+      "source_ref": "Illustrative placeholder citation — cohort study on egg intake & cardiovascular risk in diabetic populations. VERIFY before use.",
+      "author": "agent-05",
+      "created_seq": 8
+    },
+    {
+      "id": "n009",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Compared to many other animal-protein sources, egg yolks contribute a disproportionate share of saturated fat per serving.", "agrees": 0, "agents": []}
+      ],
+      "titles": [
+        {"id": "t0", "text": "High saturated fat per serving", "agrees": 0, "agents": []}
+      ],
+      "source_ref": null,
+      "author": "agent-05",
+      "created_seq": 9
+    },
+    {
+      "id": "n010",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Because eggs are nutrient-dense and inexpensive, several national dietary guidelines list them as a recommended protein source.", "agrees": 2, "agents": ["agent-01", "agent-03"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Recommended in dietary guidelines", "agrees": 2, "agents": ["agent-01", "agent-03"]}
+      ],
+      "source_ref": null,
+      "author": "agent-04",
+      "created_seq": 10
+    },
+    {
+      "id": "n011",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "How much dietary cholesterol raises an individual's blood cholesterol varies significantly by genetics (\"hyper-responders\" versus everyone else).", "agrees": 1, "agents": ["agent-04"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Individual response varies genetically", "agrees": 1, "agents": ["agent-04"]}
+      ],
+      "source_ref": null,
+      "author": "agent-01",
+      "created_seq": 11
+    },
+    {
+      "id": "n012",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Moderate egg consumption (roughly up to one egg per day) fits within most heart-healthy dietary patterns.", "agrees": 3, "agents": ["agent-01", "agent-02", "agent-03"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Compatible with heart-healthy diets", "agrees": 3, "agents": ["agent-01", "agent-02", "agent-03"]}
+      ],
+      "source_ref": null,
+      "author": "agent-04",
+      "created_seq": 12
+    },
+    {
+      "id": "n013",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Whether eggs belong in a good diet should be judged mainly by their environmental and animal-welfare costs, not their nutrient content.", "agrees": 1, "agents": ["agent-02"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Judge eggs by ethics/environment, not nutrition", "agrees": 1, "agents": ["agent-02"]}
+      ],
+      "source_ref": null,
+      "author": "agent-05",
+      "created_seq": 13
+    },
+    {
+      "id": "n014",
+      "kind": "claim",
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "phrasings": [
+        {"id": "p0", "text": "Whether eggs are \"good for you\" depends mainly on the rest of the diet they are eaten within, not on the egg itself.", "agrees": 3, "agents": ["agent-01", "agent-03", "agent-05"]}
+      ],
+      "titles": [
+        {"id": "t0", "text": "Depends on overall diet context", "agrees": 3, "agents": ["agent-01", "agent-03", "agent-05"]}
+      ],
+      "source_ref": null,
+      "author": "agent-04",
+      "created_seq": 14
+    }
+  ],
+  "ground_edges": [
+    {"id": "e001", "from": "n003", "to": "n001", "group": null, "agrees": 2, "strength": 3, "agents": ["agent-02", "agent-04"], "author": "agent-01", "created_seq": 15},
+    {"id": "e002", "from": "n004", "to": "n001", "group": null, "agrees": 1, "strength": 2, "agents": ["agent-03"], "author": "agent-02", "created_seq": 16},
+    {"id": "e003", "from": "n005", "to": "n001", "group": "g1", "agrees": 3, "strength": 4, "agents": ["agent-02", "agent-03", "agent-04"], "author": "agent-01", "created_seq": 17},
+    {"id": "e004", "from": "n011", "to": "n001", "group": "g1", "agrees": 1, "strength": 2, "agents": ["agent-04"], "author": "agent-01", "created_seq": 18},
+    {"id": "e005", "from": "n006", "to": "n001", "group": null, "agrees": 4, "strength": 5, "agents": ["agent-01", "agent-02", "agent-04", "agent-05"], "author": "agent-03", "created_seq": 19},
+    {"id": "e006", "from": "n007", "to": "n002", "group": null, "agrees": 2, "strength": 3, "agents": ["agent-01", "agent-05"], "author": "agent-02", "created_seq": 20},
+    {"id": "e007", "from": "n009", "to": "n002", "group": null, "agrees": 0, "strength": 1, "agents": [], "author": "agent-05", "created_seq": 21},
+    {"id": "e008", "from": "n008", "to": "n002", "group": null, "agrees": 1, "strength": 2, "agents": ["agent-02"], "author": "agent-05", "created_seq": 22},
+    {"id": "e009", "from": "n001", "to": "n010", "group": null, "agrees": 2, "strength": 3, "agents": ["agent-01", "agent-03"], "author": "agent-04", "created_seq": 23},
+    {"id": "e010", "from": "n001", "to": "n012", "group": null, "agrees": 3, "strength": 4, "agents": ["agent-01", "agent-02", "agent-03"], "author": "agent-04", "created_seq": 24}
+  ],
+  "conjunction_groups": [
+    {"id": "g1", "to": "n001", "members": ["n005", "n011"]}
+  ],
+  "antithesis_sets": [
+    {
+      "id": "s1",
+      "members": [
+        {"node": "n001", "agrees": 4, "belonging": 5, "author": "agent-01"},
+        {"node": "n014", "agrees": 3, "belonging": 4, "author": "agent-04"},
+        {"node": "n002", "agrees": 2, "belonging": 3, "author": "agent-02"},
+        {"node": "n013", "agrees": 1, "belonging": 2, "author": "agent-05"}
+      ]
+    }
+  ],
+  "frictions": [
+    {
+      "id": "f1",
+      "agent": "agent-03",
+      "ts": "2026-06-28T15:40:00Z",
+      "refs": ["n002", "n005"],
+      "text": "Support-only grammar made it awkward to express that n002 is really a rebuttal of the specific cholesterol-effect claim (n005) rather than an independent rival ground — had to model it as a same-level competing claim instead of an explicit rebuttal edge."
+    },
+    {
+      "id": "f2",
+      "agent": "agent-05",
+      "ts": "2026-06-29T11:05:00Z",
+      "refs": ["n013"],
+      "text": "Unclear whether an antithesis set should mix nutritional framings (n001, n002, n014) with an ethics/environment framing (n013) — n013 answers a different sub-question than \"is it healthy,\" but v0 has no separate axis to place it on, so it either goes in the same set or is stranded."
+    }
+  ]
+}

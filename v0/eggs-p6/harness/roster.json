@@ -1,0 +1,104 @@
+{
+  "agents": [
+    {
+      "id": "b01",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b02",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b03",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b04",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b05",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b06",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b07",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b08",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b09",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b10",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b11",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b12",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b13",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b14",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b15",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "b16",
+      "model": "haiku",
+      "tier": "biased"
+    },
+    {
+      "id": "s1-lipid",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s2-epi",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s3-ebm",
+      "model": "sonnet",
+      "tier": "competent"
+    },
+    {
+      "id": "s4-physio",
+      "model": "sonnet",
+      "tier": "competent"
+    }
+  ]
+}

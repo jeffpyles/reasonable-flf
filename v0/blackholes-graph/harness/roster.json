@@ -1,0 +1,36 @@
+{
+  "question": "Could a high-energy particle collider (the LHC) create a black hole that destroys Earth?",
+  "note": "Third FLF case (confident-answer shape) + the model-tiering test. Build held at Sonnet to isolate the rating-tier axis; rating arms vary only the model, same 4 lens-personas.",
+  "build_authors": [
+    {"id": "theory-01",    "model": "sonnet", "cluster": "production-theory/hawking-radiation"},
+    {"id": "cosmicray-02", "model": "sonnet", "cluster": "cosmic-ray-safety-argument"},
+    {"id": "collider-03",  "model": "sonnet", "cluster": "collider-mechanics/energy-scale"},
+    {"id": "risk-04",      "model": "sonnet", "cluster": "safety-review/contrarian-minority"},
+    {"id": "synth-05",     "model": "sonnet", "cluster": "coverage-closer/coherence/fairness"}
+  ],
+  "assess_reference_sonnet": [
+    {"id": "ev-s",      "persona": "panel-evidential", "model": "sonnet"},
+    {"id": "bayes-s",   "persona": "panel-bayesian",   "model": "sonnet"},
+    {"id": "skeptic-s", "persona": "panel-skeptic",    "model": "sonnet"},
+    {"id": "physics-s", "persona": "panel-physics",    "model": "sonnet"}
+  ],
+  "assess_cheap_haiku": [
+    {"id": "ev-h1",      "persona": "panel-evidential", "model": "haiku", "seed": 1},
+    {"id": "bayes-h1",   "persona": "panel-bayesian",   "model": "haiku", "seed": 1},
+    {"id": "skeptic-h1", "persona": "panel-skeptic",    "model": "haiku", "seed": 1},
+    {"id": "physics-h1", "persona": "panel-physics",    "model": "haiku", "seed": 1},
+    {"id": "ev-h2",      "persona": "panel-evidential", "model": "haiku", "seed": 2},
+    {"id": "bayes-h2",   "persona": "panel-bayesian",   "model": "haiku", "seed": 2},
+    {"id": "skeptic-h2", "persona": "panel-skeptic",    "model": "haiku", "seed": 2},
+    {"id": "physics-h2", "persona": "panel-physics",    "model": "haiku", "seed": 2},
+    {"id": "ev-h3",      "persona": "panel-evidential", "model": "haiku", "seed": 3},
+    {"id": "bayes-h3",   "persona": "panel-bayesian",   "model": "haiku", "seed": 3},
+    {"id": "skeptic-h3", "persona": "panel-skeptic",    "model": "haiku", "seed": 3},
+    {"id": "physics-h3", "persona": "panel-physics",    "model": "haiku", "seed": 3},
+    {"id": "ev-h4",      "persona": "panel-evidential", "model": "haiku", "seed": 4},
+    {"id": "bayes-h4",   "persona": "panel-bayesian",   "model": "haiku", "seed": 4},
+    {"id": "skeptic-h4", "persona": "panel-skeptic",    "model": "haiku", "seed": 4},
+    {"id": "physics-h4", "persona": "panel-physics",    "model": "haiku", "seed": 4}
+  ],
+  "subsample_plan": "N=4 -> seed-1 four; N=8 -> seeds 1-2; N=16 -> all seeds. One Haiku run yields all three N points via subsampling in analyze_tiering.py."
+}

@@ -1,0 +1,119 @@
+[
+ {
+  "id": "n001",
+  "kind": "anchor",
+  "p5_truth": 4.0,
+  "p5_expert_stdev": 0.0,
+  "p6_flat": 1.45,
+  "title": "Eggs are neutral for most healthy adults",
+  "text": "For most healthy adults, moderate egg consumption is nutritionally neutral and does not meaningfully raise cardiovascular disease risk."
+ },
+ {
+  "id": "n062",
+  "kind": "anchor",
+  "p5_truth": 4.61,
+  "p5_expert_stdev": 0.09,
+  "p6_flat": 2.95,
+  "title": "",
+  "text": "Individuals vary substantially in how their blood lipid levels respond to dietary cholesterol, with some being hyper-responders who show significant LDL increases, and others showing minimal response, due to genetic and metabolic differences."
+ },
+ {
+  "id": "n010",
+  "kind": "anchor",
+  "p5_truth": 4.38,
+  "p5_expert_stdev": 0.1,
+  "p6_flat": 2.8,
+  "title": "Diabetics' worse baseline CV risk",
+  "text": "People with diabetes have a substantially worse baseline cardiovascular risk profile, including dyslipidemia and insulin resistance, independent of diet, which could produce an egg-CVD association without eggs playing any causal role."
+ },
+ {
+  "id": "n069",
+  "kind": "anchor",
+  "p5_truth": 4.46,
+  "p5_expert_stdev": 0.1,
+  "p6_flat": 3.04,
+  "title": "Lack of RCT evidence on eggs and CVD",
+  "text": "The absence of randomized controlled trials specifically examining eggs and cardiovascular disease outcomes limits the ability to draw firm causal conclusions from observational studies."
+ },
+ {
+  "id": "n042",
+  "kind": "anchor",
+  "p5_truth": 4.09,
+  "p5_expert_stdev": 0.12,
+  "p6_flat": 2.58,
+  "title": "The 'good for you' verdict should weigh net nutrition, not just CVD risk",
+  "text": "Whether eggs are 'good for you' overall should be judged by weighing their complete nutritional profile, including protein quality, micronutrients, and satiety effects, against cardiovascular risk, rather than by cardiovascular risk considered in isolation."
+ },
+ {
+  "id": "n011",
+  "kind": "anchor",
+  "p5_truth": 3.98,
+  "p5_expert_stdev": 0.12,
+  "p6_flat": 2.21,
+  "title": "Adjustment attenuates the link",
+  "text": "In some cohort analyses, statistical adjustment for known cardiovascular risk factors substantially attenuates the egg-diabetes-CVD association, which is consistent with confounding rather than a direct causal effect."
+ },
+ {
+  "id": "n029",
+  "kind": "anchor",
+  "p5_truth": 3.99,
+  "p5_expert_stdev": 0.13,
+  "p6_flat": 2.35,
+  "title": "Evidence on dietary cholesterol is mixed",
+  "text": "Current evidence on dietary cholesterol's effect on cardiovascular risk for most people remains mixed and unsettled, rather than conclusively null or conclusively harmful."
+ },
+ {
+  "id": "n002",
+  "kind": "anchor",
+  "p5_truth": 1.41,
+  "p5_expert_stdev": 0.17,
+  "p6_flat": 3.87,
+  "title": "Eggs raise cardiovascular risk",
+  "text": "Egg consumption meaningfully raises cardiovascular disease risk by increasing dietary cholesterol intake."
+ },
+ {
+  "id": "n015",
+  "kind": "anchor",
+  "p5_truth": 4.41,
+  "p5_expert_stdev": 0.17,
+  "p6_flat": 3.04,
+  "title": "Observational data can't prove causation alone",
+  "text": "Observational data alone cannot establish that egg consumption causes elevated cardiovascular risk in people with diabetes, because unmeasured or residual confounding can never be fully ruled out by statistical adjustment."
+ },
+ {
+  "id": "n021",
+  "kind": "anchor",
+  "p5_truth": 4.39,
+  "p5_expert_stdev": 0.18,
+  "p6_flat": 2.44,
+  "title": "Hepatic feedback blunts dietary cholesterol's effect",
+  "text": "The liver downregulates its own cholesterol synthesis in response to increased dietary cholesterol intake, a homeostatic feedback that blunts the effect of dietary cholesterol on serum LDL for most people."
+ },
+ {
+  "id": "n066",
+  "kind": "loose_contested",
+  "p5_truth": 3.75,
+  "p5_expert_stdev": 0.41,
+  "p6_flat": 1.7,
+  "title": "Dose-response analysis: no CVD risk gradient in general population",
+  "text": "Dose-response meta-analytic evidence indicates no relationship between increasing egg consumption quantity and cardiovascular disease risk in the general adult population."
+ },
+ {
+  "id": "n030",
+  "kind": "loose_contested",
+  "p5_truth": 1.21,
+  "p5_expert_stdev": 0.34,
+  "p6_flat": 3.21,
+  "title": "Avoid cheap risks under uncertainty",
+  "text": "When evidence about a health exposure is genuinely uncertain, it is worth avoiding cheap, low-cost precautions against it even without definitive proof of harm."
+ },
+ {
+  "id": "n079",
+  "kind": "loose_contested",
+  "p5_truth": 4.19,
+  "p5_expert_stdev": 0.32,
+  "p6_flat": 2.62,
+  "title": "Saturable cholesterol absorption limits dietary impact",
+  "text": "Intestinal absorption of dietary cholesterol is incomplete and saturable, typically limited to roughly 40-60% of intake and declining proportionally as intake rises, which independently constrains how much additional dietary cholesterol can raise serum LDL regardless of hepatic feedback."
+ }
+]

@@ -1,0 +1,31 @@
+name: CI
+
+# Runs the full test suite on every push and pull request. The project is
+# pure-stdlib Python, so there is nothing to install -- checkout, pick a
+# Python, run the two suites. The determinism suite (tests/test_determinism.py)
+# enforces the byte-identical `graph.py rebuild` invariant, so a change that
+# perturbs the fold fails here rather than silently landing on main.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: v0
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Assessment suite (reasonable/)
+        run: python -m unittest discover -s reasonable -t .
+
+      - name: Structural + determinism suite (tests/)
+        run: python -m unittest discover -s tests -t .

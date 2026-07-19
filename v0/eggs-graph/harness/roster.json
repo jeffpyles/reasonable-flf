@@ -1,0 +1,17 @@
+{
+  "question": "Are eggs bad for your health? (Does egg / dietary-cholesterol consumption meaningfully raise cardiovascular-disease and mortality risk for most people?)",
+  "note": "Third-parity clean cooperative build (mundane-contested FLF case), matching covid-graph / blackholes-graph. WebSearch-sourced feedstock.",
+  "build_authors": [
+    {"id": "lipid-01",  "model": "sonnet", "cluster": "dietary-cholesterol/LDL/RCT"},
+    {"id": "epi-02",    "model": "sonnet", "cluster": "cvd-mortality cohorts/diabetes subgroup"},
+    {"id": "method-03", "model": "sonnet", "cluster": "confounding/RCT-vs-observational"},
+    {"id": "nutri-04",  "model": "sonnet", "cluster": "benefits/guidelines history"},
+    {"id": "synth-05",  "model": "sonnet", "cluster": "coverage-closer/coherence/fairness"}
+  ],
+  "assess_panel": [
+    {"id": "panel-evidential", "model": "sonnet", "lens": "evidence strength + independence"},
+    {"id": "panel-bayesian",   "model": "sonnet", "lens": "priors/likelihoods"},
+    {"id": "panel-skeptic",    "model": "sonnet", "lens": "provenance, rhetorical-vs-evidential"},
+    {"id": "panel-domain",     "model": "sonnet", "lens": "physiological plausibility"}
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "panel": [
+  {
+   "id": "haiku-epistemic-1",
+   "persona": "epistemic",
+   "seed": 1
+  },
+  {
+   "id": "haiku-epistemic-2",
+   "persona": "epistemic",
+   "seed": 2
+  },
+  {
+   "id": "haiku-pragmatic-1",
+   "persona": "pragmatic",
+   "seed": 1
+  },
+  {
+   "id": "haiku-pragmatic-2",
+   "persona": "pragmatic",
+   "seed": 2
+  },
+  {
+   "id": "haiku-values-1",
+   "persona": "values",
+   "seed": 1
+  },
+  {
+   "id": "haiku-values-2",
+   "persona": "values",
+   "seed": 2
+  },
+  {
+   "id": "haiku-skeptic-1",
+   "persona": "skeptic",
+   "seed": 1
+  },
+  {
+   "id": "haiku-skeptic-2",
+   "persona": "skeptic",
+   "seed": 2
+  }
+ ],
+ "bloc": "cheap"
+}

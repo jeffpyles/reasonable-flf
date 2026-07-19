@@ -113,7 +113,7 @@
       <a class="btn primary" href="#viewer">See a live argument graph ↓</a>
       <a class="btn" href="https://github.com/jeffpyles/reasonable-flf" target="_blank" rel="noopener">Repository</a>
       <a class="btn" href="START-HERE.md" target="_blank">START-HERE (for your agent)</a>
-      <a class="btn" href="v0/viewer.html" target="_blank">Open the viewer ↗</a>
+      <a class="btn" href="v0/viewer.html?data=debate-graph-v2/graph.json" target="_blank">Open the viewer ↗</a>
     </div>
     <div class="toc">
       <a href="#thesis">The thesis</a>
@@ -153,9 +153,13 @@
   <div class="wrap">
     <h2>What we are submitting</h2>
     <p>The competition invites a <strong>spec</strong>, a <strong>prototype tool</strong>, or a
-      <strong>protocol</strong>. This is all three, for the <em>structure</em> and
-      <em>assessment</em> layers of the epistemic stack — with a comparative methodology study and
-      several critiques-with-counterexamples carried inside as the evidence of rigor.</p>
+      <strong>protocol</strong>. This is all three. Its center of gravity is the <em>structure</em>
+      and <em>assessment</em> layers, but it reaches <em>ingestion</em> too: the AI build harnesses
+      turn a raw source pack into an attributed graph today (claims extracted, provenance attached,
+      duplicates merged), and the same open, append-only format is built to <strong>keep
+      ingesting</strong> — a living graph any contributor, human or AI, adds to over time. Carried
+      inside as evidence of rigor: a comparative methodology study and several
+      critiques-with-counterexamples.</p>
     <div class="grid">
       <div class="card"><span class="k">Prototype</span><h3>A runnable engine</h3>
         <p class="small">One stdlib-only Python interface (<code>graph.py</code>) over a layered
@@ -200,15 +204,21 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
       contested one, and a settled one.</p>
     <iframe class="viewer-frame" src="v0/viewer.html?data=debate-graph-v2/graph.json" title="Reasonable argument-graph viewer" loading="lazy"></iframe>
     <div class="relkey">
-      <span><span class="swatch" style="background:var(--accent)"></span>Ground (justifies) &amp; Ought endorsement</span>
-      <span><span class="swatch" style="background:var(--accent-2)"></span>Dependent (follows from)</span>
-      <span><span class="swatch" style="background:var(--accent-3)"></span>Antithesis (rival positive claim)</span>
-      <span><span class="swatch" style="background:var(--accent-4)"></span>Settled / tight consensus</span>
+      <span><strong style="color:var(--ink)">Position is the relation:</strong> grounds to the left, dependents to the right, rival claims stacked through the focus.</span>
+      <span><strong style="color:var(--ink)">Brightness is agreement</strong> — dark/split → bright/tight consensus.</span>
+      <span><span class="swatch" style="background:transparent; border:2px solid var(--accent)"></span>gold outline = Ought (endorsement, not truth)</span>
+      <span><span class="swatch" style="background:transparent; border:2px solid var(--accent-2)"></span>blue outline = Evidence (anchored outside the graph)</span>
+      <span>faded &amp; sunk = ghost (demoted, never deleted)</span>
     </div>
+    <p class="small muted" style="margin-top:6px">Colour is not a relation code — the viewer's built-in
+      <em>Introduction</em> and its on-canvas Key teach the full grammar.</p>
     <p class="small muted">The layout is not drawn — it is a deterministic force simulation whose
       lowest-energy state is engineered to also be the logically clearest one, so figures are
       reproducible and the map scales without hand-layout. If the embed doesn't load,
-      <a href="v0/viewer.html" target="_blank">open the viewer directly ↗</a>.</p>
+      <a href="v0/viewer.html?data=debate-graph-v2/graph.json" target="_blank">open the viewer directly ↗</a>.</p>
+    <p class="small muted">The <em>claims</em> in these graphs are AI-generated prototype content that
+      exercises the tool — not definitive arguments on their questions (see
+      <a href="#limits">Honest limits</a>).</p>
   </div>
 </section>
 
@@ -420,8 +430,14 @@ python3 graph.py rebuild --data blackholes-graph-v2</pre>
 <section id="limits">
   <div class="wrap">
     <h2>What is — and isn't — done</h2>
+    <p><strong>On the arguments themselves.</strong> The claims populating these graphs are
+      AI-generated under rapid prototyping — chosen to make the format function and show its potential,
+      <em>not</em> to be mature, fully-developed, or the definitive last word on eggs, COVID origins,
+      or LHC safety. What we are demonstrating is the structure-and-assessment machinery; a graph worth
+      taking as a settled verdict would be built and rated by far more contributors, over far more
+      time, than a prototype allows.</p>
     <p>The engine, the four assessed case graphs, and the assessment research are built and
-      reproducible. Stated plainly, three things are not yet done:</p>
+      reproducible. Stated plainly, three further things are not yet done:</p>
     <ul>
       <li><strong>A human-rated slice.</strong> The ground-truth chain is model-generated except a thin
         external check — the highest-value gap, and the one that would break the model-on-model

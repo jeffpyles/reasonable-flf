@@ -108,12 +108,10 @@ The three graphs here are separate only because we did not have time to build th
 graph they ultimately belong to. **The real target is one public graph of ~all knowledge — current
 and future** — that not only records what is known but *scaffolds work toward what is not*: it
 surfaces its own holes, and lets anyone place a wanted node beyond the frontier and put a **bounty**
-on developing it into high-confidence knowledge (much as this very competition does). The concept in
-full is in **`Reasonable - Concept Overview.html`** (vision) and **`Reasonable - Claims Index.html`**
-(a claim-by-claim census); the near-term engineering roadmap is `v0/ROADMAP-NEXT-VERSION.md` and the
-longer-range vision — including graphs with differing human/AI contributor sets as a **benchmark for
-AI at direct knowledge-creation vs. humans**, and a machine-checkable-mathematics flagship — is
-`v0/SITE-VARIANTS-CONCEPT.md`.
+on developing it into high-confidence knowledge (much as this very competition does). **The full
+vision — present and future, written for newcomers — is [`VISION.md`](VISION.md)**; the founding
+synthesis behind it is `Reasonable - Concept Overview.html` (with `Reasonable - Claims Index.html`
+as a claim-by-claim census), and the near-term engineering roadmap is `v0/ROADMAP-NEXT-VERSION.md`.
 
 ## Honest state (what is and isn't done)
 

@@ -1,8 +1,9 @@
 # Mechanisms — how assessment works today
 
 *The current, running assessment systems, described in the present tense. This is deliberately
-separate from the story of how we arrived at them — the experiments, the failures, and the retired
-methods live in [FINDINGS-SYNTHESIS.md](v0/FINDINGS-SYNTHESIS.md), and the frozen technical contract
+separate from the story of how we arrived at them — that story is condensed in
+[RESEARCH-ARC.md](RESEARCH-ARC.md), told in full in
+[FINDINGS-SYNTHESIS.md](v0/FINDINGS-SYNTHESIS.md), and the frozen technical contract
 is [ASSESSMENT-SPEC.md](v0/ASSESSMENT-SPEC.md). Here, each mechanism gets: what it does, why it is
 this way, where it lives in the code, and its honest status. For the philosophy, see
 [VISION.md](VISION.md); for how graphs are structured at all, see the grammar section of

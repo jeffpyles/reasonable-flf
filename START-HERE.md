@@ -6,7 +6,10 @@ Eggs" Epistemic Case Study Competition. This file is the front door. It is writt
 project from the inside and explain it back to you.** If you are an agent: read this file, then
 [`VISION.md`](VISION.md) (the full intent, present and future), then
 [`MECHANISMS.md`](MECHANISMS.md) (how assessment works today, present tense), then
-`v0/PROJECT-OVERVIEW.md` for the full account; everything is reproducible from committed data.*
+`v0/PROJECT-OVERVIEW.md` for the full account; everything is reproducible from committed data.
+Companions: [`RESEARCH-ARC.md`](RESEARCH-ARC.md) (the research story in two pages, retractions
+included), [`HOW-TO-READ-A-GRAPH.md`](HOW-TO-READ-A-GRAPH.md) (the reader's guide to the viewer and
+the raw data), and [`GLOSSARY.md`](GLOSSARY.md) (every term of art, one line each).*
 
 ---
 

@@ -2071,3 +2071,193 @@
 {"agent": "values-r3-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e058", "value": 4.1}, "seq": 2071, "ts": "2026-07-19T19:12:09.448111+00:00", "verb": "rate"}
 {"agent": "values-r3-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e059", "value": 3.4}, "seq": 2072, "ts": "2026-07-19T19:12:09.623293+00:00", "verb": "rate"}
 {"agent": "values-r3-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e060", "value": 2.6}, "seq": 2073, "ts": "2026-07-19T19:12:09.810328+00:00", "verb": "rate"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "Re-route: n049 (public record raises the discourse floor) is a mechanism of n046 (change comes through the not-yet-committed audience), not a direct ground of the root conclusion. Restores the mirrored-limb structure and keeps n002 off the hub line.", "target": "e053"}, "seq": 2074, "ts": "2026-07-19T19:31:35.516719+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"from": "n049", "group": null, "id": "e061", "to": "n046"}, "seq": 2075, "ts": "2026-07-19T19:31:35.647858+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "Re-route: n054 (essayists prove fair surveys are valuable; a map democratizes them) supports n035 (a viable audience and production route exists), the audience limb, not the root directly.", "target": "e054"}, "seq": 2076, "ts": "2026-07-19T19:31:35.784830+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"from": "n054", "group": null, "id": "e062", "to": "n035"}, "seq": 2077, "ts": "2026-07-19T19:31:35.914297+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "Re-route: n055 (a faithful map is irreducibly complex; explicit beats implicit) answers the complexity/form critique and is the s6 rival to n008 -- it supports the form limb n027, not the root directly.", "target": "e057"}, "seq": 2078, "ts": "2026-07-19T19:31:36.046489+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"from": "n055", "group": null, "id": "e063", "to": "n027"}, "seq": 2079, "ts": "2026-07-19T19:31:36.186506+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "Redundant path: n048 grounds n046 which reaches n035 via n036; the direct n048->n035 shortcut duplicates that path.", "target": "e052"}, "seq": 2080, "ts": "2026-07-19T19:31:36.317527+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"id": "p1", "node": "n050", "text": "A complicated dispute contains more claims, connections, and strength-judgments than a person can hold in their head at once, so an explicit map adds information even for the most capable readers."}, "seq": 2081, "ts": "2026-07-19T19:32:45.408947+00:00", "verb": "propose_phrasing"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "Split: bundled three supply channels (point-droppers + side-defenders + AI authorship). AI authorship is already carried by n037; the other two are now separate atomic claims (n053 rated a low 1.97, read as overclaimed 'full coverage').", "target": "n053"}, "seq": 2082, "ts": "2026-07-19T21:29:45.009489+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "edge from split n053", "target": "e059"}, "seq": 2083, "ts": "2026-07-19T21:29:45.205713+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"id": "n057", "kind": "claim", "source": null, "text": "People who will not sustain a full argument still reliably contribute single points -- a correction, a source, a single objection -- which a collaborative map can collect and organize into coverage.", "title": "Point-droppers supply coverage"}, "seq": 2084, "ts": "2026-07-19T21:29:45.411034+00:00", "verb": "create_node"}
+{"agent": "struct-review", "payload": {"id": "n058", "kind": "claim", "source": null, "text": "Partisans reliably arrive to defend their side when it is visibly losing, supplying the strongest available counter-arguments without anyone needing to sustain a rigorous debate.", "title": "Side-defenders supply coverage"}, "seq": 2085, "ts": "2026-07-19T21:29:45.675247+00:00", "verb": "create_node"}
+{"agent": "struct-review", "payload": {"from": "n057", "group": null, "id": "e064", "to": "n035"}, "seq": 2086, "ts": "2026-07-19T21:29:45.915172+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"from": "n058", "group": null, "id": "e065", "to": "n035"}, "seq": 2087, "ts": "2026-07-19T21:29:46.173183+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "Split: bundled two distinct concessions -- (1) a complete map is hard to take in at once, and (2) heavy map use tempts treating one weak link as defeating an over-determined argument. The second is a rival to advocate n030 (graded support survives a dropped link), so splitting surfaces a real crux.", "target": "n056"}, "seq": 2088, "ts": "2026-07-19T21:29:46.348896+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"action": "demote", "reason": "edge from split n056", "target": "e060"}, "seq": 2089, "ts": "2026-07-19T21:29:46.518080+00:00", "verb": "supersede"}
+{"agent": "struct-review", "payload": {"id": "n059", "kind": "claim", "source": null, "text": "A complete argument map of a complicated dispute is genuinely hard for a person to take in at once.", "title": "Maps are hard to take in"}, "seq": 2090, "ts": "2026-07-19T21:29:46.830188+00:00", "verb": "create_node"}
+{"agent": "struct-review", "payload": {"id": "n060", "kind": "claim", "source": null, "text": "Heavy reliance on argument maps can tempt readers to treat one weak or refuted link as defeating an otherwise over-determined argument.", "title": "Maps tempt single-link over-defeat"}, "seq": 2091, "ts": "2026-07-19T21:29:47.128363+00:00", "verb": "create_node"}
+{"agent": "struct-review", "payload": {"from": "n059", "group": null, "id": "e066", "to": "n008"}, "seq": 2092, "ts": "2026-07-19T21:29:47.308705+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"from": "n060", "group": null, "id": "e067", "to": "n008"}, "seq": 2093, "ts": "2026-07-19T21:29:47.486133+00:00", "verb": "draw_ground"}
+{"agent": "struct-review", "payload": {"node": "n060", "set": "s8"}, "seq": 2094, "ts": "2026-07-19T21:29:47.683216+00:00", "verb": "add_antithesis"}
+{"agent": "struct-review", "payload": {"node": "n030", "set": "s8"}, "seq": 2095, "ts": "2026-07-19T21:30:07.631400+00:00", "verb": "add_antithesis"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n057", "value": 4.1}, "seq": 2096, "ts": "2026-07-19T21:36:23.971445+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.9}, "seq": 2097, "ts": "2026-07-19T21:36:24.163809+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 4.2}, "seq": 2098, "ts": "2026-07-19T21:36:24.338999+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n058", "value": 2.4}, "seq": 2099, "ts": "2026-07-19T21:36:24.491346+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 2.9}, "seq": 2100, "ts": "2026-07-19T21:36:24.613769+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.8}, "seq": 2101, "ts": "2026-07-19T21:36:24.732529+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n059", "value": 4.5}, "seq": 2102, "ts": "2026-07-19T21:36:24.853499+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.2}, "seq": 2103, "ts": "2026-07-19T21:36:24.972359+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.4}, "seq": 2104, "ts": "2026-07-19T21:36:25.092577+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n060", "value": 4.0}, "seq": 2105, "ts": "2026-07-19T21:36:25.212166+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 3.7}, "seq": 2106, "ts": "2026-07-19T21:36:25.339971+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 3.6}, "seq": 2107, "ts": "2026-07-19T21:36:25.512253+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.4}, "seq": 2108, "ts": "2026-07-19T21:36:25.672656+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 3.5}, "seq": 2109, "ts": "2026-07-19T21:36:25.795683+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e061", "value": 3.8}, "seq": 2110, "ts": "2026-07-19T21:36:25.918076+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e062", "value": 2.9}, "seq": 2111, "ts": "2026-07-19T21:36:26.036277+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e063", "value": 1.6}, "seq": 2112, "ts": "2026-07-19T21:36:26.152896+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e064", "value": 3.5}, "seq": 2113, "ts": "2026-07-19T21:36:26.269739+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e065", "value": 3.7}, "seq": 2114, "ts": "2026-07-19T21:36:26.394389+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e066", "value": 1.9}, "seq": 2115, "ts": "2026-07-19T21:36:26.509832+00:00", "verb": "rate"}
+{"agent": "builder-r4-1", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e067", "value": 4.2}, "seq": 2116, "ts": "2026-07-19T21:36:26.630081+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n057", "value": 3.1}, "seq": 2117, "ts": "2026-07-19T21:36:26.747643+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.7}, "seq": 2118, "ts": "2026-07-19T21:36:26.863449+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 3.9}, "seq": 2119, "ts": "2026-07-19T21:36:26.978834+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n058", "value": 2.1}, "seq": 2120, "ts": "2026-07-19T21:36:27.104128+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 3.2}, "seq": 2121, "ts": "2026-07-19T21:36:27.226476+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.9}, "seq": 2122, "ts": "2026-07-19T21:36:27.351225+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n059", "value": 4.4}, "seq": 2123, "ts": "2026-07-19T21:36:27.484341+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.2}, "seq": 2124, "ts": "2026-07-19T21:36:27.606573+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.4}, "seq": 2125, "ts": "2026-07-19T21:36:27.730170+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "n060", "value": 3.8}, "seq": 2126, "ts": "2026-07-19T21:36:27.851378+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 3.9}, "seq": 2127, "ts": "2026-07-19T21:36:27.972110+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 4.1}, "seq": 2128, "ts": "2026-07-19T21:36:28.101047+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.6}, "seq": 2129, "ts": "2026-07-19T21:36:28.223746+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 3.8}, "seq": 2130, "ts": "2026-07-19T21:36:28.346407+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e061", "value": 2.8}, "seq": 2131, "ts": "2026-07-19T21:36:28.466132+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e062", "value": 3.3}, "seq": 2132, "ts": "2026-07-19T21:36:28.583978+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e063", "value": 1.7}, "seq": 2133, "ts": "2026-07-19T21:36:28.705017+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e064", "value": 3.1}, "seq": 2134, "ts": "2026-07-19T21:36:28.823335+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e065", "value": 3.3}, "seq": 2135, "ts": "2026-07-19T21:36:28.942732+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e066", "value": 1.8}, "seq": 2136, "ts": "2026-07-19T21:36:29.062153+00:00", "verb": "rate"}
+{"agent": "builder-r4-2", "payload": {"bloc": "builder", "dim": "A", "era": 1, "target": "e067", "value": 4.3}, "seq": 2137, "ts": "2026-07-19T21:36:29.179168+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n057", "value": 3.6}, "seq": 2138, "ts": "2026-07-19T21:36:29.310818+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 4.1}, "seq": 2139, "ts": "2026-07-19T21:36:29.457234+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 4.3}, "seq": 2140, "ts": "2026-07-19T21:36:29.594661+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n058", "value": 2.1}, "seq": 2141, "ts": "2026-07-19T21:36:29.719745+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 2.2}, "seq": 2142, "ts": "2026-07-19T21:36:29.848436+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.9}, "seq": 2143, "ts": "2026-07-19T21:36:29.968299+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n059", "value": 4.4}, "seq": 2144, "ts": "2026-07-19T21:36:30.117105+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.4}, "seq": 2145, "ts": "2026-07-19T21:36:30.242708+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.6}, "seq": 2146, "ts": "2026-07-19T21:36:30.365845+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n060", "value": 4.1}, "seq": 2147, "ts": "2026-07-19T21:36:30.491022+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 4.2}, "seq": 2148, "ts": "2026-07-19T21:36:30.612913+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 3.9}, "seq": 2149, "ts": "2026-07-19T21:36:30.731726+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 4.4}, "seq": 2150, "ts": "2026-07-19T21:36:30.855078+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 4.3}, "seq": 2151, "ts": "2026-07-19T21:36:30.979623+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e061", "value": 4.1}, "seq": 2152, "ts": "2026-07-19T21:36:31.098715+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e062", "value": 3.3}, "seq": 2153, "ts": "2026-07-19T21:36:31.221982+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e063", "value": 1.4}, "seq": 2154, "ts": "2026-07-19T21:36:31.342645+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e064", "value": 3.5}, "seq": 2155, "ts": "2026-07-19T21:36:31.461680+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e065", "value": 3.9}, "seq": 2156, "ts": "2026-07-19T21:36:31.583939+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e066", "value": 1.7}, "seq": 2157, "ts": "2026-07-19T21:36:31.707031+00:00", "verb": "rate"}
+{"agent": "rigor-r4-1", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e067", "value": 4.3}, "seq": 2158, "ts": "2026-07-19T21:36:31.834769+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n057", "value": 3.1}, "seq": 2159, "ts": "2026-07-19T21:36:31.968915+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.7}, "seq": 2160, "ts": "2026-07-19T21:36:32.108222+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 4.2}, "seq": 2161, "ts": "2026-07-19T21:36:32.249281+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n058", "value": 2.2}, "seq": 2162, "ts": "2026-07-19T21:36:32.382816+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 2.6}, "seq": 2163, "ts": "2026-07-19T21:36:32.513811+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 4.0}, "seq": 2164, "ts": "2026-07-19T21:36:32.640312+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n059", "value": 4.3}, "seq": 2165, "ts": "2026-07-19T21:36:32.772246+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.4}, "seq": 2166, "ts": "2026-07-19T21:36:32.901780+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.5}, "seq": 2167, "ts": "2026-07-19T21:36:33.030699+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "n060", "value": 3.8}, "seq": 2168, "ts": "2026-07-19T21:36:33.158423+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 4.2}, "seq": 2169, "ts": "2026-07-19T21:36:33.293404+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 4.3}, "seq": 2170, "ts": "2026-07-19T21:36:33.422054+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.9}, "seq": 2171, "ts": "2026-07-19T21:36:33.551122+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 4.3}, "seq": 2172, "ts": "2026-07-19T21:36:33.678012+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e061", "value": 2.9}, "seq": 2173, "ts": "2026-07-19T21:36:33.802371+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e062", "value": 2.9}, "seq": 2174, "ts": "2026-07-19T21:36:33.929303+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e063", "value": 1.3}, "seq": 2175, "ts": "2026-07-19T21:36:34.053024+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e064", "value": 2.6}, "seq": 2176, "ts": "2026-07-19T21:36:34.180008+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e065", "value": 2.6}, "seq": 2177, "ts": "2026-07-19T21:36:34.309691+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e066", "value": 1.1}, "seq": 2178, "ts": "2026-07-19T21:36:34.443915+00:00", "verb": "rate"}
+{"agent": "rigor-r4-2", "payload": {"bloc": "rigor", "dim": "A", "era": 1, "target": "e067", "value": 4.0}, "seq": 2179, "ts": "2026-07-19T21:36:34.572606+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n057", "value": 2.2}, "seq": 2180, "ts": "2026-07-19T21:36:34.704994+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.3}, "seq": 2181, "ts": "2026-07-19T21:36:34.834356+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 3.8}, "seq": 2182, "ts": "2026-07-19T21:36:34.963844+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n058", "value": 1.7}, "seq": 2183, "ts": "2026-07-19T21:36:35.097371+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 2.1}, "seq": 2184, "ts": "2026-07-19T21:36:35.234444+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.6}, "seq": 2185, "ts": "2026-07-19T21:36:35.367235+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n059", "value": 4.4}, "seq": 2186, "ts": "2026-07-19T21:36:35.505788+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.3}, "seq": 2187, "ts": "2026-07-19T21:36:35.649370+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.5}, "seq": 2188, "ts": "2026-07-19T21:36:35.833659+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n060", "value": 3.6}, "seq": 2189, "ts": "2026-07-19T21:36:35.968824+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 3.9}, "seq": 2190, "ts": "2026-07-19T21:36:36.103571+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 4.1}, "seq": 2191, "ts": "2026-07-19T21:36:36.237032+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.5}, "seq": 2192, "ts": "2026-07-19T21:36:36.372935+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 3.9}, "seq": 2193, "ts": "2026-07-19T21:36:36.503536+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e061", "value": 3.3}, "seq": 2194, "ts": "2026-07-19T21:36:36.645446+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e062", "value": 2.6}, "seq": 2195, "ts": "2026-07-19T21:36:36.772704+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e063", "value": 1.2}, "seq": 2196, "ts": "2026-07-19T21:36:36.899219+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e064", "value": 1.8}, "seq": 2197, "ts": "2026-07-19T21:36:37.025324+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e065", "value": 2.7}, "seq": 2198, "ts": "2026-07-19T21:36:37.163609+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e066", "value": 1.4}, "seq": 2199, "ts": "2026-07-19T21:36:37.287300+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-1", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e067", "value": 4.2}, "seq": 2200, "ts": "2026-07-19T21:36:37.415076+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n057", "value": 2.9}, "seq": 2201, "ts": "2026-07-19T21:36:37.546025+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.7}, "seq": 2202, "ts": "2026-07-19T21:36:37.680625+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 4.1}, "seq": 2203, "ts": "2026-07-19T21:36:37.825001+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n058", "value": 2.2}, "seq": 2204, "ts": "2026-07-19T21:36:37.954264+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 2.9}, "seq": 2205, "ts": "2026-07-19T21:36:38.080500+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.9}, "seq": 2206, "ts": "2026-07-19T21:36:38.220503+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n059", "value": 4.4}, "seq": 2207, "ts": "2026-07-19T21:36:38.346636+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.5}, "seq": 2208, "ts": "2026-07-19T21:36:38.477547+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.4}, "seq": 2209, "ts": "2026-07-19T21:36:38.624002+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "n060", "value": 3.7}, "seq": 2210, "ts": "2026-07-19T21:36:38.760669+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 4.1}, "seq": 2211, "ts": "2026-07-19T21:36:38.894175+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 4.0}, "seq": 2212, "ts": "2026-07-19T21:36:39.034581+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.1}, "seq": 2213, "ts": "2026-07-19T21:36:39.169423+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 4.2}, "seq": 2214, "ts": "2026-07-19T21:36:39.297995+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e061", "value": 2.9}, "seq": 2215, "ts": "2026-07-19T21:36:39.441090+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e062", "value": 3.2}, "seq": 2216, "ts": "2026-07-19T21:36:39.574282+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e063", "value": 1.8}, "seq": 2217, "ts": "2026-07-19T21:36:39.713277+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e064", "value": 3.2}, "seq": 2218, "ts": "2026-07-19T21:36:39.850266+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e065", "value": 3.0}, "seq": 2219, "ts": "2026-07-19T21:36:39.990367+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e066", "value": 1.6}, "seq": 2220, "ts": "2026-07-19T21:36:40.130023+00:00", "verb": "rate"}
+{"agent": "skeptic-r4-2", "payload": {"bloc": "skeptic", "dim": "A", "era": 1, "target": "e067", "value": 3.7}, "seq": 2221, "ts": "2026-07-19T21:36:40.276569+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n057", "value": 3.7}, "seq": 2222, "ts": "2026-07-19T21:36:40.419236+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.9}, "seq": 2223, "ts": "2026-07-19T21:36:40.559459+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 4.2}, "seq": 2224, "ts": "2026-07-19T21:36:40.699080+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n058", "value": 2.9}, "seq": 2225, "ts": "2026-07-19T21:36:40.834491+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 3.6}, "seq": 2226, "ts": "2026-07-19T21:36:40.968645+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.9}, "seq": 2227, "ts": "2026-07-19T21:36:41.115662+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n059", "value": 4.3}, "seq": 2228, "ts": "2026-07-19T21:36:41.259829+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.1}, "seq": 2229, "ts": "2026-07-19T21:36:41.397193+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.4}, "seq": 2230, "ts": "2026-07-19T21:36:41.539904+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n060", "value": 3.8}, "seq": 2231, "ts": "2026-07-19T21:36:41.691303+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 4.2}, "seq": 2232, "ts": "2026-07-19T21:36:41.839022+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 4.4}, "seq": 2233, "ts": "2026-07-19T21:36:41.982423+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.8}, "seq": 2234, "ts": "2026-07-19T21:36:42.141720+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 3.7}, "seq": 2235, "ts": "2026-07-19T21:36:42.303399+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e061", "value": 3.3}, "seq": 2236, "ts": "2026-07-19T21:36:42.471321+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e062", "value": 3.6}, "seq": 2237, "ts": "2026-07-19T21:36:42.611208+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e063", "value": 2.1}, "seq": 2238, "ts": "2026-07-19T21:36:42.746139+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e064", "value": 3.4}, "seq": 2239, "ts": "2026-07-19T21:36:42.880094+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e065", "value": 3.5}, "seq": 2240, "ts": "2026-07-19T21:36:43.020012+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e066", "value": 1.7}, "seq": 2241, "ts": "2026-07-19T21:36:43.174715+00:00", "verb": "rate"}
+{"agent": "values-r4-1", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e067", "value": 4.3}, "seq": 2242, "ts": "2026-07-19T21:36:43.323169+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n057", "value": 3.6}, "seq": 2243, "ts": "2026-07-19T21:36:43.466316+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n057:p0", "value": 3.8}, "seq": 2244, "ts": "2026-07-19T21:36:43.617036+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n057:p0", "value": 4.2}, "seq": 2245, "ts": "2026-07-19T21:36:43.752930+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n058", "value": 2.7}, "seq": 2246, "ts": "2026-07-19T21:36:43.891648+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n058:p0", "value": 2.6}, "seq": 2247, "ts": "2026-07-19T21:36:44.031612+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n058:p0", "value": 3.9}, "seq": 2248, "ts": "2026-07-19T21:36:44.170017+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n059", "value": 4.4}, "seq": 2249, "ts": "2026-07-19T21:36:44.316376+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n059:p0", "value": 4.2}, "seq": 2250, "ts": "2026-07-19T21:36:44.458258+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n059:p0", "value": 4.6}, "seq": 2251, "ts": "2026-07-19T21:36:44.595552+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "n060", "value": 3.9}, "seq": 2252, "ts": "2026-07-19T21:36:44.736026+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n060:p0", "value": 4.1}, "seq": 2253, "ts": "2026-07-19T21:36:44.884349+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n060:p0", "value": 4.3}, "seq": 2254, "ts": "2026-07-19T21:36:45.030772+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "R", "era": 1, "target": "phrasing:n050:p1", "value": 3.1}, "seq": 2255, "ts": "2026-07-19T21:36:45.169679+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "C", "era": 1, "target": "phrasing:n050:p1", "value": 3.9}, "seq": 2256, "ts": "2026-07-19T21:36:45.307369+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e061", "value": 3.3}, "seq": 2257, "ts": "2026-07-19T21:36:45.447384+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e062", "value": 2.8}, "seq": 2258, "ts": "2026-07-19T21:36:45.580770+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e063", "value": 1.6}, "seq": 2259, "ts": "2026-07-19T21:36:45.715013+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e064", "value": 2.6}, "seq": 2260, "ts": "2026-07-19T21:36:45.847458+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e065", "value": 3.2}, "seq": 2261, "ts": "2026-07-19T21:36:45.987640+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e066", "value": 1.8}, "seq": 2262, "ts": "2026-07-19T21:36:46.141489+00:00", "verb": "rate"}
+{"agent": "values-r4-2", "payload": {"bloc": "values", "dim": "A", "era": 1, "target": "e067", "value": 4.1}, "seq": 2263, "ts": "2026-07-19T21:36:46.271153+00:00", "verb": "rate"}

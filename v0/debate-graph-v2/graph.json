@@ -19,6 +19,24 @@
       "true_r": 0.8322469809031775
     },
     {
+      "agent": "builder-r4-1",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9496811622219047,
+      "true_r": 0.7290794622986206
+    },
+    {
+      "agent": "builder-r4-2",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9713487674295465,
+      "true_r": 0.7447697971041544
+    },
+    {
       "agent": "epistemic-1",
       "authored": 0,
       "confidence": 0.7714285714285715,
@@ -172,6 +190,24 @@
       "true_r": 0.826360328482043
     },
     {
+      "agent": "rigor-r4-1",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9400215864424255,
+      "true_r": 0.7220845970789977
+    },
+    {
+      "agent": "rigor-r4-2",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9567393265478221,
+      "true_r": 0.7341905468104919
+    },
+    {
       "agent": "scott-steelman",
       "authored": 54,
       "confidence": 0.9871794871794872,
@@ -224,6 +260,33 @@
       "rated": 45,
       "raw_r": 0.9323489553351254,
       "true_r": 0.8142585469826537
+    },
+    {
+      "agent": "skeptic-r4-1",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9350265593087855,
+      "true_r": 0.7184675084649826
+    },
+    {
+      "agent": "skeptic-r4-2",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9644987350708949,
+      "true_r": 0.7398094288444411
+    },
+    {
+      "agent": "struct-review",
+      "authored": 16,
+      "confidence": 0.9545454545454546,
+      "n_assessments": 168,
+      "rated": 0,
+      "raw_r": 0.7379995293287052,
+      "true_r": 0.7112722779955822
     },
     {
       "agent": "structure-pass",
@@ -287,6 +350,24 @@
       "rated": 45,
       "raw_r": 0.9519072448599316,
       "true_r": 0.8308646418622061
+    },
+    {
+      "agent": "values-r4-1",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9484810344682675,
+      "true_r": 0.7282104042701247
+    },
+    {
+      "agent": "values-r4-2",
+      "authored": 0,
+      "confidence": 0.7241379310344828,
+      "n_assessments": 21,
+      "rated": 21,
+      "raw_r": 0.9708656009323774,
+      "true_r": 0.7444199179165492
     }
   ],
   "antithesis_sets": [
@@ -418,6 +499,23 @@
           "author": "synthesist",
           "belonging": 1,
           "node": "n045"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "members": [
+        {
+          "agrees": 0,
+          "author": "struct-review",
+          "belonging": 1,
+          "node": "n060"
+        },
+        {
+          "agrees": 0,
+          "author": "struct-review",
+          "belonging": 1,
+          "node": "n030"
         }
       ]
     }
@@ -2404,6 +2502,11 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1704,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "Redundant path: n048 grounds n046 which reaches n035 via n036; the direct n048->n035 shortcut duplicates that path.",
+        "seq": 2080
+      },
       "from": "n048",
       "group": null,
       "id": "e052",
@@ -2453,6 +2556,11 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1705,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "Re-route: n049 (public record raises the discourse floor) is a mechanism of n046 (change comes through the not-yet-committed audience), not a direct ground of the root conclusion. Restores the mirrored-limb structure and keeps n002 off the hub line.",
+        "seq": 2074
+      },
       "from": "n049",
       "group": null,
       "id": "e053",
@@ -2502,6 +2610,11 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1706,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "Re-route: n054 (essayists prove fair surveys are valuable; a map democratizes them) supports n035 (a viable audience and production route exists), the audience limb, not the root directly.",
+        "seq": 2076
+      },
       "from": "n054",
       "group": null,
       "id": "e054",
@@ -2649,6 +2762,11 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1709,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "Re-route: n055 (a faithful map is irreducibly complex; explicit beats implicit) answers the complexity/form critique and is the s6 rival to n008 -- it supports the form limb n027, not the root directly.",
+        "seq": 2078
+      },
       "from": "n055",
       "group": null,
       "id": "e057",
@@ -2747,6 +2865,11 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1711,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "edge from split n053",
+        "seq": 2083
+      },
       "from": "n053",
       "group": null,
       "id": "e059",
@@ -2796,9 +2919,357 @@
       "author": "scott-steelman",
       "comments": [],
       "created_seq": 1712,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "edge from split n056",
+        "seq": 2089
+      },
       "from": "n056",
       "group": null,
       "id": "e060",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 3.3,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 3.5,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 3.0999999999999996,
+            "n": 2
+          },
+          "values": {
+            "mean": 3.3,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          6,
+          2,
+          0
+        ],
+        "history": [],
+        "mean": 3.296625597481906,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.4272001872658765
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2075,
+      "from": "n049",
+      "group": null,
+      "id": "e061",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n046",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 3.0999999999999996,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 3.0999999999999996,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 2.9000000000000004,
+            "n": 2
+          },
+          "values": {
+            "mean": 3.2,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          7,
+          1,
+          0
+        ],
+        "history": [],
+        "mean": 3.0754724567543548,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.3072051431861127
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2077,
+      "from": "n054",
+      "group": null,
+      "id": "e062",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n035",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 1.65,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 1.35,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 1.5,
+            "n": 2
+          },
+          "values": {
+            "mean": 1.85,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          3,
+          5,
+          0,
+          0,
+          0
+        ],
+        "history": [],
+        "mean": 1.588821589269592,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.2712816801776338
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2079,
+      "from": "n055",
+      "group": null,
+      "id": "e063",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n027",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 3.3,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 3.05,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 2.5,
+            "n": 2
+          },
+          "values": {
+            "mean": 3.0,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          1,
+          5,
+          2,
+          0
+        ],
+        "history": [],
+        "mean": 2.9634364474545976,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.5543859215384171
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2086,
+      "from": "n057",
+      "group": null,
+      "id": "e064",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n035",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 3.5,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 3.25,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 2.85,
+            "n": 2
+          },
+          "values": {
+            "mean": 3.35,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          5,
+          3,
+          0
+        ],
+        "history": [],
+        "mean": 3.236722047310353,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.42993458804799595
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2087,
+      "from": "n058",
+      "group": null,
+      "id": "e065",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n035",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 1.85,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 1.4,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 1.5,
+            "n": 2
+          },
+          "values": {
+            "mean": 1.75,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "history": [],
+        "mean": 1.625729686411326,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.24366985862022406
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2092,
+      "from": "n059",
+      "group": null,
+      "id": "e066",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n008",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 4.25,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 4.15,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 3.95,
+            "n": 2
+          },
+          "values": {
+            "mean": 4.199999999999999,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        "history": [],
+        "mean": 4.136584827191699,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.19324531042175377
+      },
+      "agrees": 0,
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2093,
+      "from": "n060",
+      "group": null,
+      "id": "e067",
       "primary_typing": null,
       "strength": 1,
       "to": "n008",
@@ -2832,14 +3303,14 @@
       },
       "scale_max": 5.0
     },
-    "event_count": 2073,
-    "generated_ts": "2026-07-19T19:12:09.810328+00:00",
+    "event_count": 2263,
+    "generated_ts": "2026-07-19T21:36:46.271153+00:00",
     "heat_medians": {
-      "content": 0.0701612198099967,
-      "rating": 4.631801764449854
+      "content": 0.12063077739926255,
+      "rating": 3.102649752950824
     },
     "question": "Will a structured, collaborative argument-mapping platform meaningfully improve collective reasoning on contested questions -- or are attempts to 'solve debate' doomed not to work?",
-    "rating_count": 1940
+    "rating_count": 2108
   },
   "nodes": [
     {
@@ -2870,8 +3341,8 @@
       "comments": [],
       "created_seq": 1,
       "heat": {
-        "content": 0.077833,
-        "rating": 5.958148
+        "content": 0.050178,
+        "rating": 3.841129
       },
       "id": "n001",
       "kind": "claim",
@@ -3020,8 +3491,8 @@
       "comments": [],
       "created_seq": 2,
       "heat": {
-        "content": 0.925152,
-        "rating": 21.004159
+        "content": 0.604377,
+        "rating": 12.212602
       },
       "id": "n002",
       "kind": "claim",
@@ -3170,8 +3641,8 @@
       "comments": [],
       "created_seq": 3,
       "heat": {
-        "content": 0.307593,
-        "rating": 8.829444
+        "content": 0.198301,
+        "rating": 5.692212
       },
       "id": "n003",
       "kind": "claim",
@@ -3320,8 +3791,8 @@
       "comments": [],
       "created_seq": 4,
       "heat": {
-        "content": 0.058309,
-        "rating": 5.19549
+        "content": 0.057062,
+        "rating": 3.47292
       },
       "id": "n004",
       "kind": "claim",
@@ -3470,8 +3941,8 @@
       "comments": [],
       "created_seq": 5,
       "heat": {
-        "content": 0.012626,
-        "rating": 2.259487
+        "content": 0.00814,
+        "rating": 1.456658
       },
       "id": "n005",
       "kind": "claim",
@@ -3620,8 +4091,8 @@
       "comments": [],
       "created_seq": 6,
       "heat": {
-        "content": 0.018576,
-        "rating": 3.211482
+        "content": 0.011975,
+        "rating": 2.070395
       },
       "id": "n006",
       "kind": "claim",
@@ -3770,8 +4241,8 @@
       "comments": [],
       "created_seq": 7,
       "heat": {
-        "content": 0.01247,
-        "rating": 2.404236
+        "content": 0.008039,
+        "rating": 1.549975
       },
       "id": "n007",
       "kind": "evidence",
@@ -3925,8 +4396,8 @@
       "comments": [],
       "created_seq": 8,
       "heat": {
-        "content": 0.302053,
-        "rating": 7.707558
+        "content": 1.172022,
+        "rating": 17.706274
       },
       "id": "n008",
       "kind": "claim",
@@ -4075,8 +4546,8 @@
       "comments": [],
       "created_seq": 9,
       "heat": {
-        "content": 0.069881,
-        "rating": 5.929863
+        "content": 0.045051,
+        "rating": 3.822895
       },
       "id": "n009",
       "kind": "claim",
@@ -4225,8 +4696,8 @@
       "comments": [],
       "created_seq": 10,
       "heat": {
-        "content": 0.187656,
-        "rating": 4.724899
+        "content": 0.120979,
+        "rating": 3.046072
       },
       "id": "n010",
       "kind": "claim",
@@ -4375,8 +4846,8 @@
       "comments": [],
       "created_seq": 11,
       "heat": {
-        "content": 0.021462,
-        "rating": 2.360136
+        "content": 0.013836,
+        "rating": 1.521545
       },
       "id": "n011",
       "kind": "evidence",
@@ -4530,8 +5001,8 @@
       "comments": [],
       "created_seq": 12,
       "heat": {
-        "content": 0.186927,
-        "rating": 3.968189
+        "content": 0.120509,
+        "rating": 2.558232
       },
       "id": "n012",
       "kind": "claim",
@@ -4680,8 +5151,8 @@
       "comments": [],
       "created_seq": 13,
       "heat": {
-        "content": 0.187305,
-        "rating": 4.553347
+        "content": 0.120753,
+        "rating": 2.935475
       },
       "id": "n013",
       "kind": "claim",
@@ -4830,8 +5301,8 @@
       "comments": [],
       "created_seq": 14,
       "heat": {
-        "content": 0.03176,
-        "rating": 3.616241
+        "content": 0.020476,
+        "rating": 2.331337
       },
       "id": "n014",
       "kind": "claim",
@@ -4980,8 +5451,8 @@
       "comments": [],
       "created_seq": 15,
       "heat": {
-        "content": 0.012718,
-        "rating": 2.32065
+        "content": 0.008199,
+        "rating": 1.496089
       },
       "id": "n015",
       "kind": "claim",
@@ -5130,8 +5601,8 @@
       "comments": [],
       "created_seq": 16,
       "heat": {
-        "content": 0.045142,
-        "rating": 5.652671
+        "content": 0.029103,
+        "rating": 3.644193
       },
       "id": "n016",
       "kind": "claim",
@@ -5280,8 +5751,8 @@
       "comments": [],
       "created_seq": 17,
       "heat": {
-        "content": 0.012945,
-        "rating": 2.819884
+        "content": 0.008345,
+        "rating": 1.817938
       },
       "id": "n017",
       "kind": "claim",
@@ -5430,8 +5901,8 @@
       "comments": [],
       "created_seq": 18,
       "heat": {
-        "content": 0.012971,
-        "rating": 2.827175
+        "content": 0.008362,
+        "rating": 1.822638
       },
       "id": "n018",
       "kind": "claim",
@@ -5580,8 +6051,8 @@
       "comments": [],
       "created_seq": 19,
       "heat": {
-        "content": 0.021821,
-        "rating": 2.371459
+        "content": 0.014067,
+        "rating": 1.528844
       },
       "id": "n019",
       "kind": "claim",
@@ -5730,8 +6201,8 @@
       "comments": [],
       "created_seq": 20,
       "heat": {
-        "content": 0.060131,
-        "rating": 7.097121
+        "content": 0.038765,
+        "rating": 4.575408
       },
       "id": "n020",
       "kind": "claim",
@@ -5880,8 +6351,8 @@
       "comments": [],
       "created_seq": 21,
       "heat": {
-        "content": 0.363913,
-        "rating": 5.81151
+        "content": 0.234609,
+        "rating": 3.746594
       },
       "id": "n021",
       "kind": "claim",
@@ -6030,8 +6501,8 @@
       "comments": [],
       "created_seq": 22,
       "heat": {
-        "content": 0.01798,
-        "rating": 3.613926
+        "content": 0.011592,
+        "rating": 2.329844
       },
       "id": "n022",
       "kind": "claim",
@@ -6180,8 +6651,8 @@
       "comments": [],
       "created_seq": 23,
       "heat": {
-        "content": 0.018017,
-        "rating": 3.622485
+        "content": 0.011615,
+        "rating": 2.335362
       },
       "id": "n023",
       "kind": "claim",
@@ -6330,8 +6801,8 @@
       "comments": [],
       "created_seq": 24,
       "heat": {
-        "content": 0.018497,
-        "rating": 3.34002
+        "content": 0.011925,
+        "rating": 2.153261
       },
       "id": "n024",
       "kind": "evidence",
@@ -6485,8 +6956,8 @@
       "comments": [],
       "created_seq": 25,
       "heat": {
-        "content": 0.012537,
-        "rating": 2.406849
+        "content": 0.008083,
+        "rating": 1.55166
       },
       "id": "n025",
       "kind": "claim",
@@ -6635,8 +7106,8 @@
       "comments": [],
       "created_seq": 26,
       "heat": {
-        "content": 0.012564,
-        "rating": 2.415923
+        "content": 0.0081,
+        "rating": 1.55751
       },
       "id": "n026",
       "kind": "claim",
@@ -6785,12 +7256,12 @@
       "comments": [],
       "created_seq": 27,
       "heat": {
-        "content": 0.070441,
-        "rating": 5.758778
+        "content": 0.482817,
+        "rating": 7.456829
       },
       "id": "n027",
       "kind": "claim",
-      "layer": 2,
+      "layer": 3,
       "phrasings": [
         {
           "agents": [],
@@ -6935,8 +7406,8 @@
       "comments": [],
       "created_seq": 28,
       "heat": {
-        "content": 0.022182,
-        "rating": 2.462923
+        "content": 0.023899,
+        "rating": 1.664005
       },
       "id": "n028",
       "kind": "claim",
@@ -7085,8 +7556,8 @@
       "comments": [],
       "created_seq": 29,
       "heat": {
-        "content": 0.187962,
-        "rating": 4.175869
+        "content": 0.130775,
+        "rating": 2.768316
       },
       "id": "n029",
       "kind": "claim",
@@ -7228,15 +7699,15 @@
         "history": [],
         "mean": 3.6761574720142343,
         "n": 12,
-        "state": "settled",
+        "state": "contested",
         "stdev": 0.45483513496650624
       },
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 30,
       "heat": {
-        "content": 0.013352,
-        "rating": 2.549728
+        "content": 0.594763,
+        "rating": 1.719967
       },
       "id": "n030",
       "kind": "claim",
@@ -7385,8 +7856,8 @@
       "comments": [],
       "created_seq": 31,
       "heat": {
-        "content": 0.071012,
-        "rating": 4.710257
+        "content": 0.045781,
+        "rating": 3.036633
       },
       "id": "n031",
       "kind": "claim",
@@ -7535,8 +8006,8 @@
       "comments": [],
       "created_seq": 32,
       "heat": {
-        "content": 0.189039,
-        "rating": 5.056559
+        "content": 0.12187,
+        "rating": 3.259889
       },
       "id": "n032",
       "kind": "claim",
@@ -7685,8 +8156,8 @@
       "comments": [],
       "created_seq": 33,
       "heat": {
-        "content": 0.022104,
-        "rating": 2.566925
+        "content": 0.01425,
+        "rating": 1.654858
       },
       "id": "n033",
       "kind": "evidence",
@@ -7840,8 +8311,8 @@
       "comments": [],
       "created_seq": 34,
       "heat": {
-        "content": 0.187986,
-        "rating": 4.210854
+        "content": 0.121192,
+        "rating": 2.714675
       },
       "id": "n034",
       "kind": "claim",
@@ -7990,8 +8461,8 @@
       "comments": [],
       "created_seq": 35,
       "heat": {
-        "content": 0.587972,
-        "rating": 14.181146
+        "content": 1.5744,
+        "rating": 25.802086
       },
       "id": "n035",
       "kind": "claim",
@@ -8140,8 +8611,8 @@
       "comments": [],
       "created_seq": 36,
       "heat": {
-        "content": 0.259166,
-        "rating": 6.228487
+        "content": 0.185945,
+        "rating": 4.063441
       },
       "id": "n036",
       "kind": "claim",
@@ -8290,8 +8761,8 @@
       "comments": [],
       "created_seq": 37,
       "heat": {
-        "content": 0.032303,
-        "rating": 4.100507
+        "content": 0.036002,
+        "rating": 2.75869
       },
       "id": "n037",
       "kind": "claim",
@@ -8440,8 +8911,8 @@
       "comments": [],
       "created_seq": 38,
       "heat": {
-        "content": 0.013374,
-        "rating": 2.659675
+        "content": 0.008622,
+        "rating": 1.714653
       },
       "id": "n038",
       "kind": "evidence",
@@ -8595,8 +9066,8 @@
       "comments": [],
       "created_seq": 39,
       "heat": {
-        "content": 0.031783,
-        "rating": 3.926481
+        "content": 0.02049,
+        "rating": 2.531344
       },
       "id": "n039",
       "kind": "claim",
@@ -8745,8 +9216,8 @@
       "comments": [],
       "created_seq": 40,
       "heat": {
-        "content": 0.028645,
-        "rating": 3.729356
+        "content": 0.018467,
+        "rating": 2.404261
       },
       "id": "n040",
       "kind": "claim",
@@ -8895,8 +9366,8 @@
       "comments": [],
       "created_seq": 41,
       "heat": {
-        "content": 0.014226,
-        "rating": 3.129222
+        "content": 0.009171,
+        "rating": 2.017363
       },
       "id": "n041",
       "kind": "claim",
@@ -9045,8 +9516,8 @@
       "comments": [],
       "created_seq": 42,
       "heat": {
-        "content": 0.024332,
-        "rating": 2.710805
+        "content": 0.015686,
+        "rating": 1.747616
       },
       "id": "n042",
       "kind": "claim",
@@ -9195,8 +9666,8 @@
       "comments": [],
       "created_seq": 43,
       "heat": {
-        "content": 0.02436,
-        "rating": 2.718809
+        "content": 0.015704,
+        "rating": 1.752776
       },
       "id": "n043",
       "kind": "claim",
@@ -9345,8 +9816,8 @@
       "comments": [],
       "created_seq": 44,
       "heat": {
-        "content": 0.230221,
-        "rating": 4.980703
+        "content": 0.14842,
+        "rating": 3.210985
       },
       "id": "n044",
       "kind": "ought",
@@ -9495,8 +9966,8 @@
       "comments": [],
       "created_seq": 45,
       "heat": {
-        "content": 0.219323,
-        "rating": 4.900419
+        "content": 0.141394,
+        "rating": 3.159227
       },
       "id": "n045",
       "kind": "ought",
@@ -9657,8 +10128,8 @@
       "comments": [],
       "created_seq": 1690,
       "heat": {
-        "content": 1.065693,
-        "rating": 25.111263
+        "content": 1.01701,
+        "rating": 20.189953
       },
       "id": "n046",
       "kind": "claim",
@@ -9867,8 +10338,8 @@
       "comments": [],
       "created_seq": 1691,
       "heat": {
-        "content": 0.584045,
-        "rating": 16.860798
+        "content": 0.380213,
+        "rating": 10.802781
       },
       "id": "n047",
       "kind": "claim",
@@ -10077,8 +10548,8 @@
       "comments": [],
       "created_seq": 1692,
       "heat": {
-        "content": 0.780501,
-        "rating": 19.652528
+        "content": 0.522042,
+        "rating": 12.717721
       },
       "id": "n048",
       "kind": "claim",
@@ -10287,8 +10758,8 @@
       "comments": [],
       "created_seq": 1693,
       "heat": {
-        "content": 0.548173,
-        "rating": 16.142467
+        "content": 0.66617,
+        "rating": 13.95759
       },
       "id": "n049",
       "kind": "claim",
@@ -10497,8 +10968,8 @@
       "comments": [],
       "created_seq": 1694,
       "heat": {
-        "content": 0.910794,
-        "rating": 22.887245
+        "content": 1.140972,
+        "rating": 25.913991
       },
       "id": "n050",
       "kind": "claim",
@@ -10581,6 +11052,84 @@
             }
           },
           "text": "No one can hold a complete map of a complicated dispute in their head -- every claim, every connection, and an accurate sense of how strongly each point is really supported -- so an explicit map adds information even for the most capable readers."
+        },
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p1",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.65,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.3,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 4.05,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 3.8,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 3.9499403616232973,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.27386127875258304
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.5,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.15,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 3.3,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 3.45,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                3,
+                5,
+                0
+              ],
+              "history": [],
+              "mean": 3.5972342080611397,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.4062019202317981
+            }
+          },
+          "text": "A complicated dispute contains more claims, connections, and strength-judgments than a person can hold in their head at once, so an explicit map adds information even for the most capable readers."
         }
       ],
       "primary_phrasing": "p0",
@@ -10707,8 +11256,8 @@
       "comments": [],
       "created_seq": 1695,
       "heat": {
-        "content": 0.600834,
-        "rating": 17.694119
+        "content": 0.436602,
+        "rating": 12.408481
       },
       "id": "n051",
       "kind": "evidence",
@@ -10922,8 +11471,8 @@
       "comments": [],
       "created_seq": 1696,
       "heat": {
-        "content": 0.55169,
-        "rating": 16.484928
+        "content": 0.355666,
+        "rating": 10.627588
       },
       "id": "n052",
       "kind": "claim",
@@ -11131,9 +11680,14 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1697,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "Split: bundled three supply channels (point-droppers + side-defenders + AI authorship). AI authorship is already carried by n037; the other two are now separate atomic claims (n053 rated a low 1.97, read as overclaimed 'full coverage').",
+        "seq": 2082
+      },
       "heat": {
-        "content": 0.554737,
-        "rating": 16.592799
+        "content": 0.372807,
+        "rating": 10.812285
       },
       "id": "n053",
       "kind": "claim",
@@ -11342,8 +11896,8 @@
       "comments": [],
       "created_seq": 1698,
       "heat": {
-        "content": 0.552698,
-        "rating": 16.62341
+        "content": 0.65708,
+        "rating": 13.884039
       },
       "id": "n054",
       "kind": "claim",
@@ -11552,8 +12106,8 @@
       "comments": [],
       "created_seq": 1699,
       "heat": {
-        "content": 1.171118,
-        "rating": 20.767526
+        "content": 1.092704,
+        "rating": 17.449998
       },
       "id": "n055",
       "kind": "claim",
@@ -11761,9 +12315,14 @@
       "author": "scott-steelman",
       "comments": [],
       "created_seq": 1700,
+      "demoted": {
+        "agent": "struct-review",
+        "reason": "Split: bundled two distinct concessions -- (1) a complete map is hard to take in at once, and (2) heavy map use tempts treating one weak link as defeating an over-determined argument. The second is a rival to advocate n030 (graded support survives a dropped link), so splitting surfaces a real crux.",
+        "seq": 2088
+      },
       "heat": {
-        "content": 0.561652,
-        "rating": 16.988082
+        "content": 0.38156,
+        "rating": 11.075429
       },
       "id": "n056",
       "kind": "claim",
@@ -11929,6 +12488,846 @@
           "agrees": 0,
           "id": "t0",
           "text": "Maps are hard to take in"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 3.5999999999999996,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 3.35,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 2.55,
+            "n": 2
+          },
+          "values": {
+            "mean": 3.6500000000000004,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          1,
+          3,
+          4,
+          0
+        ],
+        "history": [],
+        "mean": 3.2884779647215816,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.5509934210133547
+      },
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2084,
+      "heat": {
+        "content": 0.868662,
+        "rating": 19.756927
+      },
+      "id": "n057",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 4.05,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.25,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 3.9499999999999997,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 4.2,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 4.11254262812668,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.16153559979150114
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.8,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 3.9,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 3.5,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 3.8499999999999996,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                1,
+                7,
+                0
+              ],
+              "history": [],
+              "mean": 3.762676133091601,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.21758618981911507
+            }
+          },
+          "text": "People who will not sustain a full argument still reliably contribute single points -- a correction, a source, a single objection -- which a collaborative map can collect and organize into coverage."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 4.05,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 4.25,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 3.9499999999999997,
+              "n": 2
+            },
+            "values": {
+              "mean": 4.2,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          "history": [],
+          "mean": 4.11254262812668,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.16153559979150114
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 3.8,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 3.9,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 3.5,
+              "n": 2
+            },
+            "values": {
+              "mean": 3.8499999999999996,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            1,
+            7,
+            0
+          ],
+          "history": [],
+          "mean": 3.762676133091601,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.21758618981911507
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Point-droppers supply coverage"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 2.25,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 2.1500000000000004,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 1.9500000000000002,
+            "n": 2
+          },
+          "values": {
+            "mean": 2.8,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          6,
+          2,
+          0,
+          0
+        ],
+        "history": [],
+        "mean": 2.289037898237187,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.35155902776063086
+      },
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2085,
+      "heat": {
+        "content": 0.870616,
+        "rating": 19.878858
+      },
+      "id": "n058",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.8499999999999996,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 3.95,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 3.75,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 3.9,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 3.8633120657829707,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.11110243021644482
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.05,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 2.4000000000000004,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 2.5,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 3.1,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                2,
+                5,
+                1,
+                0
+              ],
+              "history": [],
+              "mean": 2.7651025642729734,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.4662014049742879
+            }
+          },
+          "text": "Partisans reliably arrive to defend their side when it is visibly losing, supplying the strongest available counter-arguments without anyone needing to sustain a rigorous debate."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 3.8499999999999996,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 3.95,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 3.75,
+              "n": 2
+            },
+            "values": {
+              "mean": 3.9,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          "history": [],
+          "mean": 3.8633120657829707,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.11110243021644482
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 3.05,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 2.4000000000000004,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 2.5,
+              "n": 2
+            },
+            "values": {
+              "mean": 3.1,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            2,
+            5,
+            1,
+            0
+          ],
+          "history": [],
+          "mean": 2.7651025642729734,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.4662014049742879
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Side-defenders supply coverage"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 4.45,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 4.35,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 4.4,
+            "n": 2
+          },
+          "values": {
+            "mean": 4.35,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          7,
+          1
+        ],
+        "history": [],
+        "mean": 4.387488184146183,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.0599478940414091
+      },
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2090,
+      "heat": {
+        "content": 0.88733,
+        "rating": 20.073381
+      },
+      "id": "n059",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 4.4,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.55,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 4.45,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 4.5,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                4,
+                4
+              ],
+              "history": [],
+              "mean": 4.474827561726226,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.0829156197588847
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 4.2,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.4,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 4.4,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 4.15,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.287394779165385,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.12686114456365283
+            }
+          },
+          "text": "A complete argument map of a complicated dispute is genuinely hard for a person to take in at once."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 4.4,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 4.55,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 4.45,
+              "n": 2
+            },
+            "values": {
+              "mean": 4.5,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            4
+          ],
+          "history": [],
+          "mean": 4.474827561726226,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.0829156197588847
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 4.2,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 4.4,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 4.4,
+              "n": 2
+            },
+            "values": {
+              "mean": 4.15,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.287394779165385,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.12686114456365283
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Maps are hard to take in"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "builder": {
+            "mean": 3.9,
+            "n": 2
+          },
+          "rigor": {
+            "mean": 3.9499999999999997,
+            "n": 2
+          },
+          "skeptic": {
+            "mean": 3.6500000000000004,
+            "n": 2
+          },
+          "values": {
+            "mean": 3.8499999999999996,
+            "n": 2
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        "history": [],
+        "mean": 3.837401063739238,
+        "n": 8,
+        "state": "contested",
+        "stdev": 0.14947825928876737
+      },
+      "author": "struct-review",
+      "comments": [],
+      "created_seq": 2091,
+      "heat": {
+        "content": 1.464537,
+        "rating": 20.196952
+      },
+      "id": "n060",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.8499999999999996,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.1,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 4.05,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 4.35,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 4.088269577238489,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.24206145913796356
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "builder": {
+                  "mean": 3.8,
+                  "n": 2
+                },
+                "rigor": {
+                  "mean": 4.2,
+                  "n": 2
+                },
+                "skeptic": {
+                  "mean": 4.0,
+                  "n": 2
+                },
+                "values": {
+                  "mean": 4.15,
+                  "n": 2
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 4.037582543097323,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.17275343701356569
+            }
+          },
+          "text": "Heavy reliance on argument maps can tempt readers to treat one weak or refuted link as defeating an otherwise over-determined argument."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 3.8499999999999996,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 4.1,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 4.05,
+              "n": 2
+            },
+            "values": {
+              "mean": 4.35,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          "history": [],
+          "mean": 4.088269577238489,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.24206145913796356
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "builder": {
+              "mean": 3.8,
+              "n": 2
+            },
+            "rigor": {
+              "mean": 4.2,
+              "n": 2
+            },
+            "skeptic": {
+              "mean": 4.0,
+              "n": 2
+            },
+            "values": {
+              "mean": 4.15,
+              "n": 2
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          "history": [],
+          "mean": 4.037582543097323,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.17275343701356569
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Maps tempt single-link over-defeat"
         }
       ]
     }

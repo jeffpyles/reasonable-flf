@@ -233,3 +233,72 @@ prediction (2.26). n055 explicit-beats-implicit correctly reads *contested* as t
 Lint: 0 hubs / 0 orphans / 0 malformed sets (one advisory: n050 is negation-phrased by nature of a
 capability-limit claim). Graph: 56 nodes / 60 edges / 7 sets; states 16 contested / 40 settled at
 confirm=8, static.
+
+## Round 4 (2026-07-19) — structural pass over the round-3 additions
+
+Round 3 strengthened the *content* but attached most of its new claims **directly to the root
+conclusion n002**, which had grown to 7 direct grounds (one shy of the hub line) and broke the
+deliberate round-2 **mirror**: n001's four critique limbs (form / atomic-premises / not-viable /
+concessions) answered by n002's four (n027 / n031 / n035 / n039). A structural pass re-seats the new
+grounds on the limbs they actually belong to — *support-only edge moves, no node or text churn*:
+
+- **n049** (a public record of weak arguments raises the discourse floor) → now grounds **n046**
+  (change comes through the not-yet-committed audience), the mechanism it is an instance of, instead
+  of the root.
+- **n054** (trusted essayists prove a fair survey is valuable; a map democratizes it) → now grounds
+  **n035** (a viable audience and production route exists).
+- **n055** (a faithful map is irreducibly complex; explicit beats implicit) → now grounds **n027**
+  (the form limb); it is already the s6 rival to n008, so its support belongs on the form answer, not
+  the root.
+- **Redundant shortcut demoted:** e052 (n048→n035) — n048 already reaches n035 via n046→n036, so the
+  direct edge duplicated the path.
+
+Result: **n002 is back to exactly its four mirrored limbs** (n027, n031, n035, n039); no node exceeds
+5 grounds (max is n020 at 5); redundant paths drop 2→1 (the one remaining is the *intentional*
+shared-premise edge n021→n045). The three re-seated edges start unrated (conditional Agreement) and
+go to the next Assessment batch; all node ratings are preserved (edge moves only).
+
+Also proposed a **positive alternative phrasing for n050** (the sole advisory negation-flag —
+"*A complicated dispute contains more claims, connections, and strength-judgments than a person can
+hold in their head at once…*"); it becomes primary only if it rates at least as clear/reasonable as
+the original, so it rides the same re-rate rather than being forced.
+
+**Bundle splits (executed — Submission gave the go, split-and-rate).** Two round-3 nodes each said
+more than one thing; both were superseded and split into atomic claims:
+
+- **n053** ("Coverage without debaters") packed *point-droppers* + *side-defenders* + *AI-authorship*
+  (the last already carried by n037, so dropped). Split into **n057** ("Point-droppers supply
+  coverage" — single-point contributors) and **n058** ("Side-defenders supply coverage" — partisans
+  arriving when their side is visibly losing), both grounding n035. The old bundle rated a low 1.97
+  (raters read the merged "full coverage" as overclaimed); the two atomic claims can now be judged on
+  their own.
+- **n056** bundled *maps are hard to take in* + *heavy use tempts treating one weak link as defeating
+  an over-determined argument*. Split into **n059** ("Maps are hard to take in") and **n060** ("Maps
+  tempt single-link over-defeat"), both grounding n008. The second half (n060) is a genuine rival to
+  advocate **n030** (graded support means a dropped link doesn't collapse the argument), so it now
+  sits with n030 in a new antithesis set **s8** — a mushy concession turned into a legible crux.
+
+Result: **58 active nodes**, lint clean (0 hubs / 0 orphans / 0 malformed), max in-degree 5 (n020,
+n035). The four new claims + their edges + the s8 membership + the three re-seated edges from the
+first round-4 pass + R/C on the n050 rephrasing all go to Assessment's round-4 blind batch; every
+existing rating is preserved (splits supersede, never rewrite).
+
+## Round 4 (2026-07-19) — the splits, rated
+
+Round 3's two bundled nodes were split (PR #77) and the full round-4 surface blind-rated by a fresh
+8-rater panel (4 lenses × 2 seeds, tenths): 4 split nodes (A + R/C), the 4 new edges + 3 re-seated
+edges from PR #76 (conditional A), and the n050 positive rephrasing p1 (R/C).
+
+The split verdicts confirm the un-bundling call. The old "coverage without debaters" bundle (1.97)
+split into point-droppers **n057 = 3.29** and side-defenders **n058 = 2.29** — both above the
+bundle, and the weak half now isolated (raters doubt partisans supply the *strongest available*
+counter-arguments). The old concession bundle (3.79) split into hard-to-take-in **n059 = 4.39,
+sd 0.06** — the most tightly agreed claim in the graph — and single-link-over-defeat **n060 = 3.84,
+contested**, as it should be: it now stands in antithesis set s8 against the graded-support reply
+n030, the hidden crux made legible. Edge data sharpened too: granting "hard to take in" barely
+supports "adding circles makes it worse" (e066 = 1.63) while the over-defeat worry strongly does
+(e067 = 4.14) — the panel separates difficulty from harm. One honest low: the re-seated
+e063 (explicit-beats-implicit → the form limb) rated 1.59; the panel reads that support as weak,
+and the edge stays, visibly weak, as the grammar intends. The n050 rephrasing p1 rated well on
+clarity but did not overtake p0's cumulative standing; the negation-phrased original remains
+primary. States: 18 contested / 42 settled; lint clean (0 hubs / 0 orphans / 0 malformed).

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasonable — FLF Epistemic Case Study Competition</title>
+<meta name="description" content="A format, engine, and assessment methodology for collaborative argument graphs. Submission to the FLF Lab Leaks, Black Holes, and Eggs Epistemic Case Study Competition.">
+<style>
+  :root{
+    --bg:#0f1216; --panel:#161b22; --panel-2:#1c232c;
+    --ink:#e8e6e1; --ink-soft:#b8b4ab; --ink-dim:#8a8780;
+    --line:#2a323c;
+    --accent:#c9a227;    /* ground / gold */
+    --accent-2:#6fb3c9;  /* dependent / cyan */
+    --accent-3:#b96f8f;  /* antithesis / rose */
+    --accent-4:#7ec98f;  /* settled / green */
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--serif); font-size:18px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:.15s}
+  a:hover{border-bottom-color:var(--accent)}
+  h1,h2,h3{font-weight:600; letter-spacing:-.01em; line-height:1.1}
+  h2{font-size:32px; margin:0 0 6px}
+  h3{font-size:22px; margin:28px 0 6px}
+  .dot{color:var(--accent)}
+  .sans{font-family:var(--sans)}
+  code,kbd,pre{font-family:"SF Mono",ui-monospace,"Cascadia Code",Menlo,Consolas,monospace}
+  code{background:var(--panel-2); padding:1px 6px; border-radius:4px; font-size:.85em; color:var(--ink)}
+  /* hero */
+  header.hero{border-bottom:1px solid var(--line); background:
+     radial-gradient(1200px 400px at 70% -10%, rgba(201,162,39,.10), transparent 60%),
+     var(--bg); padding:72px 0 44px}
+  .eyebrow{font-family:var(--sans); font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+     color:var(--accent); margin:0 0 18px}
+  h1{font-size:66px; margin:0 0 10px}
+  .tagline{font-size:23px; color:var(--ink-soft); margin:0 0 26px; max-width:640px}
+  .cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px; font-family:var(--sans); font-size:15px}
+  .btn{display:inline-block; padding:11px 18px; border-radius:8px; border:1px solid var(--line);
+     background:var(--panel); color:var(--ink); font-weight:500}
+  .btn:hover{border-color:var(--accent); border-bottom-color:var(--accent)}
+  .btn.primary{background:var(--accent); color:#1a1400; border-color:var(--accent)}
+  .btn.primary:hover{filter:brightness(1.08)}
+  /* sections */
+  section{padding:40px 0; border-bottom:1px solid var(--line)}
+  .lede{font-size:20px; color:var(--ink-soft)}
+  p{margin:14px 0}
+  .muted{color:var(--ink-dim)}
+  .small{font-size:15px}
+  ul{padding-left:22px} li{margin:7px 0}
+  strong{color:#f2f0ea}
+  /* callout / cards */
+  .callout{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--accent);
+     border-radius:8px; padding:18px 22px; margin:22px 0}
+  .grid{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin:22px 0}
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:18px 20px}
+  .card h3{margin-top:0; font-size:19px}
+  .card .k{font-family:var(--sans); font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-dim)}
+  pre{background:var(--panel-2); border:1px solid var(--line); border-radius:8px; padding:16px 18px;
+     overflow-x:auto; font-size:14px; line-height:1.6; color:var(--ink)}
+  pre .c{color:var(--ink-dim)}
+  /* stat row */
+  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:24px 0}
+  .stat{background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:16px}
+  .stat .n{font-size:30px; color:var(--accent); font-weight:600; line-height:1}
+  .stat .l{font-family:var(--sans); font-size:12.5px; color:var(--ink-soft); margin-top:8px; line-height:1.35}
+  /* verdict table */
+  table{width:100%; border-collapse:collapse; margin:20px 0; font-size:15.5px}
+  th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-family:var(--sans); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-dim); font-weight:600}
+  .num{font-family:var(--sans); font-variant-numeric:tabular-nums; white-space:nowrap}
+  .win{color:var(--accent-4)} .lose{color:var(--accent-3)}
+  /* viewer embed */
+  .viewer-frame{width:100%; height:640px; border:1px solid var(--line); border-radius:12px;
+     background:var(--panel); margin:22px 0 10px}
+  .relkey{display:flex; flex-wrap:wrap; gap:18px; font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); margin:6px 0 0}
+  .swatch{display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:7px; vertical-align:middle}
+  /* dimension list */
+  .dims{counter-reset:d; margin:20px 0; padding:0; list-style:none}
+  .dims li{background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 18px 14px 52px;
+     position:relative; margin:10px 0}
+  .dims li::before{counter-increment:d; content:counter(d); position:absolute; left:16px; top:14px;
+     font-family:var(--sans); font-weight:700; color:var(--accent)}
+  .dims .t{font-weight:600; color:#f2f0ea}
+  footer{padding:44px 0 80px; color:var(--ink-dim); font-size:15px}
+  .toc{font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); display:flex; flex-wrap:wrap;
+     gap:6px 18px; margin-top:20px}
+  .toc a{color:var(--ink-soft)} .toc a:hover{color:var(--accent)}
+  @media (max-width:680px){
+    h1{font-size:44px} h2{font-size:26px}
+    .grid,.stats{grid-template-columns:1fr}
+    body{font-size:17px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">FLF · Lab Leaks, Black Holes &amp; Eggs — Epistemic Case Study Competition</p>
+    <h1>Reasonable<span class="dot">.</span></h1>
+    <p class="tagline">Wikipedia for <em>arguments</em>, not facts — a format, an engine, and an
+      assessment methodology for building trustworthy knowledge from collective reasoning.</p>
+    <div class="cta">
+      <a class="btn primary" href="#viewer">See a live argument graph ↓</a>
+      <a class="btn" href="https://github.com/jeffpyles/reasonable-flf" target="_blank" rel="noopener">Repository</a>
+      <a class="btn" href="START-HERE.md" target="_blank">START-HERE (for your agent)</a>
+      <a class="btn" href="v0/viewer.html" target="_blank">Open the viewer ↗</a>
+    </div>
+    <div class="toc">
+      <a href="#thesis">The thesis</a>
+      <a href="#submission">What this is</a>
+      <a href="#viewer">The live artifact</a>
+      <a href="#debate">The tool on itself</a>
+      <a href="#uplift">Beating deep research</a>
+      <a href="#assessment">The assessment spine</a>
+      <a href="#shapes">Three case shapes</a>
+      <a href="#dimensions">Seven dimensions</a>
+      <a href="#vision">The wider aim</a>
+      <a href="#limits">Honest limits</a>
+    </div>
+  </div>
+</header>
+
+<section id="thesis">
+  <div class="wrap">
+    <h2>The thesis</h2>
+    <p class="lede">Language is linear because time is. Ideas are not — they branch, fork, and
+      recombine. So a faithful map of reasoning needs at least two dimensions.</p>
+    <p>We advance fastest where reality slaps down errors: technology, mathematics, empirical
+      science. But the questions people care about most — ethical, political, social — are often
+      <strong>untestable</strong>: we cannot falsify our way to the answer. There, the honest best
+      is not to declare a winner but to <em>map the disagreement faithfully</em> — every position's
+      strongest form, its grounds and consequences, and exactly where reasonable people fork.</p>
+    <p>Reasonable decomposes a disputed question into atomic, truth-apt <strong>claims</strong> on a
+      2-D graph, connected by a small set of typed relations, and then <strong>assesses</strong> them
+      with blind, reputation-weighted rating designed so a map's verdicts can approach truth without
+      collapsing into a popularity vote. The aim is to raise the cultural floor for what counts as a
+      reasonable argument — to make a weak belief as costly to hold in public as a checkable false
+      fact became after Wikipedia.</p>
+  </div>
+</section>
+
+<section id="submission">
+  <div class="wrap">
+    <h2>What we are submitting</h2>
+    <p>The competition invites a <strong>spec</strong>, a <strong>prototype tool</strong>, or a
+      <strong>protocol</strong>. This is all three, for the <em>structure</em> and
+      <em>assessment</em> layers of the epistemic stack — with a comparative methodology study and
+      several critiques-with-counterexamples carried inside as the evidence of rigor.</p>
+    <div class="grid">
+      <div class="card"><span class="k">Prototype</span><h3>A runnable engine</h3>
+        <p class="small">One stdlib-only Python interface (<code>graph.py</code>) over a layered
+        engine: an append-only event log → deterministic fold → frozen snapshot, with the assessment
+        stack (calibration, reputation, camp-detection, the contested/ghost lifecycle) live in the
+        running code. No installs, no servers, no network.</p></div>
+      <div class="card"><span class="k">Spec</span><h3>Frozen contracts</h3>
+        <p class="small">The data-model and assessment contracts are written down with every key
+        decision and tradeoff named — <code>BUILD-SPEC</code>, <code>ASSESSMENT-SPEC</code>, and the
+        Evidence/Argument/Ought grammar spec. A judge can tell <em>why</em> it is shaped this way.</p></div>
+      <div class="card"><span class="k">Protocol</span><h3>Compounding by construction</h3>
+        <p class="small">The append-only graph format is interoperable: another team can extend a
+        graph, reuse its anchors, and rebuild it byte-for-byte. Nothing is deleted — refuted material
+        is demoted to a retrievable "ghost," never erased.</p></div>
+      <div class="card"><span class="k">Viewer</span><h3>The claim made visible</h3>
+        <p class="small">One self-contained HTML file (no deps, CSP-safe) renders all four case
+        graphs and teaches its own visual grammar with a 90-second built-in <em>Introduction</em> —
+        a non-technical reader needs no legend.</p></div>
+    </div>
+    <div class="callout sans">
+      <strong style="color:var(--accent)">Run it, don't just read it.</strong> Everything reproduces
+      from committed data with stdlib Python 3. From <code>v0/</code>:
+      <pre><span class="c"># the assessed verdict on COVID origins (contested)</span>
+python3 graph.py assess --data covid-graph-v2
+
+<span class="c"># what's settled vs genuinely contested, and why</span>
+python3 graph.py contested --data debate-graph-v2
+
+<span class="c"># determinism: same log + config → byte-identical snapshot</span>
+python3 graph.py rebuild --data blackholes-graph-v2</pre>
+      273 stdlib tests (incl. a determinism suite) pass from a clean checkout.
+    </div>
+  </div>
+</section>
+
+<section id="viewer">
+  <div class="wrap">
+    <h2>The live artifact</h2>
+    <p>Below is the actual viewer, embedded. <strong>Click <em>Introduction</em></strong> (top bar)
+      for a guided 90-second walkthrough of the Debate graph, then use <strong>Load Graph</strong>
+      (⋯ menu) to switch between all four cases — the same machinery on a mundane question, a
+      contested one, and a settled one.</p>
+    <iframe class="viewer-frame" src="v0/viewer.html" title="Reasonable argument-graph viewer" loading="lazy"></iframe>
+    <div class="relkey">
+      <span><span class="swatch" style="background:var(--accent)"></span>Ground (justifies) &amp; Ought endorsement</span>
+      <span><span class="swatch" style="background:var(--accent-2)"></span>Dependent (follows from)</span>
+      <span><span class="swatch" style="background:var(--accent-3)"></span>Antithesis (rival positive claim)</span>
+      <span><span class="swatch" style="background:var(--accent-4)"></span>Settled / tight consensus</span>
+    </div>
+    <p class="small muted">The layout is not drawn — it is a deterministic force simulation whose
+      lowest-energy state is engineered to also be the logically clearest one, so figures are
+      reproducible and the map scales without hand-layout. If the embed doesn't load,
+      <a href="v0/viewer.html" target="_blank">open the viewer directly ↗</a>.</p>
+  </div>
+</section>
+
+<section id="debate">
+  <div class="wrap">
+    <h2>The tool, applied to whether the tool works</h2>
+    <p>The FLF prompt itself cites Scott Alexander's <em>"Your Attempt To Solve Debate Will Not
+      Work"</em> — the essay whose thesis is that projects exactly like this one are doomed. So we
+      built the Reasonable graph <em>of that debate</em>: a faithful steelman of Scott's case, the
+      project's counter-position, and honest concessions (three citing our <em>own</em> retired
+      findings), then blind-panel-assessed it. Reconciled against Scott's actual post.</p>
+    <p>The assessed map did exactly what the design predicts — which is the whole point:</p>
+    <ul>
+      <li><strong>It refused to crown a winner and converged the diverse panel on the reframing.</strong>
+        Scott's "mapping won't improve debate" (<span class="num">2.66</span>) and our "a faithful
+        map adds value" (<span class="num">2.93</span>) both land genuinely contested; the
+        highest-rated of the three top positions is the <em>dissolution</em> —
+        <strong>"it depends what you demand of it"</strong> (<span class="num">3.91</span>).</li>
+      <li><strong>The deepest disagreement isolated itself as a value-crux.</strong> The two Ought
+        nodes — <em>"a faithful map is worth building even if it never changes minds"</em>
+        (endorse <span class="num">3.84</span>) vs <em>"only worth it if it changes minds"</em>
+        (<span class="num">1.95</span>) — are rated on <strong>democratic endorsement</strong>, never
+        truth-weighted. The skeptic's dissent is preserved, not steamrolled.</li>
+      <li><strong>It settled where the facts are settled</strong> — the evidence and the honest
+        concessions are the lowest-dispersion nodes.</li>
+    </ul>
+    <p>Scott's deepest point is that <em>values, not facts, generate the disagreement, and no map
+      resolves them.</em> The grammar's answer is to put that very value-generator on the board as an
+      explicit Ought crux, rated democratically — <strong>located but not resolved.</strong> The
+      graph enacts the project's own thesis, on the debate about itself.
+      <span class="muted small">(Full artifact: <code>v0/debate-graph/REPORT.md</code>; assessed set
+      <code>v0/debate-graph-v2/</code>: 15 contested / 30 settled.)</span></p>
+  </div>
+</section>
+
+<section id="uplift">
+  <div class="wrap">
+    <h2>Meaningfully better than off-the-shelf deep research</h2>
+    <p>The judges' stated bar is "meaningfully better than off-the-shelf deep research on the same
+      sub-question." We ran that head-to-head. Fed the <em>same</em> 24 sources / 80 claims a flat
+      deep-research pipeline drew on — so representation is the only variable — the pipeline's
+      adversarial verifier <strong class="lose">inverted the scientific consensus</strong>: it
+      refuted six central peer-reviewed pro-zoonotic findings and confirmed contrarian preprints.
+      The assessed graph <strong class="win">recovered</strong> it.</p>
+    <table>
+      <tr><th>COVID origins</th><th class="num">Assessed graph</th><th>Signal</th></tr>
+      <tr><td>Natural zoonotic (market) origin</td><td class="num win">3.34</td><td class="small">recovered as favored</td></tr>
+      <tr><td>Research-related (lab) incident</td><td class="num">2.17</td><td class="small">kept as a live minority</td></tr>
+      <tr><td>Market environmental samples (a refuted fact)</td><td class="num win">4.3+</td><td class="small">re-affirmed as fact</td></tr>
+    </table>
+    <p>The diagnosis is <strong>structural, not political</strong>: a binary adversarial
+      <em>filter</em> (right for catching junk) misfires as a truth-<em>weigher</em> —
+      default-to-refute fires on any confident claim in a contested field, and binary votes discard
+      the fact inside a fact-plus-inference bundle. We then <em>fixed</em> it with a graded-verify
+      step (separate provenance from a 0–5 merit score, drop default-to-refute), validated live.
+      <span class="muted small">(<code>v0/covid-graph/COMPARISON.md</code>;
+      <code>v0/blackholes-graph/harness/workflow_deepresearch.js</code>.)</span></p>
+  </div>
+</section>
+
+<section id="assessment">
+  <div class="wrap">
+    <h2>The assessment spine — comparative &amp; adversarial</h2>
+    <p>The core question: in a collaborative map, how do you reliably find the truth-tracking raters
+      and give their judgment due weight — so verdicts approach truth, cold-start from nothing, scale,
+      survive genuine contestedness, and resist coordinated manipulation? We tested many methods
+      against each other and followed the evidence, including where it refuted our own prior claims.</p>
+    <div class="stats">
+      <div class="stat"><div class="n">0.52→0.89</div><div class="l">truth-tracking with consensus visible vs <strong>blind</strong> — the single biggest accuracy lever, enforced at the tool layer</div></div>
+      <div class="stat"><div class="n">60%</div><div class="l">coordinated biased majority the calibrated aggregator still survives, in two independent domains</div></div>
+      <div class="stat"><div class="n">0.96–0.98</div><div class="l">split-half reliability of the assessed graphs; per-node means pinned to ±0.10 (≥0.87 already at n=8)</div></div>
+      <div class="stat"><div class="n">×</div><div class="l">methods retired with counterexamples: alignment, raw discrimination on bias, superlinear weighting, BTS</div></div>
+    </div>
+    <h3>The through-line</h3>
+    <p>Every method that failed, failed the same way: <strong>a purely internal rule can only measure
+      agreement with the crowd, so it inherits whatever the crowd gets systematically wrong.</strong>
+      The fix is blind rating plus a small, frugal dose of external anchors, with reputation weight
+      spent only where it is needed.</p>
+    <h3>Counterexamples that force a re-think (dim 7)</h3>
+    <ul>
+      <li><strong>Alignment buries the sharpest raters</strong> — rewarding proximity to the average
+        is a tyranny of the median; every latent-truth variant inherits the majority's error.</li>
+      <li><strong>Discrimination inverts on a biased crowd</strong> — it scores agreement with the
+        biased consensus. Ship it only against an <em>anchored</em> consensus.</li>
+      <li><strong>The sleeper defeats calibration</strong> — honest on the anchors, lying only in the
+        un-anchored gaps; superlinear weighting makes it <em>worse</em>. Calibration's reach equals
+        the anchors' coverage of the contested frontier.</li>
+      <li><strong>MAE hides an over-certainty attack</strong> — a bloc pushing the already-leading
+        answer can't flip the verdict, so it manufactures false <em>certainty</em>, collapsing a live
+        question into fake near-settlement (the Semmelweis / minority-survival failure). Distance-to-
+        oracle MAE is invisible to it; the verdict-certainty measure reveals it. <strong>The hardest
+        adversarial case for a truth-finder is consensus entrenchment, not verdict-flipping</strong>
+        — and it's the attack real agents most willingly serve.</li>
+    </ul>
+    <h3>Where we revised our own claims on new data (dim 5)</h3>
+    <ul>
+      <li><strong>Calibration has an identifiability floor.</strong> Wired into a cooperative honest
+        panel it <em>degraded</em> accuracy (held-out MAE 0.82 → 1.28) because clustered anchors give
+        the affine fit no leverage. Fix, shipped: it now <em>declines</em> below an anchor-spread
+        threshold and falls back to the raw aggregate byte-identically.</li>
+      <li><strong>Dispersion is a reliable "contested" signal only when it's belief-camp-driven</strong>
+        (between-group variance 82% for real camps vs 16% for good-faith panel noise). So the
+        contested trigger is <em>structural</em> (rival-in-an-antithesis + spectral camp detection),
+        not raw rating spread.</li>
+    </ul>
+    <p class="muted small">Full synthesis with a reproduce index: <code>v0/FINDINGS-SYNTHESIS.md</code>;
+      the red-team + guardrail: <code>v0/covid-adversarial/FINDINGS.md</code>; the reliability result:
+      <code>v0/v2-reliability/</code>.</p>
+  </div>
+</section>
+
+<section id="shapes">
+  <div class="wrap">
+    <h2>The same workflow across three case shapes</h2>
+    <p>Generalizability is a direct hit: one engine and one blind-panel workflow across the
+      competition's three deliberately-varied shapes, plus the meta debate. Each verdict below is
+      reproducible with <code>python3 graph.py assess --data &lt;graph&gt;</code>.</p>
+    <table>
+      <tr><th>Case (shape)</th><th>Top question</th><th class="num">Assessed verdict</th></tr>
+      <tr><td><strong>Eggs</strong> <span class="muted">mundane-but-contested</span></td>
+          <td>"Eggs meaningfully raise CVD/mortality risk"</td>
+          <td class="num">1.63 <span class="muted small">(low; "association ≠ causation" 4.80)</span></td></tr>
+      <tr><td><strong>COVID</strong> <span class="muted">curated debate</span></td>
+          <td>Natural origin vs research incident</td>
+          <td class="num">3.34 <span class="lose">vs</span> 2.17 <span class="muted small">(favors zoonosis, keeps minority)</span></td></tr>
+      <tr><td><strong>Black holes</strong> <span class="muted">confident answer</span></td>
+          <td>LHC safety vs catastrophe</td>
+          <td class="num"><span class="win">4.69</span> vs 0.46 <span class="muted small">(decisive, as it should be)</span></td></tr>
+      <tr><td><strong>Debate</strong> <span class="muted">meta / value-laden</span></td>
+          <td>Does argument-mapping work?</td>
+          <td class="num">reframing 3.91 <span class="muted small">(refuses to pick a side)</span></td></tr>
+    </table>
+    <p>The confident-answer case is decisive and its certainty guardrail correctly stays <em>quiet</em>
+      (earned confidence); the contested case stays contested with its camps intact; the mundane case
+      cleanly separates the causal claim from the observational association. Same machinery, honestly
+      different outcomes.</p>
+  </div>
+</section>
+
+<section id="launders">
+  <div class="wrap">
+    <h2>Structure catches what prose launders</h2>
+    <p>A recurring result across every layer: <strong>the structured map mechanically surfaces
+      defects that are invisible in the prose version of the same argument</strong>, and the project
+      fixes them in the open.</p>
+    <ul>
+      <li><strong>Source-laundering becomes visible.</strong> In prose, "as Wikipedia notes…" reads
+        identically to a primary citation. Every evidence node carries an explicit source, so a
+        secondary aggregator posing as evidence can be <em>audited</em> and removed — as a reversible
+        <code>supersede</code>, with a public reason, nothing deleted.</li>
+      <li><strong>Is/ought category errors are impossible by construction.</strong> Hume's rule is
+        enforced at the write boundary: an Ought may not ground a non-Ought. A whole class of smuggled
+        value-premises simply cannot be written.</li>
+      <li><strong>A single cheap judge is noise — for structure as much as for truth.</strong> A lone
+        cheap "is this well-built?" probe swings ±13–28 points on identical reruns; the fix is the
+        same panel-of-raters move that assessment uses for truth.</li>
+    </ul>
+    <p class="muted small">See <code>v0/EVIDENCE-SOURCE-AUDIT.md</code> and
+      <code>v0/PROJECT-OVERVIEW.md</code> §3.</p>
+  </div>
+</section>
+
+<section id="dimensions">
+  <div class="wrap">
+    <h2>How it maps to the seven judging dimensions</h2>
+    <ol class="dims">
+      <li><span class="t">Epistemic uplift.</span> Beats off-the-shelf deep research on the same COVID
+        sub-question; makes load-bearing evidence and the fact/inference split visible; surfaces
+        cruxes and value-vs-fact.</li>
+      <li><span class="t">Generalizability.</span> One engine and workflow across all three case
+        shapes plus the meta debate; nothing overfit to a single case.</li>
+      <li><span class="t">Compounding &amp; shareability.</span> Append-only, interoperable,
+        rebuild-deterministic graph format; reusable anchors; per-region reputation.</li>
+      <li><span class="t">Scalability.</span> Automated build/rate swarms; oracle spend scales with
+        the number of contested divides, not users; a cheap/expensive tiering hybrid, honestly bounded.</li>
+      <li><span class="t">Methodological transparency.</span> Every FINDINGS doc names its own limits;
+        we revised our own prior claims on new data.</li>
+      <li><span class="t">Adversarial robustness.</span> Survives a 60% biased majority in two domains;
+        the sleeper and over-certainty attacks are named, bounded, and have built detectors.</li>
+      <li><span class="t">Insight contribution.</span> A comparative methodology study plus
+        counterexample-driven critiques and non-obvious tradeoffs (placement &gt; quantity; disposition
+        dominates capability; detection &gt; correction).</li>
+    </ol>
+  </div>
+</section>
+
+<section id="vision">
+  <div class="wrap">
+    <h2>The wider aim</h2>
+    <p>These are three <em>separate</em> graphs only because we did not have time to build the single
+      connected graph they belong to. Their topics already share deep underpinnings — biology,
+      physics, mathematics — and the real target is <strong>one public graph of ~all knowledge,
+      current and future.</strong></p>
+    <p>Crucially, this need not stay a map of the <em>already-known</em>. A faithful map highlights
+      its own <strong>holes</strong>, and can <strong>throw a target beyond the frontier</strong>:
+      anyone could place a wanted node or neighborhood and put a <strong>bounty</strong> on developing
+      it into high-confidence knowledge — much as this very competition does. Knowledge-building
+      becomes a structured, incentivized, collaborative activity rather than a scatter of
+      disconnected efforts.</p>
+    <p>The project has also opened a concrete near-term direction: running graphs with <em>differing
+      contributor sets — human and AI</em>, which doubles as a new <strong>benchmark for AI models at
+      direct knowledge-creation versus humans</strong>. The full concept (vision, mechanics,
+      institution-assessment, a non-adversarial revenue model, and a machine-checkable-mathematics
+      flagship) is in <a href="Reasonable - Concept Overview.html" target="_blank">the Concept
+      Overview</a> and <code>v0/SITE-VARIANTS-CONCEPT.md</code>.</p>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <h2>What is — and isn't — done</h2>
+    <p>The engine, the four assessed case graphs, and the assessment research are built and
+      reproducible. Stated plainly, three things are not yet done:</p>
+    <ul>
+      <li><strong>A human-rated slice.</strong> The ground-truth chain is model-generated except a thin
+        external check — the highest-value gap, and the one that would break the model-on-model
+        circularity.</li>
+      <li><strong>An end-to-end longitudinal run</strong> of the full flywheel over many rounds with
+        real churn — the components are validated, the integration is not yet exercised live.</li>
+      <li><strong>The write-side of the viewer</strong> — collecting live blind ratings. The read-side
+        renders the whole lifecycle today.</li>
+    </ul>
+    <p>Overall confidence that the assembled machinery is robust for a real deployment:
+      <strong>~60–65%</strong> — high on the tested mechanisms, lower on transfer to the messy real
+      thing. We would rather state that honestly than round it up.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong style="color:var(--ink)">Dig in:</strong>
+      <a href="START-HERE.md" target="_blank">START-HERE.md</a> (the front door, for humans or an
+      agent you point at the repo) ·
+      <a href="v0/PROJECT-OVERVIEW.md" target="_blank">PROJECT-OVERVIEW.md</a> (the full account) ·
+      <a href="v0/FINDINGS-SYNTHESIS.md" target="_blank">FINDINGS-SYNTHESIS.md</a> (the research arc) ·
+      <a href="https://github.com/jeffpyles/reasonable-flf" target="_blank">the repository</a>.</p>
+    <p class="muted">Reasonable — submission to the FLF "Lab Leaks, Black Holes, and Eggs" Epistemic
+      Case Study Competition, 2026. Everything here is reproducible from committed data with stdlib
+      Python 3. Released under GPL-3.0.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -204,3 +204,32 @@ n013, n021 — so the two trees share genuine roots. Lint stays clean. The five 
 (conditional Agreement); a small re-rate brings them to confidence. All existing ratings are
 preserved (the edges were appended to the log; `graph.py rebuild --data debate-graph-v2` reproduces
 the snapshot).
+
+## Round 3 (2026-07-19) — the strengthened rebuttal, after reading the actual post
+
+The project owner supplied the full text of Scott's post; the reconstruction held on every
+load-bearing point, and a strengthened round of replies (plus a squarer concession) was added and
+blind-rated like everything else: 11 new nodes (n046–n056), 12 edges (e049–e060), one new rival in
+set s6, rated by a fresh 8-rater panel (4 lenses × 2 seeds, tenths resolution, lens-tagged blocs).
+
+What the new material argues, in brief: collective understanding shifts through the *audience*, not
+the arguers (the Wikipedia precedent); a public record of weak arguments raises the discourse floor
+even when no individual changes their mind; no one — however capable — holds a complete map plus
+accurate weights in their head (grounded by Rootclaim's memorized-knowledge complaint); the
+consensus-vs-truth gap is a limit on *every* format, which supports the dissolution rather than
+either side; single-point contributors and side-defenders plus AI authorship supply coverage without
+Scott's nonexistent "wants to argue rigorously" user; a faithful map cannot be simpler than the
+dispute (explicit-vs-implicit is the real choice, added as a rival in s6); and — conceded squarely —
+a complete map is genuinely hard to take in and can tempt single-link fallacy-hunting (n056,
+grounding Scott's side).
+
+The panel did not flatter the builders. Near-unanimous: the concession n056 (3.79, sd 0.11) and the
+universal-limit claim n052 (3.79, sd 0.14 — strongest edge into the dissolution at 4.06).
+Strong: n050 no-one-holds-the-whole-map (3.71) with its Rootclaim evidence (3.54); the
+audience-shift → third-parties edge (4.26). Merely plausible, honestly: the audience-shift mechanism
+itself (3.05) and the Wikipedia tipping-point precedent (2.75). Weak, and kept that way: the
+supply-channels claim (1.97 — raters read "full coverage" as overclaimed) and the discourse-floor
+prediction (2.26). n055 explicit-beats-implicit correctly reads *contested* as the new rival in s6.
+Lint: 0 hubs / 0 orphans / 0 malformed sets (one advisory: n050 is negation-phrased by nature of a
+capability-limit claim). Graph: 56 nodes / 60 edges / 7 sets; states 16 contested / 40 settled at
+confirm=8, static.

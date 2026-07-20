@@ -313,8 +313,12 @@ rule but to add a construct for supposition.
 canonically an action-state ("a \$50/ton carbon tax is enacted"), a sibling to (and distinct from) the
 Ought that recommends it ("we should enact a carbon tax"). Three properties make it a supposition, not
 a claim:
-- It is **never rated for truth** — it is stipulated. The viewer renders it distinctly (e.g. dashed)
-  so "exploring this" is never misread as "believe this."
+- It is **never rated for truth** — it is stipulated, so "exploring this" is never misread as
+  "believe this." Visually it takes a **typed colour outline** like the other node kinds (gold =
+  Ought, blue = Evidence; §1.2, HOW-TO-READ-A-GRAPH): a **green outline marks a Conditional /
+  scenario node**, and that green tint extends across its whole in-scope sub-graph, so a reader sees
+  at a glance which region of the map is being reasoned about *hypothetically* rather than asserted.
+  Leaving a scope (an exported conditional, below) returns to the ordinary un-tinted treatment.
 - It is an **is-node**, so nothing in the scenario descends from an Ought and Hume's rule is untouched.
 - Everything downstream of it lives in the scenario's **scope** — a tagged subgraph, keyed the way
   ratings are already keyed by `era` (§3.1).

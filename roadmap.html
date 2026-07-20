@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Reasonable — Roadmap</title>
-<meta name="description" content="The near-term work plan for Reasonable: closing measured defense gaps, the missing experiments, humans in the loop, checkable knowledge, and the path toward the one graph.">
+<meta name="description" content="The work plan for Reasonable in two horizons: near-term hardening and first deployment, and the long-term direction it aims at.">
 <style>
   :root{
     --bg:#0f1216; --panel:#161b22; --panel-2:#1c232c;
@@ -43,6 +43,10 @@
   section{padding:40px 0; border-bottom:1px solid var(--line)}
   .kicker{font-family:var(--sans); font-size:12.5px; letter-spacing:.1em; text-transform:uppercase;
      color:var(--ink-dim); margin:0 0 8px}
+  .grouphead{padding:44px 0 6px}
+  .grouphead .label{font-family:var(--sans); font-size:15px; letter-spacing:.18em; text-transform:uppercase;
+     color:var(--accent); font-weight:600; margin:0}
+  .grouphead .lead{font-size:18px; color:var(--ink-soft); font-style:italic; max-width:700px; margin:12px 0 0}
   p{margin:14px 0}
   .muted{color:var(--ink-dim)}
   .small{font-size:15px}
@@ -54,7 +58,8 @@
      background:var(--panel-2); padding:1px 6px; border-radius:4px; font-size:.85em; color:var(--ink)}
   footer{padding:40px 0 80px; color:var(--ink-dim); font-size:15px}
   .toc{font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); display:flex; flex-wrap:wrap;
-     gap:6px 18px; margin-top:22px}
+     align-items:baseline; gap:6px 16px; margin-top:16px}
+  .toc .toclabel{font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:600}
   .toc a{color:var(--ink-soft)} .toc a:hover{color:var(--accent)}
   @media (max-width:680px){
     h1{font-size:38px} h2{font-size:24px}
@@ -68,8 +73,9 @@
   <div class="wrap">
     <p class="eyebrow">Reasonable · Roadmap</p>
     <h1>What comes next<span class="dot">.</span></h1>
-    <p class="preamble">The near-term work plan as of 2026-07-19. The finding-by-finding engineering
-      detail behind Section 1 is the dated tier list
+    <p class="preamble">The work plan as of 2026-07-19, in two horizons: near-term work with concrete
+      next steps, and the long-term direction it aims at, held more humbly. The finding-by-finding
+      engineering detail behind the first near-term item is the dated tier list
       <a href="v0/ROADMAP-NEXT-VERSION.md" target="_blank">ROADMAP-NEXT-VERSION.md</a>; the systems
       as they stand are <a href="MECHANISMS.md" target="_blank">MECHANISMS.md</a>; the destination
       is <a href="vision.html" target="_blank">the vision</a>.</p>
@@ -78,15 +84,28 @@
       <a class="btn" href="ROADMAP.md" target="_blank">Markdown source</a>
     </div>
     <div class="toc">
-      <a href="#defenses">1 · Close the measured defense gaps</a>
-      <a href="#arguments">2 · Strengthen the arguments themselves</a>
-      <a href="#experiments">3 · Run the missing experiments</a>
+      <span class="toclabel">Near-term</span>
+      <a href="#defenses">1 · Close the defense gaps</a>
+      <a href="#arguments">2 · Strengthen the arguments</a>
+      <a href="#experiments">3 · Missing experiments</a>
       <a href="#humans">4 · Put humans in the loop</a>
-      <a href="#checkable">5 · Test against checkable knowledge</a>
+    </div>
+    <div class="toc">
+      <span class="toclabel">Long-term</span>
+      <a href="#checkable">5 · Checkable knowledge</a>
       <a href="#onegraph">6 · Toward the one graph</a>
+      <a href="#civilizational">7 · Civilizational roles</a>
     </div>
   </div>
 </header>
+
+<div class="grouphead">
+  <div class="wrap">
+    <p class="label">Near-term</p>
+    <p class="lead">The work with clear next steps — hardening what exists, and taking it live for
+      the first real users.</p>
+  </div>
+</div>
 
 <section id="defenses">
   <div class="wrap">
@@ -199,6 +218,17 @@
   </div>
 </section>
 
+<div class="grouphead">
+  <div class="wrap">
+    <p class="label">Long-term</p>
+    <p class="lead">The direction, not a schedule. Everything below is conditional on the assessment
+      layer earning a level of reliability and trust it has not yet demonstrated — the near-term work
+      above is exactly what would earn it. We state these because a project should be honest about
+      what it is ultimately for; we state them humbly because the distance between here and there is
+      most of the work.</p>
+  </div>
+</div>
+
 <section id="checkable">
   <div class="wrap">
     <p class="kicker">5</p>
@@ -224,8 +254,9 @@
   <div class="wrap">
     <p class="kicker">6</p>
     <h2>Toward the one graph</h2>
-    <p>Further out, and stated as direction rather than plan (the full case is
-    <a href="vision.html" target="_blank">the vision</a>, §6):</p>
+    <p>The prototype's four separate graphs are a scoping artifact; the real object is a single
+    connected public graph of ~all knowledge, current and future (the full case is
+    <a href="vision.html" target="_blank">the vision</a>, §6).</p>
     <ul>
       <li><strong>Connect the case graphs</strong> at their shared underpinnings — statistics,
       epistemology, risk — as the seed of the single public graph the separate prototypes stand in
@@ -234,9 +265,48 @@
       already exist, scattered and unevaluated; agent-assisted ingestion of essays, papers, and
       threads into structure is how coverage compounds without waiting for people to argue in a new
       format.</li>
-      <li><strong>Probability nodes and personal maps.</strong> Collective forecasts with honest
-      spread on the shared graph; personal belief overlays that locate the exact node where two
-      people's reasoning first diverges.</li>
+      <li><strong>Probability and prediction nodes.</strong> A node type that asks "how likely is
+      X?", answered by each rater with their own number, so the map carries a collective forecast —
+      a reputation-weighted headline with the unweighted average beside it, plus the honest range and
+      any distinct camps. This connects the map to forecasting and prediction markets, whose prices
+      and scoring can enter as inputs or as calibration anchors for exactly these nodes.</li>
+      <li><strong>Personal belief structures.</strong> A user overlays their own beliefs — which
+      nodes they agree with, and their own probabilities — on the shared graph, and is notified when
+      the ground under one of their beliefs materially shifts. Two such maps can be compared to find
+      the exact node where two people's reasoning first diverges — the last place they agreed, which
+      is the only useful place for them to argue.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="civilizational">
+  <div class="wrap">
+    <p class="kicker">7</p>
+    <h2>Civilizational roles the map could grow into</h2>
+    <p>If — and it is a large if — the assessment layer reaches the reliability these roles demand,
+    the same machinery points at some of the load-bearing institutions of public reason. Each depends
+    on the trust earned in the sections above and on adoption we have not yet won; we hold them as
+    direction, stated so they can be argued with, not as promises.</p>
+    <ul>
+      <li><strong>A venue for publishing and peer review.</strong> A paper is an argument with
+      evidence; a review is an assessment of it. Both already fit the grammar. The long aim is a
+      place where a result, the case for and against it, its reviews, and the live state of the
+      debate around it sit in one assessed, compounding structure — rather than scattered across
+      journals, PDFs, and siloed review. This requires demonstrated reliability and the trust of
+      working researchers, neither of which is in hand today.</li>
+      <li><strong>Assessment-based advertising.</strong> If public assessment of what companies
+      actually produce and how they behave becomes trustworthy, <em>being allowed to advertise</em>
+      can itself become the signal, rather than ad spend — only well-regarded actors qualify, and the
+      interests of platform, advertiser, and reader point the same direction for once. This is among
+      the furthest-out ideas here; it assumes an assessment of institutions robust enough to carry
+      real economic weight, which is well beyond what we have shown.</li>
+      <li><strong>A democratic check on governance.</strong> Make the genuinely sound policy options
+      on a contested question visible and comparable, and — harder — make it legible when a political
+      move is effective rhetoric for gain rather than a reasonable or sensible position. A public,
+      checkable reference of that kind would be a real support for self-government. It is also the
+      most contested domain of all: it demands an assessment trusted across the political spectrum,
+      which is precisely the hardest thing to earn and the thing we are least able to claim
+      today.</li>
     </ul>
   </div>
 </section>

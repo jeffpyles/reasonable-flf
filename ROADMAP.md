@@ -1,8 +1,16 @@
 # Roadmap — what comes next
 
-*The near-term work plan as of 2026-07-19. The finding-by-finding engineering detail behind Section 1
-is the dated tier list [`v0/ROADMAP-NEXT-VERSION.md`](v0/ROADMAP-NEXT-VERSION.md); the systems as
-they stand are [`MECHANISMS.md`](MECHANISMS.md); the destination is [`VISION.md`](VISION.md).*
+*The work plan as of 2026-07-19, in two horizons: **near-term** work with concrete next steps, and
+the **long-term** direction it aims at, held more humbly. The finding-by-finding engineering detail
+behind the first near-term item is the dated tier list
+[`v0/ROADMAP-NEXT-VERSION.md`](v0/ROADMAP-NEXT-VERSION.md); the systems as they stand are
+[`MECHANISMS.md`](MECHANISMS.md); the destination is [`VISION.md`](VISION.md).*
+
+---
+
+# Near-term
+
+The work with clear next steps — hardening what exists, and taking it live for the first real users.
 
 ## 1. Close the measured defense gaps
 
@@ -87,6 +95,15 @@ makes the system live for people.
     curated panel's on identical structure is precisely where open assessment cannot yet be
     trusted, mapped rather than argued about.
 
+---
+
+# Long-term
+
+The direction, not a schedule. Everything below is **conditional on the assessment layer earning a
+level of reliability and trust it has not yet demonstrated** — the near-term work above is exactly
+what would earn it. We state these because a project should be honest about what it is ultimately
+for; we state them humbly because the distance between here and there is most of the work.
+
 ## 5. Test against checkable knowledge
 
 The unanswerable domains are the destination, but domains where reality can referee are where trust
@@ -103,17 +120,47 @@ is earned and measured.
 
 ## 6. Toward the one graph
 
-Further out, and stated as direction rather than plan (the full case is
-[`VISION.md`](VISION.md) §6):
+The prototype's four separate graphs are a scoping artifact; the real object is a single connected
+public graph of ~all knowledge, current and future (the full case is [`VISION.md`](VISION.md) §6).
 
 - **Connect the case graphs** at their shared underpinnings — statistics, epistemology, risk — as
   the seed of the single public graph the separate prototypes stand in for.
 - **Ingest the existing conversation.** The points in every major argument already exist, scattered
   and unevaluated; agent-assisted ingestion of essays, papers, and threads into structure is how
   coverage compounds without waiting for people to argue in a new format.
-- **Probability nodes and personal maps.** Collective forecasts with honest spread on the shared
-  graph; personal belief overlays that locate the exact node where two people's reasoning first
-  diverges.
+- **Probability and prediction nodes.** A node type that asks "how likely is X?", answered by each
+  rater with their own number, so the map carries a collective forecast — a reputation-weighted
+  headline with the unweighted average beside it, plus the honest range and any distinct camps.
+  This connects the map to forecasting and prediction markets, whose prices and scoring can enter
+  as inputs or as calibration anchors for exactly these nodes.
+- **Personal belief structures.** A user overlays their own beliefs — which nodes they agree with,
+  and their own probabilities — on the shared graph, and is notified when the ground under one of
+  their beliefs materially shifts. Two such maps can be compared to find the exact node where two
+  people's reasoning first diverges — the last place they agreed, which is the only useful place
+  for them to argue.
 
----
+## 7. Civilizational roles the map could grow into
 
+If — and it is a large if — the assessment layer reaches the reliability these roles demand, the
+same machinery points at some of the load-bearing institutions of public reason. Each depends on the
+trust earned in the sections above and on adoption we have not yet won; we hold them as direction,
+stated so they can be argued with, not as promises.
+
+- **A venue for publishing and peer review.** A paper is an argument with evidence; a review is an
+  assessment of it. Both already fit the grammar. The long aim is a place where a result, the case
+  for and against it, its reviews, and the live state of the debate around it sit in one assessed,
+  compounding structure — rather than scattered across journals, PDFs, and siloed review. This
+  requires demonstrated reliability and the trust of working researchers, neither of which is in
+  hand today.
+- **Assessment-based advertising.** If public assessment of what companies actually produce and how
+  they behave becomes trustworthy, *being allowed to advertise* can itself become the signal, rather
+  than ad spend — only well-regarded actors qualify, and the interests of platform, advertiser, and
+  reader point the same direction for once. This is among the furthest-out ideas here; it assumes an
+  assessment of institutions robust enough to carry real economic weight, which is well beyond what
+  we have shown.
+- **A democratic check on governance.** Make the genuinely sound policy options on a contested
+  question visible and comparable, and — harder — make it legible when a political move is effective
+  rhetoric for gain rather than a reasonable or sensible position. A public, checkable reference of
+  that kind would be a real support for self-government. It is also the most contested domain of
+  all: it demands an assessment trusted across the political spectrum, which is precisely the
+  hardest thing to earn and the thing we are least able to claim today.

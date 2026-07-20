@@ -16,6 +16,11 @@ confound.
 - `search` before every `create-node`; reuse/agree/`propose-phrasing` rather than duplicate.
 - **Agree only what you'd have drawn independently.** Declining is the norm. No rubber-stamping.
 - **Support-only**: opposition is a rival *positive* claim in an antithesis set, never a "not-X" node.
+  **"Not-X" is a diagnosis, not a node type** — route the urge (AGENT-GUIDE §2): competing answer →
+  rival positive node + `add-antithesis`; weak premise → low rating on the claim/edge/ground; specific
+  undercutter → positive node grounded at the joint it defeats; X simply false → low-rate to a settled
+  ghost + a `comment` for the reason; nothing but opposition → that's your low rating, not a node. (An
+  absence-claim like "no infected intermediate host found" is a legitimate *positive* node.)
 - `flag-friction` whenever the grammar can't cleanly express something — a primary deliverable.
 - Cite `external_anchor` nodes to `sources/covid/index.json` (`list-studies` to reuse a study id).
 - Do not fabricate specific statistics/sequences beyond the pack; write at the generality it supports.

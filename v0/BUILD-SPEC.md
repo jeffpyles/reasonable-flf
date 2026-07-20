@@ -179,7 +179,13 @@ default and JSON with `--json` (agents use `--json`).
   be pasted into a subagent's context. Must cover:
   - The mental model: nodes = truth-apt propositions; Grounds/Dependents = support; Antitheses =
     sets of rival claims; support-only (no negative claims — express opposition as a rival positive
-    claim + antithesis membership).
+    claim + antithesis membership). Include the **"Not-X" diagnosis/triage** (AGENT-GUIDE §2): the
+    recurring urge to write a negation is not a rule gap — route it five ways (competing answer →
+    rival node; weak premise → low rating on claim/edge/ground; specific undercutter → positive node
+    at the joint; X false → settled-low ghost + `comment`; pure opposition → your low rating), noting
+    an absence-claim is still a legitimate positive node. Build-swarm and rater prompt templates
+    should carry the condensed one-liner so agents route at generation time instead of stalling on
+    `flag-friction`.
   - The **norm discipline**: propositions not questions; `search` before `create`; **Agree only what
     you would have drawn independently** (explicitly warn against rubber-stamp/sycophantic agreement —
     the consensus signal is worthless if everything gets agreed); split/merge by drawing competing

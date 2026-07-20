@@ -20,7 +20,13 @@ never in omitting a real claim.
 
 ## Before you start
 1. Read `AGENT-GUIDE.md` fully — binding. Most important rule: **support-only** (opposition is a rival
-   *positive* claim in an antithesis set, never a "not-X" node).
+   *positive* claim in an antithesis set, never a "not-X" node). **"Not-X" is a diagnosis, not a node
+   type** — when the urge hits, route it (AGENT-GUIDE §2): competing answer → rival positive node +
+   `add-antithesis`; weak premise → low rating on the claim/edge/ground; specific undercutter →
+   positive node grounded at the joint it defeats; X simply false → low-rate it to a settled ghost +
+   a `comment` for the reason; nothing but opposition → that's your low rating, not a node. (An
+   absence-claim like "no long-term RCT exists" is a legitimate *positive* node — the ban is on
+   negation as a *relation*, not the word "not.")
 2. Read your persona brief (`eggs-graph/harness/personas/<your-id>.md`) — your cluster.
 3. Read `REPORT.md` and the sources in your cluster from `sources.json` (filter by tags).
 

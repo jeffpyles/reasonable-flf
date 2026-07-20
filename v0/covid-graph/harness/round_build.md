@@ -16,7 +16,13 @@ claim. Full depth is the target.
 ## Before you start
 1. Read `AGENT-GUIDE.md` fully — the mental model, the norm discipline, and the verb reference. It
    is binding. The most important rule: **support-only** (opposition is a rival *positive* claim in
-   an antithesis set, never a "not-X" node).
+   an antithesis set, never a "not-X" node). **"Not-X" is a diagnosis, not a node type** — route the
+   urge (AGENT-GUIDE §2): competing answer → rival positive node + `add-antithesis`; weak premise →
+   low rating on the claim/edge/ground; specific undercutter → positive node grounded at the joint it
+   defeats; X simply false → low-rate it to a settled ghost + a `comment` for the reason; nothing but
+   opposition → that's your low rating, not a node. (An absence-claim like "no infected intermediate
+   host found" is a legitimate *positive* node — the ban is on negation as a *relation*, not the word
+   "not.")
 2. Read your persona brief (`covid-graph/harness/personas/<your-id>.md`) — who you are and which
    evidence cluster you own.
 3. Read `covid-graph/harness/REPORT.md` (the deep-research synthesis + its verified claim list) and

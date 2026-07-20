@@ -355,3 +355,17 @@ merits. Results (before → after):
 New phrasings rate well (R 3.5–4.3, C 4.1–4.5). New support edges e068–e074 span 2.85–3.91
 (conditional). States: 18 contested / 41 settled; lint clean (the one negation-framed flag is the
 pre-existing `n042` absence-claim advisory); both test suites green. Packet: `harness/packet-round6.md`.
+
+### Round 6.1 — re-seat n039 to address the steelmanned n061
+
+The Round-6 steelman (n061) no longer claims impossibility, so the existing rebuttal **n039** ("the
+inference from 'unsolved' to 'unsolvable' fails," 4.14) was addressing a claim n061 doesn't make — a
+strawman rebuttal. Superseded n039 (and its edges) and re-seated it as **n067**: "persistent failure
+is weak evidence about argument-mapping's prospects, because prior attempts lacked the enabling
+conditions this one has; the difficulty is real, but the old record is a poor guide to this attempt."
+It grants the steelman's premise (difficulty is real) and contests the inference (predictive weight
+for *this* attempt is low), still grounded by n040 and supporting n002. Blind-rated by the same panel
+at tenths: **A 3.41 (settled)**, down from n039's 4.14 — the honest price of engaging the steelman
+instead of the fallacy (R 4.24, C 4.10; e075 n040→n067 4.30; e076 n067→n002 2.90). States 18/41,
+lint clean, suites green. Packet: `harness/packet-round6.1.md`. (n040, the s5 rival, still carries a
+"does not imply unsolvable now" framing; left as the advocate's positive rival position.)

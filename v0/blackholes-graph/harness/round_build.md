@@ -20,7 +20,12 @@ phrased, and connected — nothing load-bearing left unmapped.** "Restraint" mea
 ## Before you start
 1. Read `AGENT-GUIDE.md` fully — the mental model, the norm discipline, the verb reference. Binding.
    Most important rule: **support-only** (opposition is a rival *positive* claim in an antithesis
-   set, never a "not-X" node).
+   set, never a "not-X" node). **"Not-X" is a diagnosis, not a node type** — route the urge
+   (AGENT-GUIDE §2): competing answer → rival positive node + `add-antithesis`; weak premise → low
+   rating on the claim/edge/ground; specific undercutter → positive node grounded at the joint it
+   defeats; X simply false → low-rate it to a settled ghost + a `comment` for the reason; nothing but
+   opposition → that's your low rating, not a node. (An absence-claim like "no evaporation observed"
+   is a legitimate *positive* node — the ban is on negation as a *relation*, not the word "not.")
 2. Read your persona brief (`blackholes-graph/harness/personas/<your-id>.md`) — who you are and
    which cluster you own.
 3. Read `blackholes-graph/harness/REPORT.md` and the sources in your cluster from `sources.json`.

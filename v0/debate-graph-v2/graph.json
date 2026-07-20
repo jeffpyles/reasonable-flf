@@ -37,6 +37,15 @@
       "true_r": 0.7447697971041544
     },
     {
+      "agent": "builder-r6",
+      "authored": 19,
+      "confidence": 0.9615384615384616,
+      "n_assessments": 200,
+      "rated": 0,
+      "raw_r": 0.8074901209865386,
+      "true_r": 0.7822020394101333
+    },
+    {
       "agent": "epistemic-1",
       "authored": 0,
       "confidence": 0.7714285714285715,
@@ -66,74 +75,74 @@
     {
       "agent": "haiku-epistemic-1",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9701785187070913,
-      "true_r": 0.9296758758079756
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.9674104025594066,
+      "true_r": 0.9324409735729079
     },
     {
       "agent": "haiku-epistemic-2",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9723474151372942,
-      "true_r": 0.9317376662416254
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.970398629396436,
+      "true_r": 0.9353013618286741
     },
     {
       "agent": "haiku-pragmatic-1",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.975751675356497,
-      "true_r": 0.934973814845065
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.969500091008442,
+      "true_r": 0.9344412635856211
     },
     {
       "agent": "haiku-pragmatic-2",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9768206323557252,
-      "true_r": 0.9359899838443314
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.973576451077824,
+      "true_r": 0.9383432339194144
     },
     {
       "agent": "haiku-skeptic-1",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9752388196752788,
-      "true_r": 0.9344862853703267
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.9743137432603571,
+      "true_r": 0.9390489841903954
     },
     {
       "agent": "haiku-skeptic-2",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9460224571931246,
-      "true_r": 0.9067127062206246
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.9435663301698134,
+      "true_r": 0.9096169684513188
     },
     {
       "agent": "haiku-values-1",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9651995220818054,
-      "true_r": 0.9249427555592471
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.9649781802101772,
+      "true_r": 0.9301128035166938
     },
     {
       "agent": "haiku-values-2",
       "authored": 0,
-      "confidence": 0.9506172839506173,
-      "n_assessments": 154,
-      "rated": 154,
-      "raw_r": 0.9741603150991622,
-      "true_r": 0.9334610402794505
+      "confidence": 0.9572192513368984,
+      "n_assessments": 179,
+      "rated": 179,
+      "raw_r": 0.9725822622763537,
+      "true_r": 0.9373915772591835
     },
     {
       "agent": "pragmatic-1",
@@ -168,8 +177,8 @@
       "confidence": 0.9906542056074766,
       "n_assessments": 848,
       "rated": 0,
-      "raw_r": 0.7939524692174519,
-      "true_r": 0.7879342218415879
+      "raw_r": 0.7939468871308236,
+      "true_r": 0.7879286919239935
     },
     {
       "agent": "rigor-r3-1",
@@ -213,8 +222,8 @@
       "confidence": 0.9871794871794872,
       "n_assessments": 616,
       "rated": 0,
-      "raw_r": 0.7997557147930686,
-      "true_r": 0.7914255133213627
+      "raw_r": 0.7997470119627031,
+      "true_r": 0.7914169220657454
     },
     {
       "agent": "skeptic-1",
@@ -303,8 +312,8 @@
       "confidence": 0.9809523809523809,
       "n_assessments": 412,
       "rated": 0,
-      "raw_r": 0.8383582256533051,
-      "true_r": 0.825246640402766
+      "raw_r": 0.8383545105768893,
+      "true_r": 0.8252429960897104
     },
     {
       "agent": "values-1",
@@ -459,6 +468,12 @@
           "author": "synthesist",
           "belonging": 1,
           "node": "n040"
+        },
+        {
+          "agrees": 0,
+          "author": "builder-r6",
+          "belonging": 1,
+          "node": "n061"
         }
       ]
     },
@@ -558,7 +573,7 @@
           3
         ],
         "history": [],
-        "mean": 4.286937704148082,
+        "mean": 4.287017826275595,
         "n": 8,
         "state": "settled",
         "stdev": 0.19645292056877142
@@ -595,7 +610,7 @@
           0
         ],
         "history": [],
-        "mean": 3.7909454048617675,
+        "mean": 3.7906245756945665,
         "n": 8,
         "state": "settled",
         "stdev": 0.5035809269620921
@@ -632,7 +647,7 @@
           0
         ],
         "history": [],
-        "mean": 3.4391597244768803,
+        "mean": 3.439610360457834,
         "n": 8,
         "state": "settled",
         "stdev": 0.42112201319807546
@@ -669,7 +684,7 @@
           2
         ],
         "history": [],
-        "mean": 4.275958385341964,
+        "mean": 4.275975149208509,
         "n": 8,
         "state": "settled",
         "stdev": 0.1561249499599601
@@ -706,7 +721,7 @@
           0
         ],
         "history": [],
-        "mean": 4.262432425815482,
+        "mean": 4.262468498495219,
         "n": 8,
         "state": "settled",
         "stdev": 0.18666480653835116
@@ -743,7 +758,7 @@
           3
         ],
         "history": [],
-        "mean": 4.388080119489628,
+        "mean": 4.388198587149705,
         "n": 8,
         "state": "settled",
         "stdev": 0.1268611445636527
@@ -780,7 +795,7 @@
           0
         ],
         "history": [],
-        "mean": 4.013060091003358,
+        "mean": 4.012923829872486,
         "n": 8,
         "state": "settled",
         "stdev": 0.17633419974582368
@@ -817,7 +832,7 @@
           3
         ],
         "history": [],
-        "mean": 4.3747116796080245,
+        "mean": 4.374904515201018,
         "n": 8,
         "state": "settled",
         "stdev": 0.15612494995995996
@@ -854,7 +869,7 @@
           0
         ],
         "history": [],
-        "mean": 4.038054029756698,
+        "mean": 4.037979664580857,
         "n": 8,
         "state": "settled",
         "stdev": 0.18666480653835094
@@ -891,7 +906,7 @@
           1
         ],
         "history": [],
-        "mean": 4.237517265300861,
+        "mean": 4.237579632638013,
         "n": 8,
         "state": "settled",
         "stdev": 0.14947825928876754
@@ -928,7 +943,7 @@
           0
         ],
         "history": [],
-        "mean": 3.563612060104522,
+        "mean": 3.5638221296885124,
         "n": 8,
         "state": "settled",
         "stdev": 0.2446298223847616
@@ -965,7 +980,7 @@
           0
         ],
         "history": [],
-        "mean": 3.712253447854529,
+        "mean": 3.7119760119653518,
         "n": 8,
         "state": "settled",
         "stdev": 0.27585095613392374
@@ -1002,7 +1017,7 @@
           0
         ],
         "history": [],
-        "mean": 2.7871062680284098,
+        "mean": 2.787069690480932,
         "n": 8,
         "state": "settled",
         "stdev": 0.12686114456365272
@@ -1011,6 +1026,11 @@
       "author": "scott-steelman",
       "comments": [],
       "created_seq": 58,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3497
+      },
       "from": "n019",
       "group": null,
       "id": "e013",
@@ -1039,7 +1059,7 @@
           1
         ],
         "history": [],
-        "mean": 4.08584587623514,
+        "mean": 4.085830402163048,
         "n": 8,
         "state": "settled",
         "stdev": 0.3059309562630103
@@ -1076,7 +1096,7 @@
           2
         ],
         "history": [],
-        "mean": 4.211495067695477,
+        "mean": 4.2115977175018315,
         "n": 8,
         "state": "settled",
         "stdev": 0.2570870475150392
@@ -1113,7 +1133,7 @@
           1
         ],
         "history": [],
-        "mean": 4.262429887983738,
+        "mean": 4.262447284121017,
         "n": 8,
         "state": "settled",
         "stdev": 0.19960899278339142
@@ -1150,7 +1170,7 @@
           0
         ],
         "history": [],
-        "mean": 3.7889713604149002,
+        "mean": 3.788958514953027,
         "n": 8,
         "state": "settled",
         "stdev": 0.24717149916606487
@@ -1187,7 +1207,7 @@
           0
         ],
         "history": [],
-        "mean": 3.9245945385082974,
+        "mean": 3.924709298508725,
         "n": 8,
         "state": "settled",
         "stdev": 0.18540496217739144
@@ -1224,7 +1244,7 @@
           0
         ],
         "history": [],
-        "mean": 3.9499400884282663,
+        "mean": 3.950035311282651,
         "n": 8,
         "state": "settled",
         "stdev": 0.14142135623730953
@@ -1261,7 +1281,7 @@
           0
         ],
         "history": [],
-        "mean": 3.699345659711217,
+        "mean": 3.699249405005522,
         "n": 8,
         "state": "settled",
         "stdev": 0.20615528128088303
@@ -1298,7 +1318,7 @@
           0
         ],
         "history": [],
-        "mean": 3.8997573227361726,
+        "mean": 3.899626087578225,
         "n": 8,
         "state": "settled",
         "stdev": 0.27838821814150116
@@ -1335,7 +1355,7 @@
           2
         ],
         "history": [],
-        "mean": 4.398587489495692,
+        "mean": 4.39870923741403,
         "n": 8,
         "state": "settled",
         "stdev": 0.18027756377319937
@@ -1372,7 +1392,7 @@
           3
         ],
         "history": [],
-        "mean": 4.285912256781498,
+        "mean": 4.286125050385461,
         "n": 8,
         "state": "settled",
         "stdev": 0.2521780125229003
@@ -1409,7 +1429,7 @@
           0
         ],
         "history": [],
-        "mean": 3.728180748767551,
+        "mean": 3.72791272821146,
         "n": 8,
         "state": "settled",
         "stdev": 0.44087980221371
@@ -1446,7 +1466,7 @@
           1
         ],
         "history": [],
-        "mean": 4.324660304366885,
+        "mean": 4.324781904664288,
         "n": 8,
         "state": "settled",
         "stdev": 0.11989578808281814
@@ -1483,7 +1503,7 @@
           1
         ],
         "history": [],
-        "mean": 4.29938943158453,
+        "mean": 4.29946575129142,
         "n": 8,
         "state": "settled",
         "stdev": 0.14142135623730953
@@ -1520,7 +1540,7 @@
           1
         ],
         "history": [],
-        "mean": 4.262608538266666,
+        "mean": 4.262653430340513,
         "n": 8,
         "state": "settled",
         "stdev": 0.16535945694153692
@@ -1557,7 +1577,7 @@
           2
         ],
         "history": [],
-        "mean": 4.374961664082159,
+        "mean": 4.37499388025435,
         "n": 8,
         "state": "settled",
         "stdev": 0.1391941090707506
@@ -1594,7 +1614,7 @@
           1
         ],
         "history": [],
-        "mean": 4.223635431626883,
+        "mean": 4.2236388383827155,
         "n": 8,
         "state": "settled",
         "stdev": 0.17853571071357116
@@ -1631,7 +1651,7 @@
           1
         ],
         "history": [],
-        "mean": 4.249176047844844,
+        "mean": 4.249416553117964,
         "n": 8,
         "state": "settled",
         "stdev": 0.21213203435596437
@@ -1668,7 +1688,7 @@
           2
         ],
         "history": [],
-        "mean": 4.350286414594973,
+        "mean": 4.350303239823374,
         "n": 8,
         "state": "settled",
         "stdev": 0.15000000000000002
@@ -1705,7 +1725,7 @@
           1
         ],
         "history": [],
-        "mean": 4.300507677156783,
+        "mean": 4.300560150877795,
         "n": 8,
         "state": "settled",
         "stdev": 0.1732050807568878
@@ -1742,7 +1762,7 @@
           3
         ],
         "history": [],
-        "mean": 4.3745175626642885,
+        "mean": 4.374635839167413,
         "n": 8,
         "state": "settled",
         "stdev": 0.12990381056766592
@@ -1779,7 +1799,7 @@
           0
         ],
         "history": [],
-        "mean": 4.200181448633119,
+        "mean": 4.200123124846971,
         "n": 8,
         "state": "settled",
         "stdev": 0.1658312395177701
@@ -1816,7 +1836,7 @@
           7
         ],
         "history": [],
-        "mean": 4.586419168153535,
+        "mean": 4.586591609832428,
         "n": 8,
         "state": "settled",
         "stdev": 0.26663411259626935
@@ -1853,7 +1873,7 @@
           0
         ],
         "history": [],
-        "mean": 3.937375522423637,
+        "mean": 3.937189769840622,
         "n": 8,
         "state": "settled",
         "stdev": 0.20577597041442902
@@ -1890,7 +1910,7 @@
           0
         ],
         "history": [],
-        "mean": 3.9373867796380755,
+        "mean": 3.9371907825583112,
         "n": 8,
         "state": "settled",
         "stdev": 0.2825663638864329
@@ -1927,7 +1947,7 @@
           0
         ],
         "history": [],
-        "mean": 3.825700342684448,
+        "mean": 3.825257138507532,
         "n": 8,
         "state": "settled",
         "stdev": 0.4023369234857771
@@ -1964,7 +1984,7 @@
           0
         ],
         "history": [],
-        "mean": 3.712990237910204,
+        "mean": 3.71268619707379,
         "n": 8,
         "state": "settled",
         "stdev": 0.28912583765550925
@@ -2001,7 +2021,7 @@
           4
         ],
         "history": [],
-        "mean": 4.4619783071621315,
+        "mean": 4.4620654255088255,
         "n": 8,
         "state": "settled",
         "stdev": 0.179843682124227
@@ -2038,7 +2058,7 @@
           1
         ],
         "history": [],
-        "mean": 4.211434148668003,
+        "mean": 4.2113879449008795,
         "n": 8,
         "state": "settled",
         "stdev": 0.23684119151870517
@@ -2075,7 +2095,7 @@
           0
         ],
         "history": [],
-        "mean": 4.038064544152413,
+        "mean": 4.038016361998472,
         "n": 8,
         "state": "settled",
         "stdev": 0.2117634293262177
@@ -2112,7 +2132,7 @@
           0
         ],
         "history": [],
-        "mean": 3.2997979616962905,
+        "mean": 3.299480511930508,
         "n": 8,
         "state": "settled",
         "stdev": 0.4358898943540674
@@ -2149,7 +2169,7 @@
           0
         ],
         "history": [],
-        "mean": 3.039559681804921,
+        "mean": 3.0395451054752716,
         "n": 8,
         "state": "settled",
         "stdev": 0.31598061649411346
@@ -2186,7 +2206,7 @@
           0
         ],
         "history": [],
-        "mean": 3.6513480808625953,
+        "mean": 3.6509824045327366,
         "n": 8,
         "state": "settled",
         "stdev": 0.4
@@ -2223,7 +2243,7 @@
           2
         ],
         "history": [],
-        "mean": 4.300244986083829,
+        "mean": 4.30036234807903,
         "n": 8,
         "state": "settled",
         "stdev": 0.1802775637731995
@@ -2260,7 +2280,7 @@
           0
         ],
         "history": [],
-        "mean": 4.249468609552082,
+        "mean": 4.249550492942671,
         "n": 8,
         "state": "settled",
         "stdev": 0.15000000000000008
@@ -2297,7 +2317,7 @@
           1
         ],
         "history": [],
-        "mean": 4.349646912033258,
+        "mean": 4.349679329391093,
         "n": 8,
         "state": "settled",
         "stdev": 0.11180339887498969
@@ -2404,6 +2424,11 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1702,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3499
+      },
       "from": "n048",
       "group": null,
       "id": "e050",
@@ -2973,6 +2998,11 @@
       "author": "struct-review",
       "comments": [],
       "created_seq": 2075,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3501
+      },
       "from": "n049",
       "group": null,
       "id": "e061",
@@ -3022,6 +3052,11 @@
       "author": "struct-review",
       "comments": [],
       "created_seq": 2077,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3503
+      },
       "from": "n054",
       "group": null,
       "id": "e062",
@@ -3169,6 +3204,11 @@
       "author": "struct-review",
       "comments": [],
       "created_seq": 2087,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3505
+      },
       "from": "n058",
       "group": null,
       "id": "e065",
@@ -3274,6 +3314,265 @@
       "strength": 1,
       "to": "n008",
       "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 2.8500000000000005,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          1,
+          7,
+          0,
+          0
+        ],
+        "history": [],
+        "mean": 2.8538105130486278,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.4527692569068708
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3512,
+      "from": "n061",
+      "group": null,
+      "id": "e068",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n016",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.325,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          4,
+          4,
+          0
+        ],
+        "history": [],
+        "mean": 3.326669693418278,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.4437059837324712
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3513,
+      "from": "n062",
+      "group": null,
+      "id": "e069",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n046",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.8375000000000004,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          1,
+          7,
+          0
+        ],
+        "history": [],
+        "mean": 3.8391644479352323,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.29127950494327615
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3514,
+      "from": "n063",
+      "group": null,
+      "id": "e070",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n046",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.9124999999999996,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          1,
+          7,
+          0
+        ],
+        "history": [],
+        "mean": 3.9127004052091956,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.39508701573197774
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3515,
+      "from": "n063",
+      "group": null,
+      "id": "e071",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n064",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.2749999999999995,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          1,
+          4,
+          3,
+          0
+        ],
+        "history": [],
+        "mean": 3.2774473623378535,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.5068283733178324
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3516,
+      "from": "n064",
+      "group": null,
+      "id": "e072",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n002",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.9124999999999996,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          1,
+          7,
+          0
+        ],
+        "history": [],
+        "mean": 3.913512096627046,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.28912583765550937
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3517,
+      "from": "n065",
+      "group": null,
+      "id": "e073",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n035",
+      "typings": []
+    },
+    {
+      "agents": [],
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 2.9499999999999997,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          1,
+          5,
+          2,
+          0
+        ],
+        "history": [],
+        "mean": 2.9529632705307525,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.5477225575051662
+      },
+      "agrees": 0,
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3518,
+      "from": "n066",
+      "group": null,
+      "id": "e074",
+      "primary_typing": null,
+      "strength": 1,
+      "to": "n035",
+      "typings": []
     }
   ],
   "meta": {
@@ -3303,14 +3602,14 @@
       },
       "scale_max": 5.0
     },
-    "event_count": 3495,
-    "generated_ts": "2026-07-20T16:44:01.886360+00:00",
+    "event_count": 3719,
+    "generated_ts": "2026-07-20T20:46:50.905578+00:00",
     "heat_medians": {
-      "content": 0.007002099499253962,
-      "rating": 7.434530233088686
+      "content": 0.009579786108214859,
+      "rating": 4.979956450064354
     },
     "question": "Will a structured, collaborative argument-mapping platform meaningfully improve collective reasoning on contested questions -- or are attempts to 'solve debate' doomed not to work?",
-    "rating_count": 2108
+    "rating_count": 2308
   },
   "nodes": [
     {
@@ -3341,8 +3640,8 @@
       "comments": [],
       "created_seq": 1,
       "heat": {
-        "content": 0.002913,
-        "rating": 11.874313
+        "content": 0.011027,
+        "rating": 7.113571
       },
       "id": "n001",
       "kind": "claim",
@@ -3371,7 +3670,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.335967475012969,
+              "mean": 4.335888149382583,
               "n": 8,
               "state": "settled",
               "stdev": 0.21176342932621778
@@ -3394,7 +3693,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.9754104655183067,
+              "mean": 3.975494277167639,
               "n": 8,
               "state": "settled",
               "stdev": 0.2586020108197151
@@ -3424,7 +3723,7 @@
             2
           ],
           "history": [],
-          "mean": 4.335967475012969,
+          "mean": 4.335888149382583,
           "n": 8,
           "state": "settled",
           "stdev": 0.21176342932621778
@@ -3447,7 +3746,7 @@
             0
           ],
           "history": [],
-          "mean": 3.9754104655183067,
+          "mean": 3.975494277167639,
           "n": 8,
           "state": "settled",
           "stdev": 0.2586020108197151
@@ -3491,8 +3790,8 @@
       "comments": [],
       "created_seq": 2,
       "heat": {
-        "content": 0.035081,
-        "rating": 12.905302
+        "content": 0.389075,
+        "rating": 12.361389
       },
       "id": "n002",
       "kind": "claim",
@@ -3521,7 +3820,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.410723126082773,
+              "mean": 4.410736953651609,
               "n": 8,
               "state": "settled",
               "stdev": 0.2027159342528358
@@ -3544,7 +3843,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.412223338391545,
+              "mean": 4.412226689156686,
               "n": 8,
               "state": "settled",
               "stdev": 0.05994789404140899
@@ -3574,7 +3873,7 @@
             2
           ],
           "history": [],
-          "mean": 4.410723126082773,
+          "mean": 4.410736953651609,
           "n": 8,
           "state": "settled",
           "stdev": 0.2027159342528358
@@ -3597,7 +3896,7 @@
             2
           ],
           "history": [],
-          "mean": 4.412223338391545,
+          "mean": 4.412226689156686,
           "n": 8,
           "state": "settled",
           "stdev": 0.05994789404140899
@@ -3641,8 +3940,8 @@
       "comments": [],
       "created_seq": 3,
       "heat": {
-        "content": 0.011511,
-        "rating": 9.014566
+        "content": 0.00686,
+        "rating": 5.372492
       },
       "id": "n003",
       "kind": "claim",
@@ -3671,7 +3970,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.373600837173547,
+              "mean": 4.373599958085922,
               "n": 8,
               "state": "settled",
               "stdev": 0.21650635094610962
@@ -3694,7 +3993,7 @@
                 7
               ],
               "history": [],
-              "mean": 4.5120694744352505,
+              "mean": 4.512021406892809,
               "n": 8,
               "state": "settled",
               "stdev": 0.10532687216470453
@@ -3724,7 +4023,7 @@
             2
           ],
           "history": [],
-          "mean": 4.373600837173547,
+          "mean": 4.373599958085922,
           "n": 8,
           "state": "settled",
           "stdev": 0.21650635094610962
@@ -3747,7 +4046,7 @@
             7
           ],
           "history": [],
-          "mean": 4.5120694744352505,
+          "mean": 4.512021406892809,
           "n": 8,
           "state": "settled",
           "stdev": 0.10532687216470453
@@ -3782,7 +4081,7 @@
           0
         ],
         "history": [],
-        "mean": 3.6621561095993815,
+        "mean": 3.662680414064075,
         "n": 8,
         "state": "contested",
         "stdev": 0.3568525605905049
@@ -3791,8 +4090,8 @@
       "comments": [],
       "created_seq": 4,
       "heat": {
-        "content": 0.003312,
-        "rating": 12.588708
+        "content": 0.001974,
+        "rating": 7.502605
       },
       "id": "n004",
       "kind": "claim",
@@ -3821,7 +4120,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.286137990467123,
+              "mean": 4.286094695321706,
               "n": 8,
               "state": "settled",
               "stdev": 0.17633419974582362
@@ -3844,7 +4143,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.03755967566639,
+              "mean": 4.037515862354802,
               "n": 8,
               "state": "settled",
               "stdev": 0.2117634293262177
@@ -3874,7 +4173,7 @@
             1
           ],
           "history": [],
-          "mean": 4.286137990467123,
+          "mean": 4.286094695321706,
           "n": 8,
           "state": "settled",
           "stdev": 0.17633419974582362
@@ -3897,7 +4196,7 @@
             0
           ],
           "history": [],
-          "mean": 4.03755967566639,
+          "mean": 4.037515862354802,
           "n": 8,
           "state": "settled",
           "stdev": 0.2117634293262177
@@ -3941,8 +4240,8 @@
       "comments": [],
       "created_seq": 5,
       "heat": {
-        "content": 0.000472,
-        "rating": 5.919054
+        "content": 0.000282,
+        "rating": 3.527631
       },
       "id": "n005",
       "kind": "claim",
@@ -3971,7 +4270,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.261654838507291,
+              "mean": 4.261555118431042,
               "n": 8,
               "state": "settled",
               "stdev": 0.1996089927833913
@@ -3994,7 +4293,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.100042603427754,
+              "mean": 4.099940083623357,
               "n": 8,
               "state": "settled",
               "stdev": 0.15811388300841903
@@ -4024,7 +4323,7 @@
             2
           ],
           "history": [],
-          "mean": 4.261654838507291,
+          "mean": 4.261555118431042,
           "n": 8,
           "state": "settled",
           "stdev": 0.1996089927833913
@@ -4047,7 +4346,7 @@
             0
           ],
           "history": [],
-          "mean": 4.100042603427754,
+          "mean": 4.099940083623357,
           "n": 8,
           "state": "settled",
           "stdev": 0.15811388300841903
@@ -4091,8 +4390,8 @@
       "comments": [],
       "created_seq": 6,
       "heat": {
-        "content": 0.000695,
-        "rating": 7.880686
+        "content": 0.000414,
+        "rating": 4.696723
       },
       "id": "n006",
       "kind": "claim",
@@ -4121,7 +4420,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.349047997215153,
+              "mean": 4.349006388350985,
               "n": 8,
               "state": "settled",
               "stdev": 0.16583123951777
@@ -4144,7 +4443,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.187350894023767,
+              "mean": 4.187259977966443,
               "n": 8,
               "state": "settled",
               "stdev": 0.1053268721647045
@@ -4174,7 +4473,7 @@
             2
           ],
           "history": [],
-          "mean": 4.349047997215153,
+          "mean": 4.349006388350985,
           "n": 8,
           "state": "settled",
           "stdev": 0.16583123951777
@@ -4197,7 +4496,7 @@
             0
           ],
           "history": [],
-          "mean": 4.187350894023767,
+          "mean": 4.187259977966443,
           "n": 8,
           "state": "settled",
           "stdev": 0.1053268721647045
@@ -4241,8 +4540,8 @@
       "comments": [],
       "created_seq": 7,
       "heat": {
-        "content": 0.000467,
-        "rating": 6.077516
+        "content": 0.000278,
+        "rating": 3.622072
       },
       "id": "n007",
       "kind": "evidence",
@@ -4271,7 +4570,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.087529044455936,
+              "mean": 4.087394908609071,
               "n": 8,
               "state": "settled",
               "stdev": 0.16153559979150114
@@ -4294,7 +4593,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.212146955338594,
+              "mean": 4.21207485652203,
               "n": 8,
               "state": "settled",
               "stdev": 0.1363589014329465
@@ -4324,7 +4623,7 @@
             0
           ],
           "history": [],
-          "mean": 4.087529044455936,
+          "mean": 4.087394908609071,
           "n": 8,
           "state": "settled",
           "stdev": 0.16153559979150114
@@ -4347,7 +4646,7 @@
             0
           ],
           "history": [],
-          "mean": 4.212146955338594,
+          "mean": 4.21207485652203,
           "n": 8,
           "state": "settled",
           "stdev": 0.1363589014329465
@@ -4396,8 +4695,8 @@
       "comments": [],
       "created_seq": 8,
       "heat": {
-        "content": 0.068031,
-        "rating": 6.928613
+        "content": 0.040545,
+        "rating": 4.129308
       },
       "id": "n008",
       "kind": "claim",
@@ -4426,7 +4725,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.186370827787094,
+              "mean": 4.186190634059986,
               "n": 8,
               "state": "settled",
               "stdev": 0.220439901106855
@@ -4449,7 +4748,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.9259362501180646,
+              "mean": 3.9258547171072293,
               "n": 8,
               "state": "settled",
               "stdev": 0.17139136501002603
@@ -4479,7 +4778,7 @@
             1
           ],
           "history": [],
-          "mean": 4.186370827787094,
+          "mean": 4.186190634059986,
           "n": 8,
           "state": "settled",
           "stdev": 0.220439901106855
@@ -4502,7 +4801,7 @@
             0
           ],
           "history": [],
-          "mean": 3.9259362501180646,
+          "mean": 3.9258547171072293,
           "n": 8,
           "state": "settled",
           "stdev": 0.17139136501002603
@@ -4537,7 +4836,7 @@
           0
         ],
         "history": [],
-        "mean": 3.862327695426105,
+        "mean": 3.8625554240131432,
         "n": 8,
         "state": "contested",
         "stdev": 0.2175861898191151
@@ -4546,8 +4845,8 @@
       "comments": [],
       "created_seq": 9,
       "heat": {
-        "content": 0.002615,
-        "rating": 14.735672
+        "content": 0.001559,
+        "rating": 8.782151
       },
       "id": "n009",
       "kind": "claim",
@@ -4576,7 +4875,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.323804308918569,
+              "mean": 4.323739750086168,
               "n": 8,
               "state": "settled",
               "stdev": 0.19202864369671524
@@ -4599,7 +4898,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.09969302855881,
+              "mean": 4.099621791016551,
               "n": 8,
               "state": "settled",
               "stdev": 0.10000000000000009
@@ -4629,7 +4928,7 @@
             2
           ],
           "history": [],
-          "mean": 4.323804308918569,
+          "mean": 4.323739750086168,
           "n": 8,
           "state": "settled",
           "stdev": 0.19202864369671524
@@ -4652,7 +4951,7 @@
             0
           ],
           "history": [],
-          "mean": 4.09969302855881,
+          "mean": 4.099621791016551,
           "n": 8,
           "state": "settled",
           "stdev": 0.10000000000000009
@@ -4696,8 +4995,8 @@
       "comments": [],
       "created_seq": 10,
       "heat": {
-        "content": 0.007022,
-        "rating": 9.51169
+        "content": 0.004185,
+        "rating": 5.668767
       },
       "id": "n010",
       "kind": "claim",
@@ -4726,7 +5025,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.323320177502368,
+              "mean": 4.323346176250162,
               "n": 8,
               "state": "settled",
               "stdev": 0.2331844763272204
@@ -4749,7 +5048,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.150085525220186,
+              "mean": 4.15010527167056,
               "n": 8,
               "state": "settled",
               "stdev": 0.050000000000000266
@@ -4779,7 +5078,7 @@
             2
           ],
           "history": [],
-          "mean": 4.323320177502368,
+          "mean": 4.323346176250162,
           "n": 8,
           "state": "settled",
           "stdev": 0.2331844763272204
@@ -4802,7 +5101,7 @@
             0
           ],
           "history": [],
-          "mean": 4.150085525220186,
+          "mean": 4.15010527167056,
           "n": 8,
           "state": "settled",
           "stdev": 0.050000000000000266
@@ -4846,8 +5145,8 @@
       "comments": [],
       "created_seq": 11,
       "heat": {
-        "content": 0.000803,
-        "rating": 6.043979
+        "content": 0.000479,
+        "rating": 3.602084
       },
       "id": "n011",
       "kind": "evidence",
@@ -4876,7 +5175,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.22505114982021,
+              "mean": 4.224970016933995,
               "n": 8,
               "state": "settled",
               "stdev": 0.10897247358851703
@@ -4899,7 +5198,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.312186354719881,
+              "mean": 4.312176430680606,
               "n": 8,
               "state": "settled",
               "stdev": 0.05994789404140911
@@ -4929,7 +5228,7 @@
             0
           ],
           "history": [],
-          "mean": 4.22505114982021,
+          "mean": 4.224970016933995,
           "n": 8,
           "state": "settled",
           "stdev": 0.10897247358851703
@@ -4952,7 +5251,7 @@
             0
           ],
           "history": [],
-          "mean": 4.312186354719881,
+          "mean": 4.312176430680606,
           "n": 8,
           "state": "settled",
           "stdev": 0.05994789404140911
@@ -5001,8 +5300,8 @@
       "comments": [],
       "created_seq": 12,
       "heat": {
-        "content": 0.006995,
-        "rating": 7.763012
+        "content": 0.004169,
+        "rating": 4.626592
       },
       "id": "n012",
       "kind": "claim",
@@ -5031,7 +5330,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.336311430125823,
+              "mean": 4.336316616842113,
               "n": 8,
               "state": "settled",
               "stdev": 0.16535945694153692
@@ -5054,7 +5353,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.187112615281043,
+              "mean": 4.187090220500241,
               "n": 8,
               "state": "settled",
               "stdev": 0.09270248108869578
@@ -5084,7 +5383,7 @@
             2
           ],
           "history": [],
-          "mean": 4.336311430125823,
+          "mean": 4.336316616842113,
           "n": 8,
           "state": "settled",
           "stdev": 0.16535945694153692
@@ -5107,7 +5406,7 @@
             0
           ],
           "history": [],
-          "mean": 4.187112615281043,
+          "mean": 4.187090220500241,
           "n": 8,
           "state": "settled",
           "stdev": 0.09270248108869578
@@ -5142,7 +5441,7 @@
           0
         ],
         "history": [],
-        "mean": 4.150168554939515,
+        "mean": 4.150014591232193,
         "n": 8,
         "state": "settled",
         "stdev": 0.1414213562373096
@@ -5151,8 +5450,8 @@
       "comments": [],
       "created_seq": 13,
       "heat": {
-        "content": 0.007009,
-        "rating": 10.268547
+        "content": 0.004177,
+        "rating": 6.119838
       },
       "id": "n013",
       "kind": "claim",
@@ -5181,7 +5480,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.386202716280153,
+              "mean": 4.386183313787364,
               "n": 8,
               "state": "settled",
               "stdev": 0.17633419974582354
@@ -5204,7 +5503,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.187723557692916,
+              "mean": 4.1875972878318795,
               "n": 8,
               "state": "settled",
               "stdev": 0.09270248108869579
@@ -5234,7 +5533,7 @@
             2
           ],
           "history": [],
-          "mean": 4.386202716280153,
+          "mean": 4.386183313787364,
           "n": 8,
           "state": "settled",
           "stdev": 0.17633419974582354
@@ -5257,7 +5556,7 @@
             0
           ],
           "history": [],
-          "mean": 4.187723557692916,
+          "mean": 4.1875972878318795,
           "n": 8,
           "state": "settled",
           "stdev": 0.09270248108869579
@@ -5292,7 +5591,7 @@
           0
         ],
         "history": [],
-        "mean": 4.012979685895466,
+        "mean": 4.012855004661984,
         "n": 8,
         "state": "settled",
         "stdev": 0.13635890143294643
@@ -5301,8 +5600,8 @@
       "comments": [],
       "created_seq": 14,
       "heat": {
-        "content": 0.001189,
-        "rating": 9.959992
+        "content": 0.000708,
+        "rating": 5.935946
       },
       "id": "n014",
       "kind": "claim",
@@ -5331,7 +5630,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.36080315765648,
+              "mean": 4.360783514914011,
               "n": 8,
               "state": "settled",
               "stdev": 0.22325713874364697
@@ -5354,7 +5653,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.074981744843898,
+              "mean": 4.074990509798789,
               "n": 8,
               "state": "settled",
               "stdev": 0.06614378277661467
@@ -5384,7 +5683,7 @@
             2
           ],
           "history": [],
-          "mean": 4.36080315765648,
+          "mean": 4.360783514914011,
           "n": 8,
           "state": "settled",
           "stdev": 0.22325713874364697
@@ -5407,7 +5706,7 @@
             0
           ],
           "history": [],
-          "mean": 4.074981744843898,
+          "mean": 4.074990509798789,
           "n": 8,
           "state": "settled",
           "stdev": 0.06614378277661467
@@ -5451,8 +5750,8 @@
       "comments": [],
       "created_seq": 15,
       "heat": {
-        "content": 0.000476,
-        "rating": 6.099018
+        "content": 0.000284,
+        "rating": 3.634886
       },
       "id": "n015",
       "kind": "claim",
@@ -5481,7 +5780,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.1486191150887075,
+              "mean": 4.148520887528239,
               "n": 8,
               "state": "settled",
               "stdev": 0.19999999999999993
@@ -5504,7 +5803,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.9257000775714146,
+              "mean": 3.9256218521112465,
               "n": 8,
               "state": "settled",
               "stdev": 0.11989578808281794
@@ -5534,7 +5833,7 @@
             1
           ],
           "history": [],
-          "mean": 4.1486191150887075,
+          "mean": 4.148520887528239,
           "n": 8,
           "state": "settled",
           "stdev": 0.19999999999999993
@@ -5557,7 +5856,7 @@
             0
           ],
           "history": [],
-          "mean": 3.9257000775714146,
+          "mean": 3.9256218521112465,
           "n": 8,
           "state": "settled",
           "stdev": 0.11989578808281794
@@ -5592,7 +5891,7 @@
           0
         ],
         "history": [],
-        "mean": 3.212568772056803,
+        "mean": 3.2126916054318597,
         "n": 8,
         "state": "contested",
         "stdev": 0.261904085496962
@@ -5601,8 +5900,8 @@
       "comments": [],
       "created_seq": 16,
       "heat": {
-        "content": 0.001689,
-        "rating": 14.947345
+        "content": 0.497126,
+        "rating": 14.908381
       },
       "id": "n016",
       "kind": "claim",
@@ -5631,7 +5930,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.310567764340289,
+              "mean": 4.310494444703435,
               "n": 8,
               "state": "settled",
               "stdev": 0.2666341125962694
@@ -5654,7 +5953,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.700703792751587,
+              "mean": 3.700766990946541,
               "n": 8,
               "state": "settled",
               "stdev": 0.22912878474779197
@@ -5684,7 +5983,7 @@
             2
           ],
           "history": [],
-          "mean": 4.310567764340289,
+          "mean": 4.310494444703435,
           "n": 8,
           "state": "settled",
           "stdev": 0.2666341125962694
@@ -5707,7 +6006,7 @@
             0
           ],
           "history": [],
-          "mean": 3.700703792751587,
+          "mean": 3.700766990946541,
           "n": 8,
           "state": "settled",
           "stdev": 0.22912878474779197
@@ -5742,7 +6041,7 @@
           0
         ],
         "history": [],
-        "mean": 3.7375969132681726,
+        "mean": 3.737447710739607,
         "n": 8,
         "state": "settled",
         "stdev": 0.26427968139832464
@@ -5751,8 +6050,8 @@
       "comments": [],
       "created_seq": 17,
       "heat": {
-        "content": 0.000484,
-        "rating": 8.352802
+        "content": 0.009579,
+        "rating": 5.014825
       },
       "id": "n017",
       "kind": "claim",
@@ -5781,7 +6080,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.2733558287928775,
+              "mean": 4.273276725440743,
               "n": 8,
               "state": "settled",
               "stdev": 0.22220486043288978
@@ -5804,7 +6103,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.000029780122353,
+              "mean": 3.99998835878691,
               "n": 8,
               "state": "settled",
               "stdev": 0.09999999999999992
@@ -5834,7 +6133,7 @@
             1
           ],
           "history": [],
-          "mean": 4.2733558287928775,
+          "mean": 4.273276725440743,
           "n": 8,
           "state": "settled",
           "stdev": 0.22220486043288978
@@ -5857,7 +6156,7 @@
             0
           ],
           "history": [],
-          "mean": 4.000029780122353,
+          "mean": 3.99998835878691,
           "n": 8,
           "state": "settled",
           "stdev": 0.09999999999999992
@@ -5892,7 +6191,7 @@
           0
         ],
         "history": [],
-        "mean": 3.451484552378775,
+        "mean": 3.4512055148947534,
         "n": 8,
         "state": "settled",
         "stdev": 0.36400549446402597
@@ -5901,8 +6200,8 @@
       "comments": [],
       "created_seq": 18,
       "heat": {
-        "content": 0.000485,
-        "rating": 8.381948
+        "content": 0.00958,
+        "rating": 5.032195
       },
       "id": "n018",
       "kind": "claim",
@@ -5931,7 +6230,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.186098681597765,
+              "mean": 4.185940899402164,
               "n": 8,
               "state": "settled",
               "stdev": 0.2521780125229003
@@ -5954,7 +6253,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.5884101902447583,
+              "mean": 3.588181118314738,
               "n": 8,
               "state": "settled",
               "stdev": 0.2570870475150392
@@ -5984,7 +6283,7 @@
             1
           ],
           "history": [],
-          "mean": 4.186098681597765,
+          "mean": 4.185940899402164,
           "n": 8,
           "state": "settled",
           "stdev": 0.2521780125229003
@@ -6007,7 +6306,7 @@
             0
           ],
           "history": [],
-          "mean": 3.5884101902447583,
+          "mean": 3.588181118314738,
           "n": 8,
           "state": "settled",
           "stdev": 0.2570870475150392
@@ -6050,9 +6349,14 @@
       "author": "scott-steelman",
       "comments": [],
       "created_seq": 19,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3496
+      },
       "heat": {
-        "content": 0.000817,
-        "rating": 6.261512
+        "content": 0.009777,
+        "rating": 3.76846
       },
       "id": "n019",
       "kind": "claim",
@@ -6081,7 +6385,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.198069628042689,
+              "mean": 4.19796833646656,
               "n": 8,
               "state": "settled",
               "stdev": 0.2783882181415011
@@ -6104,7 +6408,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.299983344218002,
+              "mean": 3.2999930916261135,
               "n": 8,
               "state": "settled",
               "stdev": 0.3872983346207417
@@ -6134,7 +6438,7 @@
             2
           ],
           "history": [],
-          "mean": 4.198069628042689,
+          "mean": 4.19796833646656,
           "n": 8,
           "state": "settled",
           "stdev": 0.2783882181415011
@@ -6157,7 +6461,7 @@
             0
           ],
           "history": [],
-          "mean": 3.299983344218002,
+          "mean": 3.2999930916261135,
           "n": 8,
           "state": "settled",
           "stdev": 0.3872983346207417
@@ -6192,7 +6496,7 @@
           0
         ],
         "history": [],
-        "mean": 3.6384374701129962,
+        "mean": 3.6387588820166736,
         "n": 8,
         "state": "settled",
         "stdev": 0.3237958461747155
@@ -6201,8 +6505,8 @@
       "comments": [],
       "created_seq": 20,
       "heat": {
-        "content": 0.00225,
-        "rating": 17.474163
+        "content": 0.001341,
+        "rating": 10.414234
       },
       "id": "n020",
       "kind": "claim",
@@ -6231,7 +6535,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.286135726806504,
+              "mean": 4.286037285445006,
               "n": 8,
               "state": "settled",
               "stdev": 0.23684119151870517
@@ -6254,7 +6558,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.900882925279598,
+              "mean": 3.9010826079345313,
               "n": 8,
               "state": "settled",
               "stdev": 0.26925824035672524
@@ -6284,7 +6588,7 @@
             1
           ],
           "history": [],
-          "mean": 4.286135726806504,
+          "mean": 4.286037285445006,
           "n": 8,
           "state": "settled",
           "stdev": 0.23684119151870517
@@ -6307,7 +6611,7 @@
             0
           ],
           "history": [],
-          "mean": 3.900882925279598,
+          "mean": 3.9010826079345313,
           "n": 8,
           "state": "settled",
           "stdev": 0.26925824035672524
@@ -6351,8 +6655,8 @@
       "comments": [],
       "created_seq": 21,
       "heat": {
-        "content": 0.013618,
-        "rating": 9.731687
+        "content": 0.008116,
+        "rating": 5.799881
       },
       "id": "n021",
       "kind": "claim",
@@ -6381,7 +6685,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.398175700706064,
+              "mean": 4.398160749649093,
               "n": 8,
               "state": "settled",
               "stdev": 0.20000000000000012
@@ -6404,7 +6708,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.161759079145716,
+              "mean": 4.161774443640859,
               "n": 8,
               "state": "settled",
               "stdev": 0.14947825928876754
@@ -6434,7 +6738,7 @@
             1
           ],
           "history": [],
-          "mean": 4.398175700706064,
+          "mean": 4.398160749649093,
           "n": 8,
           "state": "settled",
           "stdev": 0.20000000000000012
@@ -6457,7 +6761,7 @@
             0
           ],
           "history": [],
-          "mean": 4.161759079145716,
+          "mean": 4.161774443640859,
           "n": 8,
           "state": "settled",
           "stdev": 0.14947825928876754
@@ -6492,7 +6796,7 @@
           0
         ],
         "history": [],
-        "mean": 4.04965123986951,
+        "mean": 4.0495822469171125,
         "n": 8,
         "state": "settled",
         "stdev": 0.2236067977499789
@@ -6501,8 +6805,8 @@
       "comments": [],
       "created_seq": 22,
       "heat": {
-        "content": 0.000673,
-        "rating": 10.016078
+        "content": 0.000401,
+        "rating": 5.969372
       },
       "id": "n022",
       "kind": "claim",
@@ -6531,7 +6835,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.310962924391119,
+              "mean": 4.310953108034231,
               "n": 8,
               "state": "settled",
               "stdev": 0.19645292056877128
@@ -6554,7 +6858,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.17425755782953,
+              "mean": 4.17425125004812,
               "n": 8,
               "state": "settled",
               "stdev": 0.10897247358851701
@@ -6584,7 +6888,7 @@
             1
           ],
           "history": [],
-          "mean": 4.310962924391119,
+          "mean": 4.310953108034231,
           "n": 8,
           "state": "settled",
           "stdev": 0.19645292056877128
@@ -6607,7 +6911,7 @@
             0
           ],
           "history": [],
-          "mean": 4.17425755782953,
+          "mean": 4.17425125004812,
           "n": 8,
           "state": "settled",
           "stdev": 0.10897247358851701
@@ -6642,7 +6946,7 @@
           1
         ],
         "history": [],
-        "mean": 4.1870680922621855,
+        "mean": 4.187041538509152,
         "n": 8,
         "state": "settled",
         "stdev": 0.1832859787326898
@@ -6651,8 +6955,8 @@
       "comments": [],
       "created_seq": 23,
       "heat": {
-        "content": 0.000674,
-        "rating": 10.04813
+        "content": 0.000402,
+        "rating": 5.988474
       },
       "id": "n023",
       "kind": "claim",
@@ -6681,7 +6985,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.323472051969169,
+              "mean": 4.323457853134837,
               "n": 8,
               "state": "settled",
               "stdev": 0.1920286436967151
@@ -6704,7 +7008,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.211897641328828,
+              "mean": 4.211882999155402,
               "n": 8,
               "state": "settled",
               "stdev": 0.09270248108869596
@@ -6734,7 +7038,7 @@
             1
           ],
           "history": [],
-          "mean": 4.323472051969169,
+          "mean": 4.323457853134837,
           "n": 8,
           "state": "settled",
           "stdev": 0.1920286436967151
@@ -6757,7 +7061,7 @@
             0
           ],
           "history": [],
-          "mean": 4.211897641328828,
+          "mean": 4.211882999155402,
           "n": 8,
           "state": "settled",
           "stdev": 0.09270248108869596
@@ -6801,8 +7105,8 @@
       "comments": [],
       "created_seq": 24,
       "heat": {
-        "content": 0.000692,
-        "rating": 8.520721
+        "content": 0.000413,
+        "rating": 5.078171
       },
       "id": "n024",
       "kind": "evidence",
@@ -6831,7 +7135,7 @@
                 0
               ],
               "history": [],
-              "mean": 3.925057619194964,
+              "mean": 3.9249604456450102,
               "n": 8,
               "state": "settled",
               "stdev": 0.09682458365518538
@@ -6854,7 +7158,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.224289857012059,
+              "mean": 4.224210600015539,
               "n": 8,
               "state": "settled",
               "stdev": 0.13919410907075055
@@ -6884,7 +7188,7 @@
             0
           ],
           "history": [],
-          "mean": 3.925057619194964,
+          "mean": 3.9249604456450102,
           "n": 8,
           "state": "settled",
           "stdev": 0.09682458365518538
@@ -6907,7 +7211,7 @@
             1
           ],
           "history": [],
-          "mean": 4.224289857012059,
+          "mean": 4.224210600015539,
           "n": 8,
           "state": "settled",
           "stdev": 0.13919410907075055
@@ -6956,8 +7260,8 @@
       "comments": [],
       "created_seq": 25,
       "heat": {
-        "content": 0.000469,
-        "rating": 6.317623
+        "content": 0.00028,
+        "rating": 3.76517
       },
       "id": "n025",
       "kind": "claim",
@@ -6986,7 +7290,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.1371568252610755,
+              "mean": 4.137113817906598,
               "n": 8,
               "state": "settled",
               "stdev": 0.11110243021644485
@@ -7009,7 +7313,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.02452871120232,
+              "mean": 4.024517156547978,
               "n": 8,
               "state": "settled",
               "stdev": 0.08291561975888502
@@ -7039,7 +7343,7 @@
             0
           ],
           "history": [],
-          "mean": 4.1371568252610755,
+          "mean": 4.137113817906598,
           "n": 8,
           "state": "settled",
           "stdev": 0.11110243021644485
@@ -7062,7 +7366,7 @@
             0
           ],
           "history": [],
-          "mean": 4.02452871120232,
+          "mean": 4.024517156547978,
           "n": 8,
           "state": "settled",
           "stdev": 0.08291561975888502
@@ -7106,8 +7410,8 @@
       "comments": [],
       "created_seq": 26,
       "heat": {
-        "content": 0.00047,
-        "rating": 6.342791
+        "content": 0.00028,
+        "rating": 3.78017
       },
       "id": "n026",
       "kind": "claim",
@@ -7136,7 +7440,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.310918553510951,
+              "mean": 4.310824923610513,
               "n": 8,
               "state": "settled",
               "stdev": 0.20271593425283566
@@ -7159,7 +7463,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.199041450774181,
+              "mean": 4.198918384755517,
               "n": 8,
               "state": "settled",
               "stdev": 0.14142135623730956
@@ -7189,7 +7493,7 @@
             1
           ],
           "history": [],
-          "mean": 4.310918553510951,
+          "mean": 4.310824923610513,
           "n": 8,
           "state": "settled",
           "stdev": 0.20271593425283566
@@ -7212,7 +7516,7 @@
             1
           ],
           "history": [],
-          "mean": 4.199041450774181,
+          "mean": 4.198918384755517,
           "n": 8,
           "state": "settled",
           "stdev": 0.14142135623730956
@@ -7247,7 +7551,7 @@
           0
         ],
         "history": [],
-        "mean": 4.037501827897757,
+        "mean": 4.037372718373389,
         "n": 8,
         "state": "contested",
         "stdev": 0.18666480653835088
@@ -7256,8 +7560,8 @@
       "comments": [],
       "created_seq": 27,
       "heat": {
-        "content": 0.028025,
-        "rating": 14.428055
+        "content": 0.021883,
+        "rating": 8.636736
       },
       "id": "n027",
       "kind": "claim",
@@ -7286,7 +7590,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.248283312969104,
+              "mean": 4.248263937447176,
               "n": 8,
               "state": "settled",
               "stdev": 0.21794494717703367
@@ -7309,7 +7613,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.274671727076042,
+              "mean": 4.274627026542351,
               "n": 8,
               "state": "settled",
               "stdev": 0.06614378277661474
@@ -7339,7 +7643,7 @@
             1
           ],
           "history": [],
-          "mean": 4.248283312969104,
+          "mean": 4.248263937447176,
           "n": 8,
           "state": "settled",
           "stdev": 0.21794494717703367
@@ -7362,7 +7666,7 @@
             0
           ],
           "history": [],
-          "mean": 4.274671727076042,
+          "mean": 4.274627026542351,
           "n": 8,
           "state": "settled",
           "stdev": 0.06614378277661474
@@ -7406,8 +7710,8 @@
       "comments": [],
       "created_seq": 28,
       "heat": {
-        "content": 0.001387,
-        "rating": 6.418314
+        "content": 0.000827,
+        "rating": 3.82518
       },
       "id": "n028",
       "kind": "claim",
@@ -7436,7 +7740,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.373225127177731,
+              "mean": 4.373277373947497,
               "n": 8,
               "state": "settled",
               "stdev": 0.2222048604328899
@@ -7459,7 +7763,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.311857144097148,
+              "mean": 4.311879808002264,
               "n": 8,
               "state": "settled",
               "stdev": 0.09270248108869578
@@ -7489,7 +7793,7 @@
             1
           ],
           "history": [],
-          "mean": 4.373225127177731,
+          "mean": 4.373277373947497,
           "n": 8,
           "state": "settled",
           "stdev": 0.2222048604328899
@@ -7512,7 +7816,7 @@
             1
           ],
           "history": [],
-          "mean": 4.311857144097148,
+          "mean": 4.311879808002264,
           "n": 8,
           "state": "settled",
           "stdev": 0.09270248108869578
@@ -7556,8 +7860,8 @@
       "comments": [],
       "created_seq": 29,
       "heat": {
-        "content": 0.007591,
-        "rating": 8.323371
+        "content": 0.004524,
+        "rating": 4.960554
       },
       "id": "n029",
       "kind": "claim",
@@ -7586,7 +7890,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.311006467949466,
+              "mean": 4.310941573460359,
               "n": 8,
               "state": "settled",
               "stdev": 0.20271593425283566
@@ -7609,7 +7913,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.262471577309978,
+              "mean": 4.262428368769855,
               "n": 8,
               "state": "settled",
               "stdev": 0.04841229182759254
@@ -7639,7 +7943,7 @@
             1
           ],
           "history": [],
-          "mean": 4.311006467949466,
+          "mean": 4.310941573460359,
           "n": 8,
           "state": "settled",
           "stdev": 0.20271593425283566
@@ -7662,7 +7966,7 @@
             0
           ],
           "history": [],
-          "mean": 4.262471577309978,
+          "mean": 4.262428368769855,
           "n": 8,
           "state": "settled",
           "stdev": 0.04841229182759254
@@ -7706,8 +8010,8 @@
       "comments": [],
       "created_seq": 30,
       "heat": {
-        "content": 0.034523,
-        "rating": 6.472014
+        "content": 0.020575,
+        "rating": 3.857184
       },
       "id": "n030",
       "kind": "claim",
@@ -7736,7 +8040,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.285831968469871,
+              "mean": 4.285826104027554,
               "n": 8,
               "state": "settled",
               "stdev": 0.20271593425283566
@@ -7759,7 +8063,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.324845166734743,
+              "mean": 4.324848948062757,
               "n": 8,
               "state": "settled",
               "stdev": 0.06614378277661491
@@ -7789,7 +8093,7 @@
             1
           ],
           "history": [],
-          "mean": 4.285831968469871,
+          "mean": 4.285826104027554,
           "n": 8,
           "state": "settled",
           "stdev": 0.20271593425283566
@@ -7812,7 +8116,7 @@
             0
           ],
           "history": [],
-          "mean": 4.324845166734743,
+          "mean": 4.324848948062757,
           "n": 8,
           "state": "settled",
           "stdev": 0.06614378277661491
@@ -7847,7 +8151,7 @@
           0
         ],
         "history": [],
-        "mean": 4.0756531461004455,
+        "mean": 4.07556101407222,
         "n": 8,
         "state": "contested",
         "stdev": 0.22776083947860756
@@ -7856,8 +8160,8 @@
       "comments": [],
       "created_seq": 31,
       "heat": {
-        "content": 0.002657,
-        "rating": 11.673067
+        "content": 0.006764,
+        "rating": 6.99482
       },
       "id": "n031",
       "kind": "claim",
@@ -7886,7 +8190,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.335672201735233,
+              "mean": 4.3356565109073335,
               "n": 8,
               "state": "settled",
               "stdev": 0.22325713874364697
@@ -7909,7 +8213,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.286949235623329,
+              "mean": 4.286909235252361,
               "n": 8,
               "state": "settled",
               "stdev": 0.11659223816361027
@@ -7939,7 +8243,7 @@
             1
           ],
           "history": [],
-          "mean": 4.335672201735233,
+          "mean": 4.3356565109073335,
           "n": 8,
           "state": "settled",
           "stdev": 0.22325713874364697
@@ -7962,7 +8266,7 @@
             1
           ],
           "history": [],
-          "mean": 4.286949235623329,
+          "mean": 4.286909235252361,
           "n": 8,
           "state": "settled",
           "stdev": 0.11659223816361027
@@ -8006,8 +8310,8 @@
       "comments": [],
       "created_seq": 32,
       "heat": {
-        "content": 0.007074,
-        "rating": 10.37092
+        "content": 0.004216,
+        "rating": 6.18085
       },
       "id": "n032",
       "kind": "claim",
@@ -8036,7 +8340,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.42343155473749,
+              "mean": 4.4234546619816975,
               "n": 8,
               "state": "settled",
               "stdev": 0.19843134832984438
@@ -8059,7 +8363,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.3116521657148095,
+              "mean": 4.311592108106154,
               "n": 8,
               "state": "settled",
               "stdev": 0.12686114456365263
@@ -8089,7 +8393,7 @@
             2
           ],
           "history": [],
-          "mean": 4.42343155473749,
+          "mean": 4.4234546619816975,
           "n": 8,
           "state": "settled",
           "stdev": 0.19843134832984438
@@ -8112,7 +8416,7 @@
             1
           ],
           "history": [],
-          "mean": 4.3116521657148095,
+          "mean": 4.311592108106154,
           "n": 8,
           "state": "settled",
           "stdev": 0.12686114456365263
@@ -8156,8 +8460,8 @@
       "comments": [],
       "created_seq": 33,
       "heat": {
-        "content": 0.000827,
-        "rating": 6.626813
+        "content": 0.000493,
+        "rating": 3.949441
       },
       "id": "n033",
       "kind": "evidence",
@@ -8186,7 +8490,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.186551058131004,
+              "mean": 4.186440356559272,
               "n": 8,
               "state": "settled",
               "stdev": 0.22043990110685496
@@ -8209,7 +8513,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.273858096137097,
+              "mean": 4.27378517804329,
               "n": 8,
               "state": "settled",
               "stdev": 0.19202864369671524
@@ -8239,7 +8543,7 @@
             1
           ],
           "history": [],
-          "mean": 4.186551058131004,
+          "mean": 4.186440356559272,
           "n": 8,
           "state": "settled",
           "stdev": 0.22043990110685496
@@ -8262,7 +8566,7 @@
             1
           ],
           "history": [],
-          "mean": 4.273858096137097,
+          "mean": 4.27378517804329,
           "n": 8,
           "state": "settled",
           "stdev": 0.19202864369671524
@@ -8311,8 +8615,8 @@
       "comments": [],
       "created_seq": 34,
       "heat": {
-        "content": 0.007035,
-        "rating": 8.463266
+        "content": 0.004193,
+        "rating": 5.043928
       },
       "id": "n034",
       "kind": "claim",
@@ -8341,7 +8645,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.211797480294926,
+              "mean": 4.21176557804078,
               "n": 8,
               "state": "settled",
               "stdev": 0.14523687548277817
@@ -8364,7 +8668,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.324192143297971,
+              "mean": 4.324166615036086,
               "n": 8,
               "state": "settled",
               "stdev": 0.13919410907075042
@@ -8394,7 +8698,7 @@
             1
           ],
           "history": [],
-          "mean": 4.211797480294926,
+          "mean": 4.21176557804078,
           "n": 8,
           "state": "settled",
           "stdev": 0.14523687548277817
@@ -8417,7 +8721,7 @@
             2
           ],
           "history": [],
-          "mean": 4.324192143297971,
+          "mean": 4.324166615036086,
           "n": 8,
           "state": "settled",
           "stdev": 0.13919410907075042
@@ -8452,7 +8756,7 @@
           0
         ],
         "history": [],
-        "mean": 3.661651808199581,
+        "mean": 3.6617930932426037,
         "n": 8,
         "state": "contested",
         "stdev": 0.2546443598432921
@@ -8461,8 +8765,8 @@
       "comments": [],
       "created_seq": 35,
       "heat": {
-        "content": 0.091387,
-        "rating": 13.36742
+        "content": 0.87274,
+        "rating": 20.185564
       },
       "id": "n035",
       "kind": "claim",
@@ -8491,7 +8795,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.2857440540313565,
+              "mean": 4.285709454177707,
               "n": 8,
               "state": "settled",
               "stdev": 0.20271593425283563
@@ -8514,7 +8818,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.011869989699391,
+              "mean": 4.011792417404858,
               "n": 8,
               "state": "settled",
               "stdev": 0.0927024810886958
@@ -8544,7 +8848,7 @@
             1
           ],
           "history": [],
-          "mean": 4.2857440540313565,
+          "mean": 4.285709454177707,
           "n": 8,
           "state": "settled",
           "stdev": 0.20271593425283563
@@ -8567,7 +8871,7 @@
             0
           ],
           "history": [],
-          "mean": 4.011869989699391,
+          "mean": 4.011792417404858,
           "n": 8,
           "state": "settled",
           "stdev": 0.0927024810886958
@@ -8611,8 +8915,8 @@
       "comments": [],
       "created_seq": 36,
       "heat": {
-        "content": 0.010793,
-        "rating": 6.594004
+        "content": 0.030799,
+        "rating": 4.143765
       },
       "id": "n036",
       "kind": "claim",
@@ -8641,7 +8945,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.360698056733886,
+              "mean": 4.36066160398692,
               "n": 8,
               "state": "settled",
               "stdev": 0.21176342932621783
@@ -8664,7 +8968,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.31169577081023,
+              "mean": 4.311626701099043,
               "n": 8,
               "state": "settled",
               "stdev": 0.13635890143294643
@@ -8694,7 +8998,7 @@
             1
           ],
           "history": [],
-          "mean": 4.360698056733886,
+          "mean": 4.36066160398692,
           "n": 8,
           "state": "settled",
           "stdev": 0.21176342932621783
@@ -8717,7 +9021,7 @@
             1
           ],
           "history": [],
-          "mean": 4.31169577081023,
+          "mean": 4.311626701099043,
           "n": 8,
           "state": "settled",
           "stdev": 0.13635890143294643
@@ -8752,7 +9056,7 @@
           0
         ],
         "history": [],
-        "mean": 4.074675813358579,
+        "mean": 4.074669696743669,
         "n": 8,
         "state": "settled",
         "stdev": 0.17139136501002614
@@ -8761,8 +9065,8 @@
       "comments": [],
       "created_seq": 37,
       "heat": {
-        "content": 0.00209,
-        "rating": 10.808644
+        "content": 0.010495,
+        "rating": 6.507241
       },
       "id": "n037",
       "kind": "claim",
@@ -8791,7 +9095,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.298389071000036,
+              "mean": 4.298359744467969,
               "n": 8,
               "state": "settled",
               "stdev": 0.1999999999999999
@@ -8814,7 +9118,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.149194535500017,
+              "mean": 4.149179872233984,
               "n": 8,
               "state": "settled",
               "stdev": 0.10000000000000026
@@ -8844,7 +9148,7 @@
             1
           ],
           "history": [],
-          "mean": 4.298389071000036,
+          "mean": 4.298359744467969,
           "n": 8,
           "state": "settled",
           "stdev": 0.1999999999999999
@@ -8867,7 +9171,7 @@
             0
           ],
           "history": [],
-          "mean": 4.149194535500017,
+          "mean": 4.149179872233984,
           "n": 8,
           "state": "settled",
           "stdev": 0.10000000000000026
@@ -8911,8 +9215,8 @@
       "comments": [],
       "created_seq": 38,
       "heat": {
-        "content": 0.0005,
-        "rating": 7.106048
+        "content": 0.000298,
+        "rating": 4.235055
       },
       "id": "n038",
       "kind": "evidence",
@@ -8941,7 +9245,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.298362368814538,
+              "mean": 4.29837878040672,
               "n": 8,
               "state": "settled",
               "stdev": 0.21213203435596428
@@ -8964,7 +9268,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.199101500949208,
+              "mean": 4.1990267759240805,
               "n": 8,
               "state": "settled",
               "stdev": 0.14142135623730956
@@ -8994,7 +9298,7 @@
             1
           ],
           "history": [],
-          "mean": 4.298362368814538,
+          "mean": 4.29837878040672,
           "n": 8,
           "state": "settled",
           "stdev": 0.21213203435596428
@@ -9017,7 +9321,7 @@
             1
           ],
           "history": [],
-          "mean": 4.199101500949208,
+          "mean": 4.1990267759240805,
           "n": 8,
           "state": "settled",
           "stdev": 0.14142135623730956
@@ -9057,7 +9361,7 @@
           0
         ],
         "history": [],
-        "mean": 4.137276768753678,
+        "mean": 4.137088388932841,
         "n": 8,
         "state": "settled",
         "stdev": 0.20577597041442924
@@ -9066,8 +9370,8 @@
       "comments": [],
       "created_seq": 39,
       "heat": {
-        "content": 0.001189,
-        "rating": 10.400261
+        "content": 0.005889,
+        "rating": 6.236255
       },
       "id": "n039",
       "kind": "claim",
@@ -9096,7 +9400,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.335615075764754,
+              "mean": 4.335563495320053,
               "n": 8,
               "state": "settled",
               "stdev": 0.22325713874364697
@@ -9119,7 +9423,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.286905904699032,
+              "mean": 4.286838446756972,
               "n": 8,
               "state": "settled",
               "stdev": 0.10532687216470445
@@ -9149,7 +9453,7 @@
             1
           ],
           "history": [],
-          "mean": 4.335615075764754,
+          "mean": 4.335563495320053,
           "n": 8,
           "state": "settled",
           "stdev": 0.22325713874364697
@@ -9172,7 +9476,7 @@
             1
           ],
           "history": [],
-          "mean": 4.286905904699032,
+          "mean": 4.286838446756972,
           "n": 8,
           "state": "settled",
           "stdev": 0.10532687216470445
@@ -9216,8 +9520,8 @@
       "comments": [],
       "created_seq": 40,
       "heat": {
-        "content": 0.001072,
-        "rating": 9.706292
+        "content": 0.000639,
+        "rating": 5.784746
       },
       "id": "n040",
       "kind": "claim",
@@ -9246,7 +9550,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.360748987500737,
+              "mean": 4.360727995360686,
               "n": 8,
               "state": "settled",
               "stdev": 0.21176342932621783
@@ -9269,7 +9573,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.311666112809997,
+              "mean": 4.311608241003839,
               "n": 8,
               "state": "settled",
               "stdev": 0.12686114456365263
@@ -9299,7 +9603,7 @@
             1
           ],
           "history": [],
-          "mean": 4.360748987500737,
+          "mean": 4.360727995360686,
           "n": 8,
           "state": "settled",
           "stdev": 0.21176342932621783
@@ -9322,7 +9626,7 @@
             1
           ],
           "history": [],
-          "mean": 4.311666112809997,
+          "mean": 4.311608241003839,
           "n": 8,
           "state": "settled",
           "stdev": 0.12686114456365263
@@ -9357,7 +9661,7 @@
           0
         ],
         "history": [],
-        "mean": 4.0872569766849844,
+        "mean": 4.087025574483469,
         "n": 8,
         "state": "settled",
         "stdev": 0.3099899191909312
@@ -9366,8 +9670,8 @@
       "comments": [],
       "created_seq": 41,
       "heat": {
-        "content": 0.000532,
-        "rating": 9.186704
+        "content": 0.000317,
+        "rating": 5.475082
       },
       "id": "n041",
       "kind": "claim",
@@ -9396,7 +9700,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.260846823336946,
+              "mean": 4.260741879031844,
               "n": 8,
               "state": "settled",
               "stdev": 0.22878756522153906
@@ -9419,7 +9723,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.211301956496584,
+              "mean": 4.21121135864675,
               "n": 8,
               "state": "settled",
               "stdev": 0.17633419974582343
@@ -9449,7 +9753,7 @@
             1
           ],
           "history": [],
-          "mean": 4.260846823336946,
+          "mean": 4.260741879031844,
           "n": 8,
           "state": "settled",
           "stdev": 0.22878756522153906
@@ -9472,7 +9776,7 @@
             1
           ],
           "history": [],
-          "mean": 4.211301956496584,
+          "mean": 4.21121135864675,
           "n": 8,
           "state": "settled",
           "stdev": 0.17633419974582343
@@ -9516,8 +9820,8 @@
       "comments": [],
       "created_seq": 42,
       "heat": {
-        "content": 0.000911,
-        "rating": 6.77752
+        "content": 0.000543,
+        "rating": 4.039259
       },
       "id": "n042",
       "kind": "claim",
@@ -9546,7 +9850,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.348482888216894,
+              "mean": 4.348440705174161,
               "n": 8,
               "state": "settled",
               "stdev": 0.23979157616563618
@@ -9569,7 +9873,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.399209831857662,
+              "mean": 4.399149987382627,
               "n": 8,
               "state": "settled",
               "stdev": 0.15811388300841897
@@ -9599,7 +9903,7 @@
             1
           ],
           "history": [],
-          "mean": 4.348482888216894,
+          "mean": 4.348440705174161,
           "n": 8,
           "state": "settled",
           "stdev": 0.23979157616563618
@@ -9622,7 +9926,7 @@
             2
           ],
           "history": [],
-          "mean": 4.399209831857662,
+          "mean": 4.399149987382627,
           "n": 8,
           "state": "settled",
           "stdev": 0.15811388300841897
@@ -9666,8 +9970,8 @@
       "comments": [],
       "created_seq": 43,
       "heat": {
-        "content": 0.000912,
-        "rating": 6.804599
+        "content": 0.000543,
+        "rating": 4.055398
       },
       "id": "n043",
       "kind": "claim",
@@ -9696,7 +10000,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.298275237042072,
+              "mean": 4.298189994953162,
               "n": 8,
               "state": "settled",
               "stdev": 0.2598076211353318
@@ -9719,7 +10023,7 @@
                 2
               ],
               "history": [],
-              "mean": 4.361223512703589,
+              "mean": 4.361198087973655,
               "n": 8,
               "state": "settled",
               "stdev": 0.19324531042175375
@@ -9749,7 +10053,7 @@
             1
           ],
           "history": [],
-          "mean": 4.298275237042072,
+          "mean": 4.298189994953162,
           "n": 8,
           "state": "settled",
           "stdev": 0.2598076211353318
@@ -9772,7 +10076,7 @@
             2
           ],
           "history": [],
-          "mean": 4.361223512703589,
+          "mean": 4.361198087973655,
           "n": 8,
           "state": "settled",
           "stdev": 0.19324531042175375
@@ -9816,8 +10120,8 @@
       "comments": [],
       "created_seq": 44,
       "heat": {
-        "content": 0.008615,
-        "rating": 8.243575
+        "content": 0.010315,
+        "rating": 4.950915
       },
       "id": "n044",
       "kind": "ought",
@@ -9846,7 +10150,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.348252615012998,
+              "mean": 4.348188081423643,
               "n": 8,
               "state": "settled",
               "stdev": 0.21794494717703378
@@ -9869,7 +10173,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.199275812985631,
+              "mean": 4.199260740249331,
               "n": 8,
               "state": "settled",
               "stdev": 0.11180339887498958
@@ -9899,7 +10203,7 @@
             1
           ],
           "history": [],
-          "mean": 4.348252615012998,
+          "mean": 4.348188081423643,
           "n": 8,
           "state": "settled",
           "stdev": 0.21794494717703378
@@ -9922,7 +10226,7 @@
             0
           ],
           "history": [],
-          "mean": 4.199275812985631,
+          "mean": 4.199260740249331,
           "n": 8,
           "state": "settled",
           "stdev": 0.11180339887498958
@@ -9966,8 +10270,8 @@
       "comments": [],
       "created_seq": 45,
       "heat": {
-        "content": 0.008207,
-        "rating": 8.388482
+        "content": 0.004891,
+        "rating": 4.999359
       },
       "id": "n045",
       "kind": "ought",
@@ -9996,7 +10300,7 @@
                 1
               ],
               "history": [],
-              "mean": 4.3356787616219155,
+              "mean": 4.335594717857381,
               "n": 8,
               "state": "settled",
               "stdev": 0.22325713874364697
@@ -10019,7 +10323,7 @@
                 0
               ],
               "history": [],
-              "mean": 4.099713292979743,
+              "mean": 4.099634446819457,
               "n": 8,
               "state": "settled",
               "stdev": 0.08660254037844395
@@ -10049,7 +10353,7 @@
             1
           ],
           "history": [],
-          "mean": 4.3356787616219155,
+          "mean": 4.335594717857381,
           "n": 8,
           "state": "settled",
           "stdev": 0.22325713874364697
@@ -10072,7 +10376,7 @@
             0
           ],
           "history": [],
-          "mean": 4.099713292979743,
+          "mean": 4.099634446819457,
           "n": 8,
           "state": "settled",
           "stdev": 0.08660254037844395
@@ -10128,8 +10432,8 @@
       "comments": [],
       "created_seq": 1690,
       "heat": {
-        "content": 0.059033,
-        "rating": 1.712913
+        "content": 0.795214,
+        "rating": 11.624836
       },
       "id": "n046",
       "kind": "claim",
@@ -10338,8 +10642,8 @@
       "comments": [],
       "created_seq": 1691,
       "heat": {
-        "content": 0.02207,
-        "rating": 0.627055
+        "content": 0.028271,
+        "rating": 0.522073
       },
       "id": "n047",
       "kind": "claim",
@@ -10547,9 +10851,14 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1692,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3498
+      },
       "heat": {
-        "content": 0.030302,
-        "rating": 0.965326
+        "content": 0.042426,
+        "rating": 0.789192
       },
       "id": "n048",
       "kind": "claim",
@@ -10757,9 +11066,14 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1693,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3500
+      },
       "heat": {
-        "content": 0.038668,
-        "rating": 1.019696
+        "content": 0.043344,
+        "rating": 0.793996
       },
       "id": "n049",
       "kind": "claim",
@@ -10968,8 +11282,8 @@
       "comments": [],
       "created_seq": 1694,
       "heat": {
-        "content": 0.066229,
-        "rating": 1.504196
+        "content": 0.039471,
+        "rating": 0.896469
       },
       "id": "n050",
       "kind": "claim",
@@ -11256,8 +11570,8 @@
       "comments": [],
       "created_seq": 1695,
       "heat": {
-        "content": 0.025343,
-        "rating": 0.720259
+        "content": 0.015104,
+        "rating": 0.429259
       },
       "id": "n051",
       "kind": "evidence",
@@ -11471,8 +11785,8 @@
       "comments": [],
       "created_seq": 1696,
       "heat": {
-        "content": 0.020645,
-        "rating": 0.996723
+        "content": 0.012304,
+        "rating": 0.594026
       },
       "id": "n052",
       "kind": "claim",
@@ -11686,8 +12000,8 @@
         "seq": 2082
       },
       "heat": {
-        "content": 0.02164,
-        "rating": 0.854724
+        "content": 0.022146,
+        "rating": 0.574914
       },
       "id": "n053",
       "kind": "claim",
@@ -11895,9 +12209,14 @@
       "author": "reasonable-advocate",
       "comments": [],
       "created_seq": 1698,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3502
+      },
       "heat": {
-        "content": 0.038141,
-        "rating": 1.242544
+        "content": 0.037161,
+        "rating": 0.843965
       },
       "id": "n054",
       "kind": "claim",
@@ -12106,8 +12425,8 @@
       "comments": [],
       "created_seq": 1699,
       "heat": {
-        "content": 0.063427,
-        "rating": 1.612963
+        "content": 0.042981,
+        "rating": 0.99921
       },
       "id": "n055",
       "kind": "claim",
@@ -12321,8 +12640,8 @@
         "seq": 2088
       },
       "heat": {
-        "content": 0.022148,
-        "rating": 0.883147
+        "content": 0.0132,
+        "rating": 0.526337
       },
       "id": "n056",
       "kind": "claim",
@@ -12531,8 +12850,8 @@
       "comments": [],
       "created_seq": 2084,
       "heat": {
-        "content": 0.050422,
-        "rating": 1.373922
+        "content": 0.0393,
+        "rating": 0.884345
       },
       "id": "n057",
       "kind": "claim",
@@ -12740,9 +13059,14 @@
       "author": "struct-review",
       "comments": [],
       "created_seq": 2085,
+      "demoted": {
+        "agent": "builder-r6",
+        "reason": "Round 6: reworded/split for strength & clarity (see README Round 6)",
+        "seq": 3504
+      },
       "heat": {
-        "content": 0.050536,
-        "rating": 1.381
+        "content": 0.039367,
+        "rating": 0.888563
       },
       "id": "n058",
       "kind": "claim",
@@ -12951,8 +13275,8 @@
       "comments": [],
       "created_seq": 2090,
       "heat": {
-        "content": 0.051506,
-        "rating": 1.405439
+        "content": 0.030696,
+        "rating": 0.837612
       },
       "id": "n059",
       "kind": "claim",
@@ -13161,8 +13485,8 @@
       "comments": [],
       "created_seq": 2091,
       "heat": {
-        "content": 0.08501,
-        "rating": 1.412612
+        "content": 0.050664,
+        "rating": 0.841887
       },
       "id": "n060",
       "kind": "claim",
@@ -13328,6 +13652,906 @@
           "agrees": 0,
           "id": "t0",
           "text": "Maps tempt single-link over-defeat"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.8874999999999997,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          1,
+          7,
+          0
+        ],
+        "history": [],
+        "mean": 3.8899563153004153,
+        "n": 8,
+        "state": "contested",
+        "stdev": 0.3950870157319777
+      },
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3506,
+      "heat": {
+        "content": 1.327852,
+        "rating": 19.299574
+      },
+      "id": "n061",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.3375,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                6,
+                2
+              ],
+              "history": [],
+              "mean": 4.3369465874925845,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.14947825928876754
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.275,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.275160717789199,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.12990381056766595
+            }
+          },
+          "text": "Across two millennia, no approach -- philosophy, rhetoric, or formal logic -- has 'solved debate'; that persistent failure is genuine evidence that improving reasoning at this scale is very hard, even if it does not prove a new tool cannot help."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.3375,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            6,
+            2
+          ],
+          "history": [],
+          "mean": 4.3369465874925845,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.14947825928876754
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.275,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.275160717789199,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.12990381056766595
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Persistent failure is evidence of difficulty"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 4.275,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          6,
+          2
+        ],
+        "history": [],
+        "mean": 4.274859522204765,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.2586020108197151
+      },
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3507,
+      "heat": {
+        "content": 0.801287,
+        "rating": 19.220662
+      },
+      "id": "n062",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.475,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                2,
+                6
+              ],
+              "history": [],
+              "mean": 4.474721185258435,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.171391365010026
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.312499999999999,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.312202992054439,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.20271593425283574
+            }
+          },
+          "text": "The points made in public arguments already exist -- scattered across essays, studies, and threads -- with no single trusted place where their strength has been fairly assessed."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.475,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            6
+          ],
+          "history": [],
+          "mean": 4.474721185258435,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.171391365010026
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.312499999999999,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.312202992054439,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.20271593425283574
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "The points already exist, unassessed"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 3.5,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          4,
+          4,
+          0
+        ],
+        "history": [],
+        "mean": 3.5026807169155463,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.4153311931459036
+      },
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3508,
+      "heat": {
+        "content": 1.161407,
+        "rating": 23.888613
+      },
+      "id": "n063",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.2125,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.213134288474157,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.1615355997915012
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 3.85,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 3.849865664858251,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.27386127875258315
+            }
+          },
+          "text": "A public, trusted record of which arguments are known to be weak makes those arguments costly to repeat."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.2125,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.213134288474157,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.1615355997915012
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 3.85,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          "history": [],
+          "mean": 3.849865664858251,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.27386127875258315
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "A public record makes weak arguments costly"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 2.975,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          1,
+          6,
+          1,
+          0
+        ],
+        "history": [],
+        "mean": 2.9777899404090173,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.3992179855667828
+      },
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3509,
+      "heat": {
+        "content": 1.152687,
+        "rating": 23.954
+      },
+      "id": "n064",
+      "kind": "claim",
+      "layer": 1,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.075,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.073990234757042,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.31523800532296237
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 3.5375,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                4,
+                4,
+                0
+              ],
+              "history": [],
+              "mean": 3.5381388196585686,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.2117634293262177
+            }
+          },
+          "text": "As weak arguments grow costly to repeat, the overall quality of public reasoning rises over time."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.075,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.073990234757042,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.31523800532296237
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 3.5375,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            4,
+            4,
+            0
+          ],
+          "history": [],
+          "mean": 3.5381388196585686,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.2117634293262177
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Public reasoning quality rises over time"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 4.05,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        "history": [],
+        "mean": 4.0510812256466835,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.20000000000000018
+      },
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3510,
+      "heat": {
+        "content": 0.801033,
+        "rating": 19.475329
+      },
+      "id": "n065",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.1125,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.1127606792443325,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.16153559979150106
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.124999999999999,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                8,
+                0
+              ],
+              "history": [],
+              "mean": 4.12514415149418,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.15612494995996012
+            }
+          },
+          "text": "The most trusted essayists show that a comprehensive, fair survey of a hard question is valuable; a collaborative map aims to make that kind of survey available broadly, without depending on the rare writer able and willing to produce one."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.1125,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.1127606792443325,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.16153559979150106
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.124999999999999,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            0
+          ],
+          "history": [],
+          "mean": 4.12514415149418,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.15612494995996012
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Trusted essayists show a fair survey's value"
+        }
+      ]
+    },
+    {
+      "agreement": {
+        "bloc_divergence": null,
+        "blocs": {
+          "cheap": {
+            "mean": 4.0,
+            "n": 8
+          }
+        },
+        "era": 1,
+        "histogram": [
+          0,
+          0,
+          0,
+          0,
+          8,
+          0
+        ],
+        "history": [],
+        "mean": 3.9995935461584846,
+        "n": 8,
+        "state": "settled",
+        "stdev": 0.3082207001484488
+      },
+      "author": "builder-r6",
+      "comments": [],
+      "created_seq": 3511,
+      "heat": {
+        "content": 0.802862,
+        "rating": 19.545725
+      },
+      "id": "n066",
+      "kind": "claim",
+      "layer": 0,
+      "phrasings": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "p0",
+          "scores": {
+            "C": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.275,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                6,
+                2
+              ],
+              "history": [],
+              "mean": 4.274233463877388,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.1854049621773915
+            },
+            "R": {
+              "bloc_divergence": null,
+              "blocs": {
+                "cheap": {
+                  "mean": 4.125,
+                  "n": 8
+                }
+              },
+              "era": 1,
+              "histogram": [
+                0,
+                0,
+                0,
+                0,
+                7,
+                1
+              ],
+              "history": [],
+              "mean": 4.124205032773571,
+              "n": 8,
+              "state": "settled",
+              "stdev": 0.24366985862022417
+            }
+          },
+          "text": "Partisans reliably arrive to defend their side when it is visibly losing, supplying real counter-arguments without anyone needing to sustain a rigorous debate."
+        }
+      ],
+      "primary_phrasing": "p0",
+      "primary_title": "t0",
+      "quality": {
+        "C": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.275,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            6,
+            2
+          ],
+          "history": [],
+          "mean": 4.274233463877388,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.1854049621773915
+        },
+        "R": {
+          "bloc_divergence": null,
+          "blocs": {
+            "cheap": {
+              "mean": 4.125,
+              "n": 8
+            }
+          },
+          "era": 1,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            1
+          ],
+          "history": [],
+          "mean": 4.124205032773571,
+          "n": 8,
+          "state": "settled",
+          "stdev": 0.24366985862022417
+        }
+      },
+      "source_ref": null,
+      "titles": [
+        {
+          "agents": [],
+          "agrees": 0,
+          "id": "t0",
+          "text": "Partisans defend a visibly losing side"
         }
       ]
     }

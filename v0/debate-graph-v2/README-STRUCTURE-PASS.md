@@ -324,3 +324,34 @@ ratings across the whole graph: 28% → 76.5%. Panel mechanics: four raters init
 e046–e048 and were re-prompted for exactly those targets, and one had rated three out-of-assignment
 targets, removed as out of scope (details in `harness/round5.json`); all 1,232 ratings applied
 through the CLI write boundary with zero failures, lint unchanged, both test suites green.
+
+## Round 6 (2026-07-20) — strengthen/refine the low-scoring claims
+
+A review of the graph's lowest-Agreement claims separated two causes: **most** low scores are the map
+working (rival poles, a losing value-crux, honestly-weak skeptic rivals — left untouched), but a
+handful of **non-rival supporting claims** were low because of fixable wording — overreach, bundling,
+or a strong claim hitched to a contested analogy. Those were reworked and blind re-rated by the same
+8-lens Haiku panel (tenths). The originals were superseded to ghosts; the replacements are new nodes,
+so each earns a fresh Agreement verdict rather than inheriting its predecessor's. Explicitly **not**
+an attempt to move the scale — the aim was both sides expressed at their strongest and rated on their
+merits. Results (before → after):
+
+- **n019 → n061 (steelman): 2.35 → 3.89, contested.** The old form embedded a fallacy ("2000 years
+  unsolved → unsolvable") the graph then easily rebutted. The steelman ("persistent failure is
+  genuine evidence of difficulty, though not proof a new tool can't help") is now a respected,
+  contested skeptic claim in s5 — the skeptic's point made strong, not the advocate's boosted.
+- **n048 → n062 (decouple analogy): 2.61 → 4.27, settled.** Removing "like facts before Wikipedia"
+  (a contested analogy that dragged an undeniable empirical core down) let the core — "the points
+  already exist, scattered and unassessed" — rate on its own.
+- **n049 → n063 + n064 (split): 2.26 → 3.50 and 2.98.** The three-part bundle (refutation-doesn't-
+  work + record-makes-args-costly + discourse-improves-over-time) split into the clean mechanism
+  (**n063**, 3.50) and the bolder over-time claim (**n064**, 2.98, settled-low). Isolating the strong
+  empirical bet let it be judged on its own — the split working exactly as intended.
+- **n054 → n065 (trim): 2.85 → 4.05.** Dropped the overreaches ("essayists *prove*", "*every*
+  question" → "show", "broadly").
+- **n058 → n066 (trim): 2.29 → 4.00.** Dropped "the *strongest available* counter-arguments" (an
+  overclaim) → "real counter-arguments"; the underlying behavioral claim was sound all along.
+
+New phrasings rate well (R 3.5–4.3, C 4.1–4.5). New support edges e068–e074 span 2.85–3.91
+(conditional). States: 18 contested / 41 settled; lint clean (the one negation-framed flag is the
+pre-existing `n042` absence-claim advisory); both test suites green. Packet: `harness/packet-round6.md`.

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasonable — Ongoing updates</title>
+<meta name="description" content="Post-submission changes to the Reasonable FLF submission repository, logged with date, time, and description.">
+<style>
+  :root{
+    --bg:#0f1216; --panel:#161b22; --panel-2:#1c232c;
+    --ink:#e8e6e1; --ink-soft:#b8b4ab; --ink-dim:#8a8780;
+    --line:#2a323c;
+    --accent:#c9a227;
+    --accent-2:#6fb3c9;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--serif); font-size:18px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:.15s}
+  a:hover{border-bottom-color:var(--accent)}
+  h1{font-size:54px; margin:0 0 14px; font-weight:600; letter-spacing:-.01em; line-height:1.1}
+  .dot{color:var(--accent)}
+  header.hero{border-bottom:1px solid var(--line); background:
+     radial-gradient(1200px 400px at 70% -10%, rgba(201,162,39,.10), transparent 60%),
+     var(--bg); padding:64px 0 40px}
+  .eyebrow{font-family:var(--sans); font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+     color:var(--accent); margin:0 0 18px}
+  .preamble{font-size:19px; color:var(--ink-soft); font-style:italic; max-width:700px; margin:0 0 22px}
+  .cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px; font-family:var(--sans); font-size:15px}
+  .btn{display:inline-block; padding:10px 16px; border-radius:8px; border:1px solid var(--line);
+     background:var(--panel); color:var(--ink); font-weight:500}
+  .btn:hover{border-color:var(--accent); border-bottom-color:var(--accent)}
+  main{padding:40px 0 20px}
+  p{margin:14px 0}
+  .muted{color:var(--ink-dim)}
+  .small{font-size:15px}
+  strong{color:#f2f0ea}
+  code{font-family:"SF Mono",ui-monospace,"Cascadia Code",Menlo,Consolas,monospace;
+     background:var(--panel-2); padding:1px 6px; border-radius:4px; font-size:.85em; color:var(--ink)}
+  .entry{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--accent);
+     border-radius:8px; padding:16px 22px; margin:16px 0}
+  .entry .when{font-family:var(--sans); font-size:12.5px; letter-spacing:.08em; text-transform:uppercase;
+     color:var(--accent); display:block; margin-bottom:6px}
+  .entry p{margin:6px 0 0}
+  footer{padding:30px 0 80px; color:var(--ink-dim); font-size:15px}
+  @media (max-width:680px){
+    h1{font-size:38px}
+    body{font-size:17px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Reasonable · Ongoing updates</p>
+    <h1>Ongoing updates<span class="dot">.</span></h1>
+    <p class="preamble">The competition submission was finalized on <strong>2026-07-20</strong>, with
+      the repository at commit <code>022b383</code> — everything before that moment is the submitted
+      artifact. The project keeps moving, so changes made after submission are logged here, newest
+      first, with date and time. Reviewers can always tell what was submitted from what came later.</p>
+    <div class="cta">
+      <a class="btn" href="index.html">&larr; Submission page</a>
+      <a class="btn" href="https://github.com/jeffpyles/reasonable-flf/commits/main" target="_blank" rel="noopener">Full commit history</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="entry">
+      <span class="when">2026-07-20 · 16:37 UTC</span>
+      <p>Added this updates log, linked from the submission page, to keep post-submission work
+      clearly separated from the submitted artifact.</p>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="small muted"><a href="index.html">&larr; Back to the submission page</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

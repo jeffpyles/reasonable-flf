@@ -47,6 +47,18 @@ agents, with prompts and harnesses good enough that a stronger model rarely has 
 pass — while keeping the system no more expensive to run than it needs to be. Argument quality and
 build economics are the two ends of that dial, and finding where they meet is the work.
 
+One grammar extension belongs here, because it strengthens a whole class of arguments the current
+grammar handles poorly: **conditional, forward model-building** — "if we did X, the world would be
+Y" — which is most of what "what should we do?" questions actually consist of. The grammar's
+firewall between *is* and *ought* rightly forbids deriving a fact from a value, but it also leaves
+nowhere to build out the descriptive consequences of a proposed action. The proposed fix is a
+**scenario** construct: designate an action-state as assumed (never rated for truth), build and
+assess its consequence-tree *conditionally*, and let it export explicit conditionals ("if X, then
+Y") that can then legally ground an ought — the value firewall stays fully intact. Rival scenarios
+for rival policies let the map show exactly where two proposed futures diverge, which is where the
+real policy crux usually hides. Design note:
+[`v0/SPEC-evidence-argument-ought-ghosts.md`](v0/SPEC-evidence-argument-ought-ghosts.md) §6.3.
+
 ## 3. Run the missing experiments
 
 The research validated the parts; three experiments would validate the whole.

@@ -1,0 +1,15 @@
+{
+ "round": "tenths-reelicitation",
+ "date": "2026-07-20",
+ "purpose": "Re-elicit the coarse-rating cohorts blind at tenths over their original live assignments; same agent ids, same blocs, same era -> supersede in place.",
+ "cohorts": [
+  "ev-s (ref)",
+  "skeptic-s (ref)",
+  "{ev,skeptic,physics,bayes}-h{1..4} (cheap)"
+ ],
+ "counts": {
+  "each": 67,
+  "total_applied": 1206
+ },
+ "note": "Whole-graph finer-than-half ratings ~24% -> 79%. Three non-rival nodes (n018/n029/n060, none in any antithesis set) moved contested->settled: their contested status came from belief-camp detection on the rater-agreement matrix, and the finer tenths ratings resolved apparent camps that the coarse whole/half grid had created. States 12/56 -> 9/59. The already-fine-grained haiku presentation cohort and any ref raters already at tenths were the ones re-elicited here (this graphs presentation cohort WAS the coarse one)."
+}

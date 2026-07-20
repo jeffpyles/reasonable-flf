@@ -117,3 +117,21 @@ nodes cite **Wikipedia** for foundational facts whose real source is the primary
 n006/n015 (micro-black-hole production / evaporation → the extra-dimensions and Hawking-evaporation
 papers) and n014/n017 (Hawking radiation → Hawking 1974). These should be re-pointed to the primary
 references rather than Wikipedia; left in place pending the correct citations (domain call, Graphs' lane).
+
+## Tenths re-elicitation (2026-07-20, post-submission)
+
+The coarse-rating cohorts on this graph — `ev-s`/`skeptic-s` (Sonnet, bloc `ref`) and the sixteen
+Haiku `{ev,skeptic,physics,bayes}-h{1..4}` raters (bloc `cheap`) — had rated almost entirely at
+whole/half-point grain. They were re-elicited **blind at tenths** over their original live
+assignments (67 targets each, 1,206 total), same agent ids, same blocs, same era — supersede in
+place. This is a **re-elicitation, not a reformatting**: the values are new judgments under a finer
+dial. Effect: whole-graph finer-than-half ratings rose ~24% → 79%; 69 target means shifted (median
+|Δ| 0.09, max 0.56 on n018); lint unchanged; tests green. Packet + spec:
+`harness/packet-tenths.md`, `harness/tenths-reelicitation.json`.
+
+**One lifecycle shift, and why.** Three nodes moved contested → settled (states 12/56 → 9/59):
+n018, n029, n060. None is a member of any antithesis set, so their "contested" flag came not from
+structural rivalry but from **belief-camp detection** on the rater-agreement matrix. All three are
+leaning-agree nodes (means 3.5–4.7); the coarse whole/half grid had quantized their ratings into
+apparent camps, and the finer tenths ratings resolve them — spurious camps disappearing is the
+expected, desirable direction. No structurally-contested (antithesis) node changed state.

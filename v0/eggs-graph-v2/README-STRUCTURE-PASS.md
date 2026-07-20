@@ -148,3 +148,17 @@ source s14) and is untouched — the audit removes blog-backed pseudo-evidence, 
 mid-20th-century provenance, not trial-derived) and is kept. **n051** only restates the interpretive
 point its dependent n061 already makes (and which the primary guideline text n050 already grounds) —
 a mild redundancy candidate, left for the re-rate/owner call rather than ghosted unilaterally.
+
+## Tenths re-elicitation (2026-07-20, post-submission)
+
+The coarse-rating cohorts on this graph — the four Sonnet `panel-*` raters (bloc `b1`) and the
+sixteen Haiku `cheap-*` raters (bloc `cheap`) — had cast their ratings almost entirely at
+whole/half-point grain, an instruction gap rather than a judgment about the scale. They were
+re-elicited **blind at tenths resolution** over their original live assignments (123 targets each
+for the panel, 59 each for the cheap swarm; 1,436 ratings total), same agent ids, same blocs, same
+era — so each new rating supersedes the old one in place and the append-only log keeps both. This
+is a **re-elicitation, not a reformatting**: the values are new judgments under a finer dial. Effect:
+whole-graph finer-than-half ratings rose ~30% → 77%; 143 target means shifted (median |Δ| 0.09,
+max 1.08 on n021); **no lifecycle state changed** (18 contested / 49 settled); lint unchanged; tests
+green. The fine-grained Haiku presentation cohort (`haiku-*`) was already at tenths and left
+untouched. Packet + spec: `harness/packet-tenths.md`, `harness/tenths-reelicitation.json`.

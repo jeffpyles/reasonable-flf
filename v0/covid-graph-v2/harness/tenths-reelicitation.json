@@ -1,0 +1,18 @@
+{
+ "round": "tenths-reelicitation",
+ "date": "2026-07-20",
+ "purpose": "Re-elicit the coarse-rating cohorts blind at tenths over their original live assignments; same agent ids, same blocs, same era -> supersede in place.",
+ "cohorts": [
+  "panel-{evidential,skeptic,domain} (b1)",
+  "{ev,skeptic,domain}-h{1..4} (cheap)",
+  "skeptic-s{2,3} (refdense)"
+ ],
+ "counts": {
+  "panel_each": 274,
+  "cheap_each": 109,
+  "refdense_each": 69,
+  "total_applied": 2268
+ },
+ "group_target": "panel-* assignments include the live conjunction target group:g1 (274 = 273 + group:g1); the packet describes it in a Conjunction groups section.",
+ "note": "Whole-graph finer-than-half ratings ~41% -> 65% (the already-fine bayes-*/ev-s/domain-s cohorts were left untouched). No lifecycle state changed (38 contested / 96 settled); lint clean. Assessed origin verdict direction preserved (zoonotic n001 3.46 > lab n002 2.29; natural FCS n054 3.48 > engineered n055 1.83)."
+}

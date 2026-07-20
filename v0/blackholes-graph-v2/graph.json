@@ -6,8 +6,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9085056210071822,
-      "true_r": 0.8296998422012412
+      "raw_r": 0.9619512768790062,
+      "true_r": 0.8775927026578106
     },
     {
       "agent": "bayes-h2",
@@ -15,8 +15,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9441992464106717,
-      "true_r": 0.861685038991381
+      "raw_r": 0.9752780282074539,
+      "true_r": 0.8895348564456405
     },
     {
       "agent": "bayes-h3",
@@ -24,8 +24,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.936237292575796,
-      "true_r": 0.8545503011393497
+      "raw_r": 0.9603810409136141,
+      "true_r": 0.8761856080914204
     },
     {
       "agent": "bayes-h4",
@@ -33,8 +33,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9518068342994741,
-      "true_r": 0.8685022281384898
+      "raw_r": 0.948163187666948,
+      "true_r": 0.8652371421950572
     },
     {
       "agent": "bayes-s",
@@ -42,8 +42,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9702009669783694,
-      "true_r": 0.8849852820974998
+      "raw_r": 0.9707833955808415,
+      "true_r": 0.8855071986373774
     },
     {
       "agent": "collider-03",
@@ -69,8 +69,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.8768985934042187,
-      "true_r": 0.8013766616219622
+      "raw_r": 0.9380653814782994,
+      "true_r": 0.8561884587273073
     },
     {
       "agent": "ev-h2",
@@ -78,8 +78,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9056483795077205,
-      "true_r": 0.8271394569614637
+      "raw_r": 0.9659643224144129,
+      "true_r": 0.881188808397331
     },
     {
       "agent": "ev-h3",
@@ -87,8 +87,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.8975128584979545,
-      "true_r": 0.8198491848877774
+      "raw_r": 0.9547475995208896,
+      "true_r": 0.871137459310927
     },
     {
       "agent": "ev-h4",
@@ -96,8 +96,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9263221637811857,
-      "true_r": 0.8456653155961275
+      "raw_r": 0.9693576173469735,
+      "true_r": 0.8842295532070281
     },
     {
       "agent": "ev-s",
@@ -105,8 +105,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9346453300228516,
-      "true_r": 0.8531237372932046
+      "raw_r": 0.9192446141284556,
+      "true_r": 0.8393230957774472
     },
     {
       "agent": "haiku-bayesian-1",
@@ -186,8 +186,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9132685709471361,
-      "true_r": 0.8339679401993817
+      "raw_r": 0.9732280318101515,
+      "true_r": 0.8876978466870189
     },
     {
       "agent": "physics-h2",
@@ -195,8 +195,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9269834982923514,
-      "true_r": 0.846257940028211
+      "raw_r": 0.9561938337539713,
+      "true_r": 0.8724334354418704
     },
     {
       "agent": "physics-h3",
@@ -204,8 +204,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9498929196791116,
-      "true_r": 0.8667871617903727
+      "raw_r": 0.9589890946501394,
+      "true_r": 0.8749382796215535
     },
     {
       "agent": "physics-h4",
@@ -213,8 +213,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9122217471921334,
-      "true_r": 0.8330298773539897
+      "raw_r": 0.9732649092179411,
+      "true_r": 0.8877308926758173
     },
     {
       "agent": "physics-s",
@@ -222,8 +222,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9492771663399662,
-      "true_r": 0.8662353828241255
+      "raw_r": 0.9499316476154502,
+      "true_r": 0.8668218660450139
     },
     {
       "agent": "risk-04",
@@ -240,8 +240,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9171806265459992,
-      "true_r": 0.8374735484632979
+      "raw_r": 0.9692125379481468,
+      "true_r": 0.8840995469924952
     },
     {
       "agent": "skeptic-h2",
@@ -249,8 +249,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9611691947116499,
-      "true_r": 0.8768918757805694
+      "raw_r": 0.9740100905693436,
+      "true_r": 0.8883986525881131
     },
     {
       "agent": "skeptic-h3",
@@ -258,8 +258,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9365800929315744,
-      "true_r": 0.8548574858737484
+      "raw_r": 0.9591114683292714,
+      "true_r": 0.8750479391522042
     },
     {
       "agent": "skeptic-h4",
@@ -267,8 +267,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9497584572825037,
-      "true_r": 0.866666669512893
+      "raw_r": 0.9629277150204708,
+      "true_r": 0.8784676926806816
     },
     {
       "agent": "skeptic-s",
@@ -276,8 +276,8 @@
       "confidence": 0.8961038961038961,
       "n_assessments": 69,
       "rated": 69,
-      "raw_r": 0.9430869088340661,
-      "true_r": 0.860688268955202
+      "raw_r": 0.9156794792383907,
+      "true_r": 0.8361283645123241
     },
     {
       "agent": "structure-pass",
@@ -3444,11 +3444,11 @@
       },
       "scale_max": 5.0
     },
-    "event_count": 3378,
-    "generated_ts": "2026-07-18T21:59:40.574915+00:00",
+    "event_count": 4784,
+    "generated_ts": "2026-07-20T17:49:17.842331+00:00",
     "heat_medians": {
-      "content": 0.000912344229304486,
-      "rating": 4.932587834644705
+      "content": 3.5426763906805484e-05,
+      "rating": 5.978585801666417
     },
     "question": "Could a high-energy particle collider (the LHC) create a black hole that destroys Earth?",
     "rating_count": 3140
@@ -3456,14 +3456,14 @@
   "nodes": [
     {
       "agreement": {
-        "bloc_divergence": 7.289092383202705,
+        "bloc_divergence": 3.4760044774868892,
         "blocs": {
           "cheap": {
-            "mean": 4.63125,
+            "mean": 4.56875,
             "n": 16
           },
           "ref": {
-            "mean": 4.925,
+            "mean": 4.75,
             "n": 4
           }
         },
@@ -3473,21 +3473,21 @@
           0,
           0,
           0,
-          0,
-          20
+          3,
+          17
         ],
         "history": [],
-        "mean": 4.690326920539868,
+        "mean": 4.604908578839946,
         "n": 20,
         "state": "contested",
-        "stdev": 0.21886068628239289
+        "stdev": 0.1802082129094011
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 1,
       "heat": {
-        "content": 0.002225,
-        "rating": 9.247011
+        "content": 8.6e-05,
+        "rating": 5.884212
       },
       "id": "n001",
       "kind": "claim",
@@ -3610,38 +3610,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.39364358254372495,
+        "bloc_divergence": 8.057947168705988,
         "blocs": {
           "cheap": {
-            "mean": 0.48125,
+            "mean": 1.19375,
             "n": 16
           },
           "ref": {
-            "mean": 0.375,
+            "mean": 0.525,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
-          5,
-          14,
-          1,
+          4,
+          13,
+          3,
           0,
           0,
           0
         ],
         "history": [],
-        "mean": 0.46101015338226814,
+        "mean": 1.061323056390108,
         "n": 20,
         "state": "contested",
-        "stdev": 0.29051678092667904
+        "stdev": 0.48104053883222775
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 2,
       "heat": {
-        "content": 0.002474,
-        "rating": 9.97685
+        "content": 9.6e-05,
+        "rating": 7.39935
       },
       "id": "n002",
       "kind": "claim",
@@ -3764,14 +3764,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.9191489244364014,
+        "bloc_divergence": 2.484894700640572,
         "blocs": {
           "cheap": {
-            "mean": 4.8,
+            "mean": 4.843749999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.95,
+            "mean": 4.725,
             "n": 4
           }
         },
@@ -3781,21 +3781,21 @@
           0,
           0,
           0,
-          1,
-          19
+          0,
+          20
         ],
         "history": [],
-        "mean": 4.831772623867803,
+        "mean": 4.821496869054419,
         "n": 20,
         "state": "settled",
-        "stdev": 0.27221315177632394
+        "stdev": 0.13638181696985868
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 3,
       "heat": {
-        "content": 0.000607,
-        "rating": 3.757079
+        "content": 2.4e-05,
+        "rating": 5.27755
       },
       "id": "n003",
       "kind": "evidence",
@@ -3923,14 +3923,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.3100821991647102,
+        "bloc_divergence": 0.07120878670151522,
         "blocs": {
           "cheap": {
-            "mean": 4.76875,
+            "mean": 4.781249999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.95,
+            "mean": 4.8,
             "n": 4
           }
         },
@@ -3944,17 +3944,17 @@
           19
         ],
         "history": [],
-        "mean": 4.8068672038317,
+        "mean": 4.7855376876211455,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2783433131943357
+        "stdev": 0.1194780314534852
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 4,
       "heat": {
-        "content": 0.00153,
-        "rating": 8.420201
+        "content": 5.9e-05,
+        "rating": 7.562525
       },
       "id": "n004",
       "kind": "claim",
@@ -4077,14 +4077,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 5.438945522951038,
+        "bloc_divergence": 0.023159399451932274,
         "blocs": {
           "cheap": {
-            "mean": 3.95625,
+            "mean": 4.4624999999999995,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.5,
             "n": 4
           }
         },
@@ -4093,22 +4093,22 @@
           0,
           0,
           0,
-          3,
-          7,
-          10
+          1,
+          6,
+          13
         ],
         "history": [],
-        "mean": 4.132722198749852,
+        "mean": 4.471801362960752,
         "n": 20,
         "state": "settled",
-        "stdev": 0.7006247212309883
+        "stdev": 0.41844951905815353
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 5,
       "heat": {
-        "content": 0.000622,
-        "rating": 3.875802
+        "content": 2.4e-05,
+        "rating": 5.524246
       },
       "id": "n005",
       "kind": "evidence",
@@ -4236,14 +4236,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.983673461456363,
+        "bloc_divergence": 3.2984770970836363,
         "blocs": {
           "cheap": {
-            "mean": 4.43125,
+            "mean": 4.7124999999999995,
             "n": 16
           },
           "ref": {
-            "mean": 4.825,
+            "mean": 4.4750000000000005,
             "n": 4
           }
         },
@@ -4257,17 +4257,17 @@
           16
         ],
         "history": [],
-        "mean": 4.514942274045744,
+        "mean": 4.667189135578113,
         "n": 20,
         "state": "settled",
-        "stdev": 0.4998999899979995
+        "stdev": 0.2414021540914663
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 6,
       "heat": {
-        "content": 0.00091,
-        "rating": 5.294828
+        "content": 3.5e-05,
+        "rating": 6.200445
       },
       "id": "n006",
       "kind": "evidence",
@@ -4395,14 +4395,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.1900928763093686,
+        "bloc_divergence": 0.14470877426775117,
         "blocs": {
           "cheap": {
-            "mean": 4.1625,
+            "mean": 4.5687500000000005,
             "n": 16
           },
           "ref": {
-            "mean": 4.55,
+            "mean": 4.525,
             "n": 4
           }
         },
@@ -4410,23 +4410,23 @@
         "histogram": [
           0,
           0,
-          1,
           0,
-          6,
-          13
+          0,
+          3,
+          17
         ],
         "history": [],
-        "mean": 4.246774401724558,
+        "mean": 4.560587759619078,
         "n": 20,
         "state": "settled",
-        "stdev": 0.6224146527838174
+        "stdev": 0.19595917942265426
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 7,
       "heat": {
-        "content": 0.001747,
-        "rating": 8.980967
+        "content": 6.8e-05,
+        "rating": 6.634976
       },
       "id": "n007",
       "kind": "claim",
@@ -4549,14 +4549,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.1688311657952437,
+        "bloc_divergence": 1.1851851781618745,
         "blocs": {
           "cheap": {
-            "mean": 3.825,
+            "mean": 4.425000000000001,
             "n": 16
           },
           "ref": {
-            "mean": 4.2,
+            "mean": 4.175,
             "n": 4
           }
         },
@@ -4565,22 +4565,22 @@
           0,
           0,
           0,
-          3,
-          12,
-          5
+          1,
+          8,
+          11
         ],
         "history": [],
-        "mean": 3.907996851628108,
+        "mean": 4.376984206526414,
         "n": 20,
         "state": "settled",
-        "stdev": 0.6074537019394977
+        "stdev": 0.40233692348577693
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 8,
       "heat": {
-        "content": 0.000609,
-        "rating": 3.778734
+        "content": 2.4e-05,
+        "rating": 5.294865
       },
       "id": "n008",
       "kind": "evidence",
@@ -4708,38 +4708,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 2.879723145253267,
+        "bloc_divergence": 0.18115967173647698,
         "blocs": {
           "cheap": {
-            "mean": 3.3875,
+            "mean": 4.40625,
             "n": 16
           },
           "ref": {
-            "mean": 4.375,
+            "mean": 4.300000000000001,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
+          0,
+          0,
+          0,
           1,
-          0,
-          0,
-          5,
-          9,
-          5
+          7,
+          12
         ],
         "history": [],
-        "mean": 3.59523936606331,
+        "mean": 4.386977210752039,
         "n": 20,
-        "state": "contested",
-        "stdev": 1.0636141217565702
+        "state": "settled",
+        "stdev": 0.42576401914675693
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 9,
       "heat": {
-        "content": 0.000611,
-        "rating": 3.787433
+        "content": 2.4e-05,
+        "rating": 5.306703
       },
       "id": "n009",
       "kind": "evidence",
@@ -4867,14 +4867,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.2817582392228968,
+        "bloc_divergence": 0.11361344476712049,
         "blocs": {
           "cheap": {
-            "mean": 4.05,
+            "mean": 4.5562499999999995,
             "n": 16
           },
           "ref": {
-            "mean": 4.5,
+            "mean": 4.475,
             "n": 4
           }
         },
@@ -4883,22 +4883,22 @@
           0,
           0,
           0,
-          4,
-          4,
-          12
+          1,
+          3,
+          16
         ],
         "history": [],
-        "mean": 4.1482901455958645,
+        "mean": 4.5421772975758055,
         "n": 20,
         "state": "settled",
-        "stdev": 0.6981403870282825
+        "stdev": 0.41036569057366384
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 10,
       "heat": {
-        "content": 0.000612,
-        "rating": 3.796522
+        "content": 2.4e-05,
+        "rating": 5.318582
       },
       "id": "n010",
       "kind": "evidence",
@@ -5026,38 +5026,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.6997814015405363,
+        "bloc_divergence": 10.473363381961862,
         "blocs": {
           "cheap": {
-            "mean": 3.7,
+            "mean": 4.51875,
             "n": 16
           },
           "ref": {
-            "mean": 4.125,
+            "mean": 4.1,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
           0,
-          1,
           0,
-          3,
-          11,
-          5
+          0,
+          0,
+          8,
+          12
         ],
         "history": [],
-        "mean": 3.7973510452057235,
+        "mean": 4.437838364841018,
         "n": 20,
         "state": "settled",
-        "stdev": 0.8787917842128474
+        "stdev": 0.2761792895928295
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 11,
       "heat": {
-        "content": 0.001842,
-        "rating": 9.886069
+        "content": 7.2e-05,
+        "rating": 8.376055
       },
       "id": "n011",
       "kind": "claim",
@@ -5180,14 +5180,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.0406026933020092,
+        "bloc_divergence": 4.659339083760373,
         "blocs": {
           "cheap": {
-            "mean": 3.9875,
+            "mean": 4.60625,
             "n": 16
           },
           "ref": {
-            "mean": 4.325,
+            "mean": 4.225,
             "n": 4
           }
         },
@@ -5196,22 +5196,22 @@
           0,
           0,
           0,
-          1,
-          11,
-          8
+          0,
+          5,
+          15
         ],
         "history": [],
-        "mean": 4.062478778864978,
+        "mean": 4.53336707868166,
         "n": 20,
         "state": "settled",
-        "stdev": 0.5774729430891113
+        "stdev": 0.33630343441600485
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 12,
       "heat": {
-        "content": 0.000622,
-        "rating": 3.902411
+        "content": 2.4e-05,
+        "rating": 5.464979
       },
       "id": "n012",
       "kind": "evidence",
@@ -5339,14 +5339,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.31322505713255205,
+        "bloc_divergence": 27.523635913249564,
         "blocs": {
           "cheap": {
-            "mean": 4.2125,
+            "mean": 4.575,
             "n": 16
           },
           "ref": {
-            "mean": 4.025,
+            "mean": 3.8500000000000005,
             "n": 4
           }
         },
@@ -5355,22 +5355,22 @@
           0,
           0,
           0,
-          1,
-          10,
-          9
+          0,
+          8,
+          12
         ],
         "history": [],
-        "mean": 4.177645665447068,
+        "mean": 4.433364398103897,
         "n": 20,
         "state": "settled",
-        "stdev": 0.5734762418792952
+        "stdev": 0.37296112397943043
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 13,
       "heat": {
-        "content": 0.00122,
-        "rating": 6.703016
+        "content": 4.7e-05,
+        "rating": 6.653943
       },
       "id": "n013",
       "kind": "claim",
@@ -5493,14 +5493,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.07471175963318093,
+        "bloc_divergence": 0.4181488148626619,
         "blocs": {
           "cheap": {
-            "mean": 4.64375,
+            "mean": 4.725,
             "n": 16
           },
           "ref": {
-            "mean": 4.7,
+            "mean": 4.625,
             "n": 4
           }
         },
@@ -5510,21 +5510,21 @@
           0,
           0,
           0,
-          3,
-          17
+          2,
+          18
         ],
         "history": [],
-        "mean": 4.657201747629153,
+        "mean": 4.706494728063816,
         "n": 20,
         "state": "settled",
-        "stdev": 0.34996428389194234
+        "stdev": 0.26547127904916584
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 14,
       "heat": {
-        "content": 0.000915,
-        "rating": 5.161625
+        "content": 3.6e-05,
+        "rating": 5.720263
       },
       "id": "n014",
       "kind": "evidence",
@@ -5652,14 +5652,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.44334975194739024,
+        "bloc_divergence": 0.5033381642495631,
         "blocs": {
           "cheap": {
-            "mean": 4.3625,
+            "mean": 4.58125,
             "n": 16
           },
           "ref": {
-            "mean": 4.55,
+            "mean": 4.4750000000000005,
             "n": 4
           }
         },
@@ -5668,22 +5668,22 @@
           0,
           0,
           0,
-          1,
-          4,
+          0,
+          5,
           15
         ],
         "history": [],
-        "mean": 4.404214092471754,
+        "mean": 4.561593781968249,
         "n": 20,
         "state": "settled",
-        "stdev": 0.48373546489791286
+        "stdev": 0.2576819745345025
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 15,
       "heat": {
-        "content": 0.001797,
-        "rating": 9.419457
+        "content": 7e-05,
+        "rating": 7.52588
       },
       "id": "n015",
       "kind": "evidence",
@@ -5811,14 +5811,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.8876712219328134,
+        "bloc_divergence": 0.25518452996525604,
         "blocs": {
           "cheap": {
-            "mean": 4.65,
+            "mean": 4.64375,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.574999999999999,
             "n": 4
           }
         },
@@ -5828,21 +5828,21 @@
           0,
           0,
           0,
-          1,
-          19
+          2,
+          18
         ],
         "history": [],
-        "mean": 4.680200124736715,
+        "mean": 4.6313082959188705,
         "n": 20,
         "state": "settled",
-        "stdev": 0.276767050061961
+        "stdev": 0.23259406699226023
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 16,
       "heat": {
-        "content": 0.000619,
-        "rating": 3.90433
+        "content": 2.4e-05,
+        "rating": 5.394129
       },
       "id": "n016",
       "kind": "evidence",
@@ -5970,14 +5970,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.28862548713005814,
+        "bloc_divergence": 17.74153584125021,
         "blocs": {
           "cheap": {
-            "mean": 4.74375,
+            "mean": 4.96875,
             "n": 16
           },
           "ref": {
-            "mean": 4.95,
+            "mean": 4.7749999999999995,
             "n": 4
           }
         },
@@ -5985,23 +5985,23 @@
         "histogram": [
           0,
           0,
-          1,
           0,
           0,
-          19
+          0,
+          20
         ],
         "history": [],
-        "mean": 4.792387433057859,
+        "mean": 4.931278737940167,
         "n": 20,
         "state": "settled",
-        "stdev": 0.6567153112270185
+        "stdev": 0.11000000000000003
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 17,
       "heat": {
-        "content": 0.000641,
-        "rating": 4.060344
+        "content": 2.5e-05,
+        "rating": 5.682488
       },
       "id": "n017",
       "kind": "evidence",
@@ -6129,14 +6129,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 4.610907296171548,
+        "bloc_divergence": 0.009228140112092501,
         "blocs": {
           "cheap": {
-            "mean": 3.0,
+            "mean": 4.0625,
             "n": 16
           },
           "ref": {
-            "mean": 4.275,
+            "mean": 4.1,
             "n": 4
           }
         },
@@ -6144,23 +6144,23 @@
         "histogram": [
           0,
           0,
-          5,
-          1,
-          11,
-          3
+          0,
+          4,
+          9,
+          7
         ],
         "history": [],
-        "mean": 3.2573790786825407,
+        "mean": 4.0695256509122535,
         "n": 20,
-        "state": "contested",
-        "stdev": 1.1293692930126973
+        "state": "settled",
+        "stdev": 0.6626462102811727
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 18,
       "heat": {
-        "content": 0.000974,
-        "rating": 5.60311
+        "content": 3.8e-05,
+        "rating": 6.500941
       },
       "id": "n018",
       "kind": "claim",
@@ -6283,38 +6283,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.1640677961652403,
+        "bloc_divergence": 0.5548799978692616,
         "blocs": {
           "cheap": {
-            "mean": 2.1375,
+            "mean": 2.1625,
             "n": 16
           },
           "ref": {
-            "mean": 2.0,
+            "mean": 1.95,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
           0,
-          0,
-          13,
-          7,
+          1,
+          16,
+          3,
           0,
           0
         ],
         "history": [],
-        "mean": 2.1069699425927935,
+        "mean": 2.1192564590861394,
         "n": 20,
         "state": "contested",
-        "stdev": 0.5787054518492115
+        "stdev": 0.49152822909778027
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 19,
       "heat": {
-        "content": 0.001734,
-        "rating": 6.772631
+        "content": 6.7e-05,
+        "rating": 6.18499
       },
       "id": "n019",
       "kind": "claim",
@@ -6437,14 +6437,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.187683271918886,
+        "bloc_divergence": 3.2302520139764037,
         "blocs": {
           "cheap": {
-            "mean": 4.5125,
+            "mean": 4.44375,
             "n": 16
           },
           "ref": {
-            "mean": 4.325,
+            "mean": 4.25,
             "n": 4
           }
         },
@@ -6454,21 +6454,21 @@
           0,
           0,
           0,
-          5,
-          15
+          11,
+          9
         ],
         "history": [],
-        "mean": 4.475982845133559,
+        "mean": 4.40657939263132,
         "n": 20,
         "state": "contested",
-        "stdev": 0.30145480589965734
+        "stdev": 0.19868316486305532
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 20,
       "heat": {
-        "content": 0.001666,
-        "rating": 6.571777
+        "content": 6.5e-05,
+        "rating": 6.285345
       },
       "id": "n020",
       "kind": "claim",
@@ -6591,14 +6591,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.1204419740935934,
+        "bloc_divergence": 23.695519841675313,
         "blocs": {
           "cheap": {
-            "mean": 4.637499999999999,
+            "mean": 4.812499999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.55,
             "n": 4
           }
         },
@@ -6608,21 +6608,21 @@
           0,
           0,
           0,
-          1,
-          19
+          0,
+          20
         ],
         "history": [],
-        "mean": 4.670137022988289,
+        "mean": 4.76113511918907,
         "n": 20,
         "state": "settled",
-        "stdev": 0.268514431641951
+        "stdev": 0.1392838827718413
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 21,
       "heat": {
-        "content": 0.000624,
-        "rating": 3.933349
+        "content": 2.4e-05,
+        "rating": 5.389045
       },
       "id": "n021",
       "kind": "evidence",
@@ -6750,14 +6750,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.21033316945552888,
+        "bloc_divergence": 6.998399462522847,
         "blocs": {
           "cheap": {
-            "mean": 4.63125,
+            "mean": 4.718749999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.699999999999999,
+            "mean": 4.55,
             "n": 4
           }
         },
@@ -6771,17 +6771,17 @@
           19
         ],
         "history": [],
-        "mean": 4.645548239220444,
+        "mean": 4.685942436549873,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2558808316384797
+        "stdev": 0.1275735082217308
       },
       "author": "theory-01",
       "comments": [],
       "created_seq": 22,
       "heat": {
-        "content": 0.002814,
-        "rating": 14.37925
+        "content": 0.000109,
+        "rating": 8.416279
       },
       "id": "n022",
       "kind": "claim",
@@ -6904,14 +6904,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.14084506883554845,
+        "bloc_divergence": 7.199999280000025,
         "blocs": {
           "cheap": {
-            "mean": 4.7375,
+            "mean": 4.749999999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.6,
             "n": 4
           }
         },
@@ -6921,21 +6921,21 @@
           0,
           0,
           0,
-          1,
-          19
+          0,
+          20
         ],
         "history": [],
-        "mean": 4.746498859978001,
+        "mean": 4.720319126863054,
         "n": 20,
         "state": "settled",
-        "stdev": 0.28372521918222215
+        "stdev": 0.11224972160321828
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 23,
       "heat": {
-        "content": 0.000915,
-        "rating": 5.352548
+        "content": 3.6e-05,
+        "rating": 5.776301
       },
       "id": "n023",
       "kind": "evidence",
@@ -7063,14 +7063,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.303512875444288,
+        "bloc_divergence": 18.248274351866804,
         "blocs": {
           "cheap": {
-            "mean": 4.699999999999999,
+            "mean": 4.762499999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.775,
+            "mean": 4.5,
             "n": 4
           }
         },
@@ -7080,21 +7080,21 @@
           0,
           0,
           0,
-          0,
-          20
+          1,
+          19
         ],
         "history": [],
-        "mean": 4.713897230885512,
+        "mean": 4.711077764841534,
         "n": 20,
         "state": "settled",
-        "stdev": 0.23296995514443491
+        "stdev": 0.1479864858694875
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 24,
       "heat": {
-        "content": 0.000633,
-        "rating": 4.005616
+        "content": 2.5e-05,
+        "rating": 5.497552
       },
       "id": "n024",
       "kind": "evidence",
@@ -7222,14 +7222,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.437067188702896,
+        "bloc_divergence": 12.109090052231386,
         "blocs": {
           "cheap": {
-            "mean": 4.6,
+            "mean": 4.731249999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.775,
+            "mean": 4.5,
             "n": 4
           }
         },
@@ -7243,17 +7243,17 @@
           19
         ],
         "history": [],
-        "mean": 4.635762902299242,
+        "mean": 4.6862143867750286,
         "n": 20,
         "state": "settled",
-        "stdev": 0.25743931323712005
+        "stdev": 0.1458595214581482
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 25,
       "heat": {
-        "content": 0.000926,
-        "rating": 5.455349
+        "content": 3.6e-05,
+        "rating": 5.73258
       },
       "id": "n025",
       "kind": "evidence",
@@ -7381,14 +7381,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.8739788778473738,
+        "bloc_divergence": 8.192125519816459,
         "blocs": {
           "cheap": {
-            "mean": 4.63125,
+            "mean": 4.7124999999999995,
             "n": 16
           },
           "ref": {
-            "mean": 4.775,
+            "mean": 4.5,
             "n": 4
           }
         },
@@ -7402,17 +7402,17 @@
           19
         ],
         "history": [],
-        "mean": 4.66018101656027,
+        "mean": 4.671122017666876,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2672077843177478
+        "stdev": 0.15198684153570668
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 26,
       "heat": {
-        "content": 0.000635,
-        "rating": 4.052314
+        "content": 2.5e-05,
+        "rating": 5.523259
       },
       "id": "n026",
       "kind": "evidence",
@@ -7540,14 +7540,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.021906693285386483,
+        "bloc_divergence": 17.723074469112436,
         "blocs": {
           "cheap": {
-            "mean": 4.83125,
+            "mean": 4.849999999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.85,
+            "mean": 4.65,
             "n": 4
           }
         },
@@ -7561,17 +7561,17 @@
           20
         ],
         "history": [],
-        "mean": 4.834179110919418,
+        "mean": 4.811144191546289,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2151162476429896
+        "stdev": 0.11357816691600559
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 27,
       "heat": {
-        "content": 0.001853,
-        "rating": 10.202291
+        "content": 7.2e-05,
+        "rating": 8.5557
       },
       "id": "n027",
       "kind": "claim",
@@ -7694,14 +7694,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.861891098272754,
+        "bloc_divergence": 3.0332360879320803,
         "blocs": {
           "cheap": {
-            "mean": 4.5625,
+            "mean": 4.612500000000001,
             "n": 16
           },
           "ref": {
-            "mean": 4.325,
+            "mean": 4.4,
             "n": 4
           }
         },
@@ -7711,21 +7711,21 @@
           0,
           0,
           0,
-          4,
-          16
+          6,
+          14
         ],
         "history": [],
-        "mean": 4.51336951457777,
+        "mean": 4.571074443653183,
         "n": 20,
         "state": "settled",
-        "stdev": 0.310282129682004
+        "stdev": 0.2238302928559939
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 28,
       "heat": {
-        "content": 0.001518,
-        "rating": 8.396213
+        "content": 5.9e-05,
+        "rating": 7.014383
       },
       "id": "n028",
       "kind": "claim",
@@ -7848,38 +7848,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.4499447499392806,
+        "bloc_divergence": 1.0857908820986306,
         "blocs": {
           "cheap": {
-            "mean": 3.575,
+            "mean": 3.6749999999999994,
             "n": 16
           },
           "ref": {
-            "mean": 4.25,
+            "mean": 4.05,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
           0,
-          1,
+          0,
           1,
           3,
-          7,
-          8
+          14,
+          2
         ],
         "history": [],
-        "mean": 3.7177055248397615,
+        "mean": 3.749749615972812,
         "n": 20,
         "state": "settled",
-        "stdev": 0.9888882646689666
+        "stdev": 0.628887907341205
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 29,
       "heat": {
-        "content": 0.000974,
-        "rating": 5.535394
+        "content": 3.8e-05,
+        "rating": 5.80723
       },
       "id": "n029",
       "kind": "claim",
@@ -8002,14 +8002,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.6602140633536395,
+        "bloc_divergence": 5.745812604089345,
         "blocs": {
           "cheap": {
-            "mean": 4.51875,
+            "mean": 4.699999999999998,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.475,
             "n": 4
           }
         },
@@ -8019,21 +8019,21 @@
           0,
           0,
           0,
-          5,
-          15
+          4,
+          16
         ],
         "history": [],
-        "mean": 4.57678630037519,
+        "mean": 4.656389686237516,
         "n": 20,
         "state": "settled",
-        "stdev": 0.38713692668098715
+        "stdev": 0.18296174463531983
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 30,
       "heat": {
-        "content": 0.000639,
-        "rating": 4.071599
+        "content": 2.5e-05,
+        "rating": 5.521573
       },
       "id": "n030",
       "kind": "evidence",
@@ -8161,14 +8161,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.005564142132824988,
+        "bloc_divergence": 11.657442494335557,
         "blocs": {
           "cheap": {
-            "mean": 4.5875,
+            "mean": 4.69375,
             "n": 16
           },
           "ref": {
-            "mean": 4.6,
+            "mean": 4.425000000000001,
             "n": 4
           }
         },
@@ -8182,17 +8182,17 @@
           17
         ],
         "history": [],
-        "mean": 4.589491672238265,
+        "mean": 4.641203372632634,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2844292530665578
+        "stdev": 0.17146428199482247
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 31,
       "heat": {
-        "content": 0.00064,
-        "rating": 4.081156
+        "content": 2.5e-05,
+        "rating": 5.534043
       },
       "id": "n031",
       "kind": "evidence",
@@ -8341,7 +8341,7 @@
           6
         ],
         "history": [],
-        "mean": 3.9609047844655634,
+        "mean": 3.956311726115108,
         "n": 20,
         "state": "settled",
         "stdev": 0.5454126877878804
@@ -8355,8 +8355,8 @@
         "seq": 3375
       },
       "heat": {
-        "content": 0.000641,
-        "rating": 4.09075
+        "content": 2.5e-05,
+        "rating": 0.291629
       },
       "id": "n032",
       "kind": "evidence",
@@ -8484,14 +8484,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.05270391349929154,
+        "bloc_divergence": 18.65027145035052,
         "blocs": {
           "cheap": {
-            "mean": 4.51875,
+            "mean": 4.6812499999999995,
             "n": 16
           },
           "ref": {
-            "mean": 4.475,
+            "mean": 4.25,
             "n": 4
           }
         },
@@ -8505,17 +8505,17 @@
           15
         ],
         "history": [],
-        "mean": 4.511776620154303,
+        "mean": 4.597645932119412,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3238826948140329
+        "stdev": 0.24181604578687496
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 33,
       "heat": {
-        "content": 0.000643,
-        "rating": 4.100557
+        "content": 2.5e-05,
+        "rating": 5.546924
       },
       "id": "n033",
       "kind": "evidence",
@@ -8643,14 +8643,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.9640167073601593,
+        "bloc_divergence": 2.8103224501011597,
         "blocs": {
           "cheap": {
-            "mean": 4.625,
+            "mean": 4.5875,
             "n": 16
           },
           "ref": {
-            "mean": 4.525,
+            "mean": 4.45,
             "n": 4
           }
         },
@@ -8660,21 +8660,21 @@
           0,
           0,
           0,
-          0,
-          20
+          5,
+          15
         ],
         "history": [],
-        "mean": 4.6042708614615275,
+        "mean": 4.560993875993072,
         "n": 20,
         "state": "settled",
-        "stdev": 0.1774119499921017
+        "stdev": 0.1496662954709576
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 34,
       "heat": {
-        "content": 0.002553,
-        "rating": 13.917013
+        "content": 9.9e-05,
+        "rating": 9.661324
       },
       "id": "n034",
       "kind": "claim",
@@ -8797,14 +8797,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.20304386675436117,
+        "bloc_divergence": 11.131477344439777,
         "blocs": {
           "cheap": {
-            "mean": 4.14375,
+            "mean": 4.55,
             "n": 16
           },
           "ref": {
-            "mean": 4.275,
+            "mean": 4.074999999999999,
             "n": 4
           }
         },
@@ -8813,22 +8813,22 @@
           0,
           0,
           0,
-          1,
-          9,
-          10
+          0,
+          8,
+          12
         ],
         "history": [],
-        "mean": 4.174184602818109,
+        "mean": 4.457608201206821,
         "n": 20,
         "state": "settled",
-        "stdev": 0.49709154086546276
+        "stdev": 0.3073678577860737
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 35,
       "heat": {
-        "content": 0.000669,
-        "rating": 4.305362
+        "content": 2.6e-05,
+        "rating": 5.913326
       },
       "id": "n035",
       "kind": "evidence",
@@ -8956,14 +8956,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.25545271531092645,
+        "bloc_divergence": 12.601692979370915,
         "blocs": {
           "cheap": {
-            "mean": 4.05625,
+            "mean": 4.43125,
             "n": 16
           },
           "ref": {
-            "mean": 4.2,
+            "mean": 4.05,
             "n": 4
           }
         },
@@ -8972,22 +8972,22 @@
           0,
           0,
           0,
-          1,
-          12,
+          0,
+          13,
           7
         ],
         "history": [],
-        "mean": 4.0897487533766395,
+        "mean": 4.357313100350208,
         "n": 20,
         "state": "settled",
-        "stdev": 0.48608126892526937
+        "stdev": 0.23764469276632288
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 36,
       "heat": {
-        "content": 0.000973,
-        "rating": 5.836333
+        "content": 3.8e-05,
+        "rating": 6.582509
       },
       "id": "n036",
       "kind": "claim",
@@ -9110,14 +9110,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.2470265303097396,
+        "bloc_divergence": 9.02075739736773,
         "blocs": {
           "cheap": {
-            "mean": 4.44375,
+            "mean": 4.643750000000001,
             "n": 16
           },
           "ref": {
-            "mean": 4.35,
+            "mean": 4.4,
             "n": 4
           }
         },
@@ -9127,21 +9127,21 @@
           0,
           0,
           0,
-          7,
-          13
+          6,
+          14
         ],
         "history": [],
-        "mean": 4.426847008865374,
+        "mean": 4.596260500090453,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3222964473896664
+        "stdev": 0.1687453703068619
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 37,
       "heat": {
-        "content": 0.00069,
-        "rating": 4.260402
+        "content": 2.7e-05,
+        "rating": 5.782566
       },
       "id": "n037",
       "kind": "evidence",
@@ -9269,14 +9269,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.396824423991281,
+        "bloc_divergence": 14.516128357960412,
         "blocs": {
           "cheap": {
-            "mean": 4.44375,
+            "mean": 4.6625,
             "n": 16
           },
           "ref": {
-            "mean": 4.325,
+            "mean": 4.3500000000000005,
             "n": 4
           }
         },
@@ -9286,21 +9286,21 @@
           0,
           0,
           0,
-          7,
-          13
+          5,
+          15
         ],
         "history": [],
-        "mean": 4.4217483373991655,
+        "mean": 4.60134318512177,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3234192325759246
+        "stdev": 0.18708286933869706
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 38,
       "heat": {
-        "content": 0.000692,
-        "rating": 4.269987
+        "content": 2.7e-05,
+        "rating": 5.795207
       },
       "id": "n038",
       "kind": "evidence",
@@ -9428,14 +9428,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.1999999863020148,
+        "bloc_divergence": 3.5543063441849503,
         "blocs": {
           "cheap": {
-            "mean": 4.50625,
+            "mean": 4.506250000000001,
             "n": 16
           },
           "ref": {
-            "mean": 4.325,
+            "mean": 4.300000000000001,
             "n": 4
           }
         },
@@ -9445,21 +9445,21 @@
           0,
           0,
           0,
-          6,
-          14
+          9,
+          11
         ],
         "history": [],
-        "mean": 4.470282301510905,
+        "mean": 4.466071871585435,
         "n": 20,
         "state": "contested",
-        "stdev": 0.29000000000000004
+        "stdev": 0.20316249653910048
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 39,
       "heat": {
-        "content": 0.001804,
-        "rating": 7.593829
+        "content": 7e-05,
+        "rating": 7.610473
       },
       "id": "n039",
       "kind": "claim",
@@ -9582,14 +9582,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.02308284158379436,
+        "bloc_divergence": 32.13442433305031,
         "blocs": {
           "cheap": {
-            "mean": 4.39375,
+            "mean": 4.6875,
             "n": 16
           },
           "ref": {
-            "mean": 4.425,
+            "mean": 4.275,
             "n": 4
           }
         },
@@ -9599,21 +9599,21 @@
           0,
           0,
           0,
-          9,
-          11
+          4,
+          16
         ],
         "history": [],
-        "mean": 4.401032299467642,
+        "mean": 4.606892813556475,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3492849839314596
+        "stdev": 0.20609463845524942
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 40,
       "heat": {
-        "content": 0.000721,
-        "rating": 4.376607
+        "content": 2.8e-05,
+        "rating": 5.98286
       },
       "id": "n040",
       "kind": "evidence",
@@ -9741,14 +9741,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.11720285043817284,
+        "bloc_divergence": 6.326572294986756,
         "blocs": {
           "cheap": {
-            "mean": 4.23125,
+            "mean": 4.356249999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.15,
+            "mean": 4.125,
             "n": 4
           }
         },
@@ -9758,21 +9758,21 @@
           0,
           0,
           0,
-          11,
-          9
+          14,
+          6
         ],
         "history": [],
-        "mean": 4.217355855944596,
+        "mean": 4.311828797909464,
         "n": 20,
         "state": "contested",
-        "stdev": 0.404073013204297
+        "stdev": 0.18138357147217057
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 41,
       "heat": {
-        "content": 0.001482,
-        "rating": 5.91045
+        "content": 5.8e-05,
+        "rating": 6.638182
       },
       "id": "n041",
       "kind": "claim",
@@ -9895,14 +9895,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.2622406450453623,
+        "bloc_divergence": 23.804080758217342,
         "blocs": {
           "cheap": {
-            "mean": 4.637499999999999,
+            "mean": 4.699999999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.475,
+            "mean": 4.25,
             "n": 4
           }
         },
@@ -9912,21 +9912,21 @@
           0,
           0,
           0,
-          2,
-          18
+          4,
+          16
         ],
         "history": [],
-        "mean": 4.60450761329845,
+        "mean": 4.612726756801132,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2539192785118924
+        "stdev": 0.23853720883753132
       },
       "author": "cosmicray-02",
       "comments": [],
       "created_seq": 42,
       "heat": {
-        "content": 0.000662,
-        "rating": 4.26098
+        "content": 2.6e-05,
+        "rating": 5.760489
       },
       "id": "n042",
       "kind": "evidence",
@@ -10075,7 +10075,7 @@
           12
         ],
         "history": [],
-        "mean": 4.310778101363828,
+        "mean": 4.310403903253147,
         "n": 20,
         "state": "settled",
         "stdev": 0.43
@@ -10089,8 +10089,8 @@
         "seq": 3377
       },
       "heat": {
-        "content": 0.000655,
-        "rating": 4.209156
+        "content": 2.5e-05,
+        "rating": 0.276713
       },
       "id": "n043",
       "kind": "evidence",
@@ -10218,14 +10218,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.408495675322684,
+        "bloc_divergence": 16.683518314784585,
         "blocs": {
           "cheap": {
-            "mean": 4.70625,
+            "mean": 4.956250000000001,
             "n": 16
           },
           "ref": {
-            "mean": 4.925,
+            "mean": 3.575,
             "n": 4
           }
         },
@@ -10233,23 +10233,23 @@
         "histogram": [
           0,
           0,
-          0,
-          0,
           2,
+          0,
+          0,
           18
         ],
         "history": [],
-        "mean": 4.752706738279388,
+        "mean": 4.690844095723563,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3248076353782343
+        "stdev": 0.7966178506661774
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 44,
       "heat": {
-        "content": 0.000663,
-        "rating": 4.264098
+        "content": 2.6e-05,
+        "rating": 5.76063
       },
       "id": "n044",
       "kind": "evidence",
@@ -10377,14 +10377,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.04820567681396708,
+        "bloc_divergence": 20.298349781390502,
         "blocs": {
           "cheap": {
-            "mean": 4.74375,
+            "mean": 4.825,
             "n": 16
           },
           "ref": {
-            "mean": 4.775,
+            "mean": 3.275,
             "n": 4
           }
         },
@@ -10392,23 +10392,23 @@
         "histogram": [
           0,
           0,
+          2,
           0,
-          0,
-          0,
-          20
+          1,
+          17
         ],
         "history": [],
-        "mean": 4.749064856371233,
+        "mean": 4.526794931319315,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2418677324489565
+        "stdev": 0.8516307885463045
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 45,
       "heat": {
-        "content": 0.000668,
-        "rating": 4.311958
+        "content": 2.6e-05,
+        "rating": 5.795969
       },
       "id": "n045",
       "kind": "evidence",
@@ -10536,14 +10536,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.166320393330371,
+        "bloc_divergence": 48.35820375852136,
         "blocs": {
           "cheap": {
-            "mean": 4.512499999999999,
+            "mean": 4.85,
             "n": 16
           },
           "ref": {
-            "mean": 4.675,
+            "mean": 4.475,
             "n": 4
           }
         },
@@ -10551,23 +10551,23 @@
         "histogram": [
           0,
           0,
-          1,
           0,
-          1,
+          0,
+          2,
           18
         ],
         "history": [],
-        "mean": 4.543959177875042,
+        "mean": 4.7769300689442,
         "n": 20,
         "state": "settled",
-        "stdev": 0.6793195124534551
+        "stdev": 0.1757128339080559
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 46,
       "heat": {
-        "content": 0.001591,
-        "rating": 8.932066
+        "content": 6.2e-05,
+        "rating": 7.703061
       },
       "id": "n046",
       "kind": "claim",
@@ -10690,14 +10690,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.0007277137616823244,
+        "bloc_divergence": 22.533331831111386,
         "blocs": {
           "cheap": {
-            "mean": 4.51875,
+            "mean": 4.7250000000000005,
             "n": 16
           },
           "ref": {
-            "mean": 4.525,
+            "mean": 4.3999999999999995,
             "n": 4
           }
         },
@@ -10706,22 +10706,22 @@
           0,
           0,
           0,
-          1,
           0,
-          19
+          2,
+          18
         ],
         "history": [],
-        "mean": 4.520202202642959,
+        "mean": 4.662000823497047,
         "n": 20,
         "state": "settled",
-        "stdev": 0.39319206502674997
+        "stdev": 0.17435595774162693
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 47,
       "heat": {
-        "content": 0.001247,
-        "rating": 7.163838
+        "content": 4.8e-05,
+        "rating": 6.148986
       },
       "id": "n047",
       "kind": "claim",
@@ -10844,14 +10844,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.5895980967217231,
+        "bloc_divergence": 39.17014504440239,
         "blocs": {
           "cheap": {
-            "mean": 4.543749999999999,
+            "mean": 4.7875,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.449999999999999,
             "n": 4
           }
         },
@@ -10861,21 +10861,21 @@
           0,
           0,
           0,
-          4,
-          16
+          2,
+          18
         ],
         "history": [],
-        "mean": 4.597007140327958,
+        "mean": 4.722089731035272,
         "n": 20,
         "state": "settled",
-        "stdev": 0.35982634700644145
+        "stdev": 0.16309506430300094
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 48,
       "heat": {
-        "content": 0.00068,
-        "rating": 4.405122
+        "content": 2.6e-05,
+        "rating": 5.91948
       },
       "id": "n048",
       "kind": "evidence",
@@ -11003,14 +11003,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.408695639924392,
+        "bloc_divergence": 50.39999352000084,
         "blocs": {
           "cheap": {
-            "mean": 4.574999999999999,
+            "mean": 4.8500000000000005,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.5,
             "n": 4
           }
         },
@@ -11020,21 +11020,21 @@
           0,
           0,
           0,
-          3,
-          17
+          2,
+          18
         ],
         "history": [],
-        "mean": 4.6215232577158,
+        "mean": 4.781870636482883,
         "n": 20,
         "state": "settled",
-        "stdev": 0.33406586176980135
+        "stdev": 0.163095064303001
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 49,
       "heat": {
-        "content": 0.000681,
-        "rating": 4.427282
+        "content": 2.6e-05,
+        "rating": 5.932895
       },
       "id": "n049",
       "kind": "evidence",
@@ -11162,14 +11162,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.4976109153877219,
+        "bloc_divergence": 22.499997468750262,
         "blocs": {
           "cheap": {
-            "mean": 4.762499999999999,
+            "mean": 4.85,
             "n": 16
           },
           "ref": {
-            "mean": 4.875,
+            "mean": 4.6,
             "n": 4
           }
         },
@@ -11183,17 +11183,17 @@
           19
         ],
         "history": [],
-        "mean": 4.786081833492487,
+        "mean": 4.801606680623228,
         "n": 20,
         "state": "settled",
-        "stdev": 0.274362898366379
+        "stdev": 0.13416407864998747
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 50,
       "heat": {
-        "content": 0.001361,
-        "rating": 8.056666
+        "content": 5.3e-05,
+        "rating": 7.683522
       },
       "id": "n050",
       "kind": "claim",
@@ -11316,14 +11316,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.4389610366807248,
+        "bloc_divergence": 36.486484593133895,
         "blocs": {
           "cheap": {
-            "mean": 4.512499999999999,
+            "mean": 4.74375,
             "n": 16
           },
           "ref": {
-            "mean": 4.675,
+            "mean": 4.2749999999999995,
             "n": 4
           }
         },
@@ -11333,21 +11333,21 @@
           0,
           0,
           0,
-          7,
-          13
+          4,
+          16
         ],
         "history": [],
-        "mean": 4.54583980405907,
+        "mean": 4.652400272133065,
         "n": 20,
         "state": "settled",
-        "stdev": 0.42127781807258735
+        "stdev": 0.22912878474779194
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 51,
       "heat": {
-        "content": 0.000714,
-        "rating": 4.451516
+        "content": 2.8e-05,
+        "rating": 5.961265
       },
       "id": "n051",
       "kind": "evidence",
@@ -11475,14 +11475,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.42091419212152004,
+        "bloc_divergence": 23.199432427355287,
         "blocs": {
           "cheap": {
-            "mean": 4.50625,
+            "mean": 4.743750000000001,
             "n": 16
           },
           "ref": {
-            "mean": 4.675,
+            "mean": 3.2250000000000005,
             "n": 4
           }
         },
@@ -11490,23 +11490,23 @@
         "histogram": [
           0,
           0,
+          2,
           0,
-          0,
-          6,
-          14
+          2,
+          16
         ],
         "history": [],
-        "mean": 4.53948082087576,
+        "mean": 4.451098006903528,
         "n": 20,
         "state": "settled",
-        "stdev": 0.4465422712353221
+        "stdev": 0.8095677859203636
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 52,
       "heat": {
-        "content": 0.000715,
-        "rating": 4.461933
+        "content": 2.8e-05,
+        "rating": 5.974312
       },
       "id": "n052",
       "kind": "evidence",
@@ -11634,14 +11634,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.02369044467431303,
+        "bloc_divergence": 2.2781249679638615,
         "blocs": {
           "cheap": {
-            "mean": 4.26875,
+            "mean": 4.375,
             "n": 16
           },
           "ref": {
-            "mean": 4.3,
+            "mean": 4.15,
             "n": 4
           }
         },
@@ -11651,21 +11651,21 @@
           0,
           0,
           0,
-          11,
-          9
+          14,
+          6
         ],
         "history": [],
-        "mean": 4.276143543762308,
+        "mean": 4.33111524636864,
         "n": 20,
         "state": "contested",
-        "stdev": 0.3447825401611862
+        "stdev": 0.26851443164195105
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 53,
       "heat": {
-        "content": 0.00185,
-        "rating": 7.946967
+        "content": 7.2e-05,
+        "rating": 7.905587
       },
       "id": "n053",
       "kind": "claim",
@@ -11788,14 +11788,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 2.927712043308444,
+        "bloc_divergence": 1.0035645513939813,
         "blocs": {
           "cheap": {
-            "mean": 3.31875,
+            "mean": 3.6312500000000005,
             "n": 16
           },
           "ref": {
-            "mean": 4.075,
+            "mean": 4.05,
             "n": 4
           }
         },
@@ -11803,23 +11803,23 @@
         "histogram": [
           0,
           0,
-          1,
-          7,
-          9,
+          2,
+          4,
+          11,
           3
         ],
         "history": [],
-        "mean": 3.4794885735901016,
+        "mean": 3.7137051577390907,
         "n": 20,
         "state": "contested",
-        "stdev": 0.8087644898238301
+        "stdev": 0.7288861365124186
       },
       "author": "collider-03",
       "comments": [],
       "created_seq": 54,
       "heat": {
-        "content": 0.001191,
-        "rating": 4.400302
+        "content": 4.6e-05,
+        "rating": 5.847354
       },
       "id": "n054",
       "kind": "claim",
@@ -11942,14 +11942,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 2.9817443638443297,
+        "bloc_divergence": 9.218180812562135,
         "blocs": {
           "cheap": {
-            "mean": 4.68125,
+            "mean": 4.8875,
             "n": 16
           },
           "ref": {
-            "mean": 4.9,
+            "mean": 4.725,
             "n": 4
           }
         },
@@ -11963,17 +11963,17 @@
           20
         ],
         "history": [],
-        "mean": 4.725144678978822,
+        "mean": 4.855942872892414,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2321098877687032
+        "stdev": 0.11169153951844356
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 55,
       "heat": {
-        "content": 0.000983,
-        "rating": 5.915528
+        "content": 3.8e-05,
+        "rating": 6.237907
       },
       "id": "n055",
       "kind": "evidence",
@@ -12101,14 +12101,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.5647058723875396,
+        "bloc_divergence": 62.113426160945146,
         "blocs": {
           "cheap": {
-            "mean": 4.6,
+            "mean": 4.8,
             "n": 16
           },
           "ref": {
-            "mean": 4.5,
+            "mean": 4.375,
             "n": 4
           }
         },
@@ -12118,21 +12118,21 @@
           0,
           0,
           0,
-          1,
-          19
+          2,
+          18
         ],
         "history": [],
-        "mean": 4.5793369335727405,
+        "mean": 4.717124966657948,
         "n": 20,
         "state": "settled",
-        "stdev": 0.22934689882359421
+        "stdev": 0.19306734576307824
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 56,
       "heat": {
-        "content": 0.001302,
-        "rating": 7.555757
+        "content": 5.1e-05,
+        "rating": 6.965953
       },
       "id": "n056",
       "kind": "claim",
@@ -12255,14 +12255,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.0049128946219328,
+        "bloc_divergence": 72.36921740875972,
         "blocs": {
           "cheap": {
-            "mean": 4.64375,
+            "mean": 4.875,
             "n": 16
           },
           "ref": {
-            "mean": 4.8,
+            "mean": 4.525,
             "n": 4
           }
         },
@@ -12276,17 +12276,17 @@
           19
         ],
         "history": [],
-        "mean": 4.674941263389006,
+        "mean": 4.806664641172075,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2717995584985377
+        "stdev": 0.15644487847162025
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 57,
       "heat": {
-        "content": 0.000706,
-        "rating": 4.63261
+        "content": 2.7e-05,
+        "rating": 6.211713
       },
       "id": "n057",
       "kind": "evidence",
@@ -12414,14 +12414,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 6.807241450191249,
+        "bloc_divergence": 14.202881549680859,
         "blocs": {
           "cheap": {
-            "mean": 4.41875,
+            "mean": 4.3125,
             "n": 16
           },
           "ref": {
-            "mean": 4.025,
+            "mean": 3.8499999999999996,
             "n": 4
           }
         },
@@ -12431,21 +12431,21 @@
           0,
           0,
           0,
-          8,
-          12
+          17,
+          3
         ],
         "history": [],
-        "mean": 4.33960603385842,
+        "mean": 4.222579483086761,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3006659275674582
+        "stdev": 0.27856776554368246
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 58,
       "heat": {
-        "content": 0.00104,
-        "rating": 6.382151
+        "content": 4e-05,
+        "rating": 7.105543
       },
       "id": "n058",
       "kind": "claim",
@@ -12568,14 +12568,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.10929699053464392,
+        "bloc_divergence": 49.96967510458682,
         "blocs": {
           "cheap": {
-            "mean": 4.68125,
+            "mean": 4.88125,
             "n": 16
           },
           "ref": {
-            "mean": 4.775,
+            "mean": 4.45,
             "n": 4
           }
         },
@@ -12584,22 +12584,22 @@
           0,
           0,
           0,
-          1,
-          2,
+          0,
+          3,
           17
         ],
         "history": [],
-        "mean": 4.704533592117323,
+        "mean": 4.79771039134529,
         "n": 20,
         "state": "settled",
-        "stdev": 0.48270073544588676
+        "stdev": 0.2011839953873071
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 59,
       "heat": {
-        "content": 0.000713,
-        "rating": 4.553858
+        "content": 2.8e-05,
+        "rating": 5.944841
       },
       "id": "n059",
       "kind": "evidence",
@@ -12727,38 +12727,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.8262935235980764,
+        "bloc_divergence": 33.92307504426042,
         "blocs": {
           "cheap": {
-            "mean": 4.15,
+            "mean": 4.8125,
             "n": 16
           },
           "ref": {
-            "mean": 4.725,
+            "mean": 4.375,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
           0,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           3,
-          14
+          17
         ],
         "history": [],
-        "mean": 4.278143464587972,
+        "mean": 4.727564078301842,
         "n": 20,
-        "state": "contested",
-        "stdev": 1.097850171926935
+        "state": "settled",
+        "stdev": 0.21650635094610976
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 60,
       "heat": {
-        "content": 0.000714,
-        "rating": 4.563611
+        "content": 2.8e-05,
+        "rating": 5.958098
       },
       "id": "n060",
       "kind": "evidence",
@@ -12886,14 +12886,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.20316027005487935,
+        "bloc_divergence": 94.94215075144913,
         "blocs": {
           "cheap": {
-            "mean": 4.475,
+            "mean": 4.893749999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.6,
+            "mean": 4.3500000000000005,
             "n": 4
           }
         },
@@ -12902,22 +12902,22 @@
           0,
           0,
           0,
-          1,
-          4,
-          15
+          0,
+          3,
+          17
         ],
         "history": [],
-        "mean": 4.504495908157613,
+        "mean": 4.787538208883506,
         "n": 20,
         "state": "settled",
-        "stdev": 0.47328638264796924
+        "stdev": 0.23722352328552923
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 61,
       "heat": {
-        "content": 0.000711,
-        "rating": 4.70355
+        "content": 2.8e-05,
+        "rating": 6.270472
       },
       "id": "n061",
       "kind": "evidence",
@@ -13045,14 +13045,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.14086956411493454,
+        "bloc_divergence": 56.699996355,
         "blocs": {
           "cheap": {
-            "mean": 4.425,
+            "mean": 4.675,
             "n": 16
           },
           "ref": {
-            "mean": 4.35,
+            "mean": 4.15,
             "n": 4
           }
         },
@@ -13062,21 +13062,21 @@
           0,
           0,
           0,
-          7,
-          13
+          4,
+          16
         ],
         "history": [],
-        "mean": 4.412624656982821,
+        "mean": 4.572248382601162,
         "n": 20,
         "state": "settled",
-        "stdev": 0.340440890610984
+        "stdev": 0.24103941586387903
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 62,
       "heat": {
-        "content": 0.001036,
-        "rating": 6.38135
+        "content": 4e-05,
+        "rating": 7.007735
       },
       "id": "n062",
       "kind": "claim",
@@ -13199,14 +13199,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.035722160686659114,
+        "bloc_divergence": 96.63528047501936,
         "blocs": {
           "cheap": {
-            "mean": 4.7125,
+            "mean": 4.9125000000000005,
             "n": 16
           },
           "ref": {
-            "mean": 4.75,
+            "mean": 4.45,
             "n": 4
           }
         },
@@ -13220,17 +13220,17 @@
           17
         ],
         "history": [],
-        "mean": 4.722261281518047,
+        "mean": 4.822441600172203,
         "n": 20,
         "state": "settled",
-        "stdev": 0.3370459909270544
+        "stdev": 0.20149441679609886
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 63,
       "heat": {
-        "content": 0.000697,
-        "rating": 4.590325
+        "content": 2.7e-05,
+        "rating": 6.046949
       },
       "id": "n063",
       "kind": "evidence",
@@ -13358,14 +13358,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.3686472785660413,
+        "bloc_divergence": 46.059809984760506,
         "blocs": {
           "cheap": {
-            "mean": 4.5875,
+            "mean": 4.8125,
             "n": 16
           },
           "ref": {
-            "mean": 4.7,
+            "mean": 4.35,
             "n": 4
           }
         },
@@ -13379,17 +13379,17 @@
           17
         ],
         "history": [],
-        "mean": 4.610130816317184,
+        "mean": 4.722605619498001,
         "n": 20,
         "state": "settled",
-        "stdev": 0.31764760348537185
+        "stdev": 0.2181742422927144
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 64,
       "heat": {
-        "content": 0.000698,
-        "rating": 4.60135
+        "content": 2.7e-05,
+        "rating": 6.060375
       },
       "id": "n064",
       "kind": "evidence",
@@ -13517,14 +13517,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.2260465103662513,
+        "bloc_divergence": 97.46300088157791,
         "blocs": {
           "cheap": {
-            "mean": 4.5375,
+            "mean": 4.80625,
             "n": 16
           },
           "ref": {
-            "mean": 4.425,
+            "mean": 4.325,
             "n": 4
           }
         },
@@ -13534,21 +13534,21 @@
           0,
           0,
           0,
-          5,
-          15
+          3,
+          17
         ],
         "history": [],
-        "mean": 4.517425569047219,
+        "mean": 4.712210530538562,
         "n": 20,
         "state": "settled",
-        "stdev": 0.40407301320429695
+        "stdev": 0.2095232683975697
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 65,
       "heat": {
-        "content": 0.0007,
-        "rating": 4.612287
+        "content": 2.7e-05,
+        "rating": 6.073828
       },
       "id": "n065",
       "kind": "evidence",
@@ -13676,14 +13676,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.4226086912423426,
+        "bloc_divergence": 26.55789305950158,
         "blocs": {
           "cheap": {
-            "mean": 4.5375,
+            "mean": 4.6375,
             "n": 16
           },
           "ref": {
-            "mean": 4.425,
+            "mean": 4.2749999999999995,
             "n": 4
           }
         },
@@ -13697,17 +13697,17 @@
           16
         ],
         "history": [],
-        "mean": 4.515306893050468,
+        "mean": 4.566690347844716,
         "n": 20,
         "state": "settled",
-        "stdev": 0.2971110903349115
+        "stdev": 0.18781639970992944
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 66,
       "heat": {
-        "content": 0.001745,
-        "rating": 10.173427
+        "content": 6.8e-05,
+        "rating": 9.201697
       },
       "id": "n066",
       "kind": "claim",
@@ -13830,14 +13830,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 1.4754097925288916,
+        "bloc_divergence": 22.977014302336144,
         "blocs": {
           "cheap": {
-            "mean": 4.625,
+            "mean": 4.731249999999999,
             "n": 16
           },
           "ref": {
-            "mean": 4.5,
+            "mean": 4.35,
             "n": 4
           }
         },
@@ -13847,21 +13847,21 @@
           0,
           0,
           0,
-          1,
-          19
+          3,
+          17
         ],
         "history": [],
-        "mean": 4.599077897718426,
+        "mean": 4.657023463781311,
         "n": 20,
         "state": "settled",
-        "stdev": 0.18165902124584946
+        "stdev": 0.203654118544163
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 67,
       "heat": {
-        "content": 0.002247,
-        "rating": 12.215055
+        "content": 8.7e-05,
+        "rating": 8.33068
       },
       "id": "n067",
       "kind": "claim",
@@ -13984,38 +13984,38 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 5.652941172314014,
+        "bloc_divergence": 3.86288031043979,
         "blocs": {
           "cheap": {
-            "mean": 2.75,
+            "mean": 2.075,
             "n": 16
           },
           "ref": {
-            "mean": 1.2,
+            "mean": 1.5,
             "n": 4
           }
         },
         "era": 1,
         "histogram": [
           0,
-          6,
-          3,
           4,
-          6,
-          1
+          11,
+          5,
+          0,
+          0
         ],
         "history": [],
-        "mean": 2.440751722679926,
+        "mean": 1.9626882482111598,
         "n": 20,
         "state": "contested",
-        "stdev": 1.2682271089990151
+        "stdev": 0.5471745608121781
       },
       "author": "risk-04",
       "comments": [],
       "created_seq": 68,
       "heat": {
-        "content": 0.002567,
-        "rating": 11.436866
+        "content": 0.0001,
+        "rating": 9.029182
       },
       "id": "n068",
       "kind": "claim",
@@ -14138,14 +14138,14 @@
     },
     {
       "agreement": {
-        "bloc_divergence": 0.0011661807471375402,
+        "bloc_divergence": 2.9970442286762844,
         "blocs": {
           "cheap": {
-            "mean": 4.50625,
+            "mean": 4.5125,
             "n": 16
           },
           "ref": {
-            "mean": 4.5,
+            "mean": 4.35,
             "n": 4
           }
         },
@@ -14155,21 +14155,21 @@
           0,
           0,
           0,
-          4,
-          16
+          8,
+          12
         ],
         "history": [],
-        "mean": 4.505620632572872,
+        "mean": 4.4810540757257815,
         "n": 20,
         "state": "settled",
-        "stdev": 0.310604249809947
+        "stdev": 0.17204650534085247
       },
       "author": "synth-05",
       "comments": [],
       "created_seq": 69,
       "heat": {
-        "content": 0.00099,
-        "rating": 5.999447
+        "content": 3.8e-05,
+        "rating": 6.124019
       },
       "id": "n069",
       "kind": "claim",
@@ -14318,8 +14318,8 @@
       "comments": [],
       "created_seq": 70,
       "heat": {
-        "content": 0.001306,
-        "rating": 8.432376
+        "content": 5.1e-05,
+        "rating": 1.139373
       },
       "id": "n070",
       "kind": "claim",

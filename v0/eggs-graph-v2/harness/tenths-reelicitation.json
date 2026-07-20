@@ -1,0 +1,19 @@
+{
+ "round": "tenths-reelicitation",
+ "date": "2026-07-20",
+ "purpose": "Re-elicit the coarse-rating cohorts (the 4 Sonnet panel-* raters and the 16 Haiku cheap-* raters) blind at tenths resolution over their original live assignments; same agent ids, same blocs (panel-*=b1, cheap-*=cheap), same era -> supersede in place.",
+ "cohorts_reelicited": [
+  "panel-evidential",
+  "panel-bayesian",
+  "panel-skeptic",
+  "panel-domain",
+  "cheap-{evidential,bayesian,skeptic,domain}-{1..4}"
+ ],
+ "counts": {
+  "panel_each": 123,
+  "cheap_each": 59,
+  "total_applied": 1436
+ },
+ "instruction_delta": "identical dims/discipline to the original assessment run, plus tenths-resolution instruction (do not snap to .0/.5).",
+ "note": "Fine-grained (finer-than-half) ratings across the whole graph rose ~30% -> 77%. No lifecycle state changed (18 contested / 49 settled). The fine-grained haiku-* presentation cohort and any refdense/ref raters were already at tenths and were left untouched."
+}

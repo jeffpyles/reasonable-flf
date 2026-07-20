@@ -86,3 +86,21 @@ node — **n134, "The furin cleavage site: a feature every origin must explain"*
 distinctive feature absent from close relatives) — grounding all three explanations (n054/n055/n056),
 so the molecular-origin branch now forks from a shared observation. The new node (Agreement) and its
 three edges (conditional Agreement) are unrated and go to Assessment's re-rate.
+
+## Tenths re-elicitation (2026-07-20, post-submission)
+
+The coarse-rating cohorts on this graph — the Sonnet `panel-{evidential,skeptic,domain}` (bloc
+`b1`), the sixteen Haiku `{ev,skeptic,domain}-h{1..4}` (bloc `cheap`), and the two Sonnet
+`skeptic-s{2,3}` (bloc `refdense`) — had rated almost entirely at whole/half-point grain. They were
+re-elicited **blind at tenths** over their original live assignments (274 targets each for the
+panel — including the live conjunction target `group:g1` — 109 for the cheap swarm, 69 for the
+refdense pair; 2,268 total), same agent ids, same blocs, same era — supersede in place. This is a
+**re-elicitation, not a reformatting**: the values are new judgments under a finer dial. The
+already-fine-grained cohorts (`bayes-*`, `ev-s`, `domain-s`) were left untouched.
+
+Effect: whole-graph finer-than-half ratings rose ~41% → 65%; 324 target means shifted (median |Δ|
+0.10, max 0.86 on n092); **no lifecycle state changed** (38 contested / 96 settled); lint clean;
+tests green. The load-bearing assessed verdict is preserved: zoonotic entry (n001 = 3.46) still over
+lab entry (n002 = 2.29), and natural furin-cleavage-site origin (n054 = 3.48) still over engineered
+(n055 = 1.83) — the consensus direction the deep-research comparison turns on. Packet + spec:
+`harness/packet-tenths.md`, `harness/tenths-reelicitation.json`.

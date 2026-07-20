@@ -1,10 +1,6 @@
 # Roadmap — what comes next
 
-*The near-term work plan as of 2026-07-19, for anyone deciding whether and where this project is
-worth pushing on. Ordered by what would most change our own confidence: we currently put the odds
-that the assembled machinery is robust for a real deployment at ~60–65% — high on the tested
-mechanisms, lower on transfer to the messy real thing — and every item here is chosen to move that
-number, in whichever direction is true. The finding-by-finding engineering detail behind Section 1
+*The near-term work plan as of 2026-07-19. The finding-by-finding engineering detail behind Section 1
 is the dated tier list [`v0/ROADMAP-NEXT-VERSION.md`](v0/ROADMAP-NEXT-VERSION.md); the systems as
 they stand are [`MECHANISMS.md`](MECHANISMS.md); the destination is [`VISION.md`](VISION.md).*
 
@@ -111,6 +107,3 @@ Further out, and stated as direction rather than plan (the full case is
 
 ---
 
-*The order is the argument: defenses we measured the need for, then the experiments that check the
-whole, then people, then referees, then scale. Each section's failure would be informative — and
-published, like the [last round's](RESEARCH-ARC.md) were.*

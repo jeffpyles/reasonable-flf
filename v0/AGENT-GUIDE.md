@@ -45,6 +45,29 @@ claim is wrong," stop — find the positive claim that *is* the disagreement, an
 instead. If you genuinely can't find a positive rephrasing, that's a `flag-friction` case (§4), not
 a reason to bend the rule.
 
+**The urge to write "Not-X" is real and recurring — it's the rule working, not a gap. When you feel
+it, stop and diagnose which of these you actually mean, then route it:**
+- *I have a competing answer.* → Write it as a positive claim Y and `add-antithesis` it into X's set.
+  (The case above.)
+- *X's premises don't actually support it.* → This is a rating, not a node. Rate X low, or rate the
+  weak support **edge** low (the conditional "granting the premise, does it reach X?"). If your
+  quarrel is really with one of X's **grounds**, apply this same diagnosis one level down: rate that
+  ground node low, or give it its own rival antithesis node. Opposition to a premise is itself
+  either a rating or a rivalry — the discipline is recursive.
+- *A specific fact undercuts X.* → Write that fact as a positive node and ground it against the exact
+  premise it defeats — located at the joint it dislocates, not floating at the top as ¬X.
+- *X is simply false and I can show it.* → Give X (and its grounds) the low ratings that sink it to a
+  settled-low **ghost** (§ ghosts). The falsity *is* the rating. If you want the reason on the
+  record, leave it as a **`comment` on the ghosted node** — "refuted because…" is discourse about
+  the node, which is what the comment forum is for; it is not a structural claim of its own.
+- *I've got nothing but opposition.* → Then you don't have a position, you have a doubt — and a doubt
+  is your low rating, full stop, not a node.
+
+One thing the rule does **not** forbid: a claim whose *content* is an absence ("no long-term RCT
+exists," "no infected intermediate host has been found") is a perfectly good **positive** claim
+about the state of the evidence. The ban is on negation as a *relation between claims*, not on the
+word "not." (`lint` flags "No X…" nodes only advisorily, for exactly this reason.)
+
 A node can belong to more than one antithesis set. Sets are typically small (rival positions on
 one specific sub-question) — don't dump every tangentially-related claim into one giant set.
 
@@ -115,8 +138,9 @@ Concretely, flag friction when you hit things like:
   answering it."
 - A claim that resists decomposition without feeling arbitrary, or that seems to need to go one
   level *finer* than the grain the graph is currently using.
-- A case where the positive-rephrasing trick for opposition (§1) feels forced or loses the actual
-  point being made.
+- A case where the positive-rephrasing trick for opposition feels forced or loses the actual point
+  being made — but first run the "Not-X" diagnosis in §2: most of the time the opposition is really
+  a low rating on the claim, an edge, or a ground, and only a genuine residue is friction.
 - Any point where you had to choose arbitrarily between two structurally different ways to encode
   the same idea (e.g., new node vs. phrasing; new antithesis set vs. adding to an existing one)
   and you're not confident the choice was principled.
@@ -485,8 +509,13 @@ consensus carries no new information. Rate from your own judgment; don't try to 
 means. Same discipline as `agree` (§2 rule 3) — a rating is a real
 judgment, not encouragement; abstain freely rather than guessing at a value you don't actually
 have an opinion on, and revisit a target and re-rate if your judgment changes (a later rating from
-you supersedes your earlier one). Default to the scale midpoint when genuinely uncertain, reserve
-the extremes (0 or 5) for cases you'd defend, and self-rating your own authored
+you supersedes your earlier one). Default to the scale midpoint when genuinely uncertain and reserve
+the extremes (0 or 5) for cases you'd defend. **Rate on a continuous 0.0–5.0 dial at tenths
+resolution: your credence is almost never exactly a whole or half number, so do not snap to .0/.5
+unless that is genuinely your value.** A whole/half-only grid throws away most of the rating signal,
+and — because camp-detection reads the correlation structure of the raw ratings — a coarse grid can
+even quantize a band of leaning-agree nodes into a *spurious* belief-camp that finer ratings dissolve
+(observed on `blackholes-graph-v2`; see `dispersion-regimes/`). Self-rating your own authored
 node/edge/phrasing/comment is rejected, same as self-agree.
 
 **Edge Agreement is CONDITIONAL — rate only the inference, never the premise.** An edge's A answers

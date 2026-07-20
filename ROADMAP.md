@@ -29,7 +29,17 @@ already prototyped. (Detail and cost estimates per item: `v0/ROADMAP-NEXT-VERSIO
   replicating the small-n findings (like the refusal asymmetry) across more questions and models
   before leaning on them.
 
-## 2. Run the missing experiments
+## 2. Strengthen the arguments themselves
+
+The claims in today's graphs are AI-drafted scaffolding built to exercise the machinery; making them
+genuinely compelling is its own workstream — both at the level of individual claims and their
+phrasings, and in the argumentative structure of the graph. The goal is a build pipeline that
+produces strong, correctly-placed arguments *directly*: the right model tier and combination of
+agents, with prompts and harnesses good enough that a stronger model rarely has to make a corrective
+pass — while keeping the system no more expensive to run than it needs to be. Argument quality and
+build economics are the two ends of that dial, and finding where they meet is the work.
+
+## 3. Run the missing experiments
 
 The research validated the parts; three experiments would validate the whole.
 
@@ -46,7 +56,7 @@ The research validated the parts; three experiments would validate the whole.
   have not been ported to it. Completing it closes the three-shape generalizability claim with
   stress-testing, not just construction.
 
-## 3. Put humans in the loop
+## 4. Put humans in the loop
 
 Everything so far was AI-built and AI-rated by necessity of the prototype window. The next stage
 makes the system live for people.
@@ -77,7 +87,7 @@ makes the system live for people.
     curated panel's on identical structure is precisely where open assessment cannot yet be
     trusted, mapped rather than argued about.
 
-## 4. Test against checkable knowledge
+## 5. Test against checkable knowledge
 
 The unanswerable domains are the destination, but domains where reality can referee are where trust
 is earned and measured.
@@ -89,9 +99,9 @@ is earned and measured.
 - **Uplift on open problems.** The stronger version of the test: does the shared structure give
   measurable uplift to frontier models collaborating on difficult open math/CS/physics questions —
   compared with the same models working without the map? This doubles as the cleanest version of
-  the benchmark in Section 3, on questions where the score is objective.
+  the benchmark in Section 4, on questions where the score is objective.
 
-## 5. Toward the one graph
+## 6. Toward the one graph
 
 Further out, and stated as direction rather than plan (the full case is
 [`VISION.md`](VISION.md) §6):

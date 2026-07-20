@@ -1,0 +1,27 @@
+{
+ "round": 5,
+ "date": "2026-07-20",
+ "purpose": "Tenths-resolution re-elicitation of the original 8-rater panel. The original run's ratings were cast almost entirely at whole/half-point grain; this round re-elicits the SAME 154 targets from the SAME agent ids, blind, with an explicit tenths-resolution instruction, so each new rating supersedes the agent's earlier value in place (same era).",
+ "panel": [
+  "haiku-epistemic-1",
+  "haiku-epistemic-2",
+  "haiku-pragmatic-1",
+  "haiku-pragmatic-2",
+  "haiku-values-1",
+  "haiku-values-2",
+  "haiku-skeptic-1",
+  "haiku-skeptic-2"
+ ],
+ "model": "haiku",
+ "bloc": "cheap",
+ "targets": {
+  "A": 64,
+  "R": 45,
+  "C": 45,
+  "per_rater": 154,
+  "total": 1232
+ },
+ "packet": "packet-round5.md (regenerated from the current graph so Rounds 3-4 structure is visible as context; no scores shown)",
+ "instruction_delta": "identical dims/discipline to the original run, plus: rate on a continuous 0.0-5.0 dial at tenths resolution; do not snap to .0/.5 unless that is genuinely your value.",
+ "notes": "4 raters initially omitted e046-e048 and were re-prompted for exactly those targets; 1 rater initially rated 3 out-of-assignment targets (n010/n044/n045 dim A), which were removed as out of scope before applying."
+}

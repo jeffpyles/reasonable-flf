@@ -302,3 +302,25 @@ e063 (explicit-beats-implicit → the form limb) rated 1.59; the panel reads tha
 and the edge stays, visibly weak, as the grammar intends. The n050 rephrasing p1 rated well on
 clarity but did not overtake p0's cumulative standing; the negation-phrased original remains
 primary. States: 18 contested / 42 settled; lint clean (0 hubs / 0 orphans / 0 malformed).
+
+## Round 5 (2026-07-20) — the original panel, re-elicited at tenths
+
+Post-submission resolution fix. The original 8-rater panel (`haiku-{epistemic,pragmatic,values,
+skeptic}-{1,2}`) had cast its 1,232 ratings almost entirely at whole/half-point grain — an
+instruction gap, not a judgment about the scale (the round-3/4 panels rated at tenths). Round 5
+re-elicited the **same 154 targets** (16 limb/leaf nodes + 48 edges on Agreement; 45 phrasings on
+R and C) from the **same agent ids**, blind, from a packet regenerated off the current graph
+(`harness/packet-round5.md`, spec in `harness/round5.json`), with one instruction delta: rate on a
+continuous 0.0–5.0 dial at tenths, don't snap to .0/.5. Same era, so each new rating supersedes
+that agent's old value in place — the event log keeps both, as always.
+
+Stated plainly: **this is a re-elicitation, not a reformatting** — the ratings are new judgments by
+the same panel under a finer dial, and the numbers moved accordingly. All 64 Agreement targets in
+the assignment shifted (median |Δ| 0.14, mean 0.19); the largest single move was e043 (2.25 → 3.30),
+and e002 softened 4.31 → 3.79. **No lifecycle state changed** (still 18 contested / 42 settled), no
+primary phrasing flipped, and the root theses are untouched — n001/n002/n003 and the s7 oughts were
+never this cohort's targets, and their numbers are unchanged. Effective finer-than-half-grain
+ratings across the whole graph: 28% → 76.5%. Panel mechanics: four raters initially skipped
+e046–e048 and were re-prompted for exactly those targets, and one had rated three out-of-assignment
+targets, removed as out of scope (details in `harness/round5.json`); all 1,232 ratings applied
+through the CLI write boundary with zero failures, lint unchanged, both test suites green.

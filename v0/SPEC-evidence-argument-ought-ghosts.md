@@ -296,7 +296,76 @@ endorsement). It's a genuine cross-layer change (validate/fold/lint/viewer + a n
 so it's a next-version item — but it is arguably the cleanest single grammar gap the project has
 found, and it is exactly the relation an argument-map of a *debate* most wants.
 
+### 6.3 Scenario / supposition scope — conditional model-building downstream of a proposed action
+> **STATUS: PROPOSED (grammar extension — cross-layer, post-deadline).** Motivated by the observation
+> that "reason forward from a stipulated action" is most of what policy/ethical/action debates *are* —
+> the untestable domains this project most cares about. Gate on real `flag-friction` demand from build
+> sessions before building it.
+
+**The gap.** Hume's rule (§1.3) rightly forbids an Ought grounding an is — it makes the pathology of a
+value conviction propping up a factual claim impossible by construction. But it also leaves the
+grammar with no home for the *legitimate* forward reasoning at the heart of every "what should we do?"
+question: "if we did X, the world would be Y." That reasoning is **not** is-from-ought — it conditions
+on X *being done* (an is-state) and traces descriptive consequences. The fix is not to relax Hume's
+rule but to add a construct for supposition.
+
+**The object.** A **scenario** opens by designating one is-node as *assumed* rather than asserted —
+canonically an action-state ("a \$50/ton carbon tax is enacted"), a sibling to (and distinct from) the
+Ought that recommends it ("we should enact a carbon tax"). Three properties make it a supposition, not
+a claim:
+- It is **never rated for truth** — it is stipulated. The viewer renders it distinctly (e.g. dashed)
+  so "exploring this" is never misread as "believe this."
+- It is an **is-node**, so nothing in the scenario descends from an Ought and Hume's rule is untouched.
+- Everything downstream of it lives in the scenario's **scope** — a tagged subgraph, keyed the way
+  ratings are already keyed by `era` (§3.1).
+
+**Rating inside the scope** reuses the conditional stance the engine already has: an edge means "grant
+the FROM claim, then rate how strongly it carries the TO" (§2.1, §2.4). A scenario promotes that stance
+to a whole region — every Agreement rating inside the scope means "*granting the supposition*, how
+well-supported is this?" No new rating dimension. Antithesis sets inside a scope become **rival
+consequence-claims** ("emissions fall" vs. "emissions relocate abroad"), so the contested machinery
+locates cruxes *within the hypothetical*; chain strength, lifecycle, and camp detection all operate
+unmodified, interpreted conditionally. Because ratings are scope-keyed, one proposition appearing in
+two scenarios carries independent conditional verdicts without collision — the same isolation `era`
+gives re-openings.
+
+**The boundary rule (the one genuinely new discipline).** Nothing inside a scenario grounds anything
+outside it, *except* by exporting an explicit conditional. A well-supported internal chain ending in
+"emissions fall substantially" leaves the scope only as the ordinary, unconditional is-claim **"if a
+carbon tax were enacted, emissions would fall substantially"** — truth-apt *simpliciter*, rateable
+without granting anything, and exactly the kind of premise that already legally grounds an Ought
+(§1.3). The scenario is the *workshop* where that conditional is built and stress-tested, its internal
+support visible on click-through, instead of the conditional arriving as a bare assertion. Effect on a
+policy argument's shape: *value premise + conditionals-each-backed-by-an-assessed-world-model → Ought*,
+instead of *value premise + bare conditionals → Ought*. The Ought's grounds don't change type — Hume
+stays intact — but they stop being the graph's weakest, most hand-waved nodes, which in real policy
+debate is exactly where the crux lives.
+
+**Payoff with antithesis.** Give each rival Ought in a set its own scenario — the world under
+licensing / compute-caps / laissez-faire, for "how should we regulate AI?" — and `compare` (§2.4)
+gains a new question: not just which Ought has stronger grounds from common ground, but **where the
+rival world-models diverge**, which is often agreement on most consequences and a split on one or two:
+the policy crux located rather than shouted about. This is the map doing for "what should we do?" what
+it already does for "what is true?"
+
+**Open questions specific to this construct:**
+- **Scope creep / cost.** Scenarios multiply assessable surface, and a bad actor can open "the world
+  where X" without end. Creation likely needs the same gating as antithesis sets (join an existing
+  scope before forking a parallel one), and assessment attention should follow the contested-divides
+  budget, not scenario count.
+- **Counterfactual pasts** ("suppose the outbreak had started elsewhere") fall out of the same
+  construct but need the same never-rated-for-truth discipline on the antecedent.
+- **Nested scopes** ("if carbon tax, and if compliance is high") are natural but want a defined
+  stacking semantics; ship single-level first.
+- **Grammar-minimalism cost.** This adds a concept to a deliberately small grammar, so it earns its
+  place only if scenario reasoning is common enough to justify a first-class scope over
+  carefully-worded standalone conditionals. The bet: for the untestable action domains, it clears
+  that bar, because "reason forward from a stipulated action" is most of what those debates are.
+
 ## Open questions
+- Does the scenario/supposition scope (§6.3) justify a first-class construct in a deliberately small
+  grammar, or should conditional model-building stay as standalone worded conditionals until
+  `flag-friction` shows sustained demand?
 - Do we build all three rating dimensions now, or Ought-endorsement first and Evidence-reliability
   later? (§2.1)
 - Exact ghost threshold and whether a ghost can be *resurrected* by later raters (era/reopen

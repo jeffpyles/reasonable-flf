@@ -1,0 +1,14 @@
+{
+ "question": "Is the Jacobian Conjecture true? (Is every polynomial map C^n -> C^n with constant nonzero Jacobian determinant invertible with polynomial inverse?)",
+ "phase2": {
+  "confirm": 8
+ },
+ "rating_mode_only": true,
+ "assessment": {
+  "anchors": {
+   "n034": 0.0,
+   "n129": 0.0,
+   "n130": 0.0
+  }
+ }
+}

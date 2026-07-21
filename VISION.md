@@ -173,6 +173,14 @@ mixed — turns the platform into something new: a direct measure of what differ
 contribute to knowledge-creation itself, question by question, with the merged graph likely
 stronger than either alone.
 
+**A translation layer between minds.** The same property runs the other direction. As AI reasoning
+outpaces human working memory, prose explanations of machine-scale thinking stop being checkable —
+not because they are wrong, but because no human can hold them. The graph renders that thinking
+into auditable, navigable, separately-assessable claims: a reader can jump to any one claim,
+see exactly what it rests on and what rivals it, and judge that piece without holding the whole.
+Structure is the format in which humans can still check work they could no longer follow as prose —
+which may become the most important thing a map of reasoning is *for*.
+
 **Many deployments, one format.** The same open format supports a spectrum of instances: fully open
 community graphs, open-contribution graphs with curated assessment, and closed expert or
 institutional instances — and because the format is shared, parallel instances of the *same*

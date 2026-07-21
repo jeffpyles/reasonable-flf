@@ -134,8 +134,8 @@ is earned and measured.
   map — and a pre-registered control found that, *given the shared verifier*, a plain prose
   notebook matched the graph on epistemic discipline, with the graph winning only navigability.
   The verifier, not the format, carried most of the honesty at that scale; adversarial referee
-  panels caught overclaims that both the verifier and blind ratings passed. Full report linked
-  from the main page.
+  panels caught overclaims that both the verifier and blind ratings passed. Full report:
+  [`math-experiment.html`](math-experiment.html).
 - **The next experiment, pre-registered now.** The control ran below the scale where structure
   should matter. The falsifiable prediction for the rerun: token-match the arms, run them past
   the context ceiling (a full-literature problem, or a longer program), and graph-arm

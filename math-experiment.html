@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasonable — The math experiment</title>
+<meta name="description" content="Report: a five-round AI research run on the Jacobian Conjecture inside the Reasonable format, its pre-registered control, its depth probe — and what ran against our own predictions.">
+<style>
+  :root{
+    --bg:#0f1216; --panel:#161b22; --panel-2:#1c232c;
+    --ink:#e8e6e1; --ink-soft:#b8b4ab; --ink-dim:#8a8780;
+    --line:#2a323c;
+    --accent:#c9a227;
+    --accent-2:#6fb3c9;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:"Inter","Helvetica Neue",Arial,sans-serif;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--serif); font-size:18px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 24px}
+  a{color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; transition:.15s}
+  a:hover{border-bottom-color:var(--accent)}
+  h1,h2,h3{font-weight:600; letter-spacing:-.01em; line-height:1.1}
+  h2{font-size:30px; margin:0 0 6px}
+  .dot{color:var(--accent)}
+  header.hero{border-bottom:1px solid var(--line); background:
+     radial-gradient(1200px 400px at 70% -10%, rgba(201,162,39,.10), transparent 60%),
+     var(--bg); padding:64px 0 40px}
+  .eyebrow{font-family:var(--sans); font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+     color:var(--accent); margin:0 0 18px}
+  h1{font-size:44px; margin:0 0 14px}
+  .preamble{font-size:19px; color:var(--ink-soft); font-style:italic; max-width:700px; margin:0 0 22px}
+  .cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px; font-family:var(--sans); font-size:15px}
+  .btn{display:inline-block; padding:10px 16px; border-radius:8px; border:1px solid var(--line);
+     background:var(--panel); color:var(--ink); font-weight:500}
+  .btn:hover{border-color:var(--accent); border-bottom-color:var(--accent)}
+  section{padding:40px 0; border-bottom:1px solid var(--line)}
+  .kicker{font-family:var(--sans); font-size:12.5px; letter-spacing:.1em; text-transform:uppercase;
+     color:var(--ink-dim); margin:0 0 8px}
+  p{margin:14px 0}
+  .muted{color:var(--ink-dim)}
+  .small{font-size:15px}
+  ul{padding-left:22px} li{margin:9px 0}
+  strong{color:#f2f0ea}
+  .callout{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--accent);
+     border-radius:8px; padding:18px 22px; margin:22px 0}
+  .callout.warn{border-left-color:var(--accent-2)}
+  table{width:100%; border-collapse:collapse; font-family:var(--sans); font-size:15px; margin:18px 0}
+  th,td{padding:8px 12px; text-align:left; border-bottom:1px solid var(--line)}
+  th{font-size:12.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--ink-dim)}
+  td.num{font-variant-numeric:tabular-nums}
+  footer{padding:40px 0 80px; color:var(--ink-dim); font-size:15px}
+  .toc{font-family:var(--sans); font-size:13.5px; color:var(--ink-soft); display:flex; flex-wrap:wrap;
+     gap:6px 18px; margin-top:22px}
+  .toc a{color:var(--ink-soft)} .toc a:hover{color:var(--accent)}
+  code{font-size:15px; background:var(--panel-2); padding:1px 6px; border-radius:5px}
+  @media (max-width:680px){
+    h1{font-size:34px} h2{font-size:24px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Reasonable · Experiment report</p>
+    <h1>Testing the map against mathematics<span class="dot">.</span></h1>
+    <p class="preamble">Five Sonnet agents, a famous open problem, a machine verifier, blind panels —
+    then a pre-registered control that ran against our own prediction, and a proof attempt gated by
+    adversarial referees. What we found, including the parts that argue with us.</p>
+    <div class="cta">
+      <a class="btn" href="index.html">&larr; Main page</a>
+      <a class="btn" href="roadmap.html">Roadmap</a>
+      <a class="btn" href="updates.html">Updates log</a>
+    </div>
+    <nav class="toc">
+      <a href="#design">1 · Design</a>
+      <a href="#run">2 · The run</a>
+      <a href="#measure">3 · The measurement layer</a>
+      <a href="#control">4 · The control</a>
+      <a href="#probe">5 · The depth probe</a>
+      <a href="#lessons">6 · What we learned</a>
+      <a href="#next">7 · What changes next</a>
+    </nav>
+  </div>
+</header>
+
+<section id="design">
+  <div class="wrap">
+    <p class="kicker">1 · Design</p>
+    <h2>The setup</h2>
+    <p>The roadmap asks whether shared structure can give measurable uplift to AI agents developing
+    a hard open problem. We ran the test on the <strong>Jacobian Conjecture</strong> — open since
+    1939, notorious for published false proofs in both directions. Five Sonnet-class builder agents
+    worked in rotating rounds from a frozen problem brief, with <strong>no internet</strong>, a
+    sandboxed computer-algebra verifier (every concrete construction machine-checked, transcripts
+    committed, refutations registered as first-class results), and blind rating panels at
+    tenths resolution between rounds. Design invariants held throughout: no prompt ever mentioned
+    any outside result or rewarded a truth-direction; agents were told to <em>develop the
+    problem</em>, with a pruned dead end counting as progress.</p>
+    <p class="small muted">Scoring used five pre-registered hidden rediscovery targets (known
+    results deliberately omitted from the brief). We do not enumerate them here: publishing the
+    targets would put them in future models' training data and burn the benchmark for reruns. The
+    keys stay in the experiment's freeze kit; this page reports against them without revealing
+    them. An honest open project has to ration what it publishes about its own tests.</p>
+  </div>
+</section>
+
+<section id="run">
+  <div class="wrap">
+    <p class="kicker">2 · The run</p>
+    <h2>What five rounds produced</h2>
+    <p>The finished graph: <strong>180 nodes, 271 support edges, 76 machine-verified checks (69
+    confirmed, 7 refuted), roughly 1,700 blind ratings</strong> — and a verdict layer that behaved
+    honestly. The root question ends genuinely <em>contested</em> (the "conjecture holds" pole at
+    2.79 of 5, the "counterexample exists" pole at 2.15), from agents blind to any outside claim.
+    Every claim killed by a failed check was rated into the ground (0.35–0.8). The panel's
+    highest-rated late additions included the <em>honesty capstones</em> — nodes stating precisely
+    why a promising reformulation buys no leverage.</p>
+    <p>The mathematics is real map-making: a verified law that formal-inverse computation
+    terminates at a step set by nilpotency structure rather than dimension, strictly refining a
+    classical degree bound on all tested families; the refutation of a tempting structural
+    "law" at higher dimension, with an exact separating criterion found and verified on the whole
+    sample; a closed-form resolution law for the geometry at infinity; the characteristic-p
+    boundary made exact, down to the precise prime sets where reduction fails. Two of the five
+    hidden rediscovery targets were fully hit — including the deepest one, independently, by two
+    agents in round one. Two builder agents also refuted <em>their own</em> hypotheses and
+    registered the failures unprompted; nothing refuted was ever relitigated.</p>
+  </div>
+</section>
+
+<section id="measure">
+  <div class="wrap">
+    <p class="kicker">3 · The measurement layer</p>
+    <h2>The assessment machinery, validated on real ground truth</h2>
+    <ul>
+      <li><strong>Reliability transferred.</strong> Split-half reliability of small blind panels on
+      math claims ran 0.93–0.95 — <em>above</em> the ~0.8 measured on our discursive graphs at the
+      same panel size, end to end.</li>
+      <li><strong>Cheap raters have a measurable competence boundary.</strong> A gate test found
+      Haiku-tier raters matching Sonnet panels almost exactly on computational claims (mean
+      deviation 0.13) and failing on open frontier reasoning (0.92, with one-directional
+      optimism) — so tiering by node type is validated, and bounded.</li>
+      <li><strong>Calibration passed its first true ground-truth test.</strong> With
+      machine-verified anchors spanning true and refuted results, rater calibration measurably
+      helped (held-out error 0.60 &rarr; 0.32) — the positive half of a two-sided result whose
+      negative half (calibration declining on clustered anchors) we had already published. The
+      guard knows when to act and when to stand down.</li>
+      <li><strong>No spurious belief-camps at tenths resolution</strong> across ~1,700 ratings —
+      confirming the earlier finding that coarse rating grids manufacture fake camps.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="control">
+  <div class="wrap">
+    <p class="kicker">4 · The control</p>
+    <h2>The result that ran against us</h2>
+    <p>Before any control agent ran, we committed a pre-registration: predictions, scoring
+    dimensions, and a null hypothesis that would count against us. The control arm repeated the
+    first three rounds with everything identical — same brief, same verifier, same lane
+    mandates — except the shared record was a <strong>plain prose notebook</strong> instead of the
+    graph. A blind four-judge panel (position-balanced, records anonymized) then scored both.</p>
+    <table>
+      <tr><th>Dimension</th><th>Graph</th><th>Prose</th><th>Δ</th><th>Predicted</th></tr>
+      <tr><td>Rediscovery reach</td><td class="num">4.10</td><td class="num">4.33</td><td class="num">−0.23</td><td>comparable ✓</td></tr>
+      <tr><td>Refutation durability</td><td class="num">3.88</td><td class="num">4.35</td><td class="num">−0.48</td><td>graph +1.0 ✗</td></tr>
+      <tr><td>Claim precision</td><td class="num">3.95</td><td class="num">4.53</td><td class="num">−0.58</td><td>graph +0.8 ✗</td></tr>
+      <tr><td>Self-correction</td><td class="num">3.62</td><td class="num">4.50</td><td class="num">−0.88</td><td>graph +0.5 ✗</td></tr>
+      <tr><td>Navigability</td><td class="num">3.97</td><td class="num">3.75</td><td class="num">+0.22</td><td>graph +1.0 ✗</td></tr>
+    </table>
+    <div class="callout">
+      <p><strong>Our registered prediction failed.</strong> Given a shared verifier, the control
+      found <em>no evidence that the graph format adds epistemic discipline over a prose
+      notebook</em> — the graph led only on navigability. The verifier, which both arms had, is the
+      likely load-bearing element. A skeptic judge also caught a real graph defect the format never
+      surfaced: a claim asserting a false-in-general equivalence, rated high, never withdrawn, and
+      silently corrected by later nodes.</p>
+    </div>
+    <p>Two disclosed confounds (steering asymmetry between arms; the graph judged through a
+    thinner mechanical render than the builders' own prose) — plus a post-publication
+    <strong>correction we recorded rather than hid</strong>: our raw-computation prediction was
+    scored against the wrong window, and the arms were not token-matched. In the matched window
+    the prose arm actually produced ~70% more verified checks; even token-normalized, ~40% more
+    per token. The graph's bookkeeping has a measurable opportunity cost denominated in actual
+    mathematics. None of this rescues the prediction; it sharpens what the next experiment must
+    control.</p>
+  </div>
+</section>
+
+<section id="probe">
+  <div class="wrap">
+    <p class="kicker">5 · The depth probe</p>
+    <h2>The proof frontier, and who actually guards it</h2>
+    <p>A single agent with a large budget attempted a real <em>proof</em> of a focused claim the
+    run had only evidenced computationally. It produced a genuine partial theorem — key lemmas
+    proved in full generality, the hard case isolated — and honestly assessed itself as such. Then
+    a three-referee <strong>adversarial panel</strong>, each assigned a distinct attack angle, went
+    to work. The panel confirmed the lemmas were real, and then unanimously broke the proof's
+    <em>completeness claim</em>: an entire family of cases the author's "the only remaining gap
+    is…" assessment had silently excluded — found independently by two referees, one with an
+    explicit witness.</p>
+    <div class="callout warn">
+      <p><strong>The method finding of the whole experiment:</strong> every broken step had passed
+      every machine check and every blind rating pass. A verifier certifies computations; a rating
+      measures belief; neither has an obligation to <em>find the flaw</em>. An adversarial referee
+      does — and did. Structured peer review, with referee survival (not a score) as the acceptance
+      test for proof-grade claims, is now a specified construct in the format, and part of the
+      build list.</p>
+    </div>
+  </div>
+</section>
+
+<section id="lessons">
+  <div class="wrap">
+    <p class="kicker">6 · What we learned</p>
+    <h2>Lessons, including the uncomfortable ones</h2>
+    <ul>
+      <li><strong>The verifier is the highest-leverage component.</strong> Cheap ground truth
+      changed agent behavior more than any prompt: boldness became safe, refutation became routine,
+      and the assessment machinery finally had something real to calibrate against. Building
+      verifier surfaces per domain matters more than refining assessment of the unverifiable.</li>
+      <li><strong>Rating measures agreement; refereeing finds errors.</strong> Every error caught in
+      this experiment was caught by someone <em>obliged to engage</em> — a referee tasked to
+      attack, or a peer who had to build on the claim. None were caught by scoring. The upgrade
+      path is converting part of the rating budget into targeted adversarial review, and routing
+      "review-by-use" onto load-bearing claims.</li>
+      <li><strong>The graph's demonstrated product is navigability</strong> — the structured index
+      that lets a cold reader jump to any claim and see what it rests on. Its discipline advantage
+      did not show at this scale; its addressability advantage never got tested, because three
+      rounds fit comfortably in a model's context window. The pre-registered prediction for the
+      rerun: past the context ceiling, graph-arm productivity holds while prose collapses.</li>
+      <li><strong>Structure is capital; prose is operating expense.</strong> The encoding work of
+      building the graph is an investment in retrieval, machine-actionability, and crash-safe
+      multi-agent merging — which pays off at scale and in every subsequent evaluation pass
+      (judging the prose record cost roughly twice what judging the graph did). Short sprints
+      favor opex; the experiment was a short sprint.</li>
+      <li><strong>The two arms replicated each other.</strong> Working blind to each other, both
+      arms independently derived the same laws. Accidental — but it makes cross-arm agreement a
+      cheap robustness instrument for future experiments.</li>
+      <li><strong>Authors' calibrated confidence should be captured, not discarded.</strong> The
+      format rightly bars self-rating, but the prose arm showed the value of authors stating their
+      own scope and confidence. The home for this is the node's comment forum — stated, attributed,
+      readable, and never aggregated into the blind consensus.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="next">
+  <div class="wrap">
+    <p class="kicker">7 · What changes next</p>
+    <h2>Consequences already in motion</h2>
+    <ul>
+      <li><strong>Proof-step objects</strong> — acceptance by adversarial-referee survival, with
+      objections as first-class inspectable objects — specified and on the engine build list.</li>
+      <li><strong>Ratings with reasons</strong> — outlier scores carry the strongest objection
+      considered, giving dissent a channel that survives the average — proposed to the assessment
+      lane, with this experiment as the worked example.</li>
+      <li><strong>Typed support edges</strong> (finite-exhaustion vs deduction, specialization,
+      comparison, per-direction proof status) — the experiment's 42 grammar frictions, distilled
+      into a small closed label set for the format.</li>
+      <li><strong>Research programs as first-class objects</strong> — a program's hypothesis as a
+      scoped supposition, the bet itself as a value node rated by endorsement, linked to the
+      results it yields.</li>
+      <li><strong>The next experiment, pre-registered:</strong> token-matched arms, batched
+      bookkeeping, richer graph renders for judging — run past the context ceiling, where the
+      substrate question gets its fair test.</li>
+    </ul>
+    <p class="small muted">Full working records — run report, locked pre-registration, control
+    results with corrections, referee transcripts — live in the project's research repository.
+    The findings above are reported exactly as the pre-registration bound us to, including the
+    predictions that failed.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Reasonable — an argument-mapping platform prototype. <a href="index.html">Main page</a> ·
+    <a href="vision.html">Vision</a> · <a href="roadmap.html">Roadmap</a> ·
+    <a href="updates.html">Updates log</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

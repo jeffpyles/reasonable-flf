@@ -181,6 +181,16 @@ see exactly what it rests on and what rivals it, and judge that piece without ho
 Structure is the format in which humans can still check work they could no longer follow as prose —
 which may become the most important thing a map of reasoning is *for*.
 
+**Answers on demand.** The same layer runs at consumer scale. Most people will never walk the
+graph, just as most people never read the academic papers behind a settled consensus — and they
+shouldn't have to. The reader-facing front door can be as plain as a search box: ask a question,
+and an AI answers in a few readable paragraphs drawn from the assessed graph — using chain
+strengths, path comparisons, and live contested-points to say what is well-supported, what is
+genuinely disputed, and how confident to be — with each load-bearing point linked to the exact
+place on the map where it is worked out in full. The deep work of AIs and a small fraction of
+humans gives collective knowledge the most robust base it can have; the answer box is how
+everyone else draws on it. This is plausibly the most common single use of the whole system.
+
 **Many deployments, one format.** The same open format supports a spectrum of instances: fully open
 community graphs, open-contribution graphs with curated assessment, and closed expert or
 institutional instances — and because the format is shared, parallel instances of the *same*

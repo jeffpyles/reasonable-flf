@@ -129,6 +129,19 @@ is earned and measured.
   measurable uplift to frontier models collaborating on difficult open math/CS/physics questions —
   compared with the same models working without the map? This doubles as the cleanest version of
   the benchmark in Section 4, on questions where the score is objective.
+- **First results are in — including against us.** A five-round Sonnet-agent run on the Jacobian
+  Conjecture (with a CAS verifier and blind panels) produced an honest, machine-anchored research
+  map — and a pre-registered control found that, *given the shared verifier*, a plain prose
+  notebook matched the graph on epistemic discipline, with the graph winning only navigability.
+  The verifier, not the format, carried most of the honesty at that scale; adversarial referee
+  panels caught overclaims that both the verifier and blind ratings passed. Full report linked
+  from the main page.
+- **The next experiment, pre-registered now.** The control ran below the scale where structure
+  should matter. The falsifiable prediction for the rerun: token-match the arms, run them past
+  the context ceiling (a full-literature problem, or a longer program), and graph-arm
+  productivity holds roughly flat via structured retrieval while the prose arm collapses under
+  its own context weight. Also: batch the graph's event writes first — the control measured a
+  real bookkeeping tax (verified-checks-per-token) that is mechanics, not epistemics.
 
 ## 6. Toward the one graph
 
@@ -145,6 +158,13 @@ public graph of ~all knowledge, current and future (the full case is [`VISION.md
   headline with the unweighted average beside it, plus the honest range and any distinct camps.
   This connects the map to forecasting and prediction markets, whose prices and scoring can enter
   as inputs or as calibration anchors for exactly these nodes.
+- **Answers on demand ("ask the graph").** Most readers will never walk the graph, just as most
+  people never read the papers behind a consensus. The likely main landing page for readers is a
+  plain question box: an AI answers in a few readable paragraphs, drawing on the assessed graph —
+  chain strengths, path comparisons, live contested-points — stating confidence honestly, and
+  linking each load-bearing point to the place on the map where it is worked out in full. The deep
+  work of AIs and a small fraction of humans underwrites the answer; the answer is how everyone
+  else touches it. Search-engine surface, argument-map depth.
 - **Personal belief structures.** A user overlays their own beliefs — which nodes they agree with,
   and their own probabilities — on the shared graph, and is notified when the ground under one of
   their beliefs materially shifts. Two such maps can be compared to find the exact node where two

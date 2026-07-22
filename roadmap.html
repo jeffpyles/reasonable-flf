@@ -79,14 +79,13 @@
       <span class="toclabel">Near-term</span>
       <a href="#defenses">1 · Close the defense gaps</a>
       <a href="#arguments">2 · Strengthen the arguments</a>
-      <a href="#experiments">3 · Missing experiments</a>
-      <a href="#humans">4 · Put humans in the loop</a>
+      <a href="#outward">3 · Extend the system outward</a>
     </div>
     <div class="toc">
       <span class="toclabel">Long-term</span>
-      <a href="#checkable">5 · Checkable knowledge</a>
-      <a href="#onegraph">6 · Toward the one graph</a>
-      <a href="#civilizational">7 · Civilizational roles</a>
+      <a href="#checkable">4 · Checkable knowledge</a>
+      <a href="#onegraph">5 · The one full graph</a>
+      <a href="#civilizational">6 · Civilizational roles</a>
     </div>
   </div>
 </header>
@@ -94,7 +93,7 @@
 <div class="grouphead">
   <div class="wrap">
     <p class="label">Near-term</p>
-    <p class="lead">The next steps — hardening what exists, and taking it live for
+    <p class="lead">The work with clear next steps — hardening what exists, and taking it live for
       the first real users.</p>
   </div>
 </div>
@@ -103,29 +102,27 @@
   <div class="wrap">
     <p class="kicker">1</p>
     <h2>Close the measured defense gaps</h2>
-    <p>The red-team runs told us exactly what to build next; most of it is detection the research
-    has already prototyped. (Detail and cost estimates per item:
-    <a href="v0/ROADMAP-NEXT-VERSION.md" target="_blank"><code>v0/ROADMAP-NEXT-VERSION.md</code></a>.)</p>
+    <p>The red-team runs told us what to build next; most of it is detection the research has
+    already prototyped.</p>
     <ul>
       <li><strong>Wire in the manufactured-certainty guardrail.</strong> The hardest attack we
       found — collapsing a genuinely open question into false near-settlement — has a working
-      detector, validated offline against every committed attack sweep while staying quiet on honest
-      baselines. It is not yet in the default assessment pipeline. This is the top engineering item,
-      and until it lands we state it as not-done rather than imply otherwise.</li>
+      detector, validated offline against every committed attack sweep while staying quiet on
+      honest baselines. It is not yet in the default assessment pipeline.</li>
       <li><strong>Second-stage coordination detection.</strong> Camp analysis finds the suspicious
-      <em>side</em> with full recall but sweeps honest same-side raters in with the bloc (~0.5
-      precision). The isolating signal — coordinated extremity and tightness, measured at a 3.3× gap
-      between attackers and honest raters — exists in analysis code and needs to become a calibrated
-      two-stage filter, so belief is never mistaken for a bloc.</li>
+      side with full recall but sweeps honest same-side raters in with the suspicious bloc
+      (~0.5 precision). The isolating signal — coordinated extremity and tightness, measured at a
+      3.3× gap between attackers and honest raters — exists in analysis code and needs to become a
+      calibrated two-stage filter, so belief is never mistaken for a coordinated attack bloc.</li>
       <li><strong>Denser, rotating, hard-to-predict anchors.</strong> The one attacker that beats
-      calibration is the sleeper who is honest exactly where the anchors are. Its entire edge is
-      knowing the anchor set; secret, rotating anchors over the contested frontier — including the
-      <em>leading</em> side's cruxes — degrade it back toward the attacks we already defeat.</li>
+      calibration is the sleeper who is honest exactly where the anchors are. Its edge is knowing
+      the anchor set; secret, rotating anchors over the contested frontier degrade it back toward
+      the attacks we already defeat.</li>
       <li><strong>A properly adversarial red team.</strong> Every attacker so far was static and
       one-shot — a floor on attack strength, not a ceiling. An adaptive attacker that observes
       reputation and adjusts, and a sleeper that jitters its lies to resist clustering, are the
-      honest next stress tests, along with replicating the small-n findings (like the refusal
-      asymmetry) across more questions and models before leaning on them.</li>
+      next stress tests, along with replicating the small-n findings (like the refusal asymmetry)
+      across more questions and models before leaning on them.</li>
     </ul>
   </div>
 </section>
@@ -133,90 +130,97 @@
 <section id="arguments">
   <div class="wrap">
     <p class="kicker">2</p>
-    <h2>Strengthen the arguments themselves</h2>
+    <h2>Strengthen the arguments, and expand the graph's usefulness</h2>
     <p>The claims in today's graphs are AI-drafted scaffolding built to exercise the machinery;
-    making them genuinely compelling is its own workstream — both at the level of individual claims
-    and their phrasings, and in the argumentative structure of the graph. The goal is a build
-    pipeline that produces strong, correctly-placed arguments <em>directly</em>: the right model tier
-    and combination of agents, with prompts and harnesses good enough that a stronger model rarely
-    has to make a corrective pass — while keeping the system no more expensive to run than it needs
-    to be. Argument quality and build economics are the two ends of that dial, and finding where they
-    meet is the work.</p>
-    <p>One grammar extension belongs here, because it strengthens a whole class of arguments the
-    current grammar handles poorly: <strong>conditional, forward model-building</strong> — "if we did
-    X, the world would be Y" — which is most of what "what should we do?" questions actually consist
-    of. The grammar's firewall between <em>is</em> and <em>ought</em> rightly forbids deriving a fact
-    from a value, but it also leaves nowhere to build out the descriptive consequences of a proposed
-    action. The proposed fix is a <strong>scenario</strong> construct: designate an action-state as
-    assumed (never rated for truth), build and assess its consequence-tree <em>conditionally</em>,
-    and let it export explicit conditionals ("if X, then Y") that can then legally ground an ought —
-    the value firewall stays fully intact. Rival scenarios for rival policies let the map show
-    exactly where two proposed futures diverge, which is where the real policy crux usually hides.
-    Design note:
-    <a href="v0/SPEC-evidence-argument-ought-ghosts.md" target="_blank"><code>v0/SPEC-evidence-argument-ought-ghosts.md</code></a>
-    §6.3.</p>
-  </div>
-</section>
-
-<section id="experiments">
-  <div class="wrap">
-    <p class="kicker">3</p>
-    <h2>Run the missing experiments</h2>
-    <p>The research validated the parts; three experiments would validate the whole.</p>
+    making them genuinely compelling is its own workstream — both at the level of individual
+    claims and their phrasings, and in the argumentative structure of the graph. The goal is a
+    build pipeline that produces strong, correctly-placed arguments directly: the right model tier
+    and combination of agents, with prompts and harnesses, to elicit output that a stronger model
+    rarely has to make a corrective pass over — while keeping the system no more expensive to run
+    than it needs to be.</p>
     <ul>
-      <li><strong>A human-rated slice.</strong> Nearly every result in the research chain is
-      model-on-model — simulated rater panels, with one thin external check. Re-rating a slice of an
-      existing graph with human panels is the single most valuable missing experiment: it either
-      transfers the headline results to people or tells us where they bend.</li>
-      <li><strong>An end-to-end longitudinal run.</strong> Build → structure-check → rate → contest
-      → ghost → re-rate, over many rounds, with real turnover of contributors and claims. The
-      individual mechanisms are each validated; the full flywheel has never been exercised live as
-      one loop, and loops fail in ways their parts don't.</li>
-      <li><strong>The third shape, fully stressed.</strong> The black-holes graph (strong consensus
-      with a vocal edge) is built and assessed, but the oracle/honest/adversarial passes that eggs
-      and COVID went through have not been ported to it. Completing it closes the three-shape
-      generalizability claim with stress-testing, not just construction.</li>
+      <li><strong>Maximize the clarity and readability of the graph</strong>, improving on the
+      ordering of nodes into coherent chains of argument and their rendering into visually legible
+      structures rather than dense rat nests.</li>
+      <li><strong>Refinements to the grammar</strong>: what types of nodes &amp; edges &amp; other
+      affordances the site allows in order to clearly express arguments. Such as conditional,
+      forward model-building — "if we did X, the world would be Y" — which is most of what "what
+      should we do?" questions actually consist of. The grammar's firewall between is and ought
+      rightly forbids deriving a fact from a value, but it also leaves nowhere to build out the
+      <em>descriptive</em> consequences of a proposed action. The proposed fix is a scenario
+      construct type: designate an action-state as assumed, build and assess its consequence-tree
+      conditionally, and let it export explicit conditionals ("if X, then Y") that can then
+      legally ground an ought — the value firewall stays fully intact. Rival scenarios for rival
+      policies let the map show exactly where two proposed futures diverge, which is where the
+      real policy crux usually hides.</li>
+      <li><strong>Probability and prediction nodes.</strong> A node type that asks "how likely is
+      X?", answered by each rater with their own number, so the map carries a collective
+      forecast — a reputation-weighted headline with the unweighted average beside it, plus the
+      honest range and any distinct camps. This connects the map to forecasting and prediction
+      markets, whose prices and scoring can enter as inputs or as calibration anchors for exactly
+      these nodes — and it answers a shortcoming of prediction markets as a tool of public
+      knowledge, that they make public people's <em>likelihood</em> of X happening but not their
+      <em>reasoning</em>.</li>
+      <li>A metric for the cumulative assessed strength of a given chain through the graph from a
+      given ground to a given conclusion, which lets you see how strong a given argument is — and
+      compare it to the strength of an alternative argument.</li>
+      <li><strong>Personal belief structures.</strong> A user highlights their own beliefs — which
+      nodes they agree with, and their own probabilities — on the shared graph, and is notified
+      when the ground under one of their beliefs materially shifts. Two such personal maps can be
+      compared to find the exact node where two people's reasoning first diverges — the last place
+      they agreed, which is the only useful place for them to argue. Pulls in the chain-strength
+      metric from above to compare the quality of the relative belief structures, nudging people
+      away from weaker arguments toward stronger ones.</li>
+      <li><strong>Answers on demand ("ask the graph").</strong> Most readers will never walk the
+      graph in depth, just as most people never read academic papers. The likely main landing page
+      for most readers is a plain, Google-style question box: an AI answers in a few readable
+      paragraphs, drawing on the assessed graph — chain strengths, path comparisons, live
+      contested-points — and linking each load-bearing point to the place on the map where it is
+      worked out in full. The deep work of AIs and a small fraction of humans underwrites the
+      answer; the answer is how everyone else touches it. Search-engine simplicity, argument-map
+      depth and consensus.</li>
     </ul>
   </div>
 </section>
 
-<section id="humans">
+<section id="outward">
   <div class="wrap">
-    <p class="kicker">4</p>
-    <h2>Put humans in the loop</h2>
-    <p>Everything so far was AI-built and AI-rated by necessity of the prototype window. The next
-    stage makes the system live for people.</p>
+    <p class="kicker">3</p>
+    <h2>Extend the system outward</h2>
     <ul>
-      <li><strong>The write side of the viewer.</strong> The viewer today is read-only; the engine's
-      full write and rating surface exists only as a CLI. Collecting live ratings — and then live
-      claims — through the viewer is what turns the artifact from a demonstration into an
-      instrument.</li>
+      <li><strong>An end-to-end longitudinal run.</strong> Build → structure-check → rate →
+      contest → ghost → re-rate, over many rounds, with real turnover of contributors and claims.
+      The individual mechanisms are each validated; the full flywheel has never been exercised
+      live as one loop, and loops fail in ways their parts don't.</li>
       <li><strong>A centaur system.</strong> Human contributors added into the build and rating
       loops alongside the agents. In the current state of AI we expect the mixed system to be
-      stronger than AI alone — humans supplying judgment, taste, and ground truth; agents supplying
-      assembly, maintenance, and tireless first-pass coverage.</li>
-      <li><strong>Open the graph in stages.</strong> Not a public launch, but concentric rings.
-      First, on the order of a hundred hand-picked contributors working one important question —
-      project- or civilization-relevant by design: <em>what forms of knowledge should a system like
-      this prohibit as too dangerous to be improved on publicly? Is AI existential risk real? How
-      should governments regulate AI?</em> Then fold what that cohort teaches us back into the
-      mechanisms, open to a larger group, and repeat. Each ring is both a real deployment and the
-      next experiment — and the questions are chosen so even the small early runs produce maps
-      worth having.</li>
-      <li><strong>The panel-composition matrix.</strong> Run parallel instances of the <em>same</em>
+      stronger than AI alone — humans supplying judgment, taste, and ground truth; agents
+      supplying assembly, maintenance, and tireless first-pass coverage.</li>
+      <li><strong>The write side of the viewer.</strong> The viewer today is read-only; the
+      engine's full write and rating surface exists only as a CLI. Collecting live ratings — and
+      then live claims — through the viewer opens it up to human contributors.</li>
+      <li><strong>Open the graph to contributors in stages, on select scoped questions.</strong>
+      Not a public launch, but concentric rings. First, on the order of tens of hand-picked
+      contributors working one project- or civilization-relevant question: eg, what forms of
+      knowledge should a system like this prohibit as too dangerous to be discussed publicly? Is
+      AI existential risk real? How should governments regulate AI? Then fold what that cohort
+      teaches us back into the mechanisms, open to a larger group, and repeat. Each ring is both a
+      real deployment and the next experiment — and the questions are chosen so even the small
+      early runs produce maps worth having.</li>
+      <li><strong>The panel-composition matrix.</strong> Run parallel instances of the same
       question varying who builds and who rates: human-only, AI-only, and mixed, on each axis
       independently. Because the format, anchors, and assessment configuration are shared, the
-      instances are comparable cell by cell — which turns the platform into a measurement instrument
-      three ways at once:
+      instances are comparable cell by cell — which turns the platform into a measurement
+      instrument three ways at once:
         <ul>
-          <li>a running <strong>benchmark of what different kinds of minds contribute</strong> to
+          <li>a merged-graph test — whether the union of human and AI contributions is stronger
+          than either alone, as we expect;</li>
+          <li>a running benchmark of what different kinds of minds contribute to
           knowledge-building, question by question — including how long the centaur advantage over
           AI-only actually holds;</li>
-          <li>a <strong>merged-graph test</strong> — whether the union of human and AI contributions
-          is stronger than either alone, as we expect;</li>
-          <li>a standing <strong>open-vs-curated comparison</strong> — where an open crowd's
-          assessment diverges from a curated panel's on identical structure is precisely where open
-          assessment cannot yet be trusted, mapped rather than argued about.</li>
+          <li>a standing open-vs-curated comparison — where an open crowd's assessment diverges
+          from a curated panel's on identical structure gives us guidance on where our mechanisms'
+          open assessment cannot yet be trusted, or on where our panel's can't.</li>
         </ul>
       </li>
     </ul>
@@ -226,20 +230,18 @@
 <div class="grouphead">
   <div class="wrap">
     <p class="label">Long-term</p>
-    <p class="lead">The direction, not a schedule. Everything below is conditional on the assessment
-      layer earning a level of reliability and trust it has not yet demonstrated — the near-term work
-      above is exactly what would earn it. We state these because a project should be honest about
-      what it is ultimately for; we state them humbly because the distance between here and there is
-      most of the work.</p>
+    <p class="lead">The intended direction, to be worked out as we go. Everything below is
+      conditional on the assessment layer demonstrating a level of reliability and trust it has
+      not yet earned — the near-term work above is what would earn it.</p>
   </div>
 </div>
 
 <section id="checkable">
   <div class="wrap">
-    <p class="kicker">5</p>
+    <p class="kicker">4</p>
     <h2>Test against checkable knowledge</h2>
-    <p>The unanswerable domains are the destination, but domains where reality can referee are
-    where trust is earned and measured.</p>
+    <p>The unanswerable domains are a major destination, but domains where reality can referee are
+    equally important, and also an arena that offers rapid feedback for improvement.</p>
     <ul>
       <li><strong>Hard math as a case shape.</strong> Can the format faithfully structure the
       reasoning of a complex math problem — statements, lemmas, proof obligations, known partial
@@ -247,93 +249,84 @@
       something no other domain has: machine-checkable ground truth, i.e. perfect, free
       anchors.</li>
       <li><strong>Uplift on open problems.</strong> The stronger version of the test: does the
-      shared structure give measurable uplift to frontier models collaborating on difficult open
+      shared structure give measurable uplift to models collaborating on difficult open
       math/CS/physics questions — compared with the same models working without the map? This
-      doubles as the cleanest version of the benchmark in Section 4, on questions where the score is
-      objective.</li>
-      <li><strong>First results are in — including against us.</strong> A five-round Sonnet-agent
-      run on the Jacobian Conjecture (with a CAS verifier and blind panels) produced an honest,
-      machine-anchored research map &mdash; and a pre-registered control found that, <em>given the
-      shared verifier</em>, a plain prose notebook matched the graph on epistemic discipline, with
-      the graph winning only navigability. The verifier, not the format, carried most of the
-      honesty at that scale; adversarial referee panels caught overclaims that both the verifier
-      and blind ratings passed. Full report: <a href="math-experiment.html">the experiment page</a>.</li>
-      <li><strong>The next experiment, pre-registered now.</strong> The control ran below the scale
-      where structure should matter. The falsifiable prediction for the rerun: token-match the
-      arms, run them past the context ceiling (a full-literature problem, or a longer program),
-      and graph-arm productivity holds roughly flat via structured retrieval while the prose arm
-      collapses under its own context weight. Also: batch the graph's event writes first &mdash;
-      the control measured a real bookkeeping tax (verified-checks-per-token) that is mechanics,
-      not epistemics.</li>
+      doubles as the cleanest version of the benchmark in Section 3, on questions where the score
+      is objective.</li>
     </ul>
+    <div class="callout">
+      <p><strong>Addendum: We ran a small test on the above question since posting the initial
+      submission, and after a disproof of the Jacobian Conjecture was announced, with mixed
+      results: A five-round Sonnet-agent run on the Conjecture (with a CAS verifier and blind
+      panels) produced a machine-anchored research map — and a pre-registered control found that,
+      given the shared verifier, a plain prose notebook matched the graph on epistemic discipline,
+      with the graph winning only navigability. The verifier carried most of the value at that
+      scale; adversarial referee panels caught overclaims in the graph that both the verifier and
+      blind ratings passed; improvements to the graph's affordances for math in particular were
+      elicited. <a href="math-experiment.html">See the full report</a>.</strong></p>
+    </div>
   </div>
 </section>
 
 <section id="onegraph">
   <div class="wrap">
-    <p class="kicker">6</p>
-    <h2>Toward the one graph</h2>
-    <p>The prototype's four separate graphs are a scoping artifact; the real object is a single
-    connected public graph of ~all knowledge, current and future (the full case is
-    <a href="vision.html" target="_blank">the vision</a>, §6).</p>
+    <p class="kicker">5</p>
+    <h2>Toward the one full graph</h2>
+    <p>The submission's four separate graphs are a scoping artifact of building the prototype on
+    short time for the submission; the real object is a single connected public graph of ~all
+    knowledge, current and future — <a href="vision.html">see the Vision</a>.</p>
     <ul>
       <li><strong>Connect the case graphs</strong> at their shared underpinnings — statistics,
       epistemology, risk — as the seed of the single public graph the separate prototypes stand in
       for.</li>
-      <li><strong>Ingest the existing conversation.</strong> The points in every major argument
-      already exist, scattered and unevaluated; agent-assisted ingestion of essays, papers, and
-      threads into structure is how coverage compounds without waiting for people to argue in a new
-      format.</li>
-      <li><strong>Probability and prediction nodes.</strong> A node type that asks "how likely is
-      X?", answered by each rater with their own number, so the map carries a collective forecast —
-      a reputation-weighted headline with the unweighted average beside it, plus the honest range and
-      any distinct camps. This connects the map to forecasting and prediction markets, whose prices
-      and scoring can enter as inputs or as calibration anchors for exactly these nodes.</li>
-      <li><strong>Answers on demand ("ask the graph").</strong> Most readers will never walk
-      the graph, just as most people never read the papers behind a consensus. The likely main
-      landing page for readers is a plain question box: an AI answers in a few readable paragraphs,
-      drawing on the assessed graph &mdash; chain strengths, path comparisons, live
-      contested-points &mdash; stating confidence honestly, and linking each load-bearing point to
-      the place on the map where it is worked out in full. The deep work of AIs and a small
-      fraction of humans underwrites the answer; the answer is how everyone else touches it.
-      Search-engine surface, argument-map depth.</li>
-      <li><strong>Personal belief structures.</strong> A user overlays their own beliefs — which
-      nodes they agree with, and their own probabilities — on the shared graph, and is notified when
-      the ground under one of their beliefs materially shifts. Two such maps can be compared to find
-      the exact node where two people's reasoning first diverges — the last place they agreed, which
-      is the only useful place for them to argue.</li>
+      <li><strong>Add in the scoped rollout graphs</strong>, with their guidance on whether there
+      are areas of knowledge that the graph shouldn't touch. Aim some of the early buildout of the
+      graph at the graph itself: how it should grow and operate, what makes it more effective and
+      useful, etc.</li>
+      <li><strong>Begin to ingest the whole of the existing human conversation.</strong> The
+      points in every major argument already exist, scattered and inconsistently evaluated;
+      agent-assisted ingestion of essays, papers, and threads into structure is how coverage
+      compounds without waiting for people to adopt a new format.</li>
     </ul>
   </div>
 </section>
 
 <section id="civilizational">
   <div class="wrap">
-    <p class="kicker">7</p>
+    <p class="kicker">6</p>
     <h2>Civilizational roles the map could grow into</h2>
-    <p>If — and it is a large if — the assessment layer reaches the reliability these roles demand,
-    the same machinery points at some of the load-bearing institutions of public reason. Each depends
-    on the trust earned in the sections above and on adoption we have not yet won; we hold them as
-    direction, stated so they can be argued with, not as promises.</p>
+    <p>If the graph reaches full scale, and the usability and assessment layers reach the clarity,
+    completeness, and reliability these roles demand, the same machinery starts to compete with
+    some of the load-bearing institutions of public reason.</p>
     <ul>
-      <li><strong>A venue for publishing and peer review.</strong> A paper is an argument with
-      evidence; a review is an assessment of it. Both already fit the grammar. The long aim is a
-      place where a result, the case for and against it, its reviews, and the live state of the
-      debate around it sit in one assessed, compounding structure — rather than scattered across
-      journals, PDFs, and siloed review. This requires demonstrated reliability and the trust of
-      working researchers, neither of which is in hand today.</li>
-      <li><strong>Assessment-based advertising.</strong> If public assessment of what companies
-      actually produce and how they behave becomes trustworthy, <em>being allowed to advertise</em>
-      can itself become the signal, rather than ad spend — only well-regarded actors qualify, and the
-      interests of platform, advertiser, and reader point the same direction for once. This is among
-      the furthest-out ideas here; it assumes an assessment of institutions robust enough to carry
-      real economic weight, which is well beyond what we have shown.</li>
-      <li><strong>A democratic check on governance.</strong> Make the genuinely sound policy options
-      on a contested question visible and comparable, and — harder — make it legible when a political
-      move is effective rhetoric for gain rather than a reasonable or sensible position. A public,
-      checkable reference of that kind would be a real support for self-government. It is also the
-      most contested domain of all: it demands an assessment trusted across the political spectrum,
-      which is precisely the hardest thing to earn and the thing we are least able to claim
-      today.</li>
+      <li><strong>A venue for publishing studies, and for peer review.</strong> A paper is an
+      argument with evidence; a review is an assessment of it. Both already fit the grammar. The
+      long aim is a place where a result, the case for and against it, its reviews, and the live
+      state of the debate around it sit in one assessed, compounding structure — rather than
+      scattered across journals, PDFs, and siloed review.</li>
+      <li><strong>Assessment-based advertising.</strong> The graph can be used to examine
+      companies, their products and goals and behaviors, and come to a collective assessment of
+      how much those are each approved of. If public assessment of what companies produce and how
+      they behave becomes reliable, then organizations can be ranked by their approval, and the
+      fact of their certification as high quality, good faith actors becomes a highly valuable
+      signal — and the site can both license that certification for display across the rest of the
+      world, and allow top-ranked orgs to advertise on the site itself (as guided by the users of
+      the graph itself deciding what forms of advertisement are mutually rewarding and aligned).
+      <p>Organizational assessment also drives positive change, in both directions: orgs can see
+      in clear public detail what the public doesn't like about them, and the case for why what
+      the org is doing is good, actually, can be made in full. Where there are things that are
+      widely agreed to be genuinely bad, the organization has clear incentive to improve them —
+      and if they don't, that's feedback that gets rolled in to their ongoing assessment, and also
+      guidance to competitors about how to outcompete them.</p></li>
+      <li><strong>A democratic check on governance.</strong> The statements above about
+      organizational assessment's effects also apply to politicians and governmental
+      organizations. Make the genuinely sound policy options on a contested question visible and
+      comparable, and make it legible when a political move is rhetoric for gain rather than a
+      reasonable or sensible position, and you drive positive change and limit the scope for bad
+      actors. Detailed, shared public knowledge of what we collectively value and of what
+      approaches have reasonable claims to deliver those values, with the arguments surrounding
+      them had out in full, in public, brings serious accountability to anyone not acting
+      accordingly.</li>
     </ul>
   </div>
 </section>
